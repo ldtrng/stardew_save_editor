@@ -27,3 +27,13 @@ python3 -m pip install pillow
 ```bash
 python3 tools/make_icon.py android/app/src/main/res
 ```
+
+## `docs/` – privacy policy & terms (GitHub Pages)
+
+Pages is served from the `gh-pages` branch, which mirrors `docs/`. After editing `docs/` and committing on main:
+
+```bash
+git subtree split --prefix docs -b gh-pages && git push origin gh-pages
+```
+
+(If an existing local `gh-pages` branch is behind, delete it first with `git branch -D gh-pages`.)

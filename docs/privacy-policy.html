@@ -15,7 +15,7 @@
 
 <p>Tracker &amp; Save Editor: Stardew Valley ("the app") is an unofficial, fan-made companion and save editor for the game Stardew Valley.
 This policy explains what information the app handles and how. In short: your farm data stays on your device,
-and the only third-party service in the app is Google AdMob for advertising.</p>
+and the only third-party services in the app are Google AdMob for advertising and Google Firebase for anonymous usage statistics and remote settings.</p>
 
 <h2>1. Information stored on your device</h2>
 <ul>
@@ -42,30 +42,42 @@ User Messaging Platform before personalized ads are shown. You can change your c
 Google's use of data is described at <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>
 and <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
 
-<h2>4. Permissions</h2>
+<h2>4. Usage analytics and remote settings (Google Firebase)</h2>
+<p>The app uses Google Analytics for Firebase to understand, in aggregate, which features are used and how the app performs.
+It may collect:</p>
 <ul>
-<li><b>Internet / network state</b> – to load ads.</li>
+<li>App instance ID, Android advertising ID (where consent allows) and device information such as model, OS version, language and approximate (country-level) location;</li>
+<li>App interactions such as screens opened, sessions, first open, ad impressions and feature events (for example "save exported" or "language changed").</li>
+</ul>
+<p>The app does not send your save files, farm data, notes or any text you type to Analytics. Where consent is required, the choice you make in
+<b>Settings › Ad privacy choices</b> also applies to analytics storage. Firebase Remote Config is used to download app settings
+(such as how often ads may appear); it uses an installation ID only. See
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+<h2>5. Permissions</h2>
+<ul>
+<li><b>Internet / network state</b> – to load ads, send usage statistics and download remote settings.</li>
 <li><b>Folder access you grant (Android 12 and lower)</b> – only to the folder you pick, to read and write your saves.</li>
-<li><b>Advertising ID</b> – used by AdMob as described above.</li>
+<li><b>Advertising ID</b> – used by AdMob and Firebase as described above.</li>
 </ul>
 
-<h2>5. Data sharing and sale</h2>
-<p>We do not sell your personal information. Apart from the processing by Google AdMob described above, no data is shared with third parties.</p>
+<h2>6. Data sharing and sale</h2>
+<p>We do not sell your personal information. Apart from the processing by Google AdMob and Google Firebase described above, no data is shared with third parties.</p>
 
-<h2>6. Data retention and deletion</h2>
+<h2>7. Data retention and deletion</h2>
 <p>All app data lives on your device and is deleted with the app or with <b>Settings › Remove all data</b>.
-Data processed by Google for advertising is retained under Google's policies.</p>
+Data processed by Google for advertising is retained under Google's policies; analytics data is kept for 14 months and then deleted automatically.</p>
 
-<h2>7. Children</h2>
+<h2>8. Children</h2>
 <p>The app is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
 
-<h2>8. Security</h2>
+<h2>9. Security</h2>
 <p>Data stays in the app's private storage, which other apps cannot read. Backups you export are handled by the system file picker you choose.</p>
 
-<h2>9. Changes to this policy</h2>
+<h2>10. Changes to this policy</h2>
 <p>We may update this policy. The new version will be posted on this page with a new effective date.</p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>Questions or requests: <a href="mailto:ldtrong258@gmail.com">ldtrong258@gmail.com</a></p>
 </div>
 <p class="muted">Stardew Valley is a trademark of ConcernedApe LLC. This app is not affiliated with or endorsed by ConcernedApe.</p>

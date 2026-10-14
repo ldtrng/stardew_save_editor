@@ -243,7 +243,7 @@ class DetailScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(title: Text(title)),
-        bottomNavigationBar: SafeArea(child: AdBanner(collapsible: true)),
+        bottomNavigationBar: SafeArea(child: AdBanner(collapsible: AdsService.collapsibleBanner)),
         body: ListView(padding: EdgeInsets.fromLTRB(16, 16, 16, 32), children: children),
       );
 }

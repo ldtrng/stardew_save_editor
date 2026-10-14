@@ -24,6 +24,11 @@ class PrivacyScreen extends StatelessWidget {
             'approximate location derived from IP address and usage data to show and measure ads. Where required '
             '(for example in the EEA/UK) you are asked for consent first, and you can change your choice anytime under '
             'Settings › Ad privacy choices. See Google\'s policy: policies.google.com/technologies/ads'),
+    ('Usage analytics',
+        'The app uses Google Analytics for Firebase to count, in aggregate, which screens and features are used '
+            '(for example "save exported"), plus device model, OS version, language and country. Your saves, farm data '
+            'and notes are never sent. Firebase Remote Config downloads app settings such as ad frequency. '
+            'See firebase.google.com/support/privacy'),
     ('Children', 'The app is not directed at children under 13.'),
     ('Contact', 'Questions about privacy: $supportEmail'),
   ];

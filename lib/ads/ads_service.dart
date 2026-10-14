@@ -7,9 +7,11 @@ import '../l10n/l10n.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../services/firebase.dart';
 import 'ad_ids.dart';
 
-/// Ad placement policy (tuned for revenue while staying within AdMob policy):
+/// Ad placement policy (tuned for revenue while staying within AdMob policy).
+/// Pacing values come from Remote Config (see [RemoteSettings.defaults]):
 /// * Banner: anchored adaptive on tab screens and editor screens; collapsible
 ///   banner on detail pages.
 /// * Native: inline cards inside long lists (every [nativeEvery] rows).
@@ -26,13 +28,14 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
 
   static const _kAdFreeUntil = 'ads_ad_free_until';
   static const _kLaunches = 'ads_launch_count';
-  static const _interstitialGap = Duration(minutes: 2);
-  static const _sessionGrace = Duration(seconds: 45);
-  static const _appOpenGap = Duration(hours: 3);
+  static Duration get _interstitialGap => RemoteSettings.seconds('ads_interstitial_gap_sec');
+  static Duration get _sessionGrace => RemoteSettings.seconds('ads_session_grace_sec');
+  static Duration get _appOpenGap => RemoteSettings.minutes('ads_app_open_gap_min');
   static const adFreePerVideo = Duration(hours: 4);
   static const adFreeMax = Duration(hours: 24);
   static const toolsUnlock = Duration(hours: 1);
-  static const nativeEvery = 12;
+  static int get nativeEvery => RemoteSettings.getInt('ads_native_every', min: 4);
+  static bool get collapsibleBanner => RemoteSettings.getBool('ads_collapsible_banner');
 
   bool _initialized = false;
   bool _canRequest = false;
@@ -168,27 +171,33 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
   }
 
   /// After a save was exported or written back.
-  Future<void> onSaveExported() => _showInterstitial();
+  Future<void> onSaveExported(String method) async {
+    Analytics.log('save_exported', {'method': method});
+    if (RemoteSettings.getBool('ads_interstitial_after_export')) await _showInterstitial();
+  }
 
   /// After progress was imported into the tracker.
-  Future<void> onProgressImported() => _showInterstitial();
+  Future<void> onProgressImported() async {
+    Analytics.log('progress_imported');
+    await _showInterstitial();
+  }
 
   /// Leaving an editor section back to the hub.
   void onEditorSectionClosed() {
     _sectionExits++;
-    if (_sectionExits % 2 == 0) _showInterstitial();
+    if (_sectionExits % RemoteSettings.getInt('ads_section_every', min: 1) == 0) _showInterstitial();
   }
 
-  /// Counts detail pages; shows an interstitial on every 4th.
+  /// Counts detail pages; shows an interstitial on every Nth (default 4th).
   void onDetailViewed() {
     _detailViews++;
-    if (_detailViews % 4 == 0) _showInterstitial();
+    if (_detailViews % RemoteSettings.getInt('ads_detail_every', min: 2) == 0) _showInterstitial();
   }
 
-  /// Counts bottom-tab switches; shows an interstitial on every 5th.
+  /// Counts bottom-tab switches; shows an interstitial on every Nth (default 5th).
   void onTabChanged() {
     _tabSwitches++;
-    if (_tabSwitches % 5 == 0) _showInterstitial();
+    if (_tabSwitches % RemoteSettings.getInt('ads_tab_every', min: 2) == 0) _showInterstitial();
   }
 
   Future<void> _showInterstitial() async {
@@ -209,7 +218,7 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
           _appOpen = ad;
           _appOpenLoadedAt = DateTime.now();
           // Cold start: only if it arrived quickly, so it never interrupts use.
-          if (showWhenLoaded && _coldStartPending && DateTime.now().difference(requestedAt) < Duration(seconds: 5)) {
+          if (showWhenLoaded && _coldStartPending && RemoteSettings.getBool('ads_app_open_cold_start') && DateTime.now().difference(requestedAt) < Duration(seconds: 5)) {
             _coldStartPending = false;
             _maybeShowAppOpen();
           }
@@ -226,7 +235,7 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
     } else if (state == AppLifecycleState.resumed) {
       final away = _pausedAt == null ? Duration.zero : DateTime.now().difference(_pausedAt!);
       _pausedAt = null;
-      if (away >= Duration(seconds: 30)) _maybeShowAppOpen();
+      if (away >= RemoteSettings.seconds('ads_app_open_away_sec')) _maybeShowAppOpen();
     }
   }
 
@@ -319,6 +328,7 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
       final next = base.add(adFreePerVideo);
       final cap = now.add(adFreeMax);
       _adFreeUntil = next.isAfter(cap) ? cap : next;
+      Analytics.log('ad_free_earned');
       final prefs = await SharedPreferences.getInstance();
       await prefs.setInt(_kAdFreeUntil, _adFreeUntil!.millisecondsSinceEpoch);
     });
@@ -340,6 +350,7 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
         ],
       ),
     );
+    Analytics.log('tools_unlock_prompt', {'accepted': ok == true ? 1 : 0});
     if (ok != true) return false;
     final ad = _rewardedTools ?? _rewarded;
     if (ad == null) {
@@ -354,6 +365,7 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
     }
     final earned = await _showRewarded(ad, identical(ad, _rewarded) ? _loadRewarded : _loadRewardedTools, () async {
       _toolsUntil = DateTime.now().add(toolsUnlock);
+      Analytics.log('tools_unlocked');
     });
     return earned;
   }

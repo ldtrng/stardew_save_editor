@@ -5,6 +5,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../services/firebase.dart';
+
 /// Lightweight localization.
 ///
 /// * UI strings are keyed by their English text: `tr('Search...')`, with
@@ -74,6 +76,8 @@ class L10n extends ChangeNotifier {
       await p.setString(_prefKey, pref);
     }
     await _apply(pref ?? systemCode());
+    Analytics.setLanguage(code);
+    Analytics.log('language_changed', {'language': code});
     notifyListeners();
   }
 

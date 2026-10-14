@@ -8,6 +8,7 @@ import 'package:share_plus/share_plus.dart';
 import '../ads/ads_service.dart';
 import '../save/farmer.dart';
 import '../save/save_file.dart';
+import '../services/firebase.dart';
 import '../services/saf.dart';
 import '../services/review.dart';
 
@@ -71,12 +72,14 @@ class EditorState extends ChangeNotifier {
     if (file == null) return false;
     final bytes = await file.xFile.readAsBytes();
     await loadBytes(bytes, file.name);
+    Analytics.log('save_opened', {'source': 'file_picker'});
     return true;
   }
 
   Future<void> openFromGameFolder(GameSaveEntry entry) async {
     final bytes = await Saf.read(entry.uri);
     await loadBytes(bytes, entry.folder, uri: entry.uri);
+    Analytics.log('save_opened', {'source': 'game_folder'});
   }
 
   void close() {
@@ -97,7 +100,7 @@ class EditorState extends ChangeNotifier {
         await _backup(current, fileName, force: true);
         await Saf.write(uri, export());
         dirty = false;
-        AdsService.instance.onSaveExported();
+        AdsService.instance.onSaveExported('write_back');
         ReviewPrompt.positiveMoment();
       });
 
@@ -108,7 +111,7 @@ class EditorState extends ChangeNotifier {
     if (uri != null) {
       dirty = false;
       notifyListeners();
-      AdsService.instance.onSaveExported();
+      AdsService.instance.onSaveExported('save_as');
       ReviewPrompt.positiveMoment();
     }
     return uri != null;

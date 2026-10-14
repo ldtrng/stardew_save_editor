@@ -9,6 +9,7 @@ import 'dev/screenshot_mode.dart';
 import 'l10n/l10n.dart';
 import 'save/items.dart';
 import 'save/qi_quests.dart';
+import 'services/firebase.dart';
 import 'state/editor_state.dart';
 import 'state/settings_state.dart';
 import 'state/tracker_state.dart';
@@ -16,8 +17,13 @@ import 'ui/theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // Firebase first so Remote Config ad pacing is active before ads load.
+  if (!screenshotMode) await AppFirebase.init();
   runApp(await bootstrap());
-  if (!screenshotMode) AdsService.instance.init();
+  if (!screenshotMode) {
+    Analytics.setLanguage(L10n.i.code);
+    AdsService.instance.init();
+  }
 }
 
 /// Loads data and returns the app with its providers (also used by the
@@ -63,6 +69,7 @@ class ValleyApp extends StatelessWidget {
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       // Rebuild everything when the language changes so every tr() re-runs.
       navigatorKey: screenshotMode ? shotNavigatorKey : null,
+      navigatorObservers: Analytics.observers,
       home: AppShell(key: ValueKey(l10n.code)),
     );
   }

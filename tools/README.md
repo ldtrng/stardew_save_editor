@@ -37,3 +37,8 @@ git subtree split --prefix docs -b gh-pages && git push origin gh-pages
 ```
 
 (If an existing local `gh-pages` branch is behind, delete it first with `git branch -D gh-pages`.)
+
+## `firebase/remote_config_template.json` – Remote Config parameters
+
+Firebase project `sv-tracker-8a3f1`. The template mirrors `RemoteSettings.defaults` in `lib/services/firebase.dart`
+(ad pacing and review prompt). Keep both in sync when adding a parameter. The console's "Publish from a file" can import it.

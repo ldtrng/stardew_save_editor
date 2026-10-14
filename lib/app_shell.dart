@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import 'ads/ads_service.dart';
 import 'dev/screenshot_mode.dart';
+import 'services/firebase.dart';
 
 import 'features/calendar/calendar_screen.dart';
 import 'features/editor/editor_home.dart';
@@ -44,6 +45,8 @@ class _AppShellState extends State<AppShell> {
     super.dispose();
   }
 
+  static const _tabNames = ['calendar', 'villagers', 'collections', 'save_editor', 'settings'];
+
   static const _tabs = [
     CalendarScreen(),
     VillagersScreen(),
@@ -61,7 +64,10 @@ class _AppShellState extends State<AppShell> {
       bottomNavigationBar: NavigationBar(
         selectedIndex: _index,
         onDestinationSelected: (i) {
-          if (i != _index) AdsService.instance.onTabChanged();
+          if (i != _index) {
+            AdsService.instance.onTabChanged();
+            Analytics.screen(_tabNames[i]);
+          }
           setState(() => _index = i);
         },
         labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,

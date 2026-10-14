@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081783383323",
+    "project_id": "sv-tracker-8a3f1",
+    "storage_bucket": "sv-tracker-8a3f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081783383323:android:f3d6caaa85756230384fbe",
+        "android_client_info": {
+          "package_name": "io.ld2t.stardew_save_editor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9-ku4jS0BCKJZtxrQd9trU7qMN16S6qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

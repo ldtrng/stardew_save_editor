@@ -1,0 +1,926 @@
+{
+ "queenOfSauceNote": "season is 0-based (0=spring)",
+ "festivals": [
+  {
+   "key": "fall16",
+   "season": "fall",
+   "day": 16,
+   "name": "Stardew Valley Fair"
+  },
+  {
+   "key": "fall27",
+   "season": "fall",
+   "day": 27,
+   "name": "Spirit's Eve"
+  },
+  {
+   "key": "spring13",
+   "season": "spring",
+   "day": 13,
+   "name": "Egg Festival"
+  },
+  {
+   "key": "spring24",
+   "season": "spring",
+   "day": 24,
+   "name": "Flower Dance"
+  },
+  {
+   "key": "summer11",
+   "season": "summer",
+   "day": 11,
+   "name": "Luau"
+  },
+  {
+   "key": "summer28",
+   "season": "summer",
+   "day": 28,
+   "name": "Dance of the Moonlight Jellies"
+  },
+  {
+   "key": "winter25",
+   "season": "winter",
+   "day": 25,
+   "name": "Feast of the Winter Star"
+  },
+  {
+   "key": "winter8",
+   "season": "winter",
+   "day": 8,
+   "name": "Festival of Ice"
+  }
+ ],
+ "birthdays": [
+  {
+   "villager": "Abigail",
+   "name": "Abigail",
+   "season": "fall",
+   "day": 13,
+   "image": "src_assets_villagers_abigail_icon"
+  },
+  {
+   "villager": "Alex",
+   "name": "Alex",
+   "season": "summer",
+   "day": 13,
+   "image": "src_assets_villagers_alex_icon"
+  },
+  {
+   "villager": "Caroline",
+   "name": "Caroline",
+   "season": "winter",
+   "day": 7,
+   "image": "src_assets_villagers_caroline_icon"
+  },
+  {
+   "villager": "Clint",
+   "name": "Clint",
+   "season": "winter",
+   "day": 26,
+   "image": "src_assets_villagers_clint_icon"
+  },
+  {
+   "villager": "Demetrius",
+   "name": "Demetrius",
+   "season": "summer",
+   "day": 19,
+   "image": "src_assets_villagers_demetrius_icon"
+  },
+  {
+   "villager": "Dwarf",
+   "name": "Dwarf",
+   "season": "summer",
+   "day": 22,
+   "image": "src_assets_villagers_dwarf_icon"
+  },
+  {
+   "villager": "Elliott",
+   "name": "Elliott",
+   "season": "fall",
+   "day": 5,
+   "image": "src_assets_villagers_elliott_icon"
+  },
+  {
+   "villager": "Emily",
+   "name": "Emily",
+   "season": "spring",
+   "day": 27,
+   "image": "src_assets_villagers_emily_icon"
+  },
+  {
+   "villager": "Evelyn",
+   "name": "Evelyn",
+   "season": "winter",
+   "day": 20,
+   "image": "src_assets_villagers_evelyn_icon"
+  },
+  {
+   "villager": "George",
+   "name": "George",
+   "season": "fall",
+   "day": 24,
+   "image": "src_assets_villagers_george_icon"
+  },
+  {
+   "villager": "Gus",
+   "name": "Gus",
+   "season": "summer",
+   "day": 8,
+   "image": "src_assets_villagers_gus_icon"
+  },
+  {
+   "villager": "Haley",
+   "name": "Haley",
+   "season": "spring",
+   "day": 14,
+   "image": "src_assets_villagers_haley_icon"
+  },
+  {
+   "villager": "Harvey",
+   "name": "Harvey",
+   "season": "winter",
+   "day": 14,
+   "image": "src_assets_villagers_harvey_icon"
+  },
+  {
+   "villager": "Jas",
+   "name": "Jas",
+   "season": "summer",
+   "day": 4,
+   "image": "src_assets_villagers_jas_icon"
+  },
+  {
+   "villager": "Jodi",
+   "name": "Jodi",
+   "season": "fall",
+   "day": 11,
+   "image": "src_assets_villagers_jodi_icon"
+  },
+  {
+   "villager": "Kent",
+   "name": "Kent",
+   "season": "spring",
+   "day": 4,
+   "image": "src_assets_villagers_kent_icon"
+  },
+  {
+   "villager": "Krobus",
+   "name": "Krobus",
+   "season": "winter",
+   "day": 1,
+   "image": "src_assets_villagers_krobus_icon"
+  },
+  {
+   "villager": "Leah",
+   "name": "Leah",
+   "season": "winter",
+   "day": 23,
+   "image": "src_assets_villagers_leah_icon"
+  },
+  {
+   "villager": "Leo",
+   "name": "Leo",
+   "season": "summer",
+   "day": 26,
+   "image": "src_assets_villagers_leo_icon"
+  },
+  {
+   "villager": "Lewis",
+   "name": "Lewis",
+   "season": "spring",
+   "day": 7,
+   "image": "src_assets_villagers_lewis_icon"
+  },
+  {
+   "villager": "Linus",
+   "name": "Linus",
+   "season": "winter",
+   "day": 3,
+   "image": "src_assets_villagers_linus_icon"
+  },
+  {
+   "villager": "Marnie",
+   "name": "Marnie",
+   "season": "fall",
+   "day": 18,
+   "image": "src_assets_villagers_marnie_icon"
+  },
+  {
+   "villager": "Maru",
+   "name": "Maru",
+   "season": "summer",
+   "day": 10,
+   "image": "src_assets_villagers_maru_icon"
+  },
+  {
+   "villager": "Pam",
+   "name": "Pam",
+   "season": "spring",
+   "day": 18,
+   "image": "src_assets_villagers_pam_icon"
+  },
+  {
+   "villager": "Penny",
+   "name": "Penny",
+   "season": "fall",
+   "day": 2,
+   "image": "src_assets_villagers_penny_icon"
+  },
+  {
+   "villager": "Pierre",
+   "name": "Pierre",
+   "season": "spring",
+   "day": 26,
+   "image": "src_assets_villagers_pierre_icon"
+  },
+  {
+   "villager": "Robin",
+   "name": "Robin",
+   "season": "fall",
+   "day": 21,
+   "image": "src_assets_villagers_robin_icon"
+  },
+  {
+   "villager": "Sam",
+   "name": "Sam",
+   "season": "summer",
+   "day": 17,
+   "image": "src_assets_villagers_sam_icon"
+  },
+  {
+   "villager": "Sandy",
+   "name": "Sandy",
+   "season": "fall",
+   "day": 15,
+   "image": "src_assets_villagers_sandy_icon"
+  },
+  {
+   "villager": "Sebastian",
+   "name": "Sebastian",
+   "season": "winter",
+   "day": 10,
+   "image": "src_assets_villagers_sebastian_icon"
+  },
+  {
+   "villager": "Shane",
+   "name": "Shane",
+   "season": "spring",
+   "day": 20,
+   "image": "src_assets_villagers_shane_icon"
+  },
+  {
+   "villager": "Vincent",
+   "name": "Vincent",
+   "season": "spring",
+   "day": 10,
+   "image": "src_assets_villagers_vincent_icon"
+  },
+  {
+   "villager": "Willy",
+   "name": "Willy",
+   "season": "summer",
+   "day": 24,
+   "image": "src_assets_villagers_willy_icon"
+  },
+  {
+   "villager": "Wizard",
+   "name": "Wizard",
+   "season": "winter",
+   "day": 17,
+   "image": "src_assets_villagers_wizard_icon"
+  }
+ ],
+ "passiveFestivals": {
+  "DesertFestival": {
+   "CleanupMethod": "StardewValley.Locations.DesertFestival, Stardew Valley: CleanupFestival",
+   "Condition": "LOCATION_ACCESSIBLE Desert",
+   "CustomFields": null,
+   "DailySetupMethod": "StardewValley.Locations.DesertFestival, Stardew Valley: SetupFestivalDay",
+   "DisplayName": "[LocalizedText Strings\\1_6_Strings:DesertFestival]",
+   "EndDay": 17,
+   "MapReplacements": {
+    "Desert": "DesertFestival"
+   },
+   "OnlyShowMessageOnFirstDay": false,
+   "Season": 0,
+   "ShowOnCalendar": true,
+   "StartDay": 15,
+   "StartMessage": "[LocalizedText Strings\\1_6_Strings:DesertFestival_NowOpen]",
+   "StartTime": 1000,
+   "name": null,
+   "appText": "Desert Festival (Spring 15-17)"
+  },
+  "NightMarket": {
+   "CleanupMethod": null,
+   "Condition": "",
+   "CustomFields": null,
+   "DailySetupMethod": null,
+   "DisplayName": "[LocalizedText Strings\\UI:Billboard_NightMarket]",
+   "EndDay": 17,
+   "MapReplacements": {
+    "Beach": "BeachNightMarket"
+   },
+   "OnlyShowMessageOnFirstDay": false,
+   "Season": 3,
+   "ShowOnCalendar": true,
+   "StartDay": 15,
+   "StartMessage": "[LocalizedText Strings\\Events:BeachNightMarket_NowOpen]",
+   "StartTime": 1700,
+   "name": "Night Market",
+   "appText": "Night Market (Winter 15-17)"
+  },
+  "SquidFest": {
+   "CleanupMethod": null,
+   "Condition": "",
+   "CustomFields": null,
+   "DailySetupMethod": null,
+   "DisplayName": "",
+   "EndDay": 13,
+   "MapReplacements": null,
+   "OnlyShowMessageOnFirstDay": true,
+   "Season": 3,
+   "ShowOnCalendar": false,
+   "StartDay": 12,
+   "StartMessage": "[LocalizedText Strings\\1_6_Strings:SquidFest_NowOpen]",
+   "StartTime": 610,
+   "name": null,
+   "appText": "SquidFest (Winter 12-13, on the Beach)"
+  },
+  "TroutDerby": {
+   "CleanupMethod": null,
+   "Condition": "",
+   "CustomFields": null,
+   "DailySetupMethod": null,
+   "DisplayName": "",
+   "EndDay": 21,
+   "MapReplacements": null,
+   "OnlyShowMessageOnFirstDay": true,
+   "Season": 1,
+   "ShowOnCalendar": false,
+   "StartDay": 20,
+   "StartMessage": "[LocalizedText Strings\\1_6_Strings:TroutDerby_NowOpen]",
+   "StartTime": 610,
+   "name": null,
+   "appText": "Trout Derby (Summer 20-21, Cindersap Forest)"
+  }
+ },
+ "calendarDates": {
+  "blackberrySeason": [
+   "7/2",
+   "8/2",
+   "9/2",
+   "10/2"
+  ],
+  "desertFestival": [
+   "14/0",
+   "15/0",
+   "16/0"
+  ],
+  "extraBeach": [
+   "11/1",
+   "12/1",
+   "13/1"
+  ],
+  "nightMarket": [
+   "14/3",
+   "15/3",
+   "16/3"
+  ],
+  "salmonberrySeason": [
+   "14/0",
+   "15/0",
+   "16/0",
+   "17/0"
+  ],
+  "squidFest": [
+   "11/3",
+   "12/3"
+  ],
+  "troutDerby": [
+   "19/1",
+   "20/1"
+  ]
+ },
+ "calendarDatesNote": "raw format \"dayIndex/seasonIndex\", both 0-based (14/0 = Spring 15)",
+ "calendarRanges": [
+  {
+   "key": "blackberrySeason",
+   "textKey": "blackberry_season",
+   "text": "Blackberry season (Fall 8-11)",
+   "dates": [
+    {
+     "season": "fall",
+     "day": 8
+    },
+    {
+     "season": "fall",
+     "day": 9
+    },
+    {
+     "season": "fall",
+     "day": 10
+    },
+    {
+     "season": "fall",
+     "day": 11
+    }
+   ]
+  },
+  {
+   "key": "desertFestival",
+   "textKey": "desert_festival",
+   "text": "Desert Festival (Spring 15-17)",
+   "dates": [
+    {
+     "season": "spring",
+     "day": 15
+    },
+    {
+     "season": "spring",
+     "day": 16
+    },
+    {
+     "season": "spring",
+     "day": 17
+    }
+   ]
+  },
+  {
+   "key": "extraBeach",
+   "textKey": "extra_beach",
+   "text": "Extra forageables at The Beach (Summer 12-14)",
+   "dates": [
+    {
+     "season": "summer",
+     "day": 12
+    },
+    {
+     "season": "summer",
+     "day": 13
+    },
+    {
+     "season": "summer",
+     "day": 14
+    }
+   ]
+  },
+  {
+   "key": "nightMarket",
+   "textKey": "night_market",
+   "text": "Night Market (Winter 15-17)",
+   "dates": [
+    {
+     "season": "winter",
+     "day": 15
+    },
+    {
+     "season": "winter",
+     "day": 16
+    },
+    {
+     "season": "winter",
+     "day": 17
+    }
+   ]
+  },
+  {
+   "key": "salmonberrySeason",
+   "textKey": "salmonberry_season",
+   "text": "Salmonberry season (Spring 15-18)",
+   "dates": [
+    {
+     "season": "spring",
+     "day": 15
+    },
+    {
+     "season": "spring",
+     "day": 16
+    },
+    {
+     "season": "spring",
+     "day": 17
+    },
+    {
+     "season": "spring",
+     "day": 18
+    }
+   ]
+  },
+  {
+   "key": "squidFest",
+   "textKey": "squid_fest",
+   "text": "SquidFest (Winter 12-13, on the Beach)",
+   "dates": [
+    {
+     "season": "winter",
+     "day": 12
+    },
+    {
+     "season": "winter",
+     "day": 13
+    }
+   ]
+  },
+  {
+   "key": "troutDerby",
+   "textKey": "trout_derby",
+   "text": "Trout Derby (Summer 20-21, Cindersap Forest)",
+   "dates": [
+    {
+     "season": "summer",
+     "day": 20
+    },
+    {
+     "season": "summer",
+     "day": 21
+    }
+   ]
+  }
+ ],
+ "queenOfSauce": [
+  {
+   "day": 28,
+   "season": 2,
+   "year": 1,
+   "recipe": "Artichoke Dip",
+   "item": {
+    "id": "605",
+    "type": "O",
+    "name": "Artichoke Dip",
+    "image": "src_assets_items_605"
+   }
+  },
+  {
+   "day": 7,
+   "season": 1,
+   "year": 1,
+   "recipe": "Baked Fish",
+   "item": {
+    "id": "198",
+    "type": "O",
+    "name": "Baked Fish",
+    "image": "src_assets_items_198"
+   }
+  },
+  {
+   "day": 14,
+   "season": 2,
+   "year": 2,
+   "recipe": "Blackberry Cobbler",
+   "item": {
+    "id": "611",
+    "type": "O",
+    "name": "Blackberry Cobbler",
+    "image": "src_assets_items_611"
+   }
+  },
+  {
+   "day": 28,
+   "season": 1,
+   "year": 1,
+   "recipe": "Bread",
+   "item": {
+    "id": "216",
+    "type": "O",
+    "name": "Bread",
+    "image": "src_assets_items_216"
+   }
+  },
+  {
+   "day": 21,
+   "season": 3,
+   "year": 2,
+   "recipe": "Bruschetta",
+   "item": {
+    "id": "618",
+    "type": "O",
+    "name": "Bruschetta",
+    "image": "src_assets_items_618"
+   }
+  },
+  {
+   "day": 7,
+   "season": 1,
+   "year": 2,
+   "recipe": "Carp Surprise",
+   "item": {
+    "id": "209",
+    "type": "O",
+    "name": "Carp Surprise",
+    "image": "src_assets_items_209"
+   }
+  },
+  {
+   "day": 14,
+   "season": 3,
+   "year": 1,
+   "recipe": "Chocolate Cake",
+   "item": {
+    "id": "220",
+    "type": "O",
+    "name": "Chocolate Cake",
+    "image": "src_assets_items_220"
+   }
+  },
+  {
+   "day": 14,
+   "season": 0,
+   "year": 1,
+   "recipe": "Coleslaw",
+   "item": {
+    "id": "648",
+    "type": "O",
+    "name": "Coleslaw",
+    "image": "src_assets_items_648"
+   }
+  },
+  {
+   "day": 21,
+   "season": 0,
+   "year": 2,
+   "recipe": "Complete Breakfast",
+   "item": {
+    "id": "201",
+    "type": "O",
+    "name": "Complete Breakfast",
+    "image": "src_assets_items_201"
+   }
+  },
+  {
+   "day": 21,
+   "season": 2,
+   "year": 2,
+   "recipe": "Crab Cakes",
+   "item": {
+    "id": "732",
+    "type": "O",
+    "name": "Crab Cakes",
+    "image": "src_assets_items_732"
+   }
+  },
+  {
+   "day": 28,
+   "season": 3,
+   "year": 1,
+   "recipe": "Cranberry Candy",
+   "item": {
+    "id": "612",
+    "type": "O",
+    "name": "Cranberry Candy",
+    "image": "src_assets_items_612"
+   }
+  },
+  {
+   "day": 28,
+   "season": 2,
+   "year": 2,
+   "recipe": "Fiddlehead Risotto",
+   "item": {
+    "id": "649",
+    "type": "O",
+    "name": "Fiddlehead Risotto",
+    "image": "src_assets_items_649"
+   }
+  },
+  {
+   "day": 7,
+   "season": 2,
+   "year": 2,
+   "recipe": "Fruit Salad",
+   "item": {
+    "id": "610",
+    "type": "O",
+    "name": "Fruit Salad",
+    "image": "src_assets_items_610"
+   }
+  },
+  {
+   "day": 21,
+   "season": 2,
+   "year": 1,
+   "recipe": "Glazed Yams",
+   "item": {
+    "id": "208",
+    "type": "O",
+    "name": "Glazed Yams",
+    "image": "src_assets_items_208"
+   }
+  },
+  {
+   "day": 14,
+   "season": 0,
+   "year": 2,
+   "recipe": "Hashbrowns",
+   "item": {
+    "id": "210",
+    "type": "O",
+    "name": "Hashbrowns",
+    "image": "src_assets_items_210"
+   }
+  },
+  {
+   "day": 14,
+   "season": 3,
+   "year": 2,
+   "recipe": "Lobster Bisque",
+   "item": {
+    "id": "730",
+    "type": "O",
+    "name": "Lobster Bisque",
+    "image": "src_assets_items_730"
+   }
+  },
+  {
+   "day": 28,
+   "season": 0,
+   "year": 2,
+   "recipe": "Lucky Lunch",
+   "item": {
+    "id": "204",
+    "type": "O",
+    "name": "Lucky Lunch",
+    "image": "src_assets_items_204"
+   }
+  },
+  {
+   "day": 21,
+   "season": 1,
+   "year": 1,
+   "recipe": "Maki Roll",
+   "item": {
+    "id": "228",
+    "type": "O",
+    "name": "Maki Roll",
+    "image": "src_assets_items_228"
+   }
+  },
+  {
+   "day": 14,
+   "season": 1,
+   "year": 2,
+   "recipe": "Maple Bar",
+   "item": {
+    "id": "731",
+    "type": "O",
+    "name": "Maple Bar",
+    "image": "src_assets_items_731"
+   }
+  },
+  {
+   "day": 28,
+   "season": 0,
+   "year": 1,
+   "recipe": "Omelet",
+   "item": {
+    "id": "195",
+    "type": "O",
+    "name": "Omelet",
+    "image": "src_assets_items_195"
+   }
+  },
+  {
+   "day": 14,
+   "season": 1,
+   "year": 1,
+   "recipe": "Pancakes",
+   "item": {
+    "id": "211",
+    "type": "O",
+    "name": "Pancakes",
+    "image": "src_assets_items_211"
+   }
+  },
+  {
+   "day": 21,
+   "season": 1,
+   "year": 2,
+   "recipe": "Pink Cake",
+   "item": {
+    "id": "221",
+    "type": "O",
+    "name": "Pink Cake",
+    "image": "src_assets_items_221"
+   }
+  },
+  {
+   "day": 7,
+   "season": 0,
+   "year": 2,
+   "recipe": "Pizza",
+   "item": {
+    "id": "206",
+    "type": "O",
+    "name": "Pizza",
+    "image": "src_assets_items_206"
+   }
+  },
+  {
+   "day": 7,
+   "season": 3,
+   "year": 1,
+   "recipe": "Plum Pudding",
+   "item": {
+    "id": "604",
+    "type": "O",
+    "name": "Plum Pudding",
+    "image": "src_assets_items_604"
+   }
+  },
+  {
+   "day": 7,
+   "season": 3,
+   "year": 2,
+   "recipe": "Poppyseed Muffin",
+   "item": {
+    "id": "651",
+    "type": "O",
+    "name": "Poppyseed Muffin",
+    "image": "src_assets_items_651"
+   }
+  },
+  {
+   "day": 21,
+   "season": 3,
+   "year": 1,
+   "recipe": "Pumpkin Pie",
+   "item": {
+    "id": "608",
+    "type": "O",
+    "name": "Pumpkin Pie",
+    "image": "src_assets_items_608"
+   }
+  },
+  {
+   "day": 21,
+   "season": 0,
+   "year": 1,
+   "recipe": "Radish Salad",
+   "item": {
+    "id": "609",
+    "type": "O",
+    "name": "Radish Salad",
+    "image": "src_assets_items_609"
+   }
+  },
+  {
+   "day": 28,
+   "season": 1,
+   "year": 2,
+   "recipe": "Roasted Hazelnuts",
+   "item": {
+    "id": "607",
+    "type": "O",
+    "name": "Roasted Hazelnuts",
+    "image": "src_assets_items_607"
+   }
+  },
+  {
+   "day": 28,
+   "season": 3,
+   "year": 2,
+   "recipe": "Shrimp Cocktail",
+   "item": {
+    "id": "733",
+    "type": "O",
+    "name": "Shrimp Cocktail",
+    "image": "src_assets_items_733"
+   }
+  },
+  {
+   "day": 7,
+   "season": 0,
+   "year": 1,
+   "recipe": "Stir Fry",
+   "item": {
+    "id": "606",
+    "type": "O",
+    "name": "Stir Fry",
+    "image": "src_assets_items_606"
+   }
+  },
+  {
+   "day": 7,
+   "season": 2,
+   "year": 1,
+   "recipe": "Tortilla",
+   "item": {
+    "id": "229",
+    "type": "O",
+    "name": "Tortilla",
+    "image": "src_assets_items_229"
+   }
+  },
+  {
+   "day": 14,
+   "season": 2,
+   "year": 1,
+   "recipe": "Trout Soup",
+   "item": {
+    "id": "219",
+    "type": "O",
+    "name": "Trout Soup",
+    "image": "src_assets_items_219"
+   }
+  }
+ ]
+}

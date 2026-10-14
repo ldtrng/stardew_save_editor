@@ -1,0 +1,4471 @@
+[
+ {
+  "id": "194",
+  "internalName": "Fried Egg",
+  "name": "Fried Egg",
+  "description": "Sunny-side up.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "default"
+   ],
+   "level": 0
+  },
+  "queenOfSauce": null,
+  "price": 35,
+  "edibility": 20,
+  "buffs": null,
+  "image": "src_assets_items_194",
+  "sources": [
+   {
+    "kind": "starter",
+    "text": "Starter"
+   }
+  ]
+ },
+ {
+  "id": "195",
+  "internalName": "Omelet",
+  "name": "Omelet",
+  "description": "It's super fluffy.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 10
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 0,
+   "year": 1
+  },
+  "price": 125,
+  "edibility": 40,
+  "buffs": null,
+  "image": "src_assets_items_195",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 0,
+     "year": 1
+    },
+    "dateText": "Spring 28, Year 1"
+   },
+   {
+    "kind": "purchase",
+    "text": "Stardrop Saloon (100g)",
+    "note": "app shows gold_coin icon + price; saloon assumed"
+   }
+  ]
+ },
+ {
+  "id": "196",
+  "internalName": "Salad",
+  "name": "Salad",
+  "description": "A healthy garden salad.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "20",
+    "type": "O",
+    "name": "Leek",
+    "image": "src_assets_items_020",
+    "amount": 1
+   },
+   {
+    "id": "22",
+    "type": "O",
+    "name": "Dandelion",
+    "image": "src_assets_items_022",
+    "amount": 1
+   },
+   {
+    "id": "419",
+    "type": "O",
+    "name": "Vinegar",
+    "image": "src_assets_items_419",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Emily"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 110,
+  "edibility": 45,
+  "buffs": null,
+  "image": "src_assets_items_196",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Emily",
+    "hearts": 3,
+    "text": "Emily (3❤️)",
+    "image": "src_assets_villagers_emily_icon"
+   }
+  ]
+ },
+ {
+  "id": "197",
+  "internalName": "Cheese Cauli.",
+  "name": "Cheese Cauliflower",
+  "description": "It smells great!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "190",
+    "type": "O",
+    "name": "Cauliflower",
+    "image": "src_assets_items_190",
+    "amount": 1
+   },
+   {
+    "id": "424",
+    "type": "O",
+    "name": "Cheese",
+    "image": "src_assets_items_424",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Pam"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 300,
+  "edibility": 55,
+  "buffs": null,
+  "image": "src_assets_items_197",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Pam",
+    "hearts": 3,
+    "text": "Pam (3❤️)",
+    "image": "src_assets_villagers_pam_icon"
+   }
+  ]
+ },
+ {
+  "id": "198",
+  "internalName": "Baked Fish",
+  "name": "Baked Fish",
+  "description": "Baked fish on a bed of herbs.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "145",
+    "type": "O",
+    "name": "Sunfish",
+    "image": "src_assets_items_145",
+    "amount": 1
+   },
+   {
+    "id": "132",
+    "type": "O",
+    "name": "Bream",
+    "image": "src_assets_items_132",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 12
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 1,
+   "year": 1
+  },
+  "price": 100,
+  "edibility": 30,
+  "buffs": null,
+  "image": "src_assets_items_198",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 1,
+     "year": 1
+    },
+    "dateText": "Summer 7, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "199",
+  "internalName": "Parsnip Soup",
+  "name": "Parsnip Soup",
+  "description": "It's fresh and hearty.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "24",
+    "type": "O",
+    "name": "Parsnip",
+    "image": "src_assets_items_024",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   },
+   {
+    "id": "419",
+    "type": "O",
+    "name": "Vinegar",
+    "image": "src_assets_items_419",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Caroline"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 120,
+  "edibility": 34,
+  "buffs": null,
+  "image": "src_assets_items_199",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Caroline",
+    "hearts": 3,
+    "text": "Caroline (3❤️)",
+    "image": "src_assets_villagers_caroline_icon"
+   }
+  ]
+ },
+ {
+  "id": "200",
+  "internalName": "Vegetable Stew",
+  "name": "Vegetable Medley",
+  "description": "This is very nutritious.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   },
+   {
+    "id": "284",
+    "type": "O",
+    "name": "Beet",
+    "image": "src_assets_items_284",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Caroline"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 120,
+  "edibility": 66,
+  "buffs": null,
+  "image": "src_assets_items_200",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Caroline",
+    "hearts": 7,
+    "text": "Caroline (7❤️)",
+    "image": "src_assets_villagers_caroline_icon"
+   }
+  ]
+ },
+ {
+  "id": "201",
+  "internalName": "Complete Breakfast",
+  "name": "Complete Breakfast",
+  "description": "You'll feel ready to take on the world!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "194",
+    "type": "O",
+    "name": "Fried Egg",
+    "image": "src_assets_items_194",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   },
+   {
+    "id": "210",
+    "type": "O",
+    "name": "Hashbrowns",
+    "image": "src_assets_items_210",
+    "amount": 1
+   },
+   {
+    "id": "211",
+    "type": "O",
+    "name": "Pancakes",
+    "image": "src_assets_items_211",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 26
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 0,
+   "year": 2
+  },
+  "price": 350,
+  "edibility": 80,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 2,
+     "skill": "farming"
+    },
+    {
+     "duration": 420,
+     "level": 50,
+     "skill": "max_energy"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_201",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 0,
+     "year": 2
+    },
+    "dateText": "Spring 21, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "202",
+  "internalName": "Fried Calamari",
+  "name": "Fried Calamari",
+  "description": "It's so chewy.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "151",
+    "type": "O",
+    "name": "Squid",
+    "image": "src_assets_items_151",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Jodi"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 150,
+  "edibility": 32,
+  "buffs": null,
+  "image": "src_assets_items_202",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Jodi",
+    "hearts": 3,
+    "text": "Jodi (3❤️)",
+    "image": "src_assets_villagers_jodi_icon"
+   }
+  ]
+ },
+ {
+  "id": "203",
+  "internalName": "Strange Bun",
+  "name": "Strange Bun",
+  "description": "What's inside?",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "722",
+    "type": "O",
+    "name": "Periwinkle",
+    "image": "src_assets_items_722",
+    "amount": 1
+   },
+   {
+    "id": "308",
+    "type": "O",
+    "name": "Void Mayonnaise",
+    "image": "src_assets_items_308",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Shane"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 225,
+  "edibility": 40,
+  "buffs": null,
+  "image": "src_assets_items_203",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Shane",
+    "hearts": 7,
+    "text": "Shane (7❤️)",
+    "image": "src_assets_villagers_shane_icon"
+   }
+  ]
+ },
+ {
+  "id": "204",
+  "internalName": "Lucky Lunch",
+  "name": "Lucky Lunch",
+  "description": "A special little meal.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "154",
+    "type": "O",
+    "name": "Sea Cucumber",
+    "image": "src_assets_items_154",
+    "amount": 1
+   },
+   {
+    "id": "229",
+    "type": "O",
+    "name": "Tortilla",
+    "image": "src_assets_items_229",
+    "amount": 1
+   },
+   {
+    "id": "597",
+    "type": "O",
+    "name": "Blue Jazz",
+    "image": "src_assets_items_597",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Luck"
+   ],
+   "level": 8
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 0,
+   "year": 2
+  },
+  "price": 250,
+  "edibility": 40,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 672,
+     "level": 3,
+     "skill": "luck"
+    }
+   ],
+   "duration": 672
+  },
+  "image": "src_assets_items_204",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Luck",
+    "level": 8,
+    "text": "Luck level 8",
+    "image": null
+   }
+  ]
+ },
+ {
+  "id": "205",
+  "internalName": "Fried Mushroom",
+  "name": "Fried Mushroom",
+  "description": "Earthy and aromatic.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "404",
+    "type": "O",
+    "name": "Common Mushroom",
+    "image": "src_assets_items_404",
+    "amount": 1
+   },
+   {
+    "id": "257",
+    "type": "O",
+    "name": "Morel",
+    "image": "src_assets_items_257",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Demetrius"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 200,
+  "edibility": 54,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 2,
+     "skill": "attack"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_205",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Demetrius",
+    "hearts": 3,
+    "text": "Demetrius (3❤️)",
+    "image": "src_assets_villagers_demetrius_icon"
+   }
+  ]
+ },
+ {
+  "id": "206",
+  "internalName": "Pizza",
+  "name": "Pizza",
+  "description": "It's popular for all the right reasons.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   },
+   {
+    "id": "424",
+    "type": "O",
+    "name": "Cheese",
+    "image": "src_assets_items_424",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 20
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 0,
+   "year": 2
+  },
+  "price": 300,
+  "edibility": 60,
+  "buffs": null,
+  "image": "src_assets_items_206",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 0,
+     "year": 2
+    },
+    "dateText": "Spring 7, Year 2"
+   },
+   {
+    "kind": "purchase",
+    "text": "Stardrop Saloon (150g)",
+    "note": "app shows gold_coin icon + price; saloon assumed"
+   }
+  ]
+ },
+ {
+  "id": "207",
+  "internalName": "Bean Hotpot",
+  "name": "Bean Hotpot",
+  "description": "It sure is healthy.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "188",
+    "type": "O",
+    "name": "Green Bean",
+    "image": "src_assets_items_188",
+    "amount": 2
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Clint"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 100,
+  "edibility": 50,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 30,
+     "skill": "max_energy"
+    },
+    {
+     "duration": 420,
+     "level": 32,
+     "skill": "magnetism"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_207",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Clint",
+    "hearts": 7,
+    "text": "Clint (7❤️)",
+    "image": "src_assets_villagers_clint_icon"
+   }
+  ]
+ },
+ {
+  "id": "208",
+  "internalName": "Glazed Yams",
+  "name": "Glazed Yams",
+  "description": "Sweet and satisfying... The sugar gives it a hint of caramel.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "280",
+    "type": "O",
+    "name": "Yam",
+    "image": "src_assets_items_280",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 22
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 2,
+   "year": 1
+  },
+  "price": 200,
+  "edibility": 80,
+  "buffs": null,
+  "image": "src_assets_items_208",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 2,
+     "year": 1
+    },
+    "dateText": "Fall 21, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "209",
+  "internalName": "Carp Surprise",
+  "name": "Carp Surprise",
+  "description": "It's bland and oily.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "142",
+    "type": "O",
+    "name": "Carp",
+    "image": "src_assets_items_142",
+    "amount": 4
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 16
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 1,
+   "year": 2
+  },
+  "price": 150,
+  "edibility": 36,
+  "buffs": null,
+  "image": "src_assets_items_209",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 1,
+     "year": 2
+    },
+    "dateText": "Summer 7, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "210",
+  "internalName": "Hashbrowns",
+  "name": "Hashbrowns",
+  "description": "Crispy and golden-brown!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "192",
+    "type": "O",
+    "name": "Potato",
+    "image": "src_assets_items_192",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 14
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 0,
+   "year": 2
+  },
+  "price": 120,
+  "edibility": 36,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 336,
+     "level": 1,
+     "skill": "farming"
+    }
+   ],
+   "duration": 336
+  },
+  "image": "src_assets_items_210",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 0,
+     "year": 2
+    },
+    "dateText": "Spring 14, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "211",
+  "internalName": "Pancakes",
+  "name": "Pancakes",
+  "description": "A double stack of fluffy, soft pancakes.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 18
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 1,
+   "year": 1
+  },
+  "price": 80,
+  "edibility": 36,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 672,
+     "level": 2,
+     "skill": "foraging"
+    }
+   ],
+   "duration": 672
+  },
+  "image": "src_assets_items_211",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 1,
+     "year": 1
+    },
+    "dateText": "Summer 14, Year 1"
+   },
+   {
+    "kind": "purchase",
+    "text": "Stardrop Saloon (100g)",
+    "note": "app shows gold_coin icon + price; saloon assumed"
+   }
+  ]
+ },
+ {
+  "id": "212",
+  "internalName": "Salmon Dinner",
+  "name": "Salmon Dinner",
+  "description": "The lemon spritz makes it special.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "139",
+    "type": "O",
+    "name": "Salmon",
+    "image": "src_assets_items_139",
+    "amount": 1
+   },
+   {
+    "id": "300",
+    "type": "O",
+    "name": "Amaranth",
+    "image": "src_assets_items_300",
+    "amount": 1
+   },
+   {
+    "id": "250",
+    "type": "O",
+    "name": "Kale",
+    "image": "src_assets_items_250",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Gus"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 300,
+  "edibility": 50,
+  "buffs": null,
+  "image": "src_assets_items_212",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Gus",
+    "hearts": 3,
+    "text": "Gus (3❤️)",
+    "image": "src_assets_villagers_gus_icon"
+   }
+  ]
+ },
+ {
+  "id": "213",
+  "internalName": "Fish Taco",
+  "name": "Fish Taco",
+  "description": "It smells delicious.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "130",
+    "type": "O",
+    "name": "Tuna",
+    "image": "src_assets_items_130",
+    "amount": 1
+   },
+   {
+    "id": "229",
+    "type": "O",
+    "name": "Tortilla",
+    "image": "src_assets_items_229",
+    "amount": 1
+   },
+   {
+    "id": "266",
+    "type": "O",
+    "name": "Red Cabbage",
+    "image": "src_assets_items_266",
+    "amount": 1
+   },
+   {
+    "id": "306",
+    "type": "O",
+    "name": "Mayonnaise",
+    "image": "src_assets_items_306",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Linus"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 500,
+  "edibility": 66,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 2,
+     "skill": "fishing"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_213",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Linus",
+    "hearts": 7,
+    "text": "Linus (7❤️)",
+    "image": "src_assets_villagers_linus_icon"
+   }
+  ]
+ },
+ {
+  "id": "214",
+  "internalName": "Crispy Bass",
+  "name": "Crispy Bass",
+  "description": "Wow, the breading is perfect.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "136",
+    "type": "O",
+    "name": "Largemouth Bass",
+    "image": "src_assets_items_136",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Kent"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 150,
+  "edibility": 36,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 64,
+     "skill": "magnetism"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_214",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Kent",
+    "hearts": 3,
+    "text": "Kent (3❤️)",
+    "image": "src_assets_villagers_kent_icon"
+   }
+  ]
+ },
+ {
+  "id": "215",
+  "internalName": "Pepper Poppers",
+  "name": "Pepper Poppers",
+  "description": "Spicy breaded peppers filled with cheese.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "260",
+    "type": "O",
+    "name": "Hot Pepper",
+    "image": "src_assets_items_260",
+    "amount": 1
+   },
+   {
+    "id": "424",
+    "type": "O",
+    "name": "Cheese",
+    "image": "src_assets_items_424",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Shane"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 200,
+  "edibility": 52,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 2,
+     "skill": "farming"
+    },
+    {
+     "duration": 420,
+     "level": 1,
+     "skill": "speed"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_215",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Shane",
+    "hearts": 3,
+    "text": "Shane (3❤️)",
+    "image": "src_assets_villagers_shane_icon"
+   }
+  ]
+ },
+ {
+  "id": "216",
+  "internalName": "Bread",
+  "name": "Bread",
+  "description": "A crusty baguette.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 11
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 1,
+   "year": 1
+  },
+  "price": 60,
+  "edibility": 20,
+  "buffs": null,
+  "image": "src_assets_items_216",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 1,
+     "year": 1
+    },
+    "dateText": "Summer 28, Year 1"
+   },
+   {
+    "kind": "purchase",
+    "text": "Stardrop Saloon (100g)",
+    "note": "app shows gold_coin icon + price; saloon assumed"
+   }
+  ]
+ },
+ {
+  "id": "218",
+  "internalName": "Tom Kha Soup",
+  "name": "Tom Kha Soup",
+  "description": "These flavors are incredible!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "88",
+    "type": "O",
+    "name": "Coconut",
+    "image": "src_assets_items_088",
+    "amount": 1
+   },
+   {
+    "id": "720",
+    "type": "O",
+    "name": "Shrimp",
+    "image": "src_assets_items_720",
+    "amount": 1
+   },
+   {
+    "id": "404",
+    "type": "O",
+    "name": "Common Mushroom",
+    "image": "src_assets_items_404",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Sandy"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 250,
+  "edibility": 70,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 2,
+     "skill": "farming"
+    },
+    {
+     "duration": 420,
+     "level": 30,
+     "skill": "max_energy"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_218",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Sandy",
+    "hearts": 7,
+    "text": "Sandy (7❤️)",
+    "image": "src_assets_villagers_sandy_icon"
+   }
+  ]
+ },
+ {
+  "id": "219",
+  "internalName": "Trout Soup",
+  "name": "Trout Soup",
+  "description": "Pretty salty.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "138",
+    "type": "O",
+    "name": "Rainbow Trout",
+    "image": "src_assets_items_138",
+    "amount": 1
+   },
+   {
+    "id": "153",
+    "type": "O",
+    "name": "Green Algae",
+    "image": "src_assets_items_153",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 19
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 2,
+   "year": 1
+  },
+  "price": 100,
+  "edibility": 40,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 280,
+     "level": 1,
+     "skill": "fishing"
+    }
+   ],
+   "duration": 280
+  },
+  "image": "src_assets_items_219",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 2,
+     "year": 1
+    },
+    "dateText": "Fall 14, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "220",
+  "internalName": "Chocolate Cake",
+  "name": "Chocolate Cake",
+  "description": "Rich and moist with a thick fudge icing.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 23
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 3,
+   "year": 1
+  },
+  "price": 200,
+  "edibility": 60,
+  "buffs": null,
+  "image": "src_assets_items_220",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 3,
+     "year": 1
+    },
+    "dateText": "Winter 14, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "221",
+  "internalName": "Pink Cake",
+  "name": "Pink Cake",
+  "description": "There's little heart candies on top.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "254",
+    "type": "O",
+    "name": "Melon",
+    "image": "src_assets_items_254",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 25
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 1,
+   "year": 2
+  },
+  "price": 480,
+  "edibility": 100,
+  "buffs": null,
+  "image": "src_assets_items_221",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 1,
+     "year": 2
+    },
+    "dateText": "Summer 21, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "222",
+  "internalName": "Rhubarb Pie",
+  "name": "Rhubarb Pie",
+  "description": "Mmm, tangy and sweet!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "252",
+    "type": "O",
+    "name": "Rhubarb",
+    "image": "src_assets_items_252",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Marnie"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 400,
+  "edibility": 86,
+  "buffs": null,
+  "image": "src_assets_items_222",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Marnie",
+    "hearts": 7,
+    "text": "Marnie (7❤️)",
+    "image": "src_assets_villagers_marnie_icon"
+   }
+  ]
+ },
+ {
+  "id": "223",
+  "internalName": "Cookies",
+  "name": "Cookies",
+  "description": "Very chewy.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Evelyn"
+   ],
+   "level": 4
+  },
+  "queenOfSauce": null,
+  "price": 140,
+  "edibility": 36,
+  "buffs": null,
+  "image": "src_assets_items_223",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Evelyn",
+    "hearts": 4,
+    "text": "Evelyn (4❤️)",
+    "image": "src_assets_villagers_evelyn_icon"
+   }
+  ]
+ },
+ {
+  "id": "224",
+  "internalName": "Spaghetti",
+  "name": "Spaghetti",
+  "description": "An old favorite.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Lewis"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 120,
+  "edibility": 30,
+  "buffs": null,
+  "image": "src_assets_items_224",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Lewis",
+    "hearts": 3,
+    "text": "Lewis (3❤️)",
+    "image": "src_assets_villagers_lewis_icon"
+   }
+  ]
+ },
+ {
+  "id": "225",
+  "internalName": "Fried Eel",
+  "name": "Fried Eel",
+  "description": "Greasy but flavorful.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "148",
+    "type": "O",
+    "name": "Eel",
+    "image": "src_assets_items_148",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "George"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 120,
+  "edibility": 30,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 1,
+     "skill": "luck"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_225",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "George",
+    "hearts": 3,
+    "text": "George (3❤️)",
+    "image": "src_assets_villagers_george_icon"
+   }
+  ]
+ },
+ {
+  "id": "226",
+  "internalName": "Spicy Eel",
+  "name": "Spicy Eel",
+  "description": "It's really spicy! Be careful.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "148",
+    "type": "O",
+    "name": "Eel",
+    "image": "src_assets_items_148",
+    "amount": 1
+   },
+   {
+    "id": "260",
+    "type": "O",
+    "name": "Hot Pepper",
+    "image": "src_assets_items_260",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "George"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 175,
+  "edibility": 46,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 420,
+     "level": 1,
+     "skill": "luck"
+    },
+    {
+     "duration": 420,
+     "level": 1,
+     "skill": "speed"
+    }
+   ],
+   "duration": 420
+  },
+  "image": "src_assets_items_226",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "George",
+    "hearts": 7,
+    "text": "George (7❤️)",
+    "image": "src_assets_villagers_george_icon"
+   }
+  ]
+ },
+ {
+  "id": "227",
+  "internalName": "Sashimi",
+  "name": "Sashimi",
+  "description": "Raw fish sliced into thin pieces.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Linus"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 75,
+  "edibility": 30,
+  "buffs": null,
+  "image": "src_assets_items_227",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Linus",
+    "hearts": 3,
+    "text": "Linus (3❤️)",
+    "image": "src_assets_villagers_linus_icon"
+   }
+  ]
+ },
+ {
+  "id": "228",
+  "internalName": "Maki Roll",
+  "name": "Maki Roll",
+  "description": "Fish and rice wrapped in seaweed.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "amount": 1
+   },
+   {
+    "id": "152",
+    "type": "O",
+    "name": "Seaweed",
+    "image": "src_assets_items_152",
+    "amount": 1
+   },
+   {
+    "id": "423",
+    "type": "O",
+    "name": "Rice",
+    "image": "src_assets_items_423",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 15
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 1,
+   "year": 1
+  },
+  "price": 220,
+  "edibility": 40,
+  "buffs": null,
+  "image": "src_assets_items_228",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 1,
+     "year": 1
+    },
+    "dateText": "Summer 21, Year 1"
+   },
+   {
+    "kind": "purchase",
+    "text": "Stardrop Saloon (300g)",
+    "note": "app shows gold_coin icon + price; saloon assumed"
+   }
+  ]
+ },
+ {
+  "id": "229",
+  "internalName": "Tortilla",
+  "name": "Tortilla",
+  "description": "Can be used as a vessel for food or eaten by itself.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "270",
+    "type": "O",
+    "name": "Corn",
+    "image": "src_assets_items_270",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 13
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 2,
+   "year": 1
+  },
+  "price": 50,
+  "edibility": 20,
+  "buffs": null,
+  "image": "src_assets_items_229",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 2,
+     "year": 1
+    },
+    "dateText": "Fall 7, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "230",
+  "internalName": "Red Plate",
+  "name": "Red Plate",
+  "description": "Full of antioxidants.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "266",
+    "type": "O",
+    "name": "Red Cabbage",
+    "image": "src_assets_items_266",
+    "amount": 1
+   },
+   {
+    "id": "264",
+    "type": "O",
+    "name": "Radish",
+    "image": "src_assets_items_264",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Emily"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 400,
+  "edibility": 96,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 210,
+     "level": 50,
+     "skill": "max_energy"
+    }
+   ],
+   "duration": 210
+  },
+  "image": "src_assets_items_230",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Emily",
+    "hearts": 7,
+    "text": "Emily (7❤️)",
+    "image": "src_assets_villagers_emily_icon"
+   }
+  ]
+ },
+ {
+  "id": "231",
+  "internalName": "Eggplant Parm.",
+  "name": "Eggplant Parmesan",
+  "description": "Tangy, cheesy, and wonderful.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "272",
+    "type": "O",
+    "name": "Eggplant",
+    "image": "src_assets_items_272",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Lewis"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 200,
+  "edibility": 70,
+  "buffs": null,
+  "image": "src_assets_items_231",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Lewis",
+    "hearts": 7,
+    "text": "Lewis (7❤️)",
+    "image": "src_assets_villagers_lewis_icon"
+   }
+  ]
+ },
+ {
+  "id": "232",
+  "internalName": "Rice Pudding",
+  "name": "Rice Pudding",
+  "description": "It's creamy, sweet, and fun to eat.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "id": "423",
+    "type": "O",
+    "name": "Rice",
+    "image": "src_assets_items_423",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Evelyn"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 260,
+  "edibility": 46,
+  "buffs": null,
+  "image": "src_assets_items_232",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Evelyn",
+    "hearts": 7,
+    "text": "Evelyn (7❤️)",
+    "image": "src_assets_villagers_evelyn_icon"
+   }
+  ]
+ },
+ {
+  "id": "233",
+  "internalName": "Ice Cream",
+  "name": "Ice Cream",
+  "description": "It's hard to find someone who doesn't like this.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Jodi"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 120,
+  "edibility": 40,
+  "buffs": null,
+  "image": "src_assets_items_233",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Jodi",
+    "hearts": 7,
+    "text": "Jodi (7❤️)",
+    "image": "src_assets_villagers_jodi_icon"
+   }
+  ]
+ },
+ {
+  "id": "234",
+  "internalName": "Blueberry Tart",
+  "name": "Blueberry Tart",
+  "description": "It's subtle and refreshing.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "258",
+    "type": "O",
+    "name": "Blueberry",
+    "image": "src_assets_items_258",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Pierre"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 150,
+  "edibility": 50,
+  "buffs": null,
+  "image": "src_assets_items_234",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Pierre",
+    "hearts": 3,
+    "text": "Pierre (3❤️)",
+    "image": "src_assets_villagers_pierre_icon"
+   }
+  ]
+ },
+ {
+  "id": "235",
+  "internalName": "Autumn's Bounty",
+  "name": "Autumn's Bounty",
+  "description": "A taste of the season.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "280",
+    "type": "O",
+    "name": "Yam",
+    "image": "src_assets_items_280",
+    "amount": 1
+   },
+   {
+    "id": "276",
+    "type": "O",
+    "name": "Pumpkin",
+    "image": "src_assets_items_276",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Demetrius"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 350,
+  "edibility": 88,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 462,
+     "level": 2,
+     "skill": "foraging"
+    },
+    {
+     "duration": 462,
+     "level": 2,
+     "skill": "defense"
+    }
+   ],
+   "duration": 462
+  },
+  "image": "src_assets_items_235",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Demetrius",
+    "hearts": 7,
+    "text": "Demetrius (7❤️)",
+    "image": "src_assets_villagers_demetrius_icon"
+   }
+  ]
+ },
+ {
+  "id": "236",
+  "internalName": "Pumpkin Soup",
+  "name": "Pumpkin Soup",
+  "description": "A seasonal favorite.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "276",
+    "type": "O",
+    "name": "Pumpkin",
+    "image": "src_assets_items_276",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Robin"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 300,
+  "edibility": 80,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 462,
+     "level": 2,
+     "skill": "luck"
+    },
+    {
+     "duration": 462,
+     "level": 2,
+     "skill": "defense"
+    }
+   ],
+   "duration": 462
+  },
+  "image": "src_assets_items_236",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Robin",
+    "hearts": 7,
+    "text": "Robin (7❤️)",
+    "image": "src_assets_villagers_robin_icon"
+   }
+  ]
+ },
+ {
+  "id": "237",
+  "internalName": "Super Meal",
+  "name": "Super Meal",
+  "description": "It's a really energizing meal.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "278",
+    "type": "O",
+    "name": "Bok Choy",
+    "image": "src_assets_items_278",
+    "amount": 1
+   },
+   {
+    "id": "282",
+    "type": "O",
+    "name": "Cranberries",
+    "image": "src_assets_items_282",
+    "amount": 1
+   },
+   {
+    "id": "274",
+    "type": "O",
+    "name": "Artichoke",
+    "image": "src_assets_items_274",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Kent"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 220,
+  "edibility": 64,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 210,
+     "level": 40,
+     "skill": "max_energy"
+    },
+    {
+     "duration": 210,
+     "level": 1,
+     "skill": "speed"
+    }
+   ],
+   "duration": 210
+  },
+  "image": "src_assets_items_237",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Kent",
+    "hearts": 7,
+    "text": "Kent (7❤️)",
+    "image": "src_assets_villagers_kent_icon"
+   }
+  ]
+ },
+ {
+  "id": "238",
+  "internalName": "Cran. Sauce",
+  "name": "Cranberry Sauce",
+  "description": "A festive treat.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "282",
+    "type": "O",
+    "name": "Cranberries",
+    "image": "src_assets_items_282",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Gus"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 120,
+  "edibility": 50,
+  "buffs": null,
+  "image": "src_assets_items_238",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Gus",
+    "hearts": 7,
+    "text": "Gus (7❤️)",
+    "image": "src_assets_villagers_gus_icon"
+   }
+  ]
+ },
+ {
+  "id": "239",
+  "internalName": "Stuffing",
+  "name": "Stuffing",
+  "description": "Ahh... the smell of warm bread and sage.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "216",
+    "type": "O",
+    "name": "Bread",
+    "image": "src_assets_items_216",
+    "amount": 1
+   },
+   {
+    "id": "282",
+    "type": "O",
+    "name": "Cranberries",
+    "image": "src_assets_items_282",
+    "amount": 1
+   },
+   {
+    "id": "408",
+    "type": "O",
+    "name": "Hazelnut",
+    "image": "src_assets_items_408",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Pam"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 165,
+  "edibility": 68,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 336,
+     "level": 2,
+     "skill": "defense"
+    }
+   ],
+   "duration": 336
+  },
+  "image": "src_assets_items_239",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Pam",
+    "hearts": 7,
+    "text": "Pam (7❤️)",
+    "image": "src_assets_villagers_pam_icon"
+   }
+  ]
+ },
+ {
+  "id": "240",
+  "internalName": "Farmer's Lunch",
+  "name": "Farmer's Lunch",
+  "description": "This'll keep you going.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "195",
+    "type": "O",
+    "name": "Omelet",
+    "image": "src_assets_items_195",
+    "amount": 1
+   },
+   {
+    "id": "24",
+    "type": "O",
+    "name": "Parsnip",
+    "image": "src_assets_items_024",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Farming"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 150,
+  "edibility": 80,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 336,
+     "level": 3,
+     "skill": "farming"
+    }
+   ],
+   "duration": 336
+  },
+  "image": "src_assets_items_240",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Farming",
+    "level": 3,
+    "text": "Farming level 3",
+    "image": "src_assets_farming_skill"
+   }
+  ]
+ },
+ {
+  "id": "241",
+  "internalName": "Survival Burger",
+  "name": "Survival Burger",
+  "description": "A convenient snack for the explorer.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "216",
+    "type": "O",
+    "name": "Bread",
+    "image": "src_assets_items_216",
+    "amount": 1
+   },
+   {
+    "id": "78",
+    "type": "O",
+    "name": "Cave Carrot",
+    "image": "src_assets_items_078",
+    "amount": 1
+   },
+   {
+    "id": "272",
+    "type": "O",
+    "name": "Eggplant",
+    "image": "src_assets_items_272",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Foraging"
+   ],
+   "level": 8
+  },
+  "queenOfSauce": null,
+  "price": 180,
+  "edibility": 50,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 336,
+     "level": 3,
+     "skill": "foraging"
+    }
+   ],
+   "duration": 336
+  },
+  "image": "src_assets_items_241",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Foraging",
+    "level": 8,
+    "text": "Foraging level 8",
+    "image": "src_assets_foraging_skill"
+   }
+  ]
+ },
+ {
+  "id": "242",
+  "internalName": "Dish o' The Sea",
+  "name": "Dish O' The Sea",
+  "description": "This'll keep you warm in the cold sea air.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "131",
+    "type": "O",
+    "name": "Sardine",
+    "image": "src_assets_items_131",
+    "amount": 2
+   },
+   {
+    "id": "210",
+    "type": "O",
+    "name": "Hashbrowns",
+    "image": "src_assets_items_210",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Fishing"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 220,
+  "edibility": 60,
+  "buffs": null,
+  "image": "src_assets_items_242",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Fishing",
+    "level": 3,
+    "text": "Fishing level 3",
+    "image": "src_assets_fishing_skill"
+   }
+  ]
+ },
+ {
+  "id": "243",
+  "internalName": "Miner's Treat",
+  "name": "Miner's Treat",
+  "description": "This should keep your energy up.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "78",
+    "type": "O",
+    "name": "Cave Carrot",
+    "image": "src_assets_items_078",
+    "amount": 2
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Mining"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 200,
+  "edibility": 50,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 336,
+     "level": 3,
+     "skill": "mining"
+    },
+    {
+     "duration": 336,
+     "level": 32,
+     "skill": "magnetism"
+    }
+   ],
+   "duration": 336
+  },
+  "image": "src_assets_items_243",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Mining",
+    "level": 3,
+    "text": "Mining level 3",
+    "image": "src_assets_mining_skill"
+   }
+  ]
+ },
+ {
+  "id": "244",
+  "internalName": "Roots Platter",
+  "name": "Roots Platter",
+  "description": "This'll get you digging for more.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "78",
+    "type": "O",
+    "name": "Cave Carrot",
+    "image": "src_assets_items_078",
+    "amount": 1
+   },
+   {
+    "id": "412",
+    "type": "O",
+    "name": "Winter Root",
+    "image": "src_assets_items_412",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Combat"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 100,
+  "edibility": 50,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 336,
+     "level": 3,
+     "skill": "attack"
+    }
+   ],
+   "duration": 336
+  },
+  "image": "src_assets_items_244",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Combat",
+    "level": 3,
+    "text": "Combat level 3",
+    "image": "src_assets_combat_skill"
+   }
+  ]
+ },
+ {
+  "id": "253",
+  "internalName": "Triple Shot Espresso",
+  "name": "Triple Shot Espresso",
+  "description": "It's more potent than regular coffee!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "395",
+    "type": "O",
+    "name": "Coffee",
+    "image": "src_assets_items_395",
+    "amount": 3
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": null,
+  "price": 450,
+  "edibility": 3,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 252,
+     "level": 1,
+     "skill": "speed"
+    }
+   ],
+   "duration": 252
+  },
+  "image": "src_assets_items_253",
+  "sources": [
+   {
+    "kind": "purchase",
+    "text": "Stardrop Saloon (5000g)",
+    "note": "app shows gold_coin icon + price; saloon assumed"
+   }
+  ]
+ },
+ {
+  "id": "265",
+  "internalName": "Seafoam Pudding",
+  "name": "Seafoam Pudding",
+  "description": "This briny pudding will really get you into the maritime mindset!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "267",
+    "type": "O",
+    "name": "Flounder",
+    "image": "src_assets_items_267",
+    "amount": 1
+   },
+   {
+    "id": "269",
+    "type": "O",
+    "name": "Midnight Carp",
+    "image": "src_assets_items_269",
+    "amount": 1
+   },
+   {
+    "id": "814",
+    "type": "O",
+    "name": "Squid Ink",
+    "image": "src_assets_items_814",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Fishing"
+   ],
+   "level": 9
+  },
+  "queenOfSauce": null,
+  "price": 300,
+  "edibility": 70,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 210,
+     "level": 4,
+     "skill": "fishing"
+    }
+   ],
+   "duration": 210
+  },
+  "image": "src_assets_items_265",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Fishing",
+    "level": 9,
+    "text": "Fishing level 9",
+    "image": "src_assets_fishing_skill"
+   }
+  ]
+ },
+ {
+  "id": "456",
+  "internalName": "Algae Soup",
+  "name": "Algae Soup",
+  "description": "It's a little slimy.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "153",
+    "type": "O",
+    "name": "Green Algae",
+    "image": "src_assets_items_153",
+    "amount": 4
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Clint"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 100,
+  "edibility": 30,
+  "buffs": null,
+  "image": "src_assets_items_456",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Clint",
+    "hearts": 3,
+    "text": "Clint (3❤️)",
+    "image": "src_assets_villagers_clint_icon"
+   }
+  ]
+ },
+ {
+  "id": "457",
+  "internalName": "Pale Broth",
+  "name": "Pale Broth",
+  "description": "A delicate broth with a hint of sulfur.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157",
+    "amount": 2
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Marnie"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 150,
+  "edibility": 50,
+  "buffs": null,
+  "image": "src_assets_items_457",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Marnie",
+    "hearts": 3,
+    "text": "Marnie (3❤️)",
+    "image": "src_assets_villagers_marnie_icon"
+   }
+  ]
+ },
+ {
+  "id": "604",
+  "internalName": "Plum Pudding",
+  "name": "Plum Pudding",
+  "description": "A traditional holiday treat.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "406",
+    "type": "O",
+    "name": "Wild Plum",
+    "image": "src_assets_items_406",
+    "amount": 2
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 3,
+   "year": 1
+  },
+  "price": 260,
+  "edibility": 70,
+  "buffs": null,
+  "image": "src_assets_items_604",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 3,
+     "year": 1
+    },
+    "dateText": "Winter 7, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "605",
+  "internalName": "Artichoke Dip",
+  "name": "Artichoke Dip",
+  "description": "It's cool and refreshing.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "274",
+    "type": "O",
+    "name": "Artichoke",
+    "image": "src_assets_items_274",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 2,
+   "year": 1
+  },
+  "price": 210,
+  "edibility": 40,
+  "buffs": null,
+  "image": "src_assets_items_605",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 2,
+     "year": 1
+    },
+    "dateText": "Fall 28, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "606",
+  "internalName": "Stir Fry",
+  "name": "Stir Fry",
+  "description": "Julienned vegetables on a bed of rice.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "78",
+    "type": "O",
+    "name": "Cave Carrot",
+    "image": "src_assets_items_078",
+    "amount": 1
+   },
+   {
+    "id": "404",
+    "type": "O",
+    "name": "Common Mushroom",
+    "image": "src_assets_items_404",
+    "amount": 1
+   },
+   {
+    "id": "250",
+    "type": "O",
+    "name": "Kale",
+    "image": "src_assets_items_250",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 0,
+   "year": 1
+  },
+  "price": 335,
+  "edibility": 80,
+  "buffs": null,
+  "image": "src_assets_items_606",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 0,
+     "year": 1
+    },
+    "dateText": "Spring 7, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "607",
+  "internalName": "Roasted Hazelnuts",
+  "name": "Roasted Hazelnuts",
+  "description": "The roasting process creates a rich forest flavor.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "408",
+    "type": "O",
+    "name": "Hazelnut",
+    "image": "src_assets_items_408",
+    "amount": 3
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 1,
+   "year": 2
+  },
+  "price": 270,
+  "edibility": 70,
+  "buffs": null,
+  "image": "src_assets_items_607",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 1,
+     "year": 2
+    },
+    "dateText": "Summer 28, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "608",
+  "internalName": "Pumpkin Pie",
+  "name": "Pumpkin Pie",
+  "description": "Silky pumpkin cream in a flaky crust.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "276",
+    "type": "O",
+    "name": "Pumpkin",
+    "image": "src_assets_items_276",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 3,
+   "year": 1
+  },
+  "price": 385,
+  "edibility": 90,
+  "buffs": null,
+  "image": "src_assets_items_608",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 3,
+     "year": 1
+    },
+    "dateText": "Winter 21, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "609",
+  "internalName": "Radish Salad",
+  "name": "Radish Salad",
+  "description": "The radishes are so crisp!",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   },
+   {
+    "id": "419",
+    "type": "O",
+    "name": "Vinegar",
+    "image": "src_assets_items_419",
+    "amount": 1
+   },
+   {
+    "id": "264",
+    "type": "O",
+    "name": "Radish",
+    "image": "src_assets_items_264",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 0,
+   "year": 1
+  },
+  "price": 300,
+  "edibility": 80,
+  "buffs": null,
+  "image": "src_assets_items_609",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 0,
+     "year": 1
+    },
+    "dateText": "Spring 21, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "610",
+  "internalName": "Fruit Salad",
+  "name": "Fruit Salad",
+  "description": "A delicious combination of summer fruits.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "258",
+    "type": "O",
+    "name": "Blueberry",
+    "image": "src_assets_items_258",
+    "amount": 1
+   },
+   {
+    "id": "254",
+    "type": "O",
+    "name": "Melon",
+    "image": "src_assets_items_254",
+    "amount": 1
+   },
+   {
+    "id": "634",
+    "type": "O",
+    "name": "Apricot",
+    "image": "src_assets_items_634",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 2,
+   "year": 2
+  },
+  "price": 450,
+  "edibility": 105,
+  "buffs": null,
+  "image": "src_assets_items_610",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 2,
+     "year": 2
+    },
+    "dateText": "Fall 7, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "611",
+  "internalName": "Blackberry Cobbler",
+  "name": "Blackberry Cobbler",
+  "description": "There's nothing quite like it.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "410",
+    "type": "O",
+    "name": "Blackberry",
+    "image": "src_assets_items_410",
+    "amount": 2
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 2,
+   "year": 2
+  },
+  "price": 260,
+  "edibility": 70,
+  "buffs": null,
+  "image": "src_assets_items_611",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 2,
+     "year": 2
+    },
+    "dateText": "Fall 14, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "612",
+  "internalName": "Cranberry Candy",
+  "name": "Cranberry Candy",
+  "description": "It's sweet enough to mask the bitter fruit.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "282",
+    "type": "O",
+    "name": "Cranberries",
+    "image": "src_assets_items_282",
+    "amount": 1
+   },
+   {
+    "id": "613",
+    "type": "O",
+    "name": "Apple",
+    "image": "src_assets_items_613",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 3,
+   "year": 1
+  },
+  "price": 175,
+  "edibility": 50,
+  "buffs": null,
+  "image": "src_assets_items_612",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 3,
+     "year": 1
+    },
+    "dateText": "Winter 28, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "618",
+  "internalName": "Bruschetta",
+  "name": "Bruschetta",
+  "description": "Roasted tomatoes on a crisp white bread.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "216",
+    "type": "O",
+    "name": "Bread",
+    "image": "src_assets_items_216",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 3,
+   "year": 2
+  },
+  "price": 210,
+  "edibility": 45,
+  "buffs": null,
+  "image": "src_assets_items_618",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 3,
+     "year": 2
+    },
+    "dateText": "Winter 21, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "648",
+  "internalName": "Coleslaw",
+  "name": "Coleslaw",
+  "description": "It's light, fresh and very healthy.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "266",
+    "type": "O",
+    "name": "Red Cabbage",
+    "image": "src_assets_items_266",
+    "amount": 1
+   },
+   {
+    "id": "419",
+    "type": "O",
+    "name": "Vinegar",
+    "image": "src_assets_items_419",
+    "amount": 1
+   },
+   {
+    "id": "306",
+    "type": "O",
+    "name": "Mayonnaise",
+    "image": "src_assets_items_306",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 0,
+   "year": 1
+  },
+  "price": 345,
+  "edibility": 85,
+  "buffs": null,
+  "image": "src_assets_items_648",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 0,
+     "year": 1
+    },
+    "dateText": "Spring 14, Year 1"
+   }
+  ]
+ },
+ {
+  "id": "649",
+  "internalName": "Fiddlehead Risotto",
+  "name": "Fiddlehead Risotto",
+  "description": "A creamy rice dish served with sauteed fern heads. It's a little bland.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   },
+   {
+    "id": "259",
+    "type": "O",
+    "name": "Fiddlehead Fern",
+    "image": "src_assets_items_259",
+    "amount": 1
+   },
+   {
+    "id": "248",
+    "type": "O",
+    "name": "Garlic",
+    "image": "src_assets_items_248",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 2,
+   "year": 2
+  },
+  "price": 350,
+  "edibility": 90,
+  "buffs": null,
+  "image": "src_assets_items_649",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 2,
+     "year": 2
+    },
+    "dateText": "Fall 28, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "651",
+  "internalName": "Poppyseed Muffin",
+  "name": "Poppyseed Muffin",
+  "description": "It has a soothing effect.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "376",
+    "type": "O",
+    "name": "Poppy",
+    "image": "src_assets_items_376",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 7,
+   "season": 3,
+   "year": 2
+  },
+  "price": 250,
+  "edibility": 60,
+  "buffs": null,
+  "image": "src_assets_items_651",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 7,
+     "season": 3,
+     "year": 2
+    },
+    "dateText": "Winter 7, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "727",
+  "internalName": "Chowder",
+  "name": "Chowder",
+  "description": "A perfect way to warm yourself after a cold night at sea.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "372",
+    "type": "O",
+    "name": "Clam",
+    "image": "src_assets_items_372",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Willy"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 135,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 1008,
+     "level": 1,
+     "skill": "fishing"
+    }
+   ],
+   "duration": 1008
+  },
+  "image": "src_assets_items_727",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Willy",
+    "hearts": 3,
+    "text": "Willy (3❤️)",
+    "image": "src_assets_villagers_willy_icon"
+   }
+  ]
+ },
+ {
+  "id": "728",
+  "internalName": "Fish Stew",
+  "name": "Fish Stew",
+  "description": "It smells a lot like the sea. Tastes better, though.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "716",
+    "type": "O",
+    "name": "Crayfish",
+    "image": "src_assets_items_716",
+    "amount": 1
+   },
+   {
+    "id": "719",
+    "type": "O",
+    "name": "Mussel",
+    "image": "src_assets_items_719",
+    "amount": 1
+   },
+   {
+    "id": "722",
+    "type": "O",
+    "name": "Periwinkle",
+    "image": "src_assets_items_722",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Willy"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 175,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 1008,
+     "level": 3,
+     "skill": "fishing"
+    }
+   ],
+   "duration": 1008
+  },
+  "image": "src_assets_items_728",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Willy",
+    "hearts": 7,
+    "text": "Willy (7❤️)",
+    "image": "src_assets_villagers_willy_icon"
+   }
+  ]
+ },
+ {
+  "id": "729",
+  "internalName": "Escargot",
+  "name": "Escargot",
+  "description": "Butter-soaked snails cooked to perfection.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "721",
+    "type": "O",
+    "name": "Snail",
+    "image": "src_assets_items_721",
+    "amount": 1
+   },
+   {
+    "id": "248",
+    "type": "O",
+    "name": "Garlic",
+    "image": "src_assets_items_248",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Willy"
+   ],
+   "level": 5
+  },
+  "queenOfSauce": null,
+  "price": 125,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 1008,
+     "level": 2,
+     "skill": "fishing"
+    }
+   ],
+   "duration": 1008
+  },
+  "image": "src_assets_items_729",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Willy",
+    "hearts": 5,
+    "text": "Willy (5❤️)",
+    "image": "src_assets_villagers_willy_icon"
+   }
+  ]
+ },
+ {
+  "id": "730",
+  "internalName": "Lobster Bisque",
+  "name": "Lobster Bisque",
+  "description": "This delicate soup is a secret family recipe of Willy's.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "715",
+    "type": "O",
+    "name": "Lobster",
+    "image": "src_assets_items_715",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Willy"
+   ],
+   "level": 9
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 3,
+   "year": 2
+  },
+  "price": 205,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 1008,
+     "level": 3,
+     "skill": "fishing"
+    },
+    {
+     "duration": 1008,
+     "level": 50,
+     "skill": "max_energy"
+    }
+   ],
+   "duration": 1008
+  },
+  "image": "src_assets_items_730",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Willy",
+    "hearts": 9,
+    "text": "Willy (9❤️)",
+    "image": "src_assets_villagers_willy_icon"
+   }
+  ]
+ },
+ {
+  "id": "731",
+  "internalName": "Maple Bar",
+  "name": "Maple Bar",
+  "description": "It's a sweet doughnut topped with a rich maple glaze.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "724",
+    "type": "O",
+    "name": "Maple Syrup",
+    "image": "src_assets_items_724",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 14,
+   "season": 1,
+   "year": 2
+  },
+  "price": 300,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 1008,
+     "level": 1,
+     "skill": "farming"
+    },
+    {
+     "duration": 1008,
+     "level": 1,
+     "skill": "fishing"
+    },
+    {
+     "duration": 1008,
+     "level": 1,
+     "skill": "mining"
+    }
+   ],
+   "duration": 1008
+  },
+  "image": "src_assets_items_731",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 14,
+     "season": 1,
+     "year": 2
+    },
+    "dateText": "Summer 14, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "732",
+  "internalName": "Crab Cakes",
+  "name": "Crab Cakes",
+  "description": "Crab, bread crumbs, and egg formed into patties then fried to a golden brown.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "717",
+    "type": "O",
+    "name": "Crab",
+    "image": "src_assets_items_717",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "category": -5,
+    "name": "Egg",
+    "anyName": "Egg (Any)",
+    "displayItemId": "176",
+    "image": "src_assets_items_176",
+    "amount": 1
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 21,
+   "season": 2,
+   "year": 2
+  },
+  "price": 275,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 1008,
+     "level": 1,
+     "skill": "speed"
+    },
+    {
+     "duration": 1008,
+     "level": 1,
+     "skill": "defense"
+    }
+   ],
+   "duration": 1008
+  },
+  "image": "src_assets_items_732",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 21,
+     "season": 2,
+     "year": 2
+    },
+    "dateText": "Fall 21, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "733",
+  "internalName": "Shrimp Cocktail",
+  "name": "Shrimp Cocktail",
+  "description": "A sumptuous appetizer made with freshly-caught shrimp.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "720",
+    "type": "O",
+    "name": "Shrimp",
+    "image": "src_assets_items_720",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   },
+   {
+    "id": "16",
+    "type": "O",
+    "name": "Wild Horseradish",
+    "image": "src_assets_items_016",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": {
+   "day": 28,
+   "season": 3,
+   "year": 2
+  },
+  "price": 160,
+  "edibility": 90,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 602,
+     "level": 1,
+     "skill": "fishing"
+    },
+    {
+     "duration": 602,
+     "level": 1,
+     "skill": "luck"
+    }
+   ],
+   "duration": 602
+  },
+  "image": "src_assets_items_733",
+  "sources": [
+   {
+    "kind": "queenOfSauce",
+    "text": "Watch the Queen of Sauce on TV to learn a new recipe (re-runs on Wednesday)",
+    "date": {
+     "day": 28,
+     "season": 3,
+     "year": 2
+    },
+    "dateText": "Winter 28, Year 2"
+   }
+  ]
+ },
+ {
+  "id": "903",
+  "internalName": "Ginger Ale",
+  "name": "Ginger Ale",
+  "description": "A zesty soda known for its soothing effect on the stomach.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "829",
+    "type": "O",
+    "name": "Ginger",
+    "image": "src_assets_items_829",
+    "amount": 3
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": null,
+  "price": 200,
+  "edibility": 25,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 301,
+     "level": 1,
+     "skill": "luck"
+    }
+   ],
+   "duration": 301
+  },
+  "image": "src_assets_items_903",
+  "sources": [
+   {
+    "kind": "purchase",
+    "text": "Dwarf Shop (Volcano Dungeon) (1000g)"
+   }
+  ]
+ },
+ {
+  "id": "904",
+  "internalName": "Banana Pudding",
+  "name": "Banana Pudding",
+  "description": "A creamy dessert with a wonderful tropical flavor.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "91",
+    "type": "O",
+    "name": "Banana",
+    "image": "src_assets_items_091",
+    "amount": 1
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "amount": 1
+   },
+   {
+    "id": "245",
+    "type": "O",
+    "name": "Sugar",
+    "image": "src_assets_items_245",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": null,
+  "price": 260,
+  "edibility": 50,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 301,
+     "level": 1,
+     "skill": "mining"
+    },
+    {
+     "duration": 301,
+     "level": 1,
+     "skill": "luck"
+    },
+    {
+     "duration": 301,
+     "level": 1,
+     "skill": "defense"
+    }
+   ],
+   "duration": 301
+  },
+  "image": "src_assets_items_904",
+  "sources": [
+   {
+    "kind": "purchase",
+    "text": "Island Trader"
+   }
+  ]
+ },
+ {
+  "id": "905",
+  "internalName": "Mango Sticky Rice",
+  "name": "Mango Sticky Rice",
+  "description": "Sweet mango and coconut transforms this rice into something very special.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "834",
+    "type": "O",
+    "name": "Mango",
+    "image": "src_assets_items_834",
+    "amount": 1
+   },
+   {
+    "id": "88",
+    "type": "O",
+    "name": "Coconut",
+    "image": "src_assets_items_088",
+    "amount": 1
+   },
+   {
+    "id": "423",
+    "type": "O",
+    "name": "Rice",
+    "image": "src_assets_items_423",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Leo"
+   ],
+   "level": 7
+  },
+  "queenOfSauce": null,
+  "price": 250,
+  "edibility": 45,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 301,
+     "level": 3,
+     "skill": "defense"
+    }
+   ],
+   "duration": 301
+  },
+  "image": "src_assets_items_905",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Leo",
+    "hearts": 7,
+    "text": "Leo (7❤️)",
+    "image": "src_assets_villagers_leo_icon"
+   }
+  ]
+ },
+ {
+  "id": "906",
+  "internalName": "Poi",
+  "name": "Poi",
+  "description": "A traditional food with a delicate, sweet flavor when eaten fresh.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "830",
+    "type": "O",
+    "name": "Taro Root",
+    "image": "src_assets_items_830",
+    "amount": 4
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "f",
+    "Leo"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 400,
+  "edibility": 30,
+  "buffs": null,
+  "image": "src_assets_items_906",
+  "sources": [
+   {
+    "kind": "friendship",
+    "villager": "Leo",
+    "hearts": 3,
+    "text": "Leo (3❤️)",
+    "image": "src_assets_villagers_leo_icon"
+   }
+  ]
+ },
+ {
+  "id": "907",
+  "internalName": "Tropical Curry",
+  "name": "Tropical Curry",
+  "description": "An exotic, fragrant curry served in a pineapple bowl.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "88",
+    "type": "O",
+    "name": "Coconut",
+    "image": "src_assets_items_088",
+    "amount": 1
+   },
+   {
+    "id": "832",
+    "type": "O",
+    "name": "Pineapple",
+    "image": "src_assets_items_832",
+    "amount": 1
+   },
+   {
+    "id": "260",
+    "type": "O",
+    "name": "Hot Pepper",
+    "image": "src_assets_items_260",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "l"
+   ],
+   "level": 100
+  },
+  "queenOfSauce": null,
+  "price": 500,
+  "edibility": 60,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 301,
+     "level": 4,
+     "skill": "foraging"
+    }
+   ],
+   "duration": 301
+  },
+  "image": "src_assets_items_907",
+  "sources": [
+   {
+    "kind": "purchase",
+    "text": "Ginger Island Resort (2000g)"
+   }
+  ]
+ },
+ {
+  "id": "921",
+  "internalName": "Squid Ink Ravioli",
+  "name": "Squid Ink Ravioli",
+  "description": "Temporarily protects from debuffs.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "814",
+    "type": "O",
+    "name": "Squid Ink",
+    "image": "src_assets_items_814",
+    "amount": 1
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246",
+    "amount": 1
+   },
+   {
+    "id": "256",
+    "type": "O",
+    "name": "Tomato",
+    "image": "src_assets_items_256",
+    "amount": 1
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Combat"
+   ],
+   "level": 9
+  },
+  "queenOfSauce": null,
+  "price": 150,
+  "edibility": 50,
+  "buffs": {
+   "buffs": [
+    {
+     "duration": 280,
+     "level": 1,
+     "skill": "mining"
+    },
+    {
+     "duration": 180,
+     "level": 0,
+     "skill": "squid_buff"
+    }
+   ],
+   "duration": 280
+  },
+  "image": "src_assets_items_921",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Combat",
+    "level": 9,
+    "text": "Combat level 9",
+    "image": "src_assets_combat_skill"
+   }
+  ]
+ },
+ {
+  "id": "940",
+  "internalName": "Moss Soup",
+  "name": "Moss Soup",
+  "description": "It's thick and slimy, but edible.",
+  "quantity": 1,
+  "ingredients": [
+   {
+    "id": "981",
+    "type": "O",
+    "name": "Moss",
+    "image": "src_assets_items_981",
+    "amount": 20
+   }
+  ],
+  "unlock": {
+   "condition": [
+    "s",
+    "Foraging"
+   ],
+   "level": 3
+  },
+  "queenOfSauce": null,
+  "price": 80,
+  "edibility": 28,
+  "buffs": null,
+  "image": "src_assets_items_940",
+  "sources": [
+   {
+    "kind": "skill",
+    "skill": "Foraging",
+    "level": 3,
+    "text": "Foraging level 3",
+    "image": "src_assets_foraging_skill"
+   }
+  ]
+ }
+]

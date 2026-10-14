@@ -1,0 +1,3582 @@
+{
+ "artifacts": [
+  {
+   "id": "96",
+   "type": "O",
+   "name": "Dwarf Scroll I",
+   "image": "src_assets_items_096",
+   "locations": [],
+   "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a red bow."
+  },
+  {
+   "id": "97",
+   "type": "O",
+   "name": "Dwarf Scroll II",
+   "image": "src_assets_items_097",
+   "locations": [],
+   "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a green ribbon."
+  },
+  {
+   "id": "98",
+   "type": "O",
+   "name": "Dwarf Scroll III",
+   "image": "src_assets_items_098",
+   "locations": [],
+   "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a blue rope."
+  },
+  {
+   "id": "99",
+   "type": "O",
+   "name": "Dwarf Scroll IV",
+   "image": "src_assets_items_099",
+   "locations": [],
+   "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a golden chain."
+  },
+  {
+   "id": "100",
+   "type": "O",
+   "name": "Chipped Amphora",
+   "image": "src_assets_items_100",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.04,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "An ancient vessel made of ceramic material. Used to transport both dry and wet goods."
+  },
+  {
+   "id": "101",
+   "type": "O",
+   "name": "Arrowhead",
+   "image": "src_assets_items_101",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.02,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.02,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.02,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A crudely fashioned point used for hunting."
+  },
+  {
+   "id": "103",
+   "type": "O",
+   "name": "Ancient Doll",
+   "image": "src_assets_items_103",
+   "locations": [
+    {
+     "method": "fishing",
+     "location": "Farm_FourCorners",
+     "displayLocation": "Farm",
+     "chance": 0.5,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [
+      {
+       "args": [
+        "Current",
+        "eric's_prank_1"
+       ],
+       "name": "PLAYER_HAS_MAIL",
+       "negated": true
+      },
+      {
+       "args": [
+        "Current",
+        "cursed_doll"
+       ],
+       "name": "PLAYER_HAS_MAIL",
+       "negated": false
+      }
+     ],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Farm",
+     "methodName": "fishing"
+    },
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.04,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "An ancient doll covered in grime. This doll may have been used as a toy, a decoration, or a prop in some kind of ritual."
+  },
+  {
+   "id": "104",
+   "type": "O",
+   "name": "Elvish Jewelry",
+   "image": "src_assets_items_104",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "Dirty but still beautiful. On the side is a flowing script thought by some to be the ancient language of the elves. No Elvish bones have ever been found."
+  },
+  {
+   "id": "105",
+   "type": "O",
+   "name": "Chewing Stick",
+   "image": "src_assets_items_105",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.02,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.02,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "Ancient people chewed on these to keep their teeth clean."
+  },
+  {
+   "id": "106",
+   "type": "O",
+   "name": "Ornamental Fan",
+   "image": "src_assets_items_106",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.008,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.02,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "This exquisite fan most likely belonged to a noblewoman. Historians believe that the valley was a popular sixth-era vacation spot for the wealthy."
+  },
+  {
+   "id": "107",
+   "type": "O",
+   "name": "Dinosaur Egg",
+   "image": "src_assets_items_107",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.008,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "GingerIslands",
+     "displayLocation": "GingerIslands",
+     "chance": 1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "override",
+     "displayLocationName": "Ginger Island",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "UndergroundMine",
+     "displayLocation": "UndergroundMine",
+     "chance": 1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "override",
+     "displayLocationName": "Mines",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A giant dino egg... The entire shell is still intact!"
+  },
+  {
+   "id": "108",
+   "type": "O",
+   "name": "Rare Disc",
+   "image": "src_assets_items_108",
+   "locations": [],
+   "description": "A heavy black disc studded with peculiar red stones. When you hold it, you're overwhelmed with a feeling of dread."
+  },
+  {
+   "id": "109",
+   "type": "O",
+   "name": "Ancient Sword",
+   "image": "src_assets_items_109",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.008,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It's the remains of an ancient sword. Most of the blade has turned to rust, but the hilt is very finely crafted."
+  },
+  {
+   "id": "110",
+   "type": "O",
+   "name": "Rusty Spoon",
+   "image": "src_assets_items_110",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.2,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.05,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A plain old spoon, probably ten years old. Not very interesting."
+  },
+  {
+   "id": "111",
+   "type": "O",
+   "name": "Rusty Spur",
+   "image": "src_assets_items_111",
+   "locations": [],
+   "description": "An old spur that was once attached to a cowboy's boot. People must have been raising animals in this area for many generations."
+  },
+  {
+   "id": "112",
+   "type": "O",
+   "name": "Rusty Cog",
+   "image": "src_assets_items_112",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.05,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A well preserved cog that must have been part of some ancient machine. This could be dwarven technology."
+  },
+  {
+   "id": "113",
+   "type": "O",
+   "name": "Chicken Statue",
+   "image": "src_assets_items_113",
+   "locations": [],
+   "description": "It's a statue of a chicken on a bronze base. The ancient people of this area must have been very fond of chickens."
+  },
+  {
+   "id": "114",
+   "type": "O",
+   "name": "Ancient Seed",
+   "image": "src_assets_items_114",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It's a dry old seed from some ancient plant. By all appearances it's long since dead..."
+  },
+  {
+   "id": "115",
+   "type": "O",
+   "name": "Prehistoric Tool",
+   "image": "src_assets_items_115",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.04,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "Some kind of gnarly old digging tool."
+  },
+  {
+   "id": "116",
+   "type": "O",
+   "name": "Dried Starfish",
+   "image": "src_assets_items_116",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A starfish from the primordial ocean. It's an unusually pristine specimen!"
+  },
+  {
+   "id": "117",
+   "type": "O",
+   "name": "Anchor",
+   "image": "src_assets_items_117",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.05,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It may have belonged to ancient pirates."
+  },
+  {
+   "id": "118",
+   "type": "O",
+   "name": "Glass Shards",
+   "image": "src_assets_items_118",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A mixture of glass shards smoothed by centuries of ocean surf. These could have belonged to an ancient mosaic or necklace."
+  },
+  {
+   "id": "119",
+   "type": "O",
+   "name": "Bone Flute",
+   "image": "src_assets_items_119",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.005,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It's a prehistoric wind instrument carved from an animal's bone. It produces an eerie tone."
+  },
+  {
+   "id": "120",
+   "type": "O",
+   "name": "Prehistoric Handaxe",
+   "image": "src_assets_items_120",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.05,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.05,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.05,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "One of the earliest tools employed by humans. This \"crude\" tool was created by striking one rock with another to form a sharp edge."
+  },
+  {
+   "id": "121",
+   "type": "O",
+   "name": "Dwarvish Helm",
+   "image": "src_assets_items_121",
+   "locations": [],
+   "description": "It's one of the helmets commonly worn by dwarves. The thick metal plating protects them from falling debris and stalactites."
+  },
+  {
+   "id": "122",
+   "type": "O",
+   "name": "Dwarf Gadget",
+   "image": "src_assets_items_122",
+   "locations": [],
+   "description": "It's a piece of the advanced technology once known to the dwarves. It's still glowing and humming, but you're unable to understand how it works."
+  },
+  {
+   "id": "123",
+   "type": "O",
+   "name": "Ancient Drum",
+   "image": "src_assets_items_123",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.005,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It's a drum made from wood and animal skin. It has a low, reverberating tone."
+  },
+  {
+   "id": "124",
+   "type": "O",
+   "name": "Golden Mask",
+   "image": "src_assets_items_124",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Desert",
+     "displayLocation": "Desert",
+     "chance": 0.04,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Calico Desert",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A creepy golden mask probably used in an ancient magic ritual. A socket in the forehead contains a large purple gemstone."
+  },
+  {
+   "id": "125",
+   "type": "O",
+   "name": "Golden Relic",
+   "image": "src_assets_items_125",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Desert",
+     "displayLocation": "Desert",
+     "chance": 0.06,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Calico Desert",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It's a golden slab with hieroglyphs and pictures emblazoned onto the front."
+  },
+  {
+   "id": "126",
+   "type": "O",
+   "name": "Strange Doll",
+   "image": "src_assets_items_126",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "???"
+  },
+  {
+   "id": "127",
+   "type": "O",
+   "name": "Strange Doll",
+   "image": "src_assets_items_127",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.001,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "???"
+  },
+  {
+   "id": "579",
+   "type": "O",
+   "name": "Prehistoric Scapula",
+   "image": "src_assets_items_579",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "Commonly known as a \"shoulder blade\"... It's unclear what species it belonged to."
+  },
+  {
+   "id": "580",
+   "type": "O",
+   "name": "Prehistoric Tibia",
+   "image": "src_assets_items_580",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Railroad",
+     "displayLocation": "Railroad",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Railroad",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A thick and sturdy leg bone."
+  },
+  {
+   "id": "581",
+   "type": "O",
+   "name": "Prehistoric Skull",
+   "image": "src_assets_items_581",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "This is definitely a mammalian skull."
+  },
+  {
+   "id": "582",
+   "type": "O",
+   "name": "Skeletal Hand",
+   "image": "src_assets_items_582",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Backwoods",
+     "displayLocation": "Backwoods",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Backwoods",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "It's a wonder all these ancient little pieces lasted so long."
+  },
+  {
+   "id": "583",
+   "type": "O",
+   "name": "Prehistoric Rib",
+   "image": "src_assets_items_583",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Town",
+     "displayLocation": "Town",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Town",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "Little gouge marks on the side suggest that this rib was someone's dinner."
+  },
+  {
+   "id": "584",
+   "type": "O",
+   "name": "Prehistoric Vertebra",
+   "image": "src_assets_items_584",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "BusStop",
+     "displayLocation": "BusStop",
+     "chance": 0.08,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Bus Stop",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A segment of some prehistoric creature's spine."
+  },
+  {
+   "id": "585",
+   "type": "O",
+   "name": "Skeletal Tail",
+   "image": "src_assets_items_585",
+   "locations": [],
+   "description": "It's pretty short for a tail."
+  },
+  {
+   "id": "586",
+   "type": "O",
+   "name": "Nautilus Fossil",
+   "image": "src_assets_items_586",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "This must've washed up ages ago from an ancient coral reef. "
+  },
+  {
+   "id": "587",
+   "type": "O",
+   "name": "Amphibian Fossil",
+   "image": "src_assets_items_587",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "The relatively short hind legs suggest some kind of primordial toad."
+  },
+  {
+   "id": "588",
+   "type": "O",
+   "name": "Palm Fossil",
+   "image": "src_assets_items_588",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.01,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Desert",
+     "displayLocation": "Desert",
+     "chance": 0.1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Calico Desert",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "Palm Fossils are relatively common, but this happens to be a particularly well-preserved specimen."
+  },
+  {
+   "id": "589",
+   "type": "O",
+   "name": "Trilobite",
+   "image": "src_assets_items_589",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "Beach",
+     "displayLocation": "Beach",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Pelican Beach",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Mountain",
+     "displayLocation": "Mountain",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Mountains",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "Forest",
+     "displayLocation": "Forest",
+     "chance": 0.03,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Cindersap Forest",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A long extinct relative of the crab."
+  }
+ ],
+ "foragedMinerals": [
+  {
+   "id": "80",
+   "type": "O",
+   "name": "Quartz",
+   "image": "src_assets_items_080",
+   "locations": [],
+   "description": "A clear crystal commonly found in caves and mines."
+  },
+  {
+   "id": "86",
+   "type": "O",
+   "name": "Earth Crystal",
+   "image": "src_assets_items_086",
+   "locations": [],
+   "description": "A resinous substance found near the surface."
+  },
+  {
+   "id": "84",
+   "type": "O",
+   "name": "Frozen Tear",
+   "image": "src_assets_items_084",
+   "locations": [],
+   "description": "A crystal fabled to be the frozen tears of a yeti."
+  },
+  {
+   "id": "82",
+   "type": "O",
+   "name": "Fire Quartz",
+   "image": "src_assets_items_082",
+   "locations": [],
+   "description": "A glowing red crystal commonly found near hot lava."
+  }
+ ],
+ "gems": [
+  {
+   "id": "60",
+   "type": "O",
+   "name": "Emerald",
+   "image": "src_assets_items_060",
+   "locations": [],
+   "description": "A precious stone with a brilliant green color."
+  },
+  {
+   "id": "62",
+   "type": "O",
+   "name": "Aquamarine",
+   "image": "src_assets_items_062",
+   "locations": [],
+   "description": "A shimmery blue-green gem."
+  },
+  {
+   "id": "64",
+   "type": "O",
+   "name": "Ruby",
+   "image": "src_assets_items_064",
+   "locations": [],
+   "description": "A precious stone that is sought after for its rich color and beautiful luster."
+  },
+  {
+   "id": "66",
+   "type": "O",
+   "name": "Amethyst",
+   "image": "src_assets_items_066",
+   "locations": [],
+   "description": "A purple variant of quartz."
+  },
+  {
+   "id": "68",
+   "type": "O",
+   "name": "Topaz",
+   "image": "src_assets_items_068",
+   "locations": [],
+   "description": "Fairly common but still prized for its beauty."
+  },
+  {
+   "id": "70",
+   "type": "O",
+   "name": "Jade",
+   "image": "src_assets_items_070",
+   "locations": [],
+   "description": "A pale green ornamental stone."
+  },
+  {
+   "id": "72",
+   "type": "O",
+   "name": "Diamond",
+   "image": "src_assets_items_072",
+   "locations": [],
+   "description": "A rare and valuable gem."
+  },
+  {
+   "id": "74",
+   "type": "O",
+   "name": "Prismatic Shard",
+   "image": "src_assets_items_074",
+   "locations": [],
+   "description": "A very rare and powerful substance with unknown origins."
+  }
+ ],
+ "geodeMinerals": [
+  {
+   "id": "562",
+   "type": "O",
+   "name": "Tigerseye",
+   "image": "src_assets_items_562",
+   "locations": [],
+   "description": "A stripe of shimmering gold gives this gem a warm luster."
+  },
+  {
+   "id": "564",
+   "type": "O",
+   "name": "Opal",
+   "image": "src_assets_items_564",
+   "locations": [],
+   "description": "Its internal structure causes it to reflect a rainbow of light."
+  },
+  {
+   "id": "565",
+   "type": "O",
+   "name": "Fire Opal",
+   "image": "src_assets_items_565",
+   "locations": [],
+   "description": "A rare variety of opal, named for its red spots."
+  },
+  {
+   "id": "538",
+   "type": "O",
+   "name": "Alamite",
+   "image": "src_assets_items_538",
+   "locations": [],
+   "description": "Its distinctive fluorescence makes it a favorite among rock collectors."
+  },
+  {
+   "id": "539",
+   "type": "O",
+   "name": "Bixite",
+   "image": "src_assets_items_539",
+   "locations": [],
+   "description": "A dark metallic Mineral sought after for its cubic structure."
+  },
+  {
+   "id": "540",
+   "type": "O",
+   "name": "Baryte",
+   "image": "src_assets_items_540",
+   "locations": [],
+   "description": "The best specimens resemble a desert rose."
+  },
+  {
+   "id": "541",
+   "type": "O",
+   "name": "Aerinite",
+   "image": "src_assets_items_541",
+   "locations": [],
+   "description": "These crystals are curiously light."
+  },
+  {
+   "id": "542",
+   "type": "O",
+   "name": "Calcite",
+   "image": "src_assets_items_542",
+   "locations": [],
+   "description": "This yellow crystal is speckled with shimmering nodules."
+  },
+  {
+   "id": "543",
+   "type": "O",
+   "name": "Dolomite",
+   "image": "src_assets_items_543",
+   "locations": [],
+   "description": "It can occur in coral reefs, often near an underwater volcano."
+  },
+  {
+   "id": "544",
+   "type": "O",
+   "name": "Esperite",
+   "image": "src_assets_items_544",
+   "locations": [],
+   "description": "The crystals glow bright green when stimulated."
+  },
+  {
+   "id": "545",
+   "type": "O",
+   "name": "Fluorapatite",
+   "image": "src_assets_items_545",
+   "locations": [],
+   "description": "Small amounts are found in human teeth."
+  },
+  {
+   "id": "546",
+   "type": "O",
+   "name": "Geminite",
+   "image": "src_assets_items_546",
+   "locations": [],
+   "description": "Occurs in brilliant clusters."
+  },
+  {
+   "id": "547",
+   "type": "O",
+   "name": "Helvite",
+   "image": "src_assets_items_547",
+   "locations": [],
+   "description": "It grows in a triangular column."
+  },
+  {
+   "id": "548",
+   "type": "O",
+   "name": "Jamborite",
+   "image": "src_assets_items_548",
+   "locations": [],
+   "description": "The crystals are so tightly packed it almost looks fuzzy."
+  },
+  {
+   "id": "549",
+   "type": "O",
+   "name": "Jagoite",
+   "image": "src_assets_items_549",
+   "locations": [],
+   "description": "A high volume of tiny crystals makes it very glittery."
+  },
+  {
+   "id": "550",
+   "type": "O",
+   "name": "Kyanite",
+   "image": "src_assets_items_550",
+   "locations": [],
+   "description": "The geometric faces are as smooth as glass."
+  },
+  {
+   "id": "551",
+   "type": "O",
+   "name": "Lunarite",
+   "image": "src_assets_items_551",
+   "locations": [],
+   "description": "The cratered white orbs form a tight cluster."
+  },
+  {
+   "id": "552",
+   "type": "O",
+   "name": "Malachite",
+   "image": "src_assets_items_552",
+   "locations": [],
+   "description": "A popular ornamental stone, used in sculpture and to make green paint."
+  },
+  {
+   "id": "553",
+   "type": "O",
+   "name": "Neptunite",
+   "image": "src_assets_items_553",
+   "locations": [],
+   "description": "A jet-black crystal that is unusually reflective."
+  },
+  {
+   "id": "554",
+   "type": "O",
+   "name": "Lemon Stone",
+   "image": "src_assets_items_554",
+   "locations": [],
+   "description": "Some claim the powdered crystal is a dwarvish delicacy."
+  },
+  {
+   "id": "555",
+   "type": "O",
+   "name": "Nekoite",
+   "image": "src_assets_items_555",
+   "locations": [],
+   "description": "The delicate shards form a tiny pink meadow."
+  },
+  {
+   "id": "556",
+   "type": "O",
+   "name": "Orpiment",
+   "image": "src_assets_items_556",
+   "locations": [],
+   "description": "Despite its high toxicity, this Mineral is widely used in manufacturing and folk medicine."
+  },
+  {
+   "id": "557",
+   "type": "O",
+   "name": "Petrified Slime",
+   "image": "src_assets_items_557",
+   "locations": [],
+   "description": "This little guy may be 100,000 years old."
+  },
+  {
+   "id": "558",
+   "type": "O",
+   "name": "Thunder Egg",
+   "image": "src_assets_items_558",
+   "locations": [],
+   "description": "According to legend, angry thunder spirits would throw these stones at one another."
+  },
+  {
+   "id": "559",
+   "type": "O",
+   "name": "Pyrite",
+   "image": "src_assets_items_559",
+   "locations": [],
+   "description": "Commonly known as \"Fool's Gold\"."
+  },
+  {
+   "id": "560",
+   "type": "O",
+   "name": "Ocean Stone",
+   "image": "src_assets_items_560",
+   "locations": [],
+   "description": "An old legend claims these stones are the mosaics of ancient mermaids."
+  },
+  {
+   "id": "561",
+   "type": "O",
+   "name": "Ghost Crystal",
+   "image": "src_assets_items_561",
+   "locations": [],
+   "description": "There is an aura of coldness around this crystal."
+  },
+  {
+   "id": "563",
+   "type": "O",
+   "name": "Jasper",
+   "image": "src_assets_items_563",
+   "locations": [],
+   "description": "When polished, this stone becomes attractively luminous. Prized by ancient peoples for thousands of years."
+  },
+  {
+   "id": "566",
+   "type": "O",
+   "name": "Celestine",
+   "image": "src_assets_items_566",
+   "locations": [],
+   "description": "Some early life forms had bones made from this."
+  },
+  {
+   "id": "567",
+   "type": "O",
+   "name": "Marble",
+   "image": "src_assets_items_567",
+   "locations": [],
+   "description": "A very popular material for sculptures and construction."
+  },
+  {
+   "id": "568",
+   "type": "O",
+   "name": "Sandstone",
+   "image": "src_assets_items_568",
+   "locations": [],
+   "description": "A common type of stone with red and brown striations."
+  },
+  {
+   "id": "569",
+   "type": "O",
+   "name": "Granite",
+   "image": "src_assets_items_569",
+   "locations": [],
+   "description": "A speckled Mineral that is commonly used in construction."
+  },
+  {
+   "id": "570",
+   "type": "O",
+   "name": "Basalt",
+   "image": "src_assets_items_570",
+   "locations": [],
+   "description": "Forms near searing hot magma."
+  },
+  {
+   "id": "571",
+   "type": "O",
+   "name": "Limestone",
+   "image": "src_assets_items_571",
+   "locations": [],
+   "description": "A very common type of stone. It's not worth very much."
+  },
+  {
+   "id": "572",
+   "type": "O",
+   "name": "Soapstone",
+   "image": "src_assets_items_572",
+   "locations": [],
+   "description": "Because of its relatively soft consistency, this stone is very popular for carving."
+  },
+  {
+   "id": "573",
+   "type": "O",
+   "name": "Hematite",
+   "image": "src_assets_items_573",
+   "locations": [],
+   "description": "An iron-based Mineral with interesting magnetic properties."
+  },
+  {
+   "id": "574",
+   "type": "O",
+   "name": "Mudstone",
+   "image": "src_assets_items_574",
+   "locations": [],
+   "description": "A fine-grained rock made from ancient clay or mud."
+  },
+  {
+   "id": "575",
+   "type": "O",
+   "name": "Obsidian",
+   "image": "src_assets_items_575",
+   "locations": [],
+   "description": "A volcanic glass that forms when lava cools rapidly."
+  },
+  {
+   "id": "576",
+   "type": "O",
+   "name": "Slate",
+   "image": "src_assets_items_576",
+   "locations": [],
+   "description": "It's extremely resistant to water, making it a good roofing material."
+  },
+  {
+   "id": "577",
+   "type": "O",
+   "name": "Fairy Stone",
+   "image": "src_assets_items_577",
+   "locations": [],
+   "description": "An old miner's song suggests these are made from the bones of ancient fairies."
+  },
+  {
+   "id": "578",
+   "type": "O",
+   "name": "Star Shards",
+   "image": "src_assets_items_578",
+   "locations": [],
+   "description": "No one knows how these form. Some scientists claim that the microscopic structure displays unnatural regularity."
+  }
+ ],
+ "geodes": [
+  {
+   "id": "535",
+   "type": "O",
+   "name": "Geode",
+   "image": "src_assets_items_535",
+   "locations": [],
+   "description": "A blacksmith can break this open for you."
+  },
+  {
+   "id": "536",
+   "type": "O",
+   "name": "Frozen Geode",
+   "image": "src_assets_items_536",
+   "locations": [],
+   "description": "A blacksmith can break this open for you."
+  },
+  {
+   "id": "537",
+   "type": "O",
+   "name": "Magma Geode",
+   "image": "src_assets_items_537",
+   "locations": [],
+   "description": "A blacksmith can break this open for you."
+  },
+  {
+   "id": "749",
+   "type": "O",
+   "name": "Omni Geode",
+   "image": "src_assets_items_749",
+   "locations": [
+    {
+     "method": "artifact",
+     "location": "IslandSouth",
+     "displayLocation": "GingerIslands",
+     "chance": 1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Ginger Island",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "IslandSouthEast",
+     "displayLocation": "GingerIslands",
+     "chance": 1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Ginger Island",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "IslandWest",
+     "displayLocation": "GingerIslands",
+     "chance": 1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Ginger Island",
+     "methodName": "Artifact Spot"
+    },
+    {
+     "method": "artifact",
+     "location": "IslandNorth",
+     "displayLocation": "GingerIslands",
+     "chance": 1,
+     "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+     ],
+     "weather": "both",
+     "time": [],
+     "minFishingLevel": 0,
+     "isBossFish": false,
+     "requireMagicBait": false,
+     "conditions": [],
+     "festivalGate": [],
+     "fishAreaId": null,
+     "minDistanceFromShore": 0,
+     "maxDistanceFromShore": -1,
+     "provenance": "game",
+     "displayLocationName": "Ginger Island",
+     "methodName": "Artifact Spot"
+    }
+   ],
+   "description": "A blacksmith can break this open for you. These geodes contain a wide variety of minerals."
+  }
+ ],
+ "geodeContents": {
+  "275": [
+   {
+    "id": "100",
+    "type": "O",
+    "name": "Chipped Amphora",
+    "image": "src_assets_items_100"
+   },
+   {
+    "id": "101",
+    "type": "O",
+    "name": "Arrowhead",
+    "image": "src_assets_items_101"
+   },
+   {
+    "id": "103",
+    "type": "O",
+    "name": "Ancient Doll",
+    "image": "src_assets_items_103"
+   },
+   {
+    "id": "104",
+    "type": "O",
+    "name": "Elvish Jewelry",
+    "image": "src_assets_items_104"
+   },
+   {
+    "id": "105",
+    "type": "O",
+    "name": "Chewing Stick",
+    "image": "src_assets_items_105"
+   },
+   {
+    "id": "106",
+    "type": "O",
+    "name": "Ornamental Fan",
+    "image": "src_assets_items_106"
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108"
+   },
+   {
+    "id": "109",
+    "type": "O",
+    "name": "Ancient Sword",
+    "image": "src_assets_items_109"
+   },
+   {
+    "id": "110",
+    "type": "O",
+    "name": "Rusty Spoon",
+    "image": "src_assets_items_110"
+   },
+   {
+    "id": "111",
+    "type": "O",
+    "name": "Rusty Spur",
+    "image": "src_assets_items_111"
+   },
+   {
+    "id": "112",
+    "type": "O",
+    "name": "Rusty Cog",
+    "image": "src_assets_items_112"
+   },
+   {
+    "id": "113",
+    "type": "O",
+    "name": "Chicken Statue",
+    "image": "src_assets_items_113"
+   },
+   {
+    "id": "114",
+    "type": "O",
+    "name": "Ancient Seed",
+    "image": "src_assets_items_114"
+   },
+   {
+    "id": "115",
+    "type": "O",
+    "name": "Prehistoric Tool",
+    "image": "src_assets_items_115"
+   },
+   {
+    "id": "116",
+    "type": "O",
+    "name": "Dried Starfish",
+    "image": "src_assets_items_116"
+   },
+   {
+    "id": "117",
+    "type": "O",
+    "name": "Anchor",
+    "image": "src_assets_items_117"
+   },
+   {
+    "id": "118",
+    "type": "O",
+    "name": "Glass Shards",
+    "image": "src_assets_items_118"
+   },
+   {
+    "id": "119",
+    "type": "O",
+    "name": "Bone Flute",
+    "image": "src_assets_items_119"
+   },
+   {
+    "id": "120",
+    "type": "O",
+    "name": "Prehistoric Handaxe",
+    "image": "src_assets_items_120"
+   },
+   {
+    "id": "121",
+    "type": "O",
+    "name": "Dwarvish Helm",
+    "image": "src_assets_items_121"
+   },
+   {
+    "id": "122",
+    "type": "O",
+    "name": "Dwarf Gadget",
+    "image": "src_assets_items_122"
+   },
+   {
+    "id": "123",
+    "type": "O",
+    "name": "Ancient Drum",
+    "image": "src_assets_items_123"
+   },
+   {
+    "id": "124",
+    "type": "O",
+    "name": "Golden Mask",
+    "image": "src_assets_items_124"
+   },
+   {
+    "id": "125",
+    "type": "O",
+    "name": "Golden Relic",
+    "image": "src_assets_items_125"
+   },
+   {
+    "id": "166",
+    "type": "O",
+    "name": "Treasure Chest",
+    "image": "src_assets_items_166"
+   },
+   {
+    "id": "373",
+    "type": "O",
+    "name": "Golden Pumpkin",
+    "image": "src_assets_items_373"
+   },
+   {
+    "id": "797",
+    "type": "O",
+    "name": "Pearl",
+    "image": "src_assets_items_797"
+   },
+   {
+    "id": "10029",
+    "type": "O",
+    "name": "Treasure Appraisal Guide",
+    "image": "src_assets_items_10029"
+   }
+  ],
+  "535": [
+   {
+    "id": "538",
+    "type": "O",
+    "name": "Alamite",
+    "image": "src_assets_items_538"
+   },
+   {
+    "id": "542",
+    "type": "O",
+    "name": "Calcite",
+    "image": "src_assets_items_542"
+   },
+   {
+    "id": "548",
+    "type": "O",
+    "name": "Jamborite",
+    "image": "src_assets_items_548"
+   },
+   {
+    "id": "549",
+    "type": "O",
+    "name": "Jagoite",
+    "image": "src_assets_items_549"
+   },
+   {
+    "id": "552",
+    "type": "O",
+    "name": "Malachite",
+    "image": "src_assets_items_552"
+   },
+   {
+    "id": "555",
+    "type": "O",
+    "name": "Nekoite",
+    "image": "src_assets_items_555"
+   },
+   {
+    "id": "556",
+    "type": "O",
+    "name": "Orpiment",
+    "image": "src_assets_items_556"
+   },
+   {
+    "id": "557",
+    "type": "O",
+    "name": "Petrified Slime",
+    "image": "src_assets_items_557"
+   },
+   {
+    "id": "558",
+    "type": "O",
+    "name": "Thunder Egg",
+    "image": "src_assets_items_558"
+   },
+   {
+    "id": "566",
+    "type": "O",
+    "name": "Celestine",
+    "image": "src_assets_items_566"
+   },
+   {
+    "id": "568",
+    "type": "O",
+    "name": "Sandstone",
+    "image": "src_assets_items_568"
+   },
+   {
+    "id": "569",
+    "type": "O",
+    "name": "Granite",
+    "image": "src_assets_items_569"
+   },
+   {
+    "id": "571",
+    "type": "O",
+    "name": "Limestone",
+    "image": "src_assets_items_571"
+   },
+   {
+    "id": "574",
+    "type": "O",
+    "name": "Mudstone",
+    "image": "src_assets_items_574"
+   },
+   {
+    "id": "576",
+    "type": "O",
+    "name": "Slate",
+    "image": "src_assets_items_576"
+   },
+   {
+    "id": "121",
+    "type": "O",
+    "name": "Dwarvish Helm",
+    "image": "src_assets_items_121"
+   }
+  ],
+  "536": [
+   {
+    "id": "541",
+    "type": "O",
+    "name": "Aerinite",
+    "image": "src_assets_items_541"
+   },
+   {
+    "id": "544",
+    "type": "O",
+    "name": "Esperite",
+    "image": "src_assets_items_544"
+   },
+   {
+    "id": "545",
+    "type": "O",
+    "name": "Fluorapatite",
+    "image": "src_assets_items_545"
+   },
+   {
+    "id": "546",
+    "type": "O",
+    "name": "Geminite",
+    "image": "src_assets_items_546"
+   },
+   {
+    "id": "550",
+    "type": "O",
+    "name": "Kyanite",
+    "image": "src_assets_items_550"
+   },
+   {
+    "id": "551",
+    "type": "O",
+    "name": "Lunarite",
+    "image": "src_assets_items_551"
+   },
+   {
+    "id": "559",
+    "type": "O",
+    "name": "Pyrite",
+    "image": "src_assets_items_559"
+   },
+   {
+    "id": "560",
+    "type": "O",
+    "name": "Ocean Stone",
+    "image": "src_assets_items_560"
+   },
+   {
+    "id": "561",
+    "type": "O",
+    "name": "Ghost Crystal",
+    "image": "src_assets_items_561"
+   },
+   {
+    "id": "564",
+    "type": "O",
+    "name": "Opal",
+    "image": "src_assets_items_564"
+   },
+   {
+    "id": "567",
+    "type": "O",
+    "name": "Marble",
+    "image": "src_assets_items_567"
+   },
+   {
+    "id": "572",
+    "type": "O",
+    "name": "Soapstone",
+    "image": "src_assets_items_572"
+   },
+   {
+    "id": "573",
+    "type": "O",
+    "name": "Hematite",
+    "image": "src_assets_items_573"
+   },
+   {
+    "id": "577",
+    "type": "O",
+    "name": "Fairy Stone",
+    "image": "src_assets_items_577"
+   },
+   {
+    "id": "123",
+    "type": "O",
+    "name": "Ancient Drum",
+    "image": "src_assets_items_123"
+   }
+  ],
+  "537": [
+   {
+    "id": "539",
+    "type": "O",
+    "name": "Bixite",
+    "image": "src_assets_items_539"
+   },
+   {
+    "id": "540",
+    "type": "O",
+    "name": "Baryte",
+    "image": "src_assets_items_540"
+   },
+   {
+    "id": "543",
+    "type": "O",
+    "name": "Dolomite",
+    "image": "src_assets_items_543"
+   },
+   {
+    "id": "547",
+    "type": "O",
+    "name": "Helvite",
+    "image": "src_assets_items_547"
+   },
+   {
+    "id": "553",
+    "type": "O",
+    "name": "Neptunite",
+    "image": "src_assets_items_553"
+   },
+   {
+    "id": "554",
+    "type": "O",
+    "name": "Lemon Stone",
+    "image": "src_assets_items_554"
+   },
+   {
+    "id": "562",
+    "type": "O",
+    "name": "Tigerseye",
+    "image": "src_assets_items_562"
+   },
+   {
+    "id": "563",
+    "type": "O",
+    "name": "Jasper",
+    "image": "src_assets_items_563"
+   },
+   {
+    "id": "565",
+    "type": "O",
+    "name": "Fire Opal",
+    "image": "src_assets_items_565"
+   },
+   {
+    "id": "570",
+    "type": "O",
+    "name": "Basalt",
+    "image": "src_assets_items_570"
+   },
+   {
+    "id": "575",
+    "type": "O",
+    "name": "Obsidian",
+    "image": "src_assets_items_575"
+   },
+   {
+    "id": "578",
+    "type": "O",
+    "name": "Star Shards",
+    "image": "src_assets_items_578"
+   },
+   {
+    "id": "122",
+    "type": "O",
+    "name": "Dwarf Gadget",
+    "image": "src_assets_items_122"
+   }
+  ],
+  "749": [
+   {
+    "id": "538",
+    "type": "O",
+    "name": "Alamite",
+    "image": "src_assets_items_538"
+   },
+   {
+    "id": "542",
+    "type": "O",
+    "name": "Calcite",
+    "image": "src_assets_items_542"
+   },
+   {
+    "id": "548",
+    "type": "O",
+    "name": "Jamborite",
+    "image": "src_assets_items_548"
+   },
+   {
+    "id": "549",
+    "type": "O",
+    "name": "Jagoite",
+    "image": "src_assets_items_549"
+   },
+   {
+    "id": "552",
+    "type": "O",
+    "name": "Malachite",
+    "image": "src_assets_items_552"
+   },
+   {
+    "id": "555",
+    "type": "O",
+    "name": "Nekoite",
+    "image": "src_assets_items_555"
+   },
+   {
+    "id": "556",
+    "type": "O",
+    "name": "Orpiment",
+    "image": "src_assets_items_556"
+   },
+   {
+    "id": "557",
+    "type": "O",
+    "name": "Petrified Slime",
+    "image": "src_assets_items_557"
+   },
+   {
+    "id": "558",
+    "type": "O",
+    "name": "Thunder Egg",
+    "image": "src_assets_items_558"
+   },
+   {
+    "id": "566",
+    "type": "O",
+    "name": "Celestine",
+    "image": "src_assets_items_566"
+   },
+   {
+    "id": "568",
+    "type": "O",
+    "name": "Sandstone",
+    "image": "src_assets_items_568"
+   },
+   {
+    "id": "569",
+    "type": "O",
+    "name": "Granite",
+    "image": "src_assets_items_569"
+   },
+   {
+    "id": "571",
+    "type": "O",
+    "name": "Limestone",
+    "image": "src_assets_items_571"
+   },
+   {
+    "id": "574",
+    "type": "O",
+    "name": "Mudstone",
+    "image": "src_assets_items_574"
+   },
+   {
+    "id": "576",
+    "type": "O",
+    "name": "Slate",
+    "image": "src_assets_items_576"
+   },
+   {
+    "id": "541",
+    "type": "O",
+    "name": "Aerinite",
+    "image": "src_assets_items_541"
+   },
+   {
+    "id": "544",
+    "type": "O",
+    "name": "Esperite",
+    "image": "src_assets_items_544"
+   },
+   {
+    "id": "545",
+    "type": "O",
+    "name": "Fluorapatite",
+    "image": "src_assets_items_545"
+   },
+   {
+    "id": "546",
+    "type": "O",
+    "name": "Geminite",
+    "image": "src_assets_items_546"
+   },
+   {
+    "id": "550",
+    "type": "O",
+    "name": "Kyanite",
+    "image": "src_assets_items_550"
+   },
+   {
+    "id": "551",
+    "type": "O",
+    "name": "Lunarite",
+    "image": "src_assets_items_551"
+   },
+   {
+    "id": "559",
+    "type": "O",
+    "name": "Pyrite",
+    "image": "src_assets_items_559"
+   },
+   {
+    "id": "560",
+    "type": "O",
+    "name": "Ocean Stone",
+    "image": "src_assets_items_560"
+   },
+   {
+    "id": "561",
+    "type": "O",
+    "name": "Ghost Crystal",
+    "image": "src_assets_items_561"
+   },
+   {
+    "id": "564",
+    "type": "O",
+    "name": "Opal",
+    "image": "src_assets_items_564"
+   },
+   {
+    "id": "567",
+    "type": "O",
+    "name": "Marble",
+    "image": "src_assets_items_567"
+   },
+   {
+    "id": "572",
+    "type": "O",
+    "name": "Soapstone",
+    "image": "src_assets_items_572"
+   },
+   {
+    "id": "573",
+    "type": "O",
+    "name": "Hematite",
+    "image": "src_assets_items_573"
+   },
+   {
+    "id": "577",
+    "type": "O",
+    "name": "Fairy Stone",
+    "image": "src_assets_items_577"
+   },
+   {
+    "id": "539",
+    "type": "O",
+    "name": "Bixite",
+    "image": "src_assets_items_539"
+   },
+   {
+    "id": "540",
+    "type": "O",
+    "name": "Baryte",
+    "image": "src_assets_items_540"
+   },
+   {
+    "id": "543",
+    "type": "O",
+    "name": "Dolomite",
+    "image": "src_assets_items_543"
+   },
+   {
+    "id": "547",
+    "type": "O",
+    "name": "Helvite",
+    "image": "src_assets_items_547"
+   },
+   {
+    "id": "553",
+    "type": "O",
+    "name": "Neptunite",
+    "image": "src_assets_items_553"
+   },
+   {
+    "id": "554",
+    "type": "O",
+    "name": "Lemon Stone",
+    "image": "src_assets_items_554"
+   },
+   {
+    "id": "562",
+    "type": "O",
+    "name": "Tigerseye",
+    "image": "src_assets_items_562"
+   },
+   {
+    "id": "563",
+    "type": "O",
+    "name": "Jasper",
+    "image": "src_assets_items_563"
+   },
+   {
+    "id": "565",
+    "type": "O",
+    "name": "Fire Opal",
+    "image": "src_assets_items_565"
+   },
+   {
+    "id": "570",
+    "type": "O",
+    "name": "Basalt",
+    "image": "src_assets_items_570"
+   },
+   {
+    "id": "575",
+    "type": "O",
+    "name": "Obsidian",
+    "image": "src_assets_items_575"
+   },
+   {
+    "id": "578",
+    "type": "O",
+    "name": "Star Shards",
+    "image": "src_assets_items_578"
+   },
+   {
+    "id": "121",
+    "type": "O",
+    "name": "Dwarvish Helm",
+    "image": "src_assets_items_121"
+   },
+   {
+    "id": "122",
+    "type": "O",
+    "name": "Dwarf Gadget",
+    "image": "src_assets_items_122"
+   },
+   {
+    "id": "123",
+    "type": "O",
+    "name": "Ancient Drum",
+    "image": "src_assets_items_123"
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074"
+   }
+  ],
+  "791": [
+   {
+    "id": "69",
+    "type": "O",
+    "name": "Banana Sapling",
+    "image": "src_assets_items_069"
+   },
+   {
+    "id": "835",
+    "type": "O",
+    "name": "Mango Sapling",
+    "image": "src_assets_items_835"
+   },
+   {
+    "id": "833",
+    "type": "O",
+    "name": "Pineapple Seeds",
+    "image": "src_assets_items_833"
+   },
+   {
+    "id": "831",
+    "type": "O",
+    "name": "Taro Tuber",
+    "image": "src_assets_items_831"
+   },
+   {
+    "id": "820",
+    "type": "O",
+    "name": "Fossilized Skull",
+    "image": "src_assets_items_820"
+   },
+   {
+    "id": "292",
+    "type": "O",
+    "name": "Mahogany Seed",
+    "image": "src_assets_items_292"
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386"
+   }
+  ]
+ },
+ "artifactTroveIds": [
+  {
+   "id": "100",
+   "type": "O",
+   "name": "Chipped Amphora",
+   "image": "src_assets_items_100"
+  },
+  {
+   "id": "101",
+   "type": "O",
+   "name": "Arrowhead",
+   "image": "src_assets_items_101"
+  },
+  {
+   "id": "103",
+   "type": "O",
+   "name": "Ancient Doll",
+   "image": "src_assets_items_103"
+  },
+  {
+   "id": "104",
+   "type": "O",
+   "name": "Elvish Jewelry",
+   "image": "src_assets_items_104"
+  },
+  {
+   "id": "105",
+   "type": "O",
+   "name": "Chewing Stick",
+   "image": "src_assets_items_105"
+  },
+  {
+   "id": "106",
+   "type": "O",
+   "name": "Ornamental Fan",
+   "image": "src_assets_items_106"
+  },
+  {
+   "id": "108",
+   "type": "O",
+   "name": "Rare Disc",
+   "image": "src_assets_items_108"
+  },
+  {
+   "id": "109",
+   "type": "O",
+   "name": "Ancient Sword",
+   "image": "src_assets_items_109"
+  },
+  {
+   "id": "110",
+   "type": "O",
+   "name": "Rusty Spoon",
+   "image": "src_assets_items_110"
+  },
+  {
+   "id": "111",
+   "type": "O",
+   "name": "Rusty Spur",
+   "image": "src_assets_items_111"
+  },
+  {
+   "id": "112",
+   "type": "O",
+   "name": "Rusty Cog",
+   "image": "src_assets_items_112"
+  },
+  {
+   "id": "113",
+   "type": "O",
+   "name": "Chicken Statue",
+   "image": "src_assets_items_113"
+  },
+  {
+   "id": "114",
+   "type": "O",
+   "name": "Ancient Seed",
+   "image": "src_assets_items_114"
+  },
+  {
+   "id": "115",
+   "type": "O",
+   "name": "Prehistoric Tool",
+   "image": "src_assets_items_115"
+  },
+  {
+   "id": "116",
+   "type": "O",
+   "name": "Dried Starfish",
+   "image": "src_assets_items_116"
+  },
+  {
+   "id": "117",
+   "type": "O",
+   "name": "Anchor",
+   "image": "src_assets_items_117"
+  },
+  {
+   "id": "118",
+   "type": "O",
+   "name": "Glass Shards",
+   "image": "src_assets_items_118"
+  },
+  {
+   "id": "119",
+   "type": "O",
+   "name": "Bone Flute",
+   "image": "src_assets_items_119"
+  },
+  {
+   "id": "120",
+   "type": "O",
+   "name": "Prehistoric Handaxe",
+   "image": "src_assets_items_120"
+  },
+  {
+   "id": "121",
+   "type": "O",
+   "name": "Dwarvish Helm",
+   "image": "src_assets_items_121"
+  },
+  {
+   "id": "122",
+   "type": "O",
+   "name": "Dwarf Gadget",
+   "image": "src_assets_items_122"
+  },
+  {
+   "id": "123",
+   "type": "O",
+   "name": "Ancient Drum",
+   "image": "src_assets_items_123"
+  },
+  {
+   "id": "124",
+   "type": "O",
+   "name": "Golden Mask",
+   "image": "src_assets_items_124"
+  },
+  {
+   "id": "125",
+   "type": "O",
+   "name": "Golden Relic",
+   "image": "src_assets_items_125"
+  },
+  {
+   "id": "166",
+   "type": "O",
+   "name": "Treasure Chest",
+   "image": "src_assets_items_166"
+  },
+  {
+   "id": "373",
+   "type": "O",
+   "name": "Golden Pumpkin",
+   "image": "src_assets_items_373"
+  },
+  {
+   "id": "797",
+   "type": "O",
+   "name": "Pearl",
+   "image": "src_assets_items_797"
+  },
+  {
+   "id": "10029",
+   "type": "O",
+   "name": "Treasure Appraisal Guide",
+   "image": "src_assets_items_10029"
+  }
+ ]
+}

@@ -1,0 +1,7646 @@
+[
+ {
+  "id": "???",
+  "name": "???",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": null,
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": null,
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Abigail",
+  "name": "Abigail",
+  "birthday": {
+   "season": "fall",
+   "day": 13
+  },
+  "datable": true,
+  "gender": "female",
+  "age": "teen",
+  "manners": "rude",
+  "anxiety": "outgoing",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "left",
+    "Id": "Default",
+    "Location": "SeedShop",
+    "Tile": {
+     "X": 1,
+     "Y": 9
+    }
+   }
+  ],
+  "love": "Sebastian",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Caroline",
+    "text": "mom"
+   },
+   {
+    "npc": "Pierre",
+    "text": "dad"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "128",
+      "type": "O",
+      "name": "Pufferfish",
+      "image": "src_assets_items_128"
+     },
+     {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220"
+     },
+     {
+      "id": "226",
+      "type": "O",
+      "name": "Spicy Eel",
+      "image": "src_assets_items_226"
+     },
+     {
+      "id": "276",
+      "type": "O",
+      "name": "Pumpkin",
+      "image": "src_assets_items_276"
+     },
+     {
+      "id": "611",
+      "type": "O",
+      "name": "Blackberry Cobbler",
+      "image": "src_assets_items_611"
+     },
+     {
+      "id": "904",
+      "type": "O",
+      "name": "Banana Pudding",
+      "image": "src_assets_items_904"
+     },
+     {
+      "id": "10045",
+      "type": "O",
+      "name": "Monster Compendium",
+      "image": "src_assets_items_10045"
+     }
+    ],
+    "tags": [],
+    "reaction": "I seriously love this! You're the best, @!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "119",
+      "type": "O",
+      "name": "Bone Flute",
+      "image": "src_assets_items_119"
+     },
+     {
+      "id": "109",
+      "type": "O",
+      "name": "Ancient Sword",
+      "image": "src_assets_items_109"
+     },
+     {
+      "id": "10317",
+      "type": "O",
+      "name": "Combat Quarterly",
+      "image": "src_assets_items_10317"
+     },
+     {
+      "id": "10012",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "Hey, how'd you know I was hungry? This looks delicious!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "You brought me a present? Thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -75,
+      "name": "Vegetable"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "245",
+      "type": "O",
+      "name": "Sugar",
+      "image": "src_assets_items_245"
+     },
+     {
+      "id": "246",
+      "type": "O",
+      "name": "Wheat Flour",
+      "image": "src_assets_items_246"
+     }
+    ],
+    "tags": [],
+    "reaction": "What am I supposed to do with this?"
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "What were you thinking? This is awful!"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Pierre's General Store",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_abigail_icon",
+  "portrait": "src_assets_villagers_abigail"
+ },
+ {
+  "id": "Alex",
+  "name": "Alex",
+  "birthday": {
+   "season": "summer",
+   "day": 13
+  },
+  "datable": true,
+  "gender": "male",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "left",
+    "Id": "Default",
+    "Location": "JoshHouse",
+    "Tile": {
+     "X": 19,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "Haley",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "George",
+    "text": "grandpa"
+   },
+   {
+    "npc": "Evelyn",
+    "text": "grandma"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "201",
+      "type": "O",
+      "name": "Complete Breakfast",
+      "image": "src_assets_items_201"
+     },
+     {
+      "id": "212",
+      "type": "O",
+      "name": "Salmon Dinner",
+      "image": "src_assets_items_212"
+     },
+     {
+      "id": "10032",
+      "type": "O",
+      "name": "Jack Be Nimble, Jack Be Thick",
+      "image": "src_assets_items_10032"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hey, awesome! I love this stuff!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "id": "403",
+      "type": "O",
+      "name": "Field Snack",
+      "image": "src_assets_items_403"
+     },
+     {
+      "id": "107",
+      "type": "O",
+      "name": "Dinosaur Egg",
+      "image": "src_assets_items_107"
+     },
+     {
+      "id": "10258",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "This is cool! Thanks."
+   },
+   "neutral": {
+    "items": [
+     {
+      "id": "10139",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [
+     "book_item"
+    ],
+    "reaction": "Um... Okay. Thanks."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     }
+    ],
+    "tags": [],
+    "reaction": "Are you serious? This is garbage."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 River Road",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_alex_icon",
+  "portrait": "src_assets_villagers_alex"
+ },
+ {
+  "id": "Bear",
+  "name": "Bear",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": null,
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": null,
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Birdie",
+  "name": "Birdie",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "left",
+    "Id": "Default",
+    "Location": "IslandWest",
+    "Tile": {
+     "X": 17,
+     "Y": 58
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Ginger Island",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Bouncer",
+  "name": "Bouncer",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "SandyHouse",
+    "Tile": {
+     "X": 17,
+     "Y": 3
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Oasis",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Caroline",
+  "name": "Caroline",
+  "birthday": {
+   "season": "winter",
+   "day": 7
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "SeedShop",
+    "Tile": {
+     "X": 22,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "Pierre",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Pierre",
+    "text": "husband"
+   },
+   {
+    "npc": "Abigail",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "213",
+      "type": "O",
+      "name": "Fish Taco",
+      "image": "src_assets_items_213"
+     },
+     {
+      "id": "614",
+      "type": "O",
+      "name": "Green Tea",
+      "image": "src_assets_items_614"
+     },
+     {
+      "id": "593",
+      "type": "O",
+      "name": "Summer Spangle",
+      "image": "src_assets_items_593"
+     },
+     {
+      "id": "907",
+      "type": "O",
+      "name": "Tropical Curry",
+      "image": "src_assets_items_907"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh, @... you're spoiling me! I love it!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "815",
+      "type": "O",
+      "name": "Tea Leaves",
+      "image": "src_assets_items_815"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     }
+    ],
+    "tags": [],
+    "reaction": "For me? This is such a thoughtful gift! Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Oh, that's sweet. Thank you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "300",
+      "type": "O",
+      "name": "Amaranth",
+      "image": "src_assets_items_300"
+     },
+     {
+      "id": "306",
+      "type": "O",
+      "name": "Mayonnaise",
+      "image": "src_assets_items_306"
+     },
+     {
+      "id": "307",
+      "type": "O",
+      "name": "Duck Mayonnaise",
+      "image": "src_assets_items_307"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh... I see. I'll, uh... make sure to put it to good use..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "296",
+      "type": "O",
+      "name": "Salmonberry",
+      "image": "src_assets_items_296"
+     }
+    ],
+    "tags": [],
+    "reaction": "Um... I guess I could use it for compost..."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Pierre's General Store",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_caroline_icon",
+  "portrait": "src_assets_villagers_caroline"
+ },
+ {
+  "id": "Clint",
+  "name": "Clint",
+  "birthday": {
+   "season": "winter",
+   "day": 26
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "shy",
+  "optimism": "negative",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "Blacksmith",
+    "Tile": {
+     "X": 3,
+     "Y": 13
+    }
+   }
+  ],
+  "love": "Emily",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Emily",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "62",
+      "type": "O",
+      "name": "Aquamarine",
+      "image": "src_assets_items_062"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "68",
+      "type": "O",
+      "name": "Topaz",
+      "image": "src_assets_items_068"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "336",
+      "type": "O",
+      "name": "Gold Bar",
+      "image": "src_assets_items_336"
+     },
+     {
+      "id": "337",
+      "type": "O",
+      "name": "Iridium Bar",
+      "image": "src_assets_items_337"
+     },
+     {
+      "id": "605",
+      "type": "O",
+      "name": "Artichoke Dip",
+      "image": "src_assets_items_605"
+     },
+     {
+      "id": "649",
+      "type": "O",
+      "name": "Fiddlehead Risotto",
+      "image": "src_assets_items_649"
+     },
+     {
+      "id": "749",
+      "type": "O",
+      "name": "Omni Geode",
+      "image": "src_assets_items_749"
+     }
+    ],
+    "tags": [],
+    "reaction": "Yes! This is exactly what I've been looking for!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "334",
+      "type": "O",
+      "name": "Copper Bar",
+      "image": "src_assets_items_334"
+     },
+     {
+      "id": "335",
+      "type": "O",
+      "name": "Iron Bar",
+      "image": "src_assets_items_335"
+     },
+     {
+      "id": "10316",
+      "type": "O",
+      "name": "Mining Monthly",
+      "image": "src_assets_items_10316"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is a fun gift. Thanks!"
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -15,
+      "name": "Metal Resource"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -80,
+      "name": "Flower"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     }
+    ],
+    "tags": [],
+    "reaction": "*Sigh*..."
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "This makes me depressed."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Blacksmith",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_clint_icon",
+  "portrait": "src_assets_villagers_clint"
+ },
+ {
+  "id": "Demetrius",
+  "name": "Demetrius",
+  "birthday": {
+   "season": "summer",
+   "day": 19
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "neutral",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "ScienceHouse",
+    "Tile": {
+     "X": 19,
+     "Y": 4
+    }
+   }
+  ],
+  "love": "Robin",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Robin",
+    "text": "wife"
+   },
+   {
+    "npc": "Maru",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "207",
+      "type": "O",
+      "name": "Bean Hotpot",
+      "image": "src_assets_items_207"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "400",
+      "type": "O",
+      "name": "Strawberry",
+      "image": "src_assets_items_400"
+     }
+    ],
+    "tags": [],
+    "reaction": "You're giving this to me? This is amazing!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "422",
+      "type": "O",
+      "name": "Purple Mushroom",
+      "image": "src_assets_items_422"
+     },
+     {
+      "id": "107",
+      "type": "O",
+      "name": "Dinosaur Egg",
+      "image": "src_assets_items_107"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thank you! This is a very interesting specimen."
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     }
+    ],
+    "tags": [],
+    "reaction": "That was very thoughtful of you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "...What is this?"
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "This is disgusting."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Carpenter's Shop",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_demetrius_icon",
+  "portrait": "src_assets_villagers_demetrius"
+ },
+ {
+  "id": "Dwarf",
+  "name": "Dwarf",
+  "birthday": {
+   "season": "summer",
+   "day": 22
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "Mine",
+    "Tile": {
+     "X": 43,
+     "Y": 6
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 2,
+  "calendar": 1,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "554",
+      "type": "O",
+      "name": "Lemon Stone",
+      "image": "src_assets_items_554"
+     },
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "62",
+      "type": "O",
+      "name": "Aquamarine",
+      "image": "src_assets_items_062"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "68",
+      "type": "O",
+      "name": "Topaz",
+      "image": "src_assets_items_068"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "749",
+      "type": "O",
+      "name": "Omni Geode",
+      "image": "src_assets_items_749"
+     },
+     {
+      "id": "162",
+      "type": "O",
+      "name": "Lava Eel",
+      "image": "src_assets_items_162"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hey, I really love this stuff. You can find great things in the mines."
+   },
+   "like": {
+    "items": [
+     {
+      "id": "78",
+      "type": "O",
+      "name": "Cave Carrot",
+      "image": "src_assets_items_078"
+     },
+     {
+      "id": "82",
+      "type": "O",
+      "name": "Fire Quartz",
+      "image": "src_assets_items_082"
+     },
+     {
+      "id": "84",
+      "type": "O",
+      "name": "Frozen Tear",
+      "image": "src_assets_items_084"
+     },
+     {
+      "id": "86",
+      "type": "O",
+      "name": "Earth Crystal",
+      "image": "src_assets_items_086"
+     },
+     {
+      "id": "96",
+      "type": "O",
+      "name": "Dwarf Scroll I",
+      "image": "src_assets_items_096"
+     },
+     {
+      "id": "97",
+      "type": "O",
+      "name": "Dwarf Scroll II",
+      "image": "src_assets_items_097"
+     },
+     {
+      "id": "98",
+      "type": "O",
+      "name": "Dwarf Scroll III",
+      "image": "src_assets_items_098"
+     },
+     {
+      "id": "99",
+      "type": "O",
+      "name": "Dwarf Scroll IV",
+      "image": "src_assets_items_099"
+     },
+     {
+      "id": "121",
+      "type": "O",
+      "name": "Dwarvish Helm",
+      "image": "src_assets_items_121"
+     },
+     {
+      "id": "122",
+      "type": "O",
+      "name": "Dwarf Gadget",
+      "image": "src_assets_items_122"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ah, this reminds me of home."
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -28,
+      "name": "Monster Loot"
+     }
+    ],
+    "tags": [],
+    "reaction": "An offering! Thank you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm... Is this what humans like?"
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "I don't care what species you are. This is worthless garbage."
+   }
+  },
+  "homeRegionText": "Other region",
+  "homeLocationText": "Mines",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_dwarf_icon",
+  "portrait": "src_assets_villagers_dwarf"
+ },
+ {
+  "id": "Elliott",
+  "name": "Elliott",
+  "birthday": {
+   "season": "fall",
+   "day": 5
+  },
+  "datable": true,
+  "gender": "male",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "ElliottHouse",
+    "Tile": {
+     "X": 1,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "Leah",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Willy",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "715",
+      "type": "O",
+      "name": "Lobster",
+      "image": "src_assets_items_715"
+     },
+     {
+      "id": "732",
+      "type": "O",
+      "name": "Crab Cakes",
+      "image": "src_assets_items_732"
+     },
+     {
+      "id": "218",
+      "type": "O",
+      "name": "Tom Kha Soup",
+      "image": "src_assets_items_218"
+     },
+     {
+      "id": "444",
+      "type": "O",
+      "name": "Duck Feather",
+      "image": "src_assets_items_444"
+     },
+     {
+      "id": "637",
+      "type": "O",
+      "name": "Pomegranate",
+      "image": "src_assets_items_637"
+     },
+     {
+      "id": "814",
+      "type": "O",
+      "name": "Squid Ink",
+      "image": "src_assets_items_814"
+     }
+    ],
+    "tags": [],
+    "reaction": "@, this is a beautiful gift! Thank you!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "727",
+      "type": "O",
+      "name": "Chowder",
+      "image": "src_assets_items_727"
+     },
+     {
+      "id": "728",
+      "type": "O",
+      "name": "Fish Stew",
+      "image": "src_assets_items_728"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "82",
+      "type": "O",
+      "name": "Fire Quartz",
+      "image": "src_assets_items_082"
+     },
+     {
+      "id": "84",
+      "type": "O",
+      "name": "Frozen Tear",
+      "image": "src_assets_items_084"
+     },
+     {
+      "id": "149",
+      "type": "O",
+      "name": "Octopus",
+      "image": "src_assets_items_149"
+     },
+     {
+      "id": "151",
+      "type": "O",
+      "name": "Squid",
+      "image": "src_assets_items_151"
+     },
+     {
+      "id": "346",
+      "type": "O",
+      "name": "Beer",
+      "image": "src_assets_items_346"
+     },
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     },
+     {
+      "id": "728",
+      "type": "O",
+      "name": "Fish Stew",
+      "image": "src_assets_items_728"
+     }
+    ],
+    "tags": [
+     "book_item"
+    ],
+    "reaction": "This is for me? Marvelous!"
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     }
+    ],
+    "tags": [
+     "forage_item_beach"
+    ],
+    "reaction": "Oh, a present! Thank you!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "206",
+      "type": "O",
+      "name": "Pizza",
+      "image": "src_assets_items_206"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm... I'm not a huge fan of this."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "154",
+      "type": "O",
+      "name": "Sea Cucumber",
+      "image": "src_assets_items_154"
+     },
+     {
+      "id": "300",
+      "type": "O",
+      "name": "Amaranth",
+      "image": "src_assets_items_300"
+     },
+     {
+      "id": "296",
+      "type": "O",
+      "name": "Salmonberry",
+      "image": "src_assets_items_296"
+     },
+     {
+      "id": "155",
+      "type": "O",
+      "name": "Super Cucumber",
+      "image": "src_assets_items_155"
+     }
+    ],
+    "tags": [],
+    "reaction": "This item gives me a terrible feeling. I'll have to dispose of it."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Elliott's Cabin",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_elliott_icon",
+  "portrait": "src_assets_villagers_elliott"
+ },
+ {
+  "id": "Emily",
+  "name": "Emily",
+  "birthday": {
+   "season": "spring",
+   "day": 27
+  },
+  "datable": true,
+  "gender": "female",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "HaleyHouse",
+    "Tile": {
+     "X": 16,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Haley",
+    "text": "sister"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "62",
+      "type": "O",
+      "name": "Aquamarine",
+      "image": "src_assets_items_062"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "68",
+      "type": "O",
+      "name": "Topaz",
+      "image": "src_assets_items_068"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "241",
+      "type": "O",
+      "name": "Survival Burger",
+      "image": "src_assets_items_241"
+     },
+     {
+      "id": "428",
+      "type": "O",
+      "name": "Cloth",
+      "image": "src_assets_items_428"
+     },
+     {
+      "id": "440",
+      "type": "O",
+      "name": "Wool",
+      "image": "src_assets_items_440"
+     },
+     {
+      "id": "10258",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "This gift is fabulous! Thank you so much!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "82",
+      "type": "O",
+      "name": "Fire Quartz",
+      "image": "src_assets_items_082"
+     },
+     {
+      "id": "84",
+      "type": "O",
+      "name": "Frozen Tear",
+      "image": "src_assets_items_084"
+     },
+     {
+      "id": "86",
+      "type": "O",
+      "name": "Earth Crystal",
+      "image": "src_assets_items_086"
+     },
+     {
+      "id": "196",
+      "type": "O",
+      "name": "Salad",
+      "image": "src_assets_items_196"
+     },
+     {
+      "id": "200",
+      "type": "O",
+      "name": "Vegetable Medley",
+      "image": "src_assets_items_200"
+     },
+     {
+      "id": "207",
+      "type": "O",
+      "name": "Bean Hotpot",
+      "image": "src_assets_items_207"
+     },
+     {
+      "id": "230",
+      "type": "O",
+      "name": "Red Plate",
+      "image": "src_assets_items_230"
+     },
+     {
+      "id": "235",
+      "type": "O",
+      "name": "Autumn's Bounty",
+      "image": "src_assets_items_235"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thank you! I'm feeling a positive energy from this gift."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thanks!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "78",
+      "type": "O",
+      "name": "Cave Carrot",
+      "image": "src_assets_items_078"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "225",
+      "type": "O",
+      "name": "Fried Eel",
+      "image": "src_assets_items_225"
+     },
+     {
+      "id": "226",
+      "type": "O",
+      "name": "Spicy Eel",
+      "image": "src_assets_items_226"
+     }
+    ],
+    "tags": [],
+    "reaction": "Sorry, @. I don't like this."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "212",
+      "type": "O",
+      "name": "Salmon Dinner",
+      "image": "src_assets_items_212"
+     },
+     {
+      "id": "213",
+      "type": "O",
+      "name": "Fish Taco",
+      "image": "src_assets_items_213"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     },
+     {
+      "id": "228",
+      "type": "O",
+      "name": "Maki Roll",
+      "image": "src_assets_items_228"
+     }
+    ],
+    "tags": [],
+    "reaction": "This gift has a strong negative energy. I can't stand it."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "2 Willow Lane",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_emily_icon",
+  "portrait": "src_assets_villagers_emily"
+ },
+ {
+  "id": "Evelyn",
+  "name": "Evelyn",
+  "birthday": {
+   "season": "winter",
+   "day": 20
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "JoshHouse",
+    "Tile": {
+     "X": 2,
+     "Y": 17
+    }
+   }
+  ],
+  "love": "George",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "George",
+    "text": "husband"
+   },
+   {
+    "npc": "Alex",
+    "text": "grandson"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220"
+     },
+     {
+      "id": "239",
+      "type": "O",
+      "name": "Stuffing",
+      "image": "src_assets_items_239"
+     },
+     {
+      "id": "284",
+      "type": "O",
+      "name": "Beet",
+      "image": "src_assets_items_284"
+     },
+     {
+      "id": "591",
+      "type": "O",
+      "name": "Tulip",
+      "image": "src_assets_items_591"
+     },
+     {
+      "id": "595",
+      "type": "O",
+      "name": "Fairy Rose",
+      "image": "src_assets_items_595"
+     },
+     {
+      "id": "983",
+      "type": "O",
+      "name": "Raisins",
+      "image": "src_assets_items_983"
+     }
+    ],
+    "tags": [],
+    "reaction": "*gasp*... This is absolutely marvelous!$u#$e#You've made an old lady very happy."
+   },
+   "like": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "170",
+      "type": "O",
+      "name": "Broken Glasses",
+      "image": "src_assets_items_170"
+     }
+    ],
+    "tags": [
+     "forage_item_beach"
+    ],
+    "reaction": "Oh my, it looks wonderful! That's very kind of you."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "How nice. Thank you, dear."
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     }
+    ],
+    "tags": [],
+    "reaction": "Um, Where will I put this?"
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "225",
+      "type": "O",
+      "name": "Fried Eel",
+      "image": "src_assets_items_225"
+     },
+     {
+      "id": "226",
+      "type": "O",
+      "name": "Spicy Eel",
+      "image": "src_assets_items_226"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     },
+     {
+      "id": "228",
+      "type": "O",
+      "name": "Maki Roll",
+      "image": "src_assets_items_228"
+     },
+     {
+      "id": "219",
+      "type": "O",
+      "name": "Trout Soup",
+      "image": "src_assets_items_219"
+     },
+     {
+      "id": "396",
+      "type": "O",
+      "name": "Spice Berry",
+      "image": "src_assets_items_396"
+     },
+     {
+      "id": "248",
+      "type": "O",
+      "name": "Garlic",
+      "image": "src_assets_items_248"
+     },
+     {
+      "id": "296",
+      "type": "O",
+      "name": "Salmonberry",
+      "image": "src_assets_items_296"
+     },
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "...it smells awful."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 River Road",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_evelyn_icon",
+  "portrait": "src_assets_villagers_evelyn"
+ },
+ {
+  "id": "George",
+  "name": "George",
+  "birthday": {
+   "season": "fall",
+   "day": 24
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "neutral",
+  "optimism": "negative",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "JoshHouse",
+    "Tile": {
+     "X": 16,
+     "Y": 22
+    }
+   }
+  ],
+  "love": "Evelyn",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Evelyn",
+    "text": "wife"
+   },
+   {
+    "npc": "Alex",
+    "text": "grandson"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "20",
+      "type": "O",
+      "name": "Leek",
+      "image": "src_assets_items_020"
+     },
+     {
+      "id": "205",
+      "type": "O",
+      "name": "Fried Mushroom",
+      "image": "src_assets_items_205"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is my favorite thing! Thank you."
+   },
+   "like": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "195",
+      "type": "O",
+      "name": "Omelet",
+      "image": "src_assets_items_195"
+     },
+     {
+      "id": "199",
+      "type": "O",
+      "name": "Parsnip Soup",
+      "image": "src_assets_items_199"
+     },
+     {
+      "id": "200",
+      "type": "O",
+      "name": "Vegetable Medley",
+      "image": "src_assets_items_200"
+     },
+     {
+      "id": "214",
+      "type": "O",
+      "name": "Crispy Bass",
+      "image": "src_assets_items_214"
+     },
+     {
+      "id": "219",
+      "type": "O",
+      "name": "Trout Soup",
+      "image": "src_assets_items_219"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "231",
+      "type": "O",
+      "name": "Eggplant Parmesan",
+      "image": "src_assets_items_231"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "A gift? Hmm...#$e#Do you want something in return?"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -80,
+      "name": "Flower"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     }
+    ],
+    "tags": [],
+    "reaction": "That's a terrible gift."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "22",
+      "type": "O",
+      "name": "Dandelion",
+      "image": "src_assets_items_022"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is probably the worst gift I've ever seen. Thanks a lot."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 River Road",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_george_icon",
+  "portrait": "src_assets_villagers_george"
+ },
+ {
+  "id": "Gil",
+  "name": "Gil",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "AdventureGuild",
+    "Tile": {
+     "X": 0,
+     "Y": 0
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Adventurer's Guild",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Governor",
+  "name": "Governor",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": null,
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": null,
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Grandpa",
+  "name": "Grandpa",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": null,
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": null,
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Gunther",
+  "name": "Gunther",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "ArchaeologyHouse",
+    "Tile": {
+     "X": 3,
+     "Y": 8
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Stardew Valley Museum & Library",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Gus",
+  "name": "Gus",
+  "birthday": {
+   "season": "summer",
+   "day": 8
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "Saloon",
+    "Tile": {
+     "X": 18,
+     "Y": 6
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Emily",
+    "text": ""
+   },
+   {
+    "npc": "Pam",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "213",
+      "type": "O",
+      "name": "Fish Taco",
+      "image": "src_assets_items_213"
+     },
+     {
+      "id": "635",
+      "type": "O",
+      "name": "Orange",
+      "image": "src_assets_items_635"
+     },
+     {
+      "id": "729",
+      "type": "O",
+      "name": "Escargot",
+      "image": "src_assets_items_729"
+     },
+     {
+      "id": "907",
+      "type": "O",
+      "name": "Tropical Curry",
+      "image": "src_assets_items_907"
+     }
+    ],
+    "tags": [],
+    "reaction": "You're giving this... to me? I'm speechless."
+   },
+   "like": {
+    "items": [
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     },
+     {
+      "id": "303",
+      "type": "O",
+      "name": "Pale Ale",
+      "image": "src_assets_items_303"
+     },
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "430",
+      "type": "O",
+      "name": "Truffle",
+      "image": "src_assets_items_430"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh, goodness! Are you sure?"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Oh, that's sweet. Thank you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "No, no, no..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "167",
+      "type": "O",
+      "name": "Joja Cola",
+      "image": "src_assets_items_167"
+     },
+     {
+      "id": "648",
+      "type": "O",
+      "name": "Coleslaw",
+      "image": "src_assets_items_648"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is absolute junk. I'm offended."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Stardrop Saloon",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_gus_icon",
+  "portrait": "src_assets_villagers_gus"
+ },
+ {
+  "id": "Haley",
+  "name": "Haley",
+  "birthday": {
+   "season": "spring",
+   "day": 14
+  },
+  "datable": true,
+  "gender": "female",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "outgoing",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "HaleyHouse",
+    "Tile": {
+     "X": 8,
+     "Y": 7
+    }
+   }
+  ],
+  "love": "Alex",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Emily",
+    "text": "sister"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221"
+     },
+     {
+      "id": "421",
+      "type": "O",
+      "name": "Sunflower",
+      "image": "src_assets_items_421"
+     },
+     {
+      "id": "610",
+      "type": "O",
+      "name": "Fruit Salad",
+      "image": "src_assets_items_610"
+     },
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh my god, this is my favorite thing!!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "62",
+      "type": "O",
+      "name": "Aquamarine",
+      "image": "src_assets_items_062"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     },
+     {
+      "id": "222",
+      "type": "O",
+      "name": "Rhubarb Pie",
+      "image": "src_assets_items_222"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "234",
+      "type": "O",
+      "name": "Blueberry Tart",
+      "image": "src_assets_items_234"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     }
+    ],
+    "tags": [],
+    "reaction": "*gasp*...for me? Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you. I love presents."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -75,
+      "name": "Vegetable"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "category": -27,
+      "name": "Syrup"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ugh...that's such a stupid gift."
+   },
+   "hate": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "74",
+      "type": "O",
+      "name": "Prismatic Shard",
+      "image": "src_assets_items_074"
+     }
+    ],
+    "tags": [],
+    "reaction": "Gross!"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "2 Willow Lane",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_haley_icon",
+  "portrait": "src_assets_villagers_haley"
+ },
+ {
+  "id": "Harvey",
+  "name": "Harvey",
+  "birthday": {
+   "season": "winter",
+   "day": 14
+  },
+  "datable": true,
+  "gender": "male",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "shy",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "HarveyRoom",
+    "Tile": {
+     "X": 13,
+     "Y": 4
+    }
+   }
+  ],
+  "love": "Maru",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     },
+     {
+      "id": "237",
+      "type": "O",
+      "name": "Super Meal",
+      "image": "src_assets_items_237"
+     },
+     {
+      "id": "432",
+      "type": "O",
+      "name": "Truffle Oil",
+      "image": "src_assets_items_432"
+     },
+     {
+      "id": "395",
+      "type": "O",
+      "name": "Coffee",
+      "image": "src_assets_items_395"
+     },
+     {
+      "id": "342",
+      "type": "O",
+      "name": "Pickles",
+      "image": "src_assets_items_342"
+     }
+    ],
+    "tags": [],
+    "reaction": "It's for me? This is my favorite stuff! It's like you read my mind."
+   },
+   "like": {
+    "items": [
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "614",
+      "type": "O",
+      "name": "Green Tea",
+      "image": "src_assets_items_614"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "422",
+      "type": "O",
+      "name": "Purple Mushroom",
+      "image": "src_assets_items_422"
+     },
+     {
+      "id": "436",
+      "type": "O",
+      "name": "Goat Milk",
+      "image": "src_assets_items_436"
+     },
+     {
+      "id": "438",
+      "type": "O",
+      "name": "L. Goat Milk",
+      "image": "src_assets_items_438"
+     },
+     {
+      "id": "442",
+      "type": "O",
+      "name": "Duck Egg",
+      "image": "src_assets_items_442"
+     },
+     {
+      "id": "444",
+      "type": "O",
+      "name": "Duck Feather",
+      "image": "src_assets_items_444"
+     },
+     {
+      "id": "422",
+      "type": "O",
+      "name": "Purple Mushroom",
+      "image": "src_assets_items_422"
+     }
+    ],
+    "tags": [],
+    "reaction": "That's such a nice gift. Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thanks. That's very kind of you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "424",
+      "type": "O",
+      "name": "Cheese",
+      "image": "src_assets_items_424"
+     },
+     {
+      "id": "426",
+      "type": "O",
+      "name": "Goat Cheese",
+      "image": "src_assets_items_426"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "238",
+      "type": "O",
+      "name": "Cranberry Sauce",
+      "image": "src_assets_items_238"
+     },
+     {
+      "id": "234",
+      "type": "O",
+      "name": "Blueberry Tart",
+      "image": "src_assets_items_234"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "222",
+      "type": "O",
+      "name": "Rhubarb Pie",
+      "image": "src_assets_items_222"
+     },
+     {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221"
+     },
+     {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220"
+     },
+     {
+      "id": "216",
+      "type": "O",
+      "name": "Bread",
+      "image": "src_assets_items_216"
+     },
+     {
+      "id": "211",
+      "type": "O",
+      "name": "Pancakes",
+      "image": "src_assets_items_211"
+     },
+     {
+      "id": "210",
+      "type": "O",
+      "name": "Hashbrowns",
+      "image": "src_assets_items_210"
+     },
+     {
+      "id": "208",
+      "type": "O",
+      "name": "Glazed Yams",
+      "image": "src_assets_items_208"
+     },
+     {
+      "id": "206",
+      "type": "O",
+      "name": "Pizza",
+      "image": "src_assets_items_206"
+     },
+     {
+      "id": "205",
+      "type": "O",
+      "name": "Fried Mushroom",
+      "image": "src_assets_items_205"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm... Are you sure this is healthy?"
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "296",
+      "type": "O",
+      "name": "Salmonberry",
+      "image": "src_assets_items_296"
+     },
+     {
+      "id": "245",
+      "type": "O",
+      "name": "Sugar",
+      "image": "src_assets_items_245"
+     },
+     {
+      "id": "397",
+      "type": "O",
+      "name": "Sea Urchin",
+      "image": "src_assets_items_397"
+     },
+     {
+      "id": "396",
+      "type": "O",
+      "name": "Spice Berry",
+      "image": "src_assets_items_396"
+     },
+     {
+      "id": "394",
+      "type": "O",
+      "name": "Rainbow Shell",
+      "image": "src_assets_items_394"
+     },
+     {
+      "id": "393",
+      "type": "O",
+      "name": "Coral",
+      "image": "src_assets_items_393"
+     },
+     {
+      "id": "392",
+      "type": "O",
+      "name": "Nautilus Shell",
+      "image": "src_assets_items_392"
+     }
+    ],
+    "tags": [],
+    "reaction": "...I think I'm allergic to this."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Harvey's Clinic",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_harvey_icon",
+  "portrait": "src_assets_villagers_harvey"
+ },
+ {
+  "id": "Henchman",
+  "name": "Henchman",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "WitchSwamp",
+    "Tile": {
+     "X": 20,
+     "Y": 29
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Witch's Swamp",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Jas",
+  "name": "Jas",
+  "birthday": {
+   "season": "summer",
+   "day": 4
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "child",
+  "manners": "neutral",
+  "anxiety": "shy",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "AnimalShop",
+    "Tile": {
+     "X": 4,
+     "Y": 6
+    }
+   }
+  ],
+  "love": "Vincent",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Vincent",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221"
+     },
+     {
+      "id": "595",
+      "type": "O",
+      "name": "Fairy Rose",
+      "image": "src_assets_items_595"
+     },
+     {
+      "id": "604",
+      "type": "O",
+      "name": "Plum Pudding",
+      "image": "src_assets_items_604"
+     },
+     {
+      "id": "10120",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [
+     "doll_item",
+     "toy_item"
+    ],
+    "reaction": "*gasp*...Wow!! Thank you!$h"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "234",
+      "type": "O",
+      "name": "Blueberry Tart",
+      "image": "src_assets_items_234"
+     },
+     {
+      "id": "222",
+      "type": "O",
+      "name": "Rhubarb Pie",
+      "image": "src_assets_items_222"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "340",
+      "type": "O",
+      "name": "Honey",
+      "image": "src_assets_items_340"
+     },
+     {
+      "id": "344",
+      "type": "O",
+      "name": "Jelly",
+      "image": "src_assets_items_344"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "903",
+      "type": "O",
+      "name": "Ginger Ale",
+      "image": "src_assets_items_903"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     }
+    ],
+    "tags": [],
+    "reaction": "I love presents! Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "category": -75,
+      "name": "Vegetable"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     }
+    ],
+    "tags": [],
+    "reaction": "Is this a gift? Oh...$s"
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "253",
+      "type": "O",
+      "name": "Triple Shot Espresso",
+      "image": "src_assets_items_253"
+     },
+     {
+      "id": "395",
+      "type": "O",
+      "name": "Coffee",
+      "image": "src_assets_items_395"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "category": -26,
+      "name": "Artisan Goods"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ew. This is icky.$s"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Marnie's Ranch",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_jas_icon",
+  "portrait": "src_assets_villagers_jas"
+ },
+ {
+  "id": "Jodi",
+  "name": "Jodi",
+  "birthday": {
+   "season": "fall",
+   "day": 11
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "SamHouse",
+    "Tile": {
+     "X": 4,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "Kent",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Sam",
+    "text": "eldest son"
+   },
+   {
+    "npc": "Vincent",
+    "text": "youngest son"
+   },
+   {
+    "npc": "Kent",
+    "text": "husband"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "200",
+      "type": "O",
+      "name": "Vegetable Medley",
+      "image": "src_assets_items_200"
+     },
+     {
+      "id": "211",
+      "type": "O",
+      "name": "Pancakes",
+      "image": "src_assets_items_211"
+     },
+     {
+      "id": "214",
+      "type": "O",
+      "name": "Crispy Bass",
+      "image": "src_assets_items_214"
+     },
+     {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220"
+     },
+     {
+      "id": "222",
+      "type": "O",
+      "name": "Rhubarb Pie",
+      "image": "src_assets_items_222"
+     },
+     {
+      "id": "225",
+      "type": "O",
+      "name": "Fried Eel",
+      "image": "src_assets_items_225"
+     },
+     {
+      "id": "231",
+      "type": "O",
+      "name": "Eggplant Parmesan",
+      "image": "src_assets_items_231"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh, you're such a sweetheart! I really love this!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thank you! This makes my day really special."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "That's so nice of you! Thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "248",
+      "type": "O",
+      "name": "Garlic",
+      "image": "src_assets_items_248"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm, well I guess I could always put this in the compost..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "22",
+      "type": "O",
+      "name": "Dandelion",
+      "image": "src_assets_items_022"
+     },
+     {
+      "id": "396",
+      "type": "O",
+      "name": "Spice Berry",
+      "image": "src_assets_items_396"
+     }
+    ],
+    "tags": [],
+    "reaction": "*Blech*... I hate this..."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 Willow Lane",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_jodi_icon",
+  "portrait": "src_assets_villagers_jodi"
+ },
+ {
+  "id": "Kent",
+  "name": "Kent",
+  "birthday": {
+   "season": "spring",
+   "day": 4
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "shy",
+  "optimism": "negative",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "SamHouse",
+    "Tile": {
+     "X": 22,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "Jodi",
+  "canSocialize": null,
+  "socialTab": 1,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Jodi",
+    "text": "wife"
+   },
+   {
+    "npc": "Sam",
+    "text": "eldest son"
+   },
+   {
+    "npc": "Vincent",
+    "text": "youngest boy"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "607",
+      "type": "O",
+      "name": "Roasted Hazelnuts",
+      "image": "src_assets_items_607"
+     },
+     {
+      "id": "649",
+      "type": "O",
+      "name": "Fiddlehead Risotto",
+      "image": "src_assets_items_649"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh...! Mom used to give me this when I was a young boy. It brings back wonderful memories. Thank you."
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "10030",
+      "type": "O",
+      "name": "Dwarvish Safety Manual",
+      "image": "src_assets_items_10030"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hey, now this is a really great gift. Thanks."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "That's kind of you. The family will like this."
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "416",
+      "type": "O",
+      "name": "Snow Yam",
+      "image": "src_assets_items_416"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ah... It's a... what is this, exactly? Hmm..."
+   },
+   "hate": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     },
+     {
+      "id": "229",
+      "type": "O",
+      "name": "Tortilla",
+      "image": "src_assets_items_229"
+     },
+     {
+      "id": "456",
+      "type": "O",
+      "name": "Algae Soup",
+      "image": "src_assets_items_456"
+     }
+    ],
+    "tags": [],
+    "reaction": "This... They gave this to me in Gotoro prison camp. I've been trying to forget about that. *shudder*"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 Willow Lane",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_kent_icon",
+  "portrait": "src_assets_villagers_kent"
+ },
+ {
+  "id": "Krobus",
+  "name": "Krobus",
+  "birthday": {
+   "season": "winter",
+   "day": 1
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "shy",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "Sewer",
+    "Tile": {
+     "X": 31,
+     "Y": 17
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 2,
+  "calendar": 1,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "276",
+      "type": "O",
+      "name": "Pumpkin",
+      "image": "src_assets_items_276"
+     },
+     {
+      "id": "337",
+      "type": "O",
+      "name": "Iridium Bar",
+      "image": "src_assets_items_337"
+     },
+     {
+      "id": "305",
+      "type": "O",
+      "name": "Void Egg",
+      "image": "src_assets_items_305"
+     },
+     {
+      "id": "308",
+      "type": "O",
+      "name": "Void Mayonnaise",
+      "image": "src_assets_items_308"
+     },
+     {
+      "id": "879",
+      "type": "O",
+      "name": "Monster Musk",
+      "image": "src_assets_items_879"
+     },
+     {
+      "id": "10045",
+      "type": "O",
+      "name": "Monster Compendium",
+      "image": "src_assets_items_10045"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is an amazing gift. For my people it is a great honor to receive something like this."
+   },
+   "like": {
+    "items": [
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "265",
+      "type": "O",
+      "name": "Seafoam Pudding",
+      "image": "src_assets_items_265"
+     },
+     {
+      "id": "336",
+      "type": "O",
+      "name": "Gold Bar",
+      "image": "src_assets_items_336"
+     },
+     {
+      "id": "340",
+      "type": "O",
+      "name": "Honey",
+      "image": "src_assets_items_340"
+     },
+     {
+      "id": "203",
+      "type": "O",
+      "name": "Strange Bun",
+      "image": "src_assets_items_203"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thank you very much."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Humans have... interesting tastes."
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "Oh... Um. I guess I'll accept it."
+   }
+  },
+  "homeRegionText": "Other region",
+  "homeLocationText": "Sewer",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_krobus_icon",
+  "portrait": "src_assets_villagers_krobus"
+ },
+ {
+  "id": "Leah",
+  "name": "Leah",
+  "birthday": {
+   "season": "winter",
+   "day": 23
+  },
+  "datable": true,
+  "gender": "female",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "neutral",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "left",
+    "Id": "Default",
+    "Location": "LeahHouse",
+    "Tile": {
+     "X": 3,
+     "Y": 7
+    }
+   }
+  ],
+  "love": "Elliott",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "196",
+      "type": "O",
+      "name": "Salad",
+      "image": "src_assets_items_196"
+     },
+     {
+      "id": "200",
+      "type": "O",
+      "name": "Vegetable Medley",
+      "image": "src_assets_items_200"
+     },
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     },
+     {
+      "id": "606",
+      "type": "O",
+      "name": "Stir Fry",
+      "image": "src_assets_items_606"
+     },
+     {
+      "id": "651",
+      "type": "O",
+      "name": "Poppyseed Muffin",
+      "image": "src_assets_items_651"
+     },
+     {
+      "id": "426",
+      "type": "O",
+      "name": "Goat Cheese",
+      "image": "src_assets_items_426"
+     },
+     {
+      "id": "430",
+      "type": "O",
+      "name": "Truffle",
+      "image": "src_assets_items_430"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh! This is exactly what I wanted! Thank you!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "169",
+      "type": "O",
+      "name": "Driftwood",
+      "image": "src_assets_items_169"
+     },
+     {
+      "id": "406",
+      "type": "O",
+      "name": "Wild Plum",
+      "image": "src_assets_items_406"
+     },
+     {
+      "id": "408",
+      "type": "O",
+      "name": "Hazelnut",
+      "image": "src_assets_items_408"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "86",
+      "type": "O",
+      "name": "Earth Crystal",
+      "image": "src_assets_items_086"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is a really nice gift! Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -2,
+      "name": "Gem"
+     },
+     {
+      "id": "152",
+      "type": "O",
+      "name": "Seaweed",
+      "image": "src_assets_items_152"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "229",
+      "type": "O",
+      "name": "Tortilla",
+      "image": "src_assets_items_229"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "241",
+      "type": "O",
+      "name": "Survival Burger",
+      "image": "src_assets_items_241"
+     },
+     {
+      "id": "209",
+      "type": "O",
+      "name": "Carp Surprise",
+      "image": "src_assets_items_209"
+     },
+     {
+      "id": "194",
+      "type": "O",
+      "name": "Fried Egg",
+      "image": "src_assets_items_194"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm... I guess everyone has different tastes."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "305",
+      "type": "O",
+      "name": "Void Egg",
+      "image": "src_assets_items_305"
+     },
+     {
+      "id": "211",
+      "type": "O",
+      "name": "Pancakes",
+      "image": "src_assets_items_211"
+     },
+     {
+      "id": "210",
+      "type": "O",
+      "name": "Hashbrowns",
+      "image": "src_assets_items_210"
+     },
+     {
+      "id": "206",
+      "type": "O",
+      "name": "Pizza",
+      "image": "src_assets_items_206"
+     },
+     {
+      "id": "216",
+      "type": "O",
+      "name": "Bread",
+      "image": "src_assets_items_216"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is a pretty terrible gift, isn't it?"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Leah's Cottage",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_leah_icon",
+  "portrait": "src_assets_villagers_leah"
+ },
+ {
+  "id": "Leo",
+  "name": "Leo",
+  "birthday": {
+   "season": "summer",
+   "day": 26
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "child",
+  "manners": "neutral",
+  "anxiety": "shy",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": "PLAYER_HAS_MAIL Host leoMoved",
+    "Direction": "down",
+    "Id": "Valley",
+    "Location": "LeoTreeHouse",
+    "Tile": {
+     "X": 5,
+     "Y": 4
+    }
+   },
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "IslandHut",
+    "Tile": {
+     "X": 5,
+     "Y": 6
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": null,
+  "socialTab": 1,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "444",
+      "type": "O",
+      "name": "Duck Feather",
+      "image": "src_assets_items_444"
+     },
+     {
+      "id": "289",
+      "type": "O",
+      "name": "Ostrich Egg",
+      "image": "src_assets_items_289"
+     },
+     {
+      "id": "834",
+      "type": "O",
+      "name": "Mango",
+      "image": "src_assets_items_834"
+     },
+     {
+      "id": "906",
+      "type": "O",
+      "name": "Poi",
+      "image": "src_assets_items_906"
+     },
+     {
+      "id": "10258",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "I love this. I'm going to put it in my nest."
+   },
+   "like": {
+    "items": [
+     {
+      "id": "852",
+      "type": "O",
+      "name": "Dragon Tooth",
+      "image": "src_assets_items_852"
+     },
+     {
+      "id": "396",
+      "type": "O",
+      "name": "Spice Berry",
+      "image": "src_assets_items_396"
+     },
+     {
+      "id": "392",
+      "type": "O",
+      "name": "Nautilus Shell",
+      "image": "src_assets_items_392"
+     },
+     {
+      "id": "394",
+      "type": "O",
+      "name": "Rainbow Shell",
+      "image": "src_assets_items_394"
+     },
+     {
+      "id": "397",
+      "type": "O",
+      "name": "Sea Urchin",
+      "image": "src_assets_items_397"
+     },
+     {
+      "id": "905",
+      "type": "O",
+      "name": "Mango Sticky Rice",
+      "image": "src_assets_items_905"
+     }
+    ],
+    "tags": [],
+    "reaction": "Are you sure? This is so nice..."
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "395",
+      "type": "O",
+      "name": "Coffee",
+      "image": "src_assets_items_395"
+     }
+    ],
+    "tags": [],
+    "reaction": "I accept your gift."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "303",
+      "type": "O",
+      "name": "Pale Ale",
+      "image": "src_assets_items_303"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "id": "342",
+      "type": "O",
+      "name": "Pickles",
+      "image": "src_assets_items_342"
+     },
+     {
+      "id": "346",
+      "type": "O",
+      "name": "Beer",
+      "image": "src_assets_items_346"
+     },
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh... I don't know if I can digest this..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "257",
+      "type": "O",
+      "name": "Morel",
+      "image": "src_assets_items_257"
+     },
+     {
+      "id": "253",
+      "type": "O",
+      "name": "Triple Shot Espresso",
+      "image": "src_assets_items_253"
+     },
+     {
+      "id": "247",
+      "type": "O",
+      "name": "Oil",
+      "image": "src_assets_items_247"
+     },
+     {
+      "id": "271",
+      "type": "O",
+      "name": "Unmilled Rice",
+      "image": "src_assets_items_271"
+     },
+     {
+      "id": "283",
+      "type": "O",
+      "name": "Holly",
+      "image": "src_assets_items_283"
+     },
+     {
+      "id": "304",
+      "type": "O",
+      "name": "Hops",
+      "image": "src_assets_items_304"
+     },
+     {
+      "id": "303",
+      "type": "O",
+      "name": "Pale Ale",
+      "image": "src_assets_items_303"
+     },
+     {
+      "id": "346",
+      "type": "O",
+      "name": "Beer",
+      "image": "src_assets_items_346"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     },
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "id": "167",
+      "type": "O",
+      "name": "Joja Cola",
+      "image": "src_assets_items_167"
+     }
+    ],
+    "tags": [],
+    "reaction": "*sniff* *sniff*... Why are you giving this to me? Do you want me to bury it for you?"
+   }
+  },
+  "homeRegionText": "Other region",
+  "homeLocationText": "Leo's Treehouse",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_leo_icon",
+  "portrait": "src_assets_villagers_leo"
+ },
+ {
+  "id": "Lewis",
+  "name": "Lewis",
+  "birthday": {
+   "season": "spring",
+   "day": 7
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "ManorHouse",
+    "Tile": {
+     "X": 8,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 1,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Marnie",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "200",
+      "type": "O",
+      "name": "Vegetable Medley",
+      "image": "src_assets_items_200"
+     },
+     {
+      "id": "208",
+      "type": "O",
+      "name": "Glazed Yams",
+      "image": "src_assets_items_208"
+     },
+     {
+      "id": "235",
+      "type": "O",
+      "name": "Autumn's Bounty",
+      "image": "src_assets_items_235"
+     },
+     {
+      "id": "614",
+      "type": "O",
+      "name": "Green Tea",
+      "image": "src_assets_items_614"
+     },
+     {
+      "id": "260",
+      "type": "O",
+      "name": "Hot Pepper",
+      "image": "src_assets_items_260"
+     }
+    ],
+    "tags": [],
+    "reaction": "Wow, this is my favorite! Thank you!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -80,
+      "name": "Flower"
+     },
+     {
+      "id": "24",
+      "type": "O",
+      "name": "Parsnip",
+      "image": "src_assets_items_024"
+     },
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     },
+     {
+      "id": "90",
+      "type": "O",
+      "name": "Cactus Fruit",
+      "image": "src_assets_items_090"
+     },
+     {
+      "id": "192",
+      "type": "O",
+      "name": "Potato",
+      "image": "src_assets_items_192"
+     },
+     {
+      "id": "258",
+      "type": "O",
+      "name": "Blueberry",
+      "image": "src_assets_items_258"
+     },
+     {
+      "id": "264",
+      "type": "O",
+      "name": "Radish",
+      "image": "src_assets_items_264"
+     },
+     {
+      "id": "272",
+      "type": "O",
+      "name": "Eggplant",
+      "image": "src_assets_items_272"
+     },
+     {
+      "id": "274",
+      "type": "O",
+      "name": "Artichoke",
+      "image": "src_assets_items_274"
+     },
+     {
+      "id": "278",
+      "type": "O",
+      "name": "Bok Choy",
+      "image": "src_assets_items_278"
+     },
+     {
+      "id": "258",
+      "type": "O",
+      "name": "Blueberry",
+      "image": "src_assets_items_258"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks, this is great!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "That's very nice of you. Thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Well, I guess it's the thought that counts..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     }
+    ],
+    "tags": [],
+    "reaction": "This makes me sick. What a horrendous gift."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Mayor's Manor",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_lewis_icon",
+  "portrait": "src_assets_villagers_lewis"
+ },
+ {
+  "id": "Linus",
+  "name": "Linus",
+  "birthday": {
+   "season": "winter",
+   "day": 3
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "shy",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "Tent",
+    "Tile": {
+     "X": 2,
+     "Y": 2
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     },
+     {
+      "id": "90",
+      "type": "O",
+      "name": "Cactus Fruit",
+      "image": "src_assets_items_090"
+     },
+     {
+      "id": "234",
+      "type": "O",
+      "name": "Blueberry Tart",
+      "image": "src_assets_items_234"
+     },
+     {
+      "id": "242",
+      "type": "O",
+      "name": "Dish O' The Sea",
+      "image": "src_assets_items_242"
+     },
+     {
+      "id": "280",
+      "type": "O",
+      "name": "Yam",
+      "image": "src_assets_items_280"
+     },
+     {
+      "id": "10044",
+      "type": "O",
+      "name": "The Alleyway Buffet",
+      "image": "src_assets_items_10044"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is wonderful! You've really made my day special."
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is a great gift. Thank you!"
+   },
+   "neutral": {
+    "items": [
+     {
+      "id": "774",
+      "type": "O",
+      "name": "Wild Bait",
+      "image": "src_assets_items_774"
+     },
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "142",
+      "type": "O",
+      "name": "Carp",
+      "image": "src_assets_items_142"
+     }
+    ],
+    "tags": [],
+    "reaction": "A gift? How nice."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -2,
+      "name": "Gem"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "166",
+      "type": "O",
+      "name": "Treasure Chest",
+      "image": "src_assets_items_166"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm... This doesn't really do much for me."
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "Why would you give this to me? Do you think I like junk just because I live in a tent? That's terrible."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Tent",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_linus_icon",
+  "portrait": "src_assets_villagers_linus"
+ },
+ {
+  "id": "Marlon",
+  "name": "Marlon",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "AdventureGuild",
+    "Tile": {
+     "X": 5,
+     "Y": 11
+    }
+   }
+  ],
+  "love": "Marnie",
+  "canSocialize": "FALSE",
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Adventurer's Guild",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": "src_assets_villagers_marlon"
+ },
+ {
+  "id": "Marnie",
+  "name": "Marnie",
+  "birthday": {
+   "season": "fall",
+   "day": 18
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "polite",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "AnimalShop",
+    "Tile": {
+     "X": 12,
+     "Y": 14
+    }
+   }
+  ],
+  "love": "Lewis",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Lewis",
+    "text": ""
+   },
+   {
+    "npc": "Shane",
+    "text": "nephew"
+   },
+   {
+    "npc": "Jas",
+    "text": "niece"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221"
+     },
+     {
+      "id": "240",
+      "type": "O",
+      "name": "Farmer's Lunch",
+      "image": "src_assets_items_240"
+     },
+     {
+      "id": "608",
+      "type": "O",
+      "name": "Pumpkin Pie",
+      "image": "src_assets_items_608"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is an incredible gift! Thanks!!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "10313",
+      "type": "O",
+      "name": "Stardew Valley Almanac",
+      "image": "src_assets_items_10313"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you! This looks nice."
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "152",
+      "type": "O",
+      "name": "Seaweed",
+      "image": "src_assets_items_152"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh. I guess I'll take it."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is worthless. I don't understand you."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Marnie's Ranch",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_marnie_icon",
+  "portrait": "src_assets_villagers_marnie"
+ },
+ {
+  "id": "Maru",
+  "name": "Maru",
+  "birthday": {
+   "season": "summer",
+   "day": 10
+  },
+  "datable": true,
+  "gender": "female",
+  "age": "teen",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "left",
+    "Id": "Default",
+    "Location": "ScienceHouse",
+    "Tile": {
+     "X": 2,
+     "Y": 4
+    }
+   }
+  ],
+  "love": "Harvey",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Robin",
+    "text": "mom"
+   },
+   {
+    "npc": "Demetrius",
+    "text": "dad"
+   },
+   {
+    "npc": "Sebastian",
+    "text": "half-brother"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "197",
+      "type": "O",
+      "name": "Cheese Cauliflower",
+      "image": "src_assets_items_197"
+     },
+     {
+      "id": "190",
+      "type": "O",
+      "name": "Cauliflower",
+      "image": "src_assets_items_190"
+     },
+     {
+      "id": "215",
+      "type": "O",
+      "name": "Pepper Poppers",
+      "image": "src_assets_items_215"
+     },
+     {
+      "id": "222",
+      "type": "O",
+      "name": "Rhubarb Pie",
+      "image": "src_assets_items_222"
+     },
+     {
+      "id": "243",
+      "type": "O",
+      "name": "Miner's Treat",
+      "image": "src_assets_items_243"
+     },
+     {
+      "id": "336",
+      "type": "O",
+      "name": "Gold Bar",
+      "image": "src_assets_items_336"
+     },
+     {
+      "id": "337",
+      "type": "O",
+      "name": "Iridium Bar",
+      "image": "src_assets_items_337"
+     },
+     {
+      "id": "400",
+      "type": "O",
+      "name": "Strawberry",
+      "image": "src_assets_items_400"
+     },
+     {
+      "id": "787",
+      "type": "O",
+      "name": "Battery Pack",
+      "image": "src_assets_items_787"
+     },
+     {
+      "id": "910",
+      "type": "O",
+      "name": "Radioactive Bar",
+      "image": "src_assets_items_910"
+     },
+     {
+      "id": "122",
+      "type": "O",
+      "name": "Dwarf Gadget",
+      "image": "src_assets_items_122"
+     }
+    ],
+    "tags": [],
+    "reaction": "Is that...? Oh wow, @! This is spectacular!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -260,
+      "name": "Category -260"
+     },
+     {
+      "id": "62",
+      "type": "O",
+      "name": "Aquamarine",
+      "image": "src_assets_items_062"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "68",
+      "type": "O",
+      "name": "Topaz",
+      "image": "src_assets_items_068"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "334",
+      "type": "O",
+      "name": "Copper Bar",
+      "image": "src_assets_items_334"
+     },
+     {
+      "id": "335",
+      "type": "O",
+      "name": "Iron Bar",
+      "image": "src_assets_items_335"
+     },
+     {
+      "id": "725",
+      "type": "O",
+      "name": "Oak Resin",
+      "image": "src_assets_items_725"
+     },
+     {
+      "id": "726",
+      "type": "O",
+      "name": "Pine Tar",
+      "image": "src_assets_items_726"
+     },
+     {
+      "id": "909",
+      "type": "O",
+      "name": "Radioactive Ore",
+      "image": "src_assets_items_909"
+     }
+    ],
+    "tags": [
+     "edible_mushroom"
+    ],
+    "reaction": "This is a super gift! Thank you!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "414",
+      "type": "O",
+      "name": "Crystal Fruit",
+      "image": "src_assets_items_414"
+     },
+     {
+      "id": "410",
+      "type": "O",
+      "name": "Blackberry",
+      "image": "src_assets_items_410"
+     },
+     {
+      "id": "404",
+      "type": "O",
+      "name": "Common Mushroom",
+      "image": "src_assets_items_404"
+     },
+     {
+      "id": "724",
+      "type": "O",
+      "name": "Maple Syrup",
+      "image": "src_assets_items_724"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh... That's for me? I'll just put it over here..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "340",
+      "type": "O",
+      "name": "Honey",
+      "image": "src_assets_items_340"
+     },
+     {
+      "id": "342",
+      "type": "O",
+      "name": "Pickles",
+      "image": "src_assets_items_342"
+     },
+     {
+      "id": "430",
+      "type": "O",
+      "name": "Truffle",
+      "image": "src_assets_items_430"
+     },
+     {
+      "id": "416",
+      "type": "O",
+      "name": "Snow Yam",
+      "image": "src_assets_items_416"
+     }
+    ],
+    "tags": [],
+    "reaction": "Yuck! You thought I would like this?"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Carpenter's Shop",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_maru_icon",
+  "portrait": "src_assets_villagers_maru"
+ },
+ {
+  "id": "Mister Qi",
+  "name": "Mister Qi",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": "HAS_TARGET_LOCATION, LOCATION_NAME Target QiNutRoom",
+    "Direction": "up",
+    "Id": "QiNutRoom",
+    "Location": "QiNutRoom",
+    "Tile": {
+     "X": 7,
+     "Y": 4
+    }
+   },
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "Club",
+    "Tile": {
+     "X": 8,
+     "Y": 4
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Qi's Walnut Room",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Morris",
+  "name": "Morris",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "JojaMart",
+    "Tile": {
+     "X": 0,
+     "Y": 0
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "JojaMart",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Old Mariner",
+  "name": "Old Mariner",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "up",
+    "Id": "Default",
+    "Location": "Beach",
+    "Tile": {
+     "X": 0,
+     "Y": 0
+    }
+   }
+  ],
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": "Pelican Beach",
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Pam",
+  "name": "Pam",
+  "birthday": {
+   "season": "spring",
+   "day": 18
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "outgoing",
+  "optimism": "negative",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "Trailer",
+    "Tile": {
+     "X": 15,
+     "Y": 4
+    }
+   }
+  ],
+  "love": "Gus",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Penny",
+    "text": "little baby-girl"
+   },
+   {
+    "npc": "Gus",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "24",
+      "type": "O",
+      "name": "Parsnip",
+      "image": "src_assets_items_024"
+     },
+     {
+      "id": "90",
+      "type": "O",
+      "name": "Cactus Fruit",
+      "image": "src_assets_items_090"
+     },
+     {
+      "id": "199",
+      "type": "O",
+      "name": "Parsnip Soup",
+      "image": "src_assets_items_199"
+     },
+     {
+      "id": "208",
+      "type": "O",
+      "name": "Glazed Yams",
+      "image": "src_assets_items_208"
+     },
+     {
+      "id": "303",
+      "type": "O",
+      "name": "Pale Ale",
+      "image": "src_assets_items_303"
+     },
+     {
+      "id": "346",
+      "type": "O",
+      "name": "Beer",
+      "image": "src_assets_items_346"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hey, hey! Now this is really something! Thanks a million, kid."
+   },
+   "like": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -75,
+      "name": "Vegetable"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     },
+     {
+      "id": "228",
+      "type": "O",
+      "name": "Maki Roll",
+      "image": "src_assets_items_228"
+     },
+     {
+      "id": "231",
+      "type": "O",
+      "name": "Eggplant Parmesan",
+      "image": "src_assets_items_231"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "234",
+      "type": "O",
+      "name": "Blueberry Tart",
+      "image": "src_assets_items_234"
+     },
+     {
+      "id": "235",
+      "type": "O",
+      "name": "Autumn's Bounty",
+      "image": "src_assets_items_235"
+     },
+     {
+      "id": "236",
+      "type": "O",
+      "name": "Pumpkin Soup",
+      "image": "src_assets_items_236"
+     },
+     {
+      "id": "238",
+      "type": "O",
+      "name": "Cranberry Sauce",
+      "image": "src_assets_items_238"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     }
+    ],
+    "tags": [],
+    "reaction": "You did good with this one, kid. Thanks!"
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "167",
+      "type": "O",
+      "name": "Joja Cola",
+      "image": "src_assets_items_167"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks, kid."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "This just ain't my thing."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "149",
+      "type": "O",
+      "name": "Octopus",
+      "image": "src_assets_items_149"
+     },
+     {
+      "id": "151",
+      "type": "O",
+      "name": "Squid",
+      "image": "src_assets_items_151"
+     }
+    ],
+    "tags": [],
+    "reaction": "Now this is just absolutely despicable.$u#$e#(Is this some kind of mean joke?)"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Trailer",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_pam_icon",
+  "portrait": "src_assets_villagers_pam"
+ },
+ {
+  "id": "Penny",
+  "name": "Penny",
+  "birthday": {
+   "season": "fall",
+   "day": 2
+  },
+  "datable": true,
+  "gender": "female",
+  "age": "teen",
+  "manners": "polite",
+  "anxiety": "shy",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "Trailer",
+    "Tile": {
+     "X": 4,
+     "Y": 9
+    }
+   }
+  ],
+  "love": "Sam",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Pam",
+    "text": "mother"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "376",
+      "type": "O",
+      "name": "Poppy",
+      "image": "src_assets_items_376"
+     },
+     {
+      "id": "651",
+      "type": "O",
+      "name": "Poppyseed Muffin",
+      "image": "src_assets_items_651"
+     },
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "164",
+      "type": "O",
+      "name": "Sandfish",
+      "image": "src_assets_items_164"
+     },
+     {
+      "id": "218",
+      "type": "O",
+      "name": "Tom Kha Soup",
+      "image": "src_assets_items_218"
+     },
+     {
+      "id": "230",
+      "type": "O",
+      "name": "Red Plate",
+      "image": "src_assets_items_230"
+     },
+     {
+      "id": "244",
+      "type": "O",
+      "name": "Roots Platter",
+      "image": "src_assets_items_244"
+     },
+     {
+      "id": "254",
+      "type": "O",
+      "name": "Melon",
+      "image": "src_assets_items_254"
+     }
+    ],
+    "tags": [
+     "book_item"
+    ],
+    "reaction": "Thank you! I really love this!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "id": "20",
+      "type": "O",
+      "name": "Leek",
+      "image": "src_assets_items_020"
+     },
+     {
+      "id": "22",
+      "type": "O",
+      "name": "Dandelion",
+      "image": "src_assets_items_022"
+     }
+    ],
+    "tags": [
+     "ancient_item"
+    ],
+    "reaction": "Thank you! This looks special."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thanks, this looks nice."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "456",
+      "type": "O",
+      "name": "Algae Soup",
+      "image": "src_assets_items_456"
+     },
+     {
+      "id": "457",
+      "type": "O",
+      "name": "Pale Broth",
+      "image": "src_assets_items_457"
+     },
+     {
+      "id": "444",
+      "type": "O",
+      "name": "Duck Feather",
+      "image": "src_assets_items_444"
+     },
+     {
+      "id": "440",
+      "type": "O",
+      "name": "Wool",
+      "image": "src_assets_items_440"
+     },
+     {
+      "id": "422",
+      "type": "O",
+      "name": "Purple Mushroom",
+      "image": "src_assets_items_422"
+     },
+     {
+      "id": "420",
+      "type": "O",
+      "name": "Red Mushroom",
+      "image": "src_assets_items_420"
+     }
+    ],
+    "tags": [],
+    "reaction": "Uh, it's for me? ...Thanks."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "446",
+      "type": "O",
+      "name": "Rabbit's Foot",
+      "image": "src_assets_items_446"
+     },
+     {
+      "id": "346",
+      "type": "O",
+      "name": "Beer",
+      "image": "src_assets_items_346"
+     },
+     {
+      "id": "348",
+      "type": "O",
+      "name": "Wine",
+      "image": "src_assets_items_348"
+     },
+     {
+      "id": "303",
+      "type": "O",
+      "name": "Pale Ale",
+      "image": "src_assets_items_303"
+     },
+     {
+      "id": "304",
+      "type": "O",
+      "name": "Hops",
+      "image": "src_assets_items_304"
+     },
+     {
+      "id": "398",
+      "type": "O",
+      "name": "Grape",
+      "image": "src_assets_items_398"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ugh...I'm sorry, but I absolutely hate this."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Trailer",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_penny_icon",
+  "portrait": "src_assets_villagers_penny"
+ },
+ {
+  "id": "Pierre",
+  "name": "Pierre",
+  "birthday": {
+   "season": "spring",
+   "day": 26
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "SeedShop",
+    "Tile": {
+     "X": 4,
+     "Y": 17
+    }
+   }
+  ],
+  "love": "Caroline",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Abigail",
+    "text": "daughter"
+   },
+   {
+    "npc": "Caroline",
+    "text": "wife"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "202",
+      "type": "O",
+      "name": "Fried Calamari",
+      "image": "src_assets_items_202"
+     },
+     {
+      "id": "10039",
+      "type": "O",
+      "name": "Price Catalogue",
+      "image": "src_assets_items_10039"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is my all-time favorite! Thank you!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "22",
+      "type": "O",
+      "name": "Dandelion",
+      "image": "src_assets_items_022"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "259",
+      "type": "O",
+      "name": "Fiddlehead Fern",
+      "image": "src_assets_items_259"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     }
+    ],
+    "tags": [],
+    "reaction": "That's very kind of you. I like this."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "A present? Thanks!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -2,
+      "name": "Gem"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "This isn't exactly my favorite..."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "167",
+      "type": "O",
+      "name": "Joja Cola",
+      "image": "src_assets_items_167"
+     },
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "199",
+      "type": "O",
+      "name": "Parsnip Soup",
+      "image": "src_assets_items_199"
+     },
+     {
+      "id": "270",
+      "type": "O",
+      "name": "Corn",
+      "image": "src_assets_items_270"
+     },
+     {
+      "id": "229",
+      "type": "O",
+      "name": "Tortilla",
+      "image": "src_assets_items_229"
+     },
+     {
+      "id": "248",
+      "type": "O",
+      "name": "Garlic",
+      "image": "src_assets_items_248"
+     }
+    ],
+    "tags": [],
+    "reaction": "Please, never bring this to me again."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Pierre's General Store",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_pierre_icon",
+  "portrait": "src_assets_villagers_pierre"
+ },
+ {
+  "id": "Robin",
+  "name": "Robin",
+  "birthday": {
+   "season": "fall",
+   "day": 21
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "ScienceHouse",
+    "Tile": {
+     "X": 21,
+     "Y": 4
+    }
+   }
+  ],
+  "love": "Demetrius",
+  "canSocialize": null,
+  "socialTab": 1,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Demetrius",
+    "text": "husband"
+   },
+   {
+    "npc": "Maru",
+    "text": "daughter"
+   },
+   {
+    "npc": "Sebastian",
+    "text": "son"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "224",
+      "type": "O",
+      "name": "Spaghetti",
+      "image": "src_assets_items_224"
+     },
+     {
+      "id": "426",
+      "type": "O",
+      "name": "Goat Cheese",
+      "image": "src_assets_items_426"
+     },
+     {
+      "id": "636",
+      "type": "O",
+      "name": "Peach",
+      "image": "src_assets_items_636"
+     },
+     {
+      "id": "10047",
+      "type": "O",
+      "name": "Woody's Secret",
+      "image": "src_assets_items_10047"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is for me? Wow, I absolutely love it!!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "424",
+      "type": "O",
+      "name": "Cheese",
+      "image": "src_assets_items_424"
+     },
+     {
+      "id": "709",
+      "type": "O",
+      "name": "Hardwood",
+      "image": "src_assets_items_709"
+     },
+     {
+      "id": "10315",
+      "type": "O",
+      "name": "Woodcutter's Weekly",
+      "image": "src_assets_items_10315"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks! This is really nice!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you. This might come in handy."
+   },
+   "dislike": {
+    "items": [
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Um... why?"
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "What the...? This is terrible!"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Carpenter's Shop",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_robin_icon",
+  "portrait": "src_assets_villagers_robin"
+ },
+ {
+  "id": "Sam",
+  "name": "Sam",
+  "birthday": {
+   "season": "summer",
+   "day": 17
+  },
+  "datable": true,
+  "gender": "male",
+  "age": "teen",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "SamHouse",
+    "Tile": {
+     "X": 22,
+     "Y": 13
+    }
+   }
+  ],
+  "love": "Penny",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Vincent",
+    "text": "little brother"
+   },
+   {
+    "npc": "Jodi",
+    "text": "mom"
+   },
+   {
+    "npc": "Kent",
+    "text": "dad"
+   },
+   {
+    "npc": "Sebastian",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "90",
+      "type": "O",
+      "name": "Cactus Fruit",
+      "image": "src_assets_items_090"
+     },
+     {
+      "id": "206",
+      "type": "O",
+      "name": "Pizza",
+      "image": "src_assets_items_206"
+     },
+     {
+      "id": "562",
+      "type": "O",
+      "name": "Tigerseye",
+      "image": "src_assets_items_562"
+     },
+     {
+      "id": "731",
+      "type": "O",
+      "name": "Maple Bar",
+      "image": "src_assets_items_731"
+     }
+    ],
+    "tags": [],
+    "reaction": "Aw, yea! This is my absolute favorite!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "167",
+      "type": "O",
+      "name": "Joja Cola",
+      "image": "src_assets_items_167"
+     },
+     {
+      "id": "210",
+      "type": "O",
+      "name": "Hashbrowns",
+      "image": "src_assets_items_210"
+     },
+     {
+      "id": "213",
+      "type": "O",
+      "name": "Fish Taco",
+      "image": "src_assets_items_213"
+     },
+     {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "224",
+      "type": "O",
+      "name": "Spaghetti",
+      "image": "src_assets_items_224"
+     },
+     {
+      "id": "228",
+      "type": "O",
+      "name": "Maki Roll",
+      "image": "src_assets_items_228"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "239",
+      "type": "O",
+      "name": "Stuffing",
+      "image": "src_assets_items_239"
+     },
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks! I really like this."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "You got that for me? Thanks!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "152",
+      "type": "O",
+      "name": "Seaweed",
+      "image": "src_assets_items_152"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "category": -75,
+      "name": "Vegetable"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmm.. this is... interesting."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "306",
+      "type": "O",
+      "name": "Mayonnaise",
+      "image": "src_assets_items_306"
+     },
+     {
+      "id": "307",
+      "type": "O",
+      "name": "Duck Mayonnaise",
+      "image": "src_assets_items_307"
+     },
+     {
+      "id": "342",
+      "type": "O",
+      "name": "Pickles",
+      "image": "src_assets_items_342"
+     },
+     {
+      "category": -15,
+      "name": "Metal Resource"
+     }
+    ],
+    "tags": [],
+    "reaction": "You really don't get it, huh?"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 Willow Lane",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_sam_icon",
+  "portrait": "src_assets_villagers_sam"
+ },
+ {
+  "id": "Sandy",
+  "name": "Sandy",
+  "birthday": {
+   "season": "fall",
+   "day": 15
+  },
+  "datable": false,
+  "gender": "female",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Desert",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "SandyHouse",
+    "Tile": {
+     "X": 2,
+     "Y": 5
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": "PLAYER_HAS_SEEN_EVENT Any 67",
+  "socialTab": 0,
+  "calendar": 1,
+  "relationships": [
+   {
+    "npc": "Emily",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "id": "905",
+      "type": "O",
+      "name": "Mango Sticky Rice",
+      "image": "src_assets_items_905"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ooo! I absolutely love getting gifts from the valley. I'm so happy!~"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -75,
+      "name": "Vegetable"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     },
+     {
+      "id": "428",
+      "type": "O",
+      "name": "Cloth",
+      "image": "src_assets_items_428"
+     },
+     {
+      "id": "436",
+      "type": "O",
+      "name": "Goat Milk",
+      "image": "src_assets_items_436"
+     },
+     {
+      "id": "438",
+      "type": "O",
+      "name": "L. Goat Milk",
+      "image": "src_assets_items_438"
+     },
+     {
+      "id": "440",
+      "type": "O",
+      "name": "Wool",
+      "image": "src_assets_items_440"
+     }
+    ],
+    "tags": [],
+    "reaction": "This looks wonderful. Thanks so much!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "This is for me? Thank you!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh... Um. Thanks."
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "*sniff* ...what is it?"
+   }
+  },
+  "homeRegionText": "Calico Desert",
+  "homeLocationText": "Oasis",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_sandy_icon",
+  "portrait": "src_assets_villagers_sandy"
+ },
+ {
+  "id": "Sebastian",
+  "name": "Sebastian",
+  "birthday": {
+   "season": "winter",
+   "day": 10
+  },
+  "datable": true,
+  "gender": "male",
+  "age": "teen",
+  "manners": "rude",
+  "anxiety": "shy",
+  "optimism": "negative",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "right",
+    "Id": "Default",
+    "Location": "SebastianRoom",
+    "Tile": {
+     "X": 10,
+     "Y": 9
+    }
+   }
+  ],
+  "love": "Abigail",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Robin",
+    "text": "mom"
+   },
+   {
+    "npc": "Maru",
+    "text": "half-sister"
+   },
+   {
+    "npc": "Sam",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "84",
+      "type": "O",
+      "name": "Frozen Tear",
+      "image": "src_assets_items_084"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     },
+     {
+      "id": "236",
+      "type": "O",
+      "name": "Pumpkin Soup",
+      "image": "src_assets_items_236"
+     },
+     {
+      "id": "575",
+      "type": "O",
+      "name": "Obsidian",
+      "image": "src_assets_items_575"
+     },
+     {
+      "id": "305",
+      "type": "O",
+      "name": "Void Egg",
+      "image": "src_assets_items_305"
+     },
+     {
+      "id": "10139",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "I really love this. How did you know?"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "267",
+      "type": "O",
+      "name": "Flounder",
+      "image": "src_assets_items_267"
+     },
+     {
+      "id": "614",
+      "type": "O",
+      "name": "Green Tea",
+      "image": "src_assets_items_614"
+     },
+     {
+      "id": "276",
+      "type": "O",
+      "name": "Pumpkin",
+      "image": "src_assets_items_276"
+     },
+     {
+      "id": "10045",
+      "type": "O",
+      "name": "Monster Compendium",
+      "image": "src_assets_items_10045"
+     },
+     {
+      "id": "10317",
+      "type": "O",
+      "name": "Combat Quarterly",
+      "image": "src_assets_items_10317"
+     }
+    ],
+    "tags": [],
+    "reaction": "Thanks, I like this."
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     }
+    ],
+    "tags": [],
+    "reaction": "...thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "category": -80,
+      "name": "Flower"
+     }
+    ],
+    "tags": [],
+    "reaction": "...?"
+   },
+   "hate": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "id": "195",
+      "type": "O",
+      "name": "Omelet",
+      "image": "src_assets_items_195"
+     },
+     {
+      "id": "201",
+      "type": "O",
+      "name": "Complete Breakfast",
+      "image": "src_assets_items_201"
+     },
+     {
+      "id": "240",
+      "type": "O",
+      "name": "Farmer's Lunch",
+      "image": "src_assets_items_240"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "category": -26,
+      "name": "Artisan Goods"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     }
+    ],
+    "tags": [],
+    "reaction": "...I hate this."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Carpenter's Shop",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_sebastian_icon",
+  "portrait": "src_assets_villagers_sebastian"
+ },
+ {
+  "id": "Shane",
+  "name": "Shane",
+  "birthday": {
+   "season": "spring",
+   "day": 20
+  },
+  "datable": true,
+  "gender": "male",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "shy",
+  "optimism": "negative",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "left",
+    "Id": "Default",
+    "Location": "AnimalShop",
+    "Tile": {
+     "X": 25,
+     "Y": 6
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Marnie",
+    "text": "aunt"
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "206",
+      "type": "O",
+      "name": "Pizza",
+      "image": "src_assets_items_206"
+     },
+     {
+      "id": "215",
+      "type": "O",
+      "name": "Pepper Poppers",
+      "image": "src_assets_items_215"
+     },
+     {
+      "id": "260",
+      "type": "O",
+      "name": "Hot Pepper",
+      "image": "src_assets_items_260"
+     },
+     {
+      "id": "346",
+      "type": "O",
+      "name": "Beer",
+      "image": "src_assets_items_346"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh wow, @! How'd you know this is my favorite?"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "id": "303",
+      "type": "O",
+      "name": "Pale Ale",
+      "image": "src_assets_items_303"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is great! Thanks!"
+   },
+   "neutral": {
+    "items": [
+     {
+      "id": "203",
+      "type": "O",
+      "name": "Strange Bun",
+      "image": "src_assets_items_203"
+     }
+    ],
+    "tags": [],
+    "reaction": "Oh, you got me something? Thanks!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "152",
+      "type": "O",
+      "name": "Seaweed",
+      "image": "src_assets_items_152"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "I don't really like this."
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     },
+     {
+      "id": "342",
+      "type": "O",
+      "name": "Pickles",
+      "image": "src_assets_items_342"
+     }
+    ],
+    "tags": [],
+    "reaction": "Why are you giving me your garbage?"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Marnie's Ranch",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_shane_icon",
+  "portrait": "src_assets_villagers_shane"
+ },
+ {
+  "id": "Vincent",
+  "name": "Vincent",
+  "birthday": {
+   "season": "spring",
+   "day": 10
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "child",
+  "manners": "neutral",
+  "anxiety": "outgoing",
+  "optimism": "positive",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "SamHouse",
+    "Tile": {
+     "X": 10,
+     "Y": 23
+    }
+   }
+  ],
+  "love": "Jas",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Jas",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221"
+     },
+     {
+      "id": "398",
+      "type": "O",
+      "name": "Grape",
+      "image": "src_assets_items_398"
+     },
+     {
+      "id": "612",
+      "type": "O",
+      "name": "Cranberry Candy",
+      "image": "src_assets_items_612"
+     },
+     {
+      "id": "721",
+      "type": "O",
+      "name": "Snail",
+      "image": "src_assets_items_721"
+     },
+     {
+      "id": "903",
+      "type": "O",
+      "name": "Ginger Ale",
+      "image": "src_assets_items_903"
+     },
+     {
+      "id": "10139",
+      "type": "O",
+      "name": null,
+      "image": null
+     }
+    ],
+    "tags": [],
+    "reaction": "Wow, thank you so much! This is terrific!"
+   },
+   "like": {
+    "items": [
+     {
+      "id": "18",
+      "type": "O",
+      "name": "Daffodil",
+      "image": "src_assets_items_018"
+     },
+     {
+      "id": "60",
+      "type": "O",
+      "name": "Emerald",
+      "image": "src_assets_items_060"
+     },
+     {
+      "id": "64",
+      "type": "O",
+      "name": "Ruby",
+      "image": "src_assets_items_064"
+     },
+     {
+      "id": "70",
+      "type": "O",
+      "name": "Jade",
+      "image": "src_assets_items_070"
+     },
+     {
+      "id": "88",
+      "type": "O",
+      "name": "Coconut",
+      "image": "src_assets_items_088"
+     },
+     {
+      "id": "232",
+      "type": "O",
+      "name": "Rice Pudding",
+      "image": "src_assets_items_232"
+     },
+     {
+      "id": "233",
+      "type": "O",
+      "name": "Ice Cream",
+      "image": "src_assets_items_233"
+     },
+     {
+      "id": "234",
+      "type": "O",
+      "name": "Blueberry Tart",
+      "image": "src_assets_items_234"
+     },
+     {
+      "id": "222",
+      "type": "O",
+      "name": "Rhubarb Pie",
+      "image": "src_assets_items_222"
+     },
+     {
+      "id": "223",
+      "type": "O",
+      "name": "Cookies",
+      "image": "src_assets_items_223"
+     },
+     {
+      "id": "340",
+      "type": "O",
+      "name": "Honey",
+      "image": "src_assets_items_340"
+     },
+     {
+      "id": "344",
+      "type": "O",
+      "name": "Jelly",
+      "image": "src_assets_items_344"
+     },
+     {
+      "id": "402",
+      "type": "O",
+      "name": "Sweet Pea",
+      "image": "src_assets_items_402"
+     },
+     {
+      "id": "418",
+      "type": "O",
+      "name": "Crocus",
+      "image": "src_assets_items_418"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     }
+    ],
+    "tags": [],
+    "reaction": "For me? Wow, thanks!"
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thanks!"
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -75,
+      "name": "Vegetable"
+     },
+     {
+      "category": -79,
+      "name": "Fruit"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "80",
+      "type": "O",
+      "name": "Quartz",
+      "image": "src_assets_items_080"
+     }
+    ],
+    "tags": [],
+    "reaction": "This isn't very fun...$s"
+   },
+   "hate": {
+    "items": [
+     {
+      "id": "253",
+      "type": "O",
+      "name": "Triple Shot Espresso",
+      "image": "src_assets_items_253"
+     },
+     {
+      "id": "395",
+      "type": "O",
+      "name": "Coffee",
+      "image": "src_assets_items_395"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "category": -26,
+      "name": "Artisan Goods"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "873",
+      "type": "O",
+      "name": "Piña Colada",
+      "image": "src_assets_items_873"
+     }
+    ],
+    "tags": [],
+    "reaction": "Yuck, what is this?$s"
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "1 Willow Lane",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_vincent_icon",
+  "portrait": "src_assets_villagers_vincent"
+ },
+ {
+  "id": "Welwick",
+  "name": "Welwick",
+  "birthday": {
+   "season": null,
+   "day": 0
+  },
+  "datable": false,
+  "gender": "undefined",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Other",
+  "homes": null,
+  "love": null,
+  "canSocialize": "FALSE",
+  "socialTab": 3,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": null,
+  "homeRegionText": "Other region",
+  "homeLocationText": null,
+  "hasSchedule": false,
+  "inAllVillagers": false,
+  "image": null,
+  "portrait": null
+ },
+ {
+  "id": "Willy",
+  "name": "Willy",
+  "birthday": {
+   "season": "summer",
+   "day": 24
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "neutral",
+  "anxiety": "neutral",
+  "optimism": "neutral",
+  "homeRegion": "Town",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "FishShop",
+    "Tile": {
+     "X": 5,
+     "Y": 4
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [
+   {
+    "npc": "Elliott",
+    "text": ""
+   }
+  ],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "143",
+      "type": "O",
+      "name": "Catfish",
+      "image": "src_assets_items_143"
+     },
+     {
+      "id": "149",
+      "type": "O",
+      "name": "Octopus",
+      "image": "src_assets_items_149"
+     },
+     {
+      "id": "154",
+      "type": "O",
+      "name": "Sea Cucumber",
+      "image": "src_assets_items_154"
+     },
+     {
+      "id": "276",
+      "type": "O",
+      "name": "Pumpkin",
+      "image": "src_assets_items_276"
+     },
+     {
+      "id": "337",
+      "type": "O",
+      "name": "Iridium Bar",
+      "image": "src_assets_items_337"
+     },
+     {
+      "id": "698",
+      "type": "O",
+      "name": "Sturgeon",
+      "image": "src_assets_items_698"
+     },
+     {
+      "id": "459",
+      "type": "O",
+      "name": "Mead",
+      "image": "src_assets_items_459"
+     },
+     {
+      "id": "336",
+      "type": "O",
+      "name": "Gold Bar",
+      "image": "src_assets_items_336"
+     },
+     {
+      "id": "10031",
+      "type": "O",
+      "name": "The Art O' Crabbing",
+      "image": "src_assets_items_10031"
+     },
+     {
+      "id": "10041",
+      "type": "O",
+      "name": "Jewels Of The Sea",
+      "image": "src_assets_items_10041"
+     }
+    ],
+    "tags": [],
+    "reaction": "This is great! If only me ol' Pappy was around. He'd go nuts for this."
+   },
+   "like": {
+    "items": [
+     {
+      "id": "66",
+      "type": "O",
+      "name": "Amethyst",
+      "image": "src_assets_items_066"
+     },
+     {
+      "id": "340",
+      "type": "O",
+      "name": "Honey",
+      "image": "src_assets_items_340"
+     },
+     {
+      "id": "699",
+      "type": "O",
+      "name": "Tiger Trout",
+      "image": "src_assets_items_699"
+     },
+     {
+      "id": "707",
+      "type": "O",
+      "name": "Lingcod",
+      "image": "src_assets_items_707"
+     },
+     {
+      "id": "198",
+      "type": "O",
+      "name": "Baked Fish",
+      "image": "src_assets_items_198"
+     },
+     {
+      "id": "202",
+      "type": "O",
+      "name": "Fried Calamari",
+      "image": "src_assets_items_202"
+     },
+     {
+      "id": "209",
+      "type": "O",
+      "name": "Carp Surprise",
+      "image": "src_assets_items_209"
+     },
+     {
+      "id": "212",
+      "type": "O",
+      "name": "Salmon Dinner",
+      "image": "src_assets_items_212"
+     },
+     {
+      "id": "213",
+      "type": "O",
+      "name": "Fish Taco",
+      "image": "src_assets_items_213"
+     },
+     {
+      "id": "214",
+      "type": "O",
+      "name": "Crispy Bass",
+      "image": "src_assets_items_214"
+     },
+     {
+      "id": "219",
+      "type": "O",
+      "name": "Trout Soup",
+      "image": "src_assets_items_219"
+     },
+     {
+      "id": "225",
+      "type": "O",
+      "name": "Fried Eel",
+      "image": "src_assets_items_225"
+     },
+     {
+      "id": "727",
+      "type": "O",
+      "name": "Chowder",
+      "image": "src_assets_items_727"
+     },
+     {
+      "id": "730",
+      "type": "O",
+      "name": "Lobster Bisque",
+      "image": "src_assets_items_730"
+     },
+     {
+      "id": "728",
+      "type": "O",
+      "name": "Fish Stew",
+      "image": "src_assets_items_728"
+     },
+     {
+      "id": "732",
+      "type": "O",
+      "name": "Crab Cakes",
+      "image": "src_assets_items_732"
+     },
+     {
+      "id": "265",
+      "type": "O",
+      "name": "Seafoam Pudding",
+      "image": "src_assets_items_265"
+     },
+     {
+      "id": "395",
+      "type": "O",
+      "name": "Coffee",
+      "image": "src_assets_items_395"
+     },
+     {
+      "id": "729",
+      "type": "O",
+      "name": "Escargot",
+      "image": "src_assets_items_729"
+     },
+     {
+      "id": "10314",
+      "type": "O",
+      "name": "Bait And Bobber",
+      "image": "src_assets_items_10314"
+     }
+    ],
+    "tags": [],
+    "reaction": "This looks great. Thank you!"
+   },
+   "neutral": {
+    "items": [
+     {
+      "category": -4,
+      "name": "Fish",
+      "anyName": "Fish (Any)",
+      "displayItemId": "145",
+      "image": "src_assets_items_145"
+     },
+     {
+      "id": "227",
+      "type": "O",
+      "name": "Sashimi",
+      "image": "src_assets_items_227"
+     },
+     {
+      "id": "228",
+      "type": "O",
+      "name": "Maki Roll",
+      "image": "src_assets_items_228"
+     },
+     {
+      "id": "242",
+      "type": "O",
+      "name": "Dish O' The Sea",
+      "image": "src_assets_items_242"
+     }
+    ],
+    "tags": [],
+    "reaction": "A gift! Thanks."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -7,
+      "name": "Cooking"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     }
+    ],
+    "tags": [],
+    "reaction": "Hmmm... You like stuff like this? Huh."
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "... *sniff*... Well I guess I can toss it into the chum bucket."
+   }
+  },
+  "homeRegionText": "Pelican Town",
+  "homeLocationText": "Fish Shop",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_willy_icon",
+  "portrait": "src_assets_villagers_willy"
+ },
+ {
+  "id": "Wizard",
+  "name": "Wizard",
+  "birthday": {
+   "season": "winter",
+   "day": 17
+  },
+  "datable": false,
+  "gender": "male",
+  "age": "adult",
+  "manners": "rude",
+  "anxiety": "neutral",
+  "optimism": "negative",
+  "homeRegion": "Other",
+  "homes": [
+   {
+    "Condition": null,
+    "Direction": "down",
+    "Id": "Default",
+    "Location": "WizardHouse",
+    "Tile": {
+     "X": 3,
+     "Y": 17
+    }
+   }
+  ],
+  "love": "",
+  "canSocialize": null,
+  "socialTab": 0,
+  "calendar": 0,
+  "relationships": [],
+  "gifts": {
+   "love": {
+    "items": [
+     {
+      "id": "155",
+      "type": "O",
+      "name": "Super Cucumber",
+      "image": "src_assets_items_155"
+     },
+     {
+      "id": "422",
+      "type": "O",
+      "name": "Purple Mushroom",
+      "image": "src_assets_items_422"
+     },
+     {
+      "id": "769",
+      "type": "O",
+      "name": "Void Essence",
+      "image": "src_assets_items_769"
+     },
+     {
+      "id": "768",
+      "type": "O",
+      "name": "Solar Essence",
+      "image": "src_assets_items_768"
+     },
+     {
+      "id": "10038",
+      "type": "O",
+      "name": "Book of Mysteries",
+      "image": "src_assets_items_10038"
+     }
+    ],
+    "tags": [],
+    "reaction": "Ahh, this is imbued with potent arcane energies. It's very useful for my studies. Thank you!"
+   },
+   "like": {
+    "items": [
+     {
+      "category": -12,
+      "name": "Mineral"
+     },
+     {
+      "id": "72",
+      "type": "O",
+      "name": "Diamond",
+      "image": "src_assets_items_072"
+     },
+     {
+      "id": "82",
+      "type": "O",
+      "name": "Fire Quartz",
+      "image": "src_assets_items_082"
+     },
+     {
+      "id": "84",
+      "type": "O",
+      "name": "Frozen Tear",
+      "image": "src_assets_items_084"
+     },
+     {
+      "id": "337",
+      "type": "O",
+      "name": "Iridium Bar",
+      "image": "src_assets_items_337"
+     }
+    ],
+    "tags": [
+     "category_trinket"
+    ],
+    "reaction": "Many thanks. This item has some very interesting properties."
+   },
+   "neutral": {
+    "items": [],
+    "tags": [],
+    "reaction": "Thank you. This will prove useful, I think."
+   },
+   "dislike": {
+    "items": [
+     {
+      "category": -5,
+      "name": "Egg",
+      "anyName": "Egg (Any)",
+      "displayItemId": "176",
+      "image": "src_assets_items_176"
+     },
+     {
+      "category": -6,
+      "name": "Milk",
+      "anyName": "Milk (Any)",
+      "displayItemId": "184",
+      "image": "src_assets_items_184"
+     },
+     {
+      "category": -81,
+      "name": "Forage"
+     },
+     {
+      "id": "16",
+      "type": "O",
+      "name": "Wild Horseradish",
+      "image": "src_assets_items_016"
+     },
+     {
+      "id": "330",
+      "type": "O",
+      "name": "Clay",
+      "image": "src_assets_items_330"
+     },
+     {
+      "id": "766",
+      "type": "O",
+      "name": "Slime",
+      "image": "src_assets_items_766"
+     }
+    ],
+    "tags": [],
+    "reaction": "This?... I suppose I'll cast it into the flames and see what happens."
+   },
+   "hate": {
+    "items": [],
+    "tags": [],
+    "reaction": "Ughh... These are utterly mundane. Please refrain from bothering me with this in the future."
+   }
+  },
+  "homeRegionText": "Other region",
+  "homeLocationText": "Wizard's Tower",
+  "hasSchedule": true,
+  "inAllVillagers": true,
+  "image": "src_assets_villagers_wizard_icon",
+  "portrait": "src_assets_villagers_wizard"
+ }
+]

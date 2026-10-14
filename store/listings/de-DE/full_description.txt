@@ -1,0 +1,55 @@
+Stardew Valley Guide, Perfektions-Checkliste und Savegame-Editor in einer Pixel-Art-App. Geburtstage, Feste, Lieblingsgeschenke der Bewohner, Bündel im Gemeinschaftszentrum, Fische und alle 130 goldenen Walnüsse stehen neben einem Save-Editor, der vor jeder Änderung automatisch ein Backup anlegt.
+
+Inoffizielle Fan-App. Keine Verbindung zu ConcernedApe.
+
+■ Kalender und Tagesplanung
+• Geburtstage der Bewohner, Feste und Wiederholungen der Kochsendung
+• Letzter Pflanztag für jede Pflanze vor dem Saisonwechsel
+• Eigene Notizen und Aufgaben für jeden Tag
+
+■ Bewohner, Geschenke und Herzen
+• Geliebte und gemochte Geschenke für alle Bewohner von Stardew Valley
+• Tagesabläufe, auch bei Regen und nach der Hochzeit
+• Herzen-Tracker für Freundschaft und Romantik
+
+■ Bündel im Gemeinschaftszentrum
+• Alle Räume, Bündel und Gegenstände, normal und remixt
+• Sieh sofort, was noch fehlt und wo du es findest
+
+■ Perfektions-Checkliste
+• Fische nach Jahreszeit, Wetter, Uhrzeit und Ort
+• Pflanzen mit Gewinn pro Tag
+• Koch- und Bastelrezepte sowie die Versand-Sammlung
+• Artefakte und Mineralien für das Museum
+• Alle 130 goldenen Walnüsse auf der Ingwerinsel und alle Sternenfrüchte
+• Hüte, Hemden, Hosen, Stiefel, Ringe und Schmuckstücke
+• Monster-Ausrottungsziele, Gebäude von Robin und dem Zauberer
+• Mehrere Farmen mit eigenem Fortschritt
+
+■ Savegame-Editor für Stardew Valley 1.6
+• Geld, Fähigkeiten, Berufe und Gegenstände im Portemonnaie
+• Aussehen des Charakters
+• Inventar, Ausrüstung und alle Truhen und Kühlschränke der Farm
+• Beziehungen, Herzen und Ehestatus
+• Koch- und Bastelrezepte entsperren
+• Bündel im Gemeinschaftszentrum abschließen
+• Gebäude und Nutztiere
+• Spezialaufträge von Mr. Qi
+• Für Spielstände von Android und PC
+• Kein Root nötig: Öffne den Saves-Ordner des Spiels direkt
+
+■ Automatische Backups
+Der Save-Editor sichert deinen Spielstand vor jeder Änderung. Stelle jede frühere Version mit einem Tipp wieder her. Schließe das Spiel vor dem Bearbeiten und öffne es danach erneut.
+
+■ Fortschritt importieren
+Lade einen Spielstand und der Tracker füllt sich von selbst: gefangene Fische, versandte Waren, gekochte Gerichte, gebastelte Gegenstände, Museumsspenden, Sternenfrüchte, Herzen und Bündel-Gegenstände. Nie wieder Hunderte Häkchen per Hand setzen.
+
+■ Für Stardew Valley Fans gemacht
+• Pixel-Art-Oberfläche in warmen Farm-Farben
+• Tracker und Guide funktionieren offline, ohne Konto
+• 13 Sprachen, darunter Deutsch
+• Mit Werbung. Kein Abo, keine Testphase.
+
+Ob erster Frühling oder Jagd auf die Perfektion: Dieser Stardew Valley Tracker, Guide und Save-Editor hat deine ganze Farm in der Hosentasche.
+
+Stardew Valley ist eine Marke von ConcernedApe LLC. Diese App wird nicht von ConcernedApe erstellt, unterstützt oder gesponsert. Der Spielname dient nur zur Angabe der Kompatibilität.

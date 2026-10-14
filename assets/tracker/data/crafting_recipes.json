@@ -1,0 +1,5958 @@
+{
+ "groups": [
+  {
+   "id": "bombs",
+   "name": "Bombs",
+   "image": "src_assets_items_287",
+   "imageKey": "O287"
+  },
+  {
+   "id": "fences",
+   "name": "Fences",
+   "image": "src_assets_items_298",
+   "imageKey": "O298"
+  },
+  {
+   "id": "sprinklers",
+   "name": "Sprinklers",
+   "image": "src_assets_items_621",
+   "imageKey": "O621"
+  },
+  {
+   "id": "artisan",
+   "name": "Artisan Equipment",
+   "image": "src_assets_big_craftables_keg",
+   "imageKey": "BO12"
+  },
+  {
+   "id": "fertilizer",
+   "name": "Fertilizer",
+   "image": "src_assets_items_368",
+   "imageKey": "O368"
+  },
+  {
+   "id": "seeds",
+   "name": "Seeds",
+   "image": "src_assets_items_495",
+   "imageKey": "O495"
+  },
+  {
+   "id": "decor",
+   "name": "Decor",
+   "image": "src_assets_items_328",
+   "imageKey": "O328"
+  },
+  {
+   "id": "fishing",
+   "name": "Fishing",
+   "image": "src_assets_items_710",
+   "imageKey": "O710"
+  },
+  {
+   "id": "rings",
+   "name": "Rings",
+   "image": "src_assets_items_525",
+   "imageKey": "O525"
+  },
+  {
+   "id": "edible",
+   "name": "Edible Items",
+   "image": "src_assets_items_403",
+   "imageKey": "O403"
+  },
+  {
+   "id": "consumables",
+   "name": "Consumables",
+   "image": "src_assets_items_681",
+   "imageKey": "O681"
+  },
+  {
+   "id": "lighting",
+   "name": "Lighting",
+   "image": "src_assets_items_093",
+   "imageKey": "O93"
+  },
+  {
+   "id": "refining",
+   "name": "Refining Equipment",
+   "image": "src_assets_big_craftables_furnace",
+   "imageKey": "BO13"
+  },
+  {
+   "id": "furniture",
+   "name": "Furniture",
+   "image": "src_assets_items_464",
+   "imageKey": "O464"
+  },
+  {
+   "id": "storage",
+   "name": "Storage Equipment",
+   "image": "src_assets_big_craftables_chest",
+   "imageKey": "BO130"
+  },
+  {
+   "id": "signs",
+   "name": "Signs",
+   "image": "src_assets_big_craftables_wood_sign",
+   "imageKey": "BO37"
+  },
+  {
+   "id": "misc",
+   "name": "Miscellaneous",
+   "image": "src_assets_big_craftables_scarecrow",
+   "imageKey": "BO8"
+  }
+ ],
+ "recipes": [
+  {
+   "key": "Cherry Bomb",
+   "internalName": "Cherry Bomb",
+   "name": "Cherry Bomb",
+   "group": "bombs",
+   "order": 0,
+   "output": {
+    "id": "286",
+    "type": "O",
+    "name": "Cherry Bomb",
+    "image": "src_assets_items_286",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "378",
+     "type": "O",
+     "name": "Copper Ore",
+     "image": "src_assets_items_378",
+     "amount": 4
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_items_286"
+  },
+  {
+   "key": "Bomb",
+   "internalName": "Bomb",
+   "name": "Bomb",
+   "group": "bombs",
+   "order": 1,
+   "output": {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "380",
+     "type": "O",
+     "name": "Iron Ore",
+     "image": "src_assets_items_380",
+     "amount": 4
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_items_287"
+  },
+  {
+   "key": "Mega Bomb",
+   "internalName": "Mega Bomb",
+   "name": "Mega Bomb",
+   "group": "bombs",
+   "order": 2,
+   "output": {
+    "id": "288",
+    "type": "O",
+    "name": "Mega Bomb",
+    "image": "src_assets_items_288",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "384",
+     "type": "O",
+     "name": "Gold Ore",
+     "image": "src_assets_items_384",
+     "amount": 4
+    },
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 1
+    },
+    {
+     "id": "769",
+     "type": "O",
+     "name": "Void Essence",
+     "image": "src_assets_items_769",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_items_288"
+  },
+  {
+   "key": "Gate",
+   "internalName": "Gate",
+   "name": "Gate",
+   "group": "fences",
+   "order": 0,
+   "output": {
+    "id": "325",
+    "type": "O",
+    "name": "Gate",
+    "image": "src_assets_items_325",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_items_325"
+  },
+  {
+   "key": "Wood Fence",
+   "internalName": "Wood Fence",
+   "name": "Wood Fence",
+   "group": "fences",
+   "order": 1,
+   "output": {
+    "id": "322",
+    "type": "O",
+    "name": "Wood Fence",
+    "image": "src_assets_items_322",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_items_322"
+  },
+  {
+   "key": "Stone Fence",
+   "internalName": "Stone Fence",
+   "name": "Stone Fence",
+   "group": "fences",
+   "order": 2,
+   "output": {
+    "id": "323",
+    "type": "O",
+    "name": "Stone Fence",
+    "image": "src_assets_items_323",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_323"
+  },
+  {
+   "key": "Iron Fence",
+   "internalName": "Iron Fence",
+   "name": "Iron Fence",
+   "group": "fences",
+   "order": 3,
+   "output": {
+    "id": "324",
+    "type": "O",
+    "name": "Iron Fence",
+    "image": "src_assets_items_324",
+    "quantity": 10
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_324"
+  },
+  {
+   "key": "Hardwood Fence",
+   "internalName": "Hardwood Fence",
+   "name": "Hardwood Fence",
+   "group": "fences",
+   "order": 4,
+   "output": {
+    "id": "298",
+    "type": "O",
+    "name": "Hardwood Fence",
+    "image": "src_assets_items_298",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_298"
+  },
+  {
+   "key": "Sprinkler",
+   "internalName": "Sprinkler",
+   "name": "Sprinkler",
+   "group": "sprinklers",
+   "order": 0,
+   "output": {
+    "id": "599",
+    "type": "O",
+    "name": "Sprinkler",
+    "image": "src_assets_items_599",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_599"
+  },
+  {
+   "key": "Quality Sprinkler",
+   "internalName": "Quality Sprinkler",
+   "name": "Quality Sprinkler",
+   "group": "sprinklers",
+   "order": 1,
+   "output": {
+    "id": "621",
+    "type": "O",
+    "name": "Quality Sprinkler",
+    "image": "src_assets_items_621",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    },
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_621"
+  },
+  {
+   "key": "Iridium Sprinkler",
+   "internalName": "Iridium Sprinkler",
+   "name": "Iridium Sprinkler",
+   "group": "sprinklers",
+   "order": 2,
+   "output": {
+    "id": "645",
+    "type": "O",
+    "name": "Iridium Sprinkler",
+    "image": "src_assets_items_645",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    },
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 1
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_645"
+  },
+  {
+   "key": "Mayonnaise Machine",
+   "internalName": "Mayonnaise Machine",
+   "name": "Mayonnaise Machine",
+   "group": "artisan",
+   "order": 0,
+   "output": {
+    "id": "24",
+    "type": "BO",
+    "name": "Mayonnaise Machine",
+    "image": "src_assets_big_craftables_mayonnaise_machine",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 15
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 15
+    },
+    {
+     "id": "86",
+     "type": "O",
+     "name": "Earth Crystal",
+     "image": "src_assets_items_086",
+     "amount": 1
+    },
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_mayonnaise_machine"
+  },
+  {
+   "key": "Bee House",
+   "internalName": "Bee House",
+   "name": "Bee House",
+   "group": "artisan",
+   "order": 1,
+   "output": {
+    "id": "10",
+    "type": "BO",
+    "name": "Bee House",
+    "image": "src_assets_big_craftables_bee_house",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 40
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 8
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "724",
+     "type": "O",
+     "name": "Maple Syrup",
+     "image": "src_assets_items_724",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 3,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_bee_house"
+  },
+  {
+   "key": "Preserves Jar",
+   "internalName": "Preserves Jar",
+   "name": "Preserves Jar",
+   "group": "artisan",
+   "order": 2,
+   "output": {
+    "id": "15",
+    "type": "BO",
+    "name": "Preserves Jar",
+    "image": "src_assets_big_craftables_preserves_jar",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 50
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 40
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 8
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_preserves_jar"
+  },
+  {
+   "key": "Cheese Press",
+   "internalName": "Cheese Press",
+   "name": "Cheese Press",
+   "group": "artisan",
+   "order": 3,
+   "output": {
+    "id": "16",
+    "type": "BO",
+    "name": "Cheese Press",
+    "image": "src_assets_big_craftables_cheese_press",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 45
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 45
+    },
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 10
+    },
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_cheese_press"
+  },
+  {
+   "key": "Loom",
+   "internalName": "Loom",
+   "name": "Loom",
+   "group": "artisan",
+   "order": 4,
+   "output": {
+    "id": "17",
+    "type": "BO",
+    "name": "Loom",
+    "image": "src_assets_big_craftables_loom",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 60
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 30
+    },
+    {
+     "id": "726",
+     "type": "O",
+     "name": "Pine Tar",
+     "image": "src_assets_items_726",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_loom"
+  },
+  {
+   "key": "Keg",
+   "internalName": "Keg",
+   "name": "Keg",
+   "group": "artisan",
+   "order": 5,
+   "output": {
+    "id": "12",
+    "type": "BO",
+    "name": "Keg",
+    "image": "src_assets_big_craftables_keg",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 30
+    },
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "725",
+     "type": "O",
+     "name": "Oak Resin",
+     "image": "src_assets_items_725",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_keg"
+  },
+  {
+   "key": "Oil Maker",
+   "internalName": "Oil Maker",
+   "name": "Oil Maker",
+   "group": "artisan",
+   "order": 6,
+   "output": {
+    "id": "19",
+    "type": "BO",
+    "name": "Oil Maker",
+    "image": "src_assets_big_craftables_oil_maker",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "766",
+     "type": "O",
+     "name": "Slime",
+     "image": "src_assets_items_766",
+     "amount": 50
+    },
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 20
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_oil_maker"
+  },
+  {
+   "key": "Cask",
+   "internalName": "Cask",
+   "name": "Cask",
+   "group": "artisan",
+   "order": 7,
+   "output": {
+    "id": "163",
+    "type": "BO",
+    "name": "Cask",
+    "image": "src_assets_big_craftables_cask",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 20
+    },
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_cellar_upgrade",
+    "text": "Farmhouse cellar upgrade"
+   },
+   "image": "src_assets_big_craftables_cask"
+  },
+  {
+   "key": "Fish Smoker",
+   "internalName": "Fish Smoker",
+   "name": "Fish Smoker",
+   "group": "artisan",
+   "order": 8,
+   "output": {
+    "id": "10136",
+    "type": "BO",
+    "name": "Fish Smoker",
+    "image": "src_assets_big_craftables_fish_smoker",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 10
+    },
+    {
+     "id": "10306",
+     "type": "O",
+     "name": "Sea Jelly",
+     "image": null,
+     "amount": 1
+    },
+    {
+     "id": "10299",
+     "type": "O",
+     "name": "River Jelly",
+     "image": null,
+     "amount": 1
+    },
+    {
+     "id": "10065",
+     "type": "O",
+     "name": "Cave Jelly",
+     "image": null,
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 10000,
+    "shop": "FishShop",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_fish_smoker"
+  },
+  {
+   "key": "Dehydrator",
+   "internalName": "Dehydrator",
+   "name": "Dehydrator",
+   "group": "artisan",
+   "order": 9,
+   "output": {
+    "id": "10101",
+    "type": "BO",
+    "name": "Dehydrator",
+    "image": "src_assets_big_craftables_dehydrator",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 30
+    },
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 2
+    },
+    {
+     "id": "82",
+     "type": "O",
+     "name": "Fire Quartz",
+     "image": "src_assets_items_082",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 5000,
+    "shop": "SeedShop",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_dehydrator"
+  },
+  {
+   "key": "Basic Fertilizer",
+   "internalName": "Basic Fertilizer",
+   "name": "Basic Fertilizer",
+   "group": "fertilizer",
+   "order": 0,
+   "output": {
+    "id": "368",
+    "type": "O",
+    "name": "Basic Fertilizer",
+    "image": "src_assets_items_368",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_368"
+  },
+  {
+   "key": "Quality Fertilizer",
+   "internalName": "Quality Fertilizer",
+   "name": "Quality Fertilizer",
+   "group": "fertilizer",
+   "order": 1,
+   "output": {
+    "id": "369",
+    "type": "O",
+    "name": "Quality Fertilizer",
+    "image": "src_assets_items_369",
+    "quantity": 2
+   },
+   "ingredients": [
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 4
+    },
+    {
+     "category": -4,
+     "name": "Fish",
+     "anyName": "Fish (Any)",
+     "displayItemId": "145",
+     "image": "src_assets_items_145",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_369"
+  },
+  {
+   "key": "Deluxe Fertilizer",
+   "internalName": "Deluxe Fertilizer",
+   "name": "Deluxe Fertilizer",
+   "group": "fertilizer",
+   "order": 2,
+   "output": {
+    "id": "919",
+    "type": "O",
+    "name": "Deluxe Fertilizer",
+    "image": "src_assets_items_919",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 1
+    },
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 40
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "QiGemShop",
+    "text": null
+   },
+   "image": "src_assets_items_919"
+  },
+  {
+   "key": "Speed-Gro",
+   "internalName": "Speed-Gro",
+   "name": "Speed-Gro",
+   "group": "fertilizer",
+   "order": 3,
+   "output": {
+    "id": "465",
+    "type": "O",
+    "name": "Speed-Gro",
+    "image": "src_assets_items_465",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "726",
+     "type": "O",
+     "name": "Pine Tar",
+     "image": "src_assets_items_726",
+     "amount": 1
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 3,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_465"
+  },
+  {
+   "key": "Deluxe Speed-Gro",
+   "internalName": "Deluxe Speed-Gro",
+   "name": "Deluxe Speed-Gro",
+   "group": "fertilizer",
+   "order": 4,
+   "output": {
+    "id": "466",
+    "type": "O",
+    "name": "Deluxe Speed-Gro",
+    "image": "src_assets_items_466",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "725",
+     "type": "O",
+     "name": "Oak Resin",
+     "image": "src_assets_items_725",
+     "amount": 1
+    },
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_466"
+  },
+  {
+   "key": "Hyper Speed-Gro",
+   "internalName": "Hyper Speed-Gro",
+   "name": "Hyper Speed-Gro",
+   "group": "fertilizer",
+   "order": 5,
+   "output": {
+    "id": "918",
+    "type": "O",
+    "name": "Hyper Speed-Gro",
+    "image": "src_assets_items_918",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "909",
+     "type": "O",
+     "name": "Radioactive Ore",
+     "image": "src_assets_items_909",
+     "amount": 1
+    },
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 3
+    },
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "QiGemShop",
+    "text": null
+   },
+   "image": "src_assets_items_918"
+  },
+  {
+   "key": "Basic Retaining Soil",
+   "internalName": "Basic Retaining Soil",
+   "name": "Basic Retaining Soil",
+   "group": "fertilizer",
+   "order": 6,
+   "output": {
+    "id": "370",
+    "type": "O",
+    "name": "Basic Retaining Soil",
+    "image": "src_assets_items_370",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_370"
+  },
+  {
+   "key": "Quality Retaining Soil",
+   "internalName": "Quality Retaining Soil",
+   "name": "Quality Retaining Soil",
+   "group": "fertilizer",
+   "order": 7,
+   "output": {
+    "id": "371",
+    "type": "O",
+    "name": "Quality Retaining Soil",
+    "image": "src_assets_items_371",
+    "quantity": 2
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 3
+    },
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_items_371"
+  },
+  {
+   "key": "Deluxe Retaining Soil",
+   "internalName": "Deluxe Retaining Soil",
+   "name": "Deluxe Retaining Soil",
+   "group": "fertilizer",
+   "order": 8,
+   "output": {
+    "id": "920",
+    "type": "O",
+    "name": "Deluxe Retaining Soil",
+    "image": "src_assets_items_920",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 5
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 3
+    },
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "IslandTrade",
+    "text": null
+   },
+   "image": "src_assets_items_920"
+  },
+  {
+   "key": "Tree Fertilizer",
+   "internalName": "Tree Fertilizer",
+   "name": "Tree Fertilizer",
+   "group": "fertilizer",
+   "order": 9,
+   "output": {
+    "id": "805",
+    "type": "O",
+    "name": "Tree Fertilizer",
+    "image": "src_assets_items_805",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 5
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_805"
+  },
+  {
+   "key": "Wild Seeds (Sp)",
+   "internalName": "Wild Seeds (Sp)",
+   "name": "Spring Seeds",
+   "group": "seeds",
+   "order": 0,
+   "output": {
+    "id": "495",
+    "type": "O",
+    "name": "Spring Seeds",
+    "image": "src_assets_items_495",
+    "quantity": 10
+   },
+   "ingredients": [
+    {
+     "id": "16",
+     "type": "O",
+     "name": "Wild Horseradish",
+     "image": "src_assets_items_016",
+     "amount": 1
+    },
+    {
+     "id": "18",
+     "type": "O",
+     "name": "Daffodil",
+     "image": "src_assets_items_018",
+     "amount": 1
+    },
+    {
+     "id": "20",
+     "type": "O",
+     "name": "Leek",
+     "image": "src_assets_items_020",
+     "amount": 1
+    },
+    {
+     "id": "22",
+     "type": "O",
+     "name": "Dandelion",
+     "image": "src_assets_items_022",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_495"
+  },
+  {
+   "key": "Wild Seeds (Su)",
+   "internalName": "Wild Seeds (Su)",
+   "name": "Summer Seeds",
+   "group": "seeds",
+   "order": 1,
+   "output": {
+    "id": "496",
+    "type": "O",
+    "name": "Summer Seeds",
+    "image": "src_assets_items_496",
+    "quantity": 10
+   },
+   "ingredients": [
+    {
+     "id": "396",
+     "type": "O",
+     "name": "Spice Berry",
+     "image": "src_assets_items_396",
+     "amount": 1
+    },
+    {
+     "id": "398",
+     "type": "O",
+     "name": "Grape",
+     "image": "src_assets_items_398",
+     "amount": 1
+    },
+    {
+     "id": "402",
+     "type": "O",
+     "name": "Sweet Pea",
+     "image": "src_assets_items_402",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_496"
+  },
+  {
+   "key": "Wild Seeds (Fa)",
+   "internalName": "Wild Seeds (Fa)",
+   "name": "Fall Seeds",
+   "group": "seeds",
+   "order": 2,
+   "output": {
+    "id": "497",
+    "type": "O",
+    "name": "Fall Seeds",
+    "image": "src_assets_items_497",
+    "quantity": 10
+   },
+   "ingredients": [
+    {
+     "id": "404",
+     "type": "O",
+     "name": "Common Mushroom",
+     "image": "src_assets_items_404",
+     "amount": 1
+    },
+    {
+     "id": "406",
+     "type": "O",
+     "name": "Wild Plum",
+     "image": "src_assets_items_406",
+     "amount": 1
+    },
+    {
+     "id": "408",
+     "type": "O",
+     "name": "Hazelnut",
+     "image": "src_assets_items_408",
+     "amount": 1
+    },
+    {
+     "id": "410",
+     "type": "O",
+     "name": "Blackberry",
+     "image": "src_assets_items_410",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_497"
+  },
+  {
+   "key": "Wild Seeds (Wi)",
+   "internalName": "Wild Seeds (Wi)",
+   "name": "Winter Seeds",
+   "group": "seeds",
+   "order": 3,
+   "output": {
+    "id": "498",
+    "type": "O",
+    "name": "Winter Seeds",
+    "image": "src_assets_items_498",
+    "quantity": 10
+   },
+   "ingredients": [
+    {
+     "id": "412",
+     "type": "O",
+     "name": "Winter Root",
+     "image": "src_assets_items_412",
+     "amount": 1
+    },
+    {
+     "id": "414",
+     "type": "O",
+     "name": "Crystal Fruit",
+     "image": "src_assets_items_414",
+     "amount": 1
+    },
+    {
+     "id": "416",
+     "type": "O",
+     "name": "Snow Yam",
+     "image": "src_assets_items_416",
+     "amount": 1
+    },
+    {
+     "id": "418",
+     "type": "O",
+     "name": "Crocus",
+     "image": "src_assets_items_418",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_498"
+  },
+  {
+   "key": "Ancient Seeds",
+   "internalName": "Ancient Seeds",
+   "name": "Ancient Seeds",
+   "group": "seeds",
+   "order": 4,
+   "output": {
+    "id": "499",
+    "type": "O",
+    "name": "Ancient Seeds",
+    "image": "src_assets_items_499",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "114",
+     "type": "O",
+     "name": "Ancient Seed",
+     "image": "src_assets_items_114",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_museum_ancient_seed",
+    "text": "Donate an Ancient Seed to the museum"
+   },
+   "image": "src_assets_items_499"
+  },
+  {
+   "key": "Grass Starter",
+   "internalName": "Grass Starter",
+   "name": "Grass Starter",
+   "group": "seeds",
+   "order": 5,
+   "output": {
+    "id": "297",
+    "type": "O",
+    "name": "Grass Starter",
+    "image": "src_assets_items_297",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 1000,
+    "shop": "SeedShop",
+    "text": null
+   },
+   "image": "src_assets_items_297"
+  },
+  {
+   "key": "Blue Grass Starter",
+   "internalName": "Blue Grass Starter",
+   "name": "Blue Grass Starter",
+   "group": "seeds",
+   "order": 6,
+   "output": {
+    "id": "10022",
+    "type": "O",
+    "name": "Blue Grass Starter",
+    "image": "src_assets_items_10022",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 25
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 10
+    },
+    {
+     "id": "982",
+     "type": "O",
+     "name": "Mystic Syrup",
+     "image": "src_assets_items_982",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "QiGemShop",
+    "text": null
+   },
+   "image": "src_assets_items_10022"
+  },
+  {
+   "key": "Tea Sapling",
+   "internalName": "Tea Sapling",
+   "name": "Tea Sapling",
+   "group": "seeds",
+   "order": 7,
+   "output": {
+    "id": "251",
+    "type": "O",
+    "name": "Tea Sapling",
+    "image": "src_assets_items_251",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "category": -777,
+     "name": "Category -777",
+     "anyName": "Wild Seeds (Any)",
+     "displayItemId": null,
+     "image": null,
+     "amount": 2
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 5
+    },
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "CarolineTea",
+    "text": null
+   },
+   "image": "src_assets_items_251"
+  },
+  {
+   "key": "Fiber Seeds",
+   "internalName": "Fiber Seeds",
+   "name": "Fiber Seeds",
+   "group": "seeds",
+   "order": 8,
+   "output": {
+    "id": "885",
+    "type": "O",
+    "name": "Fiber Seeds",
+    "image": "src_assets_items_885",
+    "quantity": 4
+   },
+   "ingredients": [
+    {
+     "id": "770",
+     "type": "O",
+     "name": "Mixed Seeds",
+     "image": "src_assets_items_770",
+     "amount": 1
+    },
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 5
+    },
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "linusTrashCleanup",
+    "text": null
+   },
+   "image": "src_assets_items_885"
+  },
+  {
+   "key": "Mystic Tree Seed",
+   "internalName": "Mystic Tree Seed",
+   "name": "Mystic Tree Seed",
+   "group": "seeds",
+   "order": 9,
+   "output": {
+    "id": "10254",
+    "type": "O",
+    "name": "Mystic Tree Seed",
+    "image": "src_assets_items_10254",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "309",
+     "type": "O",
+     "name": "Acorn",
+     "image": "src_assets_items_309",
+     "amount": 5
+    },
+    {
+     "id": "310",
+     "type": "O",
+     "name": "Maple Seed",
+     "image": "src_assets_items_310",
+     "amount": 5
+    },
+    {
+     "id": "311",
+     "type": "O",
+     "name": "Pine Cone",
+     "image": "src_assets_items_311",
+     "amount": 5
+    },
+    {
+     "id": "292",
+     "type": "O",
+     "name": "Mahogany Seed",
+     "image": "src_assets_items_292",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_foraging_mastery",
+    "text": "Foraging Mastery"
+   },
+   "image": "src_assets_items_10254"
+  },
+  {
+   "key": "Wood Floor",
+   "internalName": "Wood Floor",
+   "name": "Wood Floor",
+   "group": "decor",
+   "order": 0,
+   "output": {
+    "id": "328",
+    "type": "O",
+    "name": "Wood Floor",
+    "image": "src_assets_items_328",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 100,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_328"
+  },
+  {
+   "key": "Rustic Plank Floor",
+   "internalName": "Rustic Plank Floor",
+   "name": "Rustic Plank Floor",
+   "group": "decor",
+   "order": 1,
+   "output": {
+    "id": "840",
+    "type": "O",
+    "name": "Rustic Plank Floor",
+    "image": "src_assets_items_840",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 200,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_840"
+  },
+  {
+   "key": "Straw Floor",
+   "internalName": "Straw Floor",
+   "name": "Straw Floor",
+   "group": "decor",
+   "order": 2,
+   "output": {
+    "id": "401",
+    "type": "O",
+    "name": "Straw Floor",
+    "image": "src_assets_items_401",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 200,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_401"
+  },
+  {
+   "key": "Weathered Floor",
+   "internalName": "Weathered Floor",
+   "name": "Weathered Floor",
+   "group": "decor",
+   "order": 3,
+   "output": {
+    "id": "331",
+    "type": "O",
+    "name": "Weathered Floor",
+    "image": "src_assets_items_331",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 500,
+    "shop": "Dwarf",
+    "text": null
+   },
+   "image": "src_assets_items_331"
+  },
+  {
+   "key": "Crystal Floor",
+   "internalName": "Crystal Floor",
+   "name": "Crystal Floor",
+   "group": "decor",
+   "order": 4,
+   "output": {
+    "id": "333",
+    "type": "O",
+    "name": "Crystal Floor",
+    "image": "src_assets_items_333",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 500,
+    "shop": "ShadowShop",
+    "text": null
+   },
+   "image": "src_assets_items_333"
+  },
+  {
+   "key": "Stone Floor",
+   "internalName": "Stone Floor",
+   "name": "Stone Floor",
+   "group": "decor",
+   "order": 5,
+   "output": {
+    "id": "329",
+    "type": "O",
+    "name": "Stone Floor",
+    "image": "src_assets_items_329",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 100,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_329"
+  },
+  {
+   "key": "Stone Walkway Floor",
+   "internalName": "Stone Walkway Floor",
+   "name": "Stone Walkway Floor",
+   "group": "decor",
+   "order": 6,
+   "output": {
+    "id": "841",
+    "type": "O",
+    "name": "Stone Walkway Floor",
+    "image": "src_assets_items_841",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 200,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_841"
+  },
+  {
+   "key": "Brick Floor",
+   "internalName": "Brick Floor",
+   "name": "Brick Floor",
+   "group": "decor",
+   "order": 7,
+   "output": {
+    "id": "293",
+    "type": "O",
+    "name": "Brick Floor",
+    "image": "src_assets_items_293",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 2
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 500,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_293"
+  },
+  {
+   "key": "Wood Path",
+   "internalName": "Wood Path",
+   "name": "Wood Path",
+   "group": "decor",
+   "order": 8,
+   "output": {
+    "id": "405",
+    "type": "O",
+    "name": "Wood Path",
+    "image": "src_assets_items_405",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_items_405"
+  },
+  {
+   "key": "Gravel Path",
+   "internalName": "Gravel Path",
+   "name": "Gravel Path",
+   "group": "decor",
+   "order": 9,
+   "output": {
+    "id": "407",
+    "type": "O",
+    "name": "Gravel Path",
+    "image": "src_assets_items_407",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_items_407"
+  },
+  {
+   "key": "Cobblestone Path",
+   "internalName": "Cobblestone Path",
+   "name": "Cobblestone Path",
+   "group": "decor",
+   "order": 10,
+   "output": {
+    "id": "411",
+    "type": "O",
+    "name": "Cobblestone Path",
+    "image": "src_assets_items_411",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_items_411"
+  },
+  {
+   "key": "Stepping Stone Path",
+   "internalName": "Stepping Stone Path",
+   "name": "Stepping Stone Path",
+   "group": "decor",
+   "order": 11,
+   "output": {
+    "id": "415",
+    "type": "O",
+    "name": "Stepping Stone Path",
+    "image": "src_assets_items_415",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 100,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_415"
+  },
+  {
+   "key": "Crystal Path",
+   "internalName": "Crystal Path",
+   "name": "Crystal Path",
+   "group": "decor",
+   "order": 12,
+   "output": {
+    "id": "409",
+    "type": "O",
+    "name": "Crystal Path",
+    "image": "src_assets_items_409",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 200,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_items_409"
+  },
+  {
+   "key": "Spinner",
+   "internalName": "Spinner",
+   "name": "Spinner",
+   "group": "fishing",
+   "order": 0,
+   "output": {
+    "id": "686",
+    "type": "O",
+    "name": "Spinner",
+    "image": "src_assets_items_686",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_686"
+  },
+  {
+   "key": "Trap Bobber",
+   "internalName": "Trap Bobber",
+   "name": "Trap Bobber",
+   "group": "fishing",
+   "order": 1,
+   "output": {
+    "id": "694",
+    "type": "O",
+    "name": "Trap Bobber",
+    "image": "src_assets_items_694",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    },
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_694"
+  },
+  {
+   "key": "Sonar Bobber",
+   "internalName": "Sonar Bobber",
+   "name": "Sonar Bobber",
+   "group": "fishing",
+   "order": 2,
+   "output": {
+    "id": "10327",
+    "type": "O",
+    "name": "Sonar Bobber",
+    "image": "src_assets_items_10327",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_10327"
+  },
+  {
+   "key": "Cork Bobber",
+   "internalName": "Cork Bobber",
+   "name": "Cork Bobber",
+   "group": "fishing",
+   "order": 3,
+   "output": {
+    "id": "695",
+    "type": "O",
+    "name": "Cork Bobber",
+    "image": "src_assets_items_695",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 10
+    },
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 5
+    },
+    {
+     "id": "766",
+     "type": "O",
+     "name": "Slime",
+     "image": "src_assets_items_766",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_695"
+  },
+  {
+   "key": "Quality Bobber",
+   "internalName": "Quality Bobber",
+   "name": "Quality Bobber",
+   "group": "fishing",
+   "order": 4,
+   "output": {
+    "id": "877",
+    "type": "O",
+    "name": "Quality Bobber",
+    "image": "src_assets_items_877",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    },
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 20
+    },
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "willyBugWadCutscene",
+    "text": null
+   },
+   "image": "src_assets_items_877"
+  },
+  {
+   "key": "Treasure Hunter",
+   "internalName": "Treasure Hunter",
+   "name": "Treasure Hunter",
+   "group": "fishing",
+   "order": 5,
+   "output": {
+    "id": "693",
+    "type": "O",
+    "name": "Treasure Hunter",
+    "image": "src_assets_items_693",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_693"
+  },
+  {
+   "key": "Dressed Spinner",
+   "internalName": "Dressed Spinner",
+   "name": "Dressed Spinner",
+   "group": "fishing",
+   "order": 6,
+   "output": {
+    "id": "687",
+    "type": "O",
+    "name": "Dressed Spinner",
+    "image": "src_assets_items_687",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 2
+    },
+    {
+     "id": "428",
+     "type": "O",
+     "name": "Cloth",
+     "image": "src_assets_items_428",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_687"
+  },
+  {
+   "key": "Barbed Hook",
+   "internalName": "Barbed Hook",
+   "name": "Barbed Hook",
+   "group": "fishing",
+   "order": 7,
+   "output": {
+    "id": "691",
+    "type": "O",
+    "name": "Barbed Hook",
+    "image": "src_assets_items_691",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 1
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_691"
+  },
+  {
+   "key": "Magnet",
+   "internalName": "Magnet",
+   "name": "Magnet",
+   "group": "fishing",
+   "order": 8,
+   "output": {
+    "id": "703",
+    "type": "O",
+    "name": "Magnet",
+    "image": "src_assets_items_703",
+    "quantity": 3
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_703"
+  },
+  {
+   "key": "Bait",
+   "internalName": "Bait",
+   "name": "Bait",
+   "group": "fishing",
+   "order": 9,
+   "output": {
+    "id": "685",
+    "type": "O",
+    "name": "Bait",
+    "image": "src_assets_items_685",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "684",
+     "type": "O",
+     "name": "Bug Meat",
+     "image": "src_assets_items_684",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_685"
+  },
+  {
+   "key": "Deluxe Bait",
+   "internalName": "Deluxe Bait",
+   "name": "Deluxe Bait",
+   "group": "fishing",
+   "order": 10,
+   "output": {
+    "id": "10102",
+    "type": "O",
+    "name": "Deluxe Bait",
+    "image": "src_assets_items_10102",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "685",
+     "type": "O",
+     "name": "Bait",
+     "image": "src_assets_items_685",
+     "amount": 5
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_10102"
+  },
+  {
+   "key": "Wild Bait",
+   "internalName": "Wild Bait",
+   "name": "Wild Bait",
+   "group": "fishing",
+   "order": 11,
+   "output": {
+    "id": "774",
+    "type": "O",
+    "name": "Wild Bait",
+    "image": "src_assets_items_774",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 10
+    },
+    {
+     "id": "684",
+     "type": "O",
+     "name": "Bug Meat",
+     "image": "src_assets_items_684",
+     "amount": 5
+    },
+    {
+     "id": "766",
+     "type": "O",
+     "name": "Slime",
+     "image": "src_assets_items_766",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_linus_four_heart",
+    "text": "Linus 4-heart event"
+   },
+   "image": "src_assets_items_774"
+  },
+  {
+   "key": "Magic Bait",
+   "internalName": "Magic Bait",
+   "name": "Magic Bait",
+   "group": "fishing",
+   "order": 12,
+   "output": {
+    "id": "908",
+    "type": "O",
+    "name": "Magic Bait",
+    "image": "src_assets_items_908",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "909",
+     "type": "O",
+     "name": "Radioactive Ore",
+     "image": "src_assets_items_909",
+     "amount": 1
+    },
+    {
+     "id": "684",
+     "type": "O",
+     "name": "Bug Meat",
+     "image": "src_assets_items_684",
+     "amount": 3
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "QiGemShop",
+    "text": null
+   },
+   "image": "src_assets_items_908"
+  },
+  {
+   "key": "Challenge Bait",
+   "internalName": "Challenge Bait",
+   "name": "Challenge Bait",
+   "group": "fishing",
+   "order": 13,
+   "output": {
+    "id": "10066",
+    "type": "O",
+    "name": "Challenge Bait",
+    "image": "src_assets_items_10066",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 5
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_fishing_mastery",
+    "text": "Fishing Mastery"
+   },
+   "image": "src_assets_items_10066"
+  },
+  {
+   "key": "Crab Pot",
+   "internalName": "Crab Pot",
+   "name": "Crab Pot",
+   "group": "fishing",
+   "order": 14,
+   "output": {
+    "id": "710",
+    "type": "O",
+    "name": "Crab Pot",
+    "image": "src_assets_items_710",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 40
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 3
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 3,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_items_710"
+  },
+  {
+   "key": "Sturdy Ring",
+   "internalName": "Sturdy Ring",
+   "name": "Sturdy Ring",
+   "group": "rings",
+   "order": 0,
+   "output": {
+    "id": "525",
+    "type": "O",
+    "name": "Sturdy Ring",
+    "image": "src_assets_items_525",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 2
+    },
+    {
+     "id": "684",
+     "type": "O",
+     "name": "Bug Meat",
+     "image": "src_assets_items_684",
+     "amount": 25
+    },
+    {
+     "id": "766",
+     "type": "O",
+     "name": "Slime",
+     "image": "src_assets_items_766",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_525"
+  },
+  {
+   "key": "Warrior Ring",
+   "internalName": "Warrior Ring",
+   "name": "Warrior Ring",
+   "group": "rings",
+   "order": 1,
+   "output": {
+    "id": "521",
+    "type": "O",
+    "name": "Warrior Ring",
+    "image": "src_assets_items_521",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 10
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 25
+    },
+    {
+     "id": "84",
+     "type": "O",
+     "name": "Frozen Tear",
+     "image": "src_assets_items_084",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_521"
+  },
+  {
+   "key": "Ring of Yoba",
+   "internalName": "Ring of Yoba",
+   "name": "Ring of Yoba",
+   "group": "rings",
+   "order": 2,
+   "output": {
+    "id": "524",
+    "type": "O",
+    "name": "Ring of Yoba",
+    "image": "src_assets_items_524",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 5
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 5
+    },
+    {
+     "id": "72",
+     "type": "O",
+     "name": "Diamond",
+     "image": "src_assets_items_072",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_524"
+  },
+  {
+   "key": "Thorns Ring",
+   "internalName": "Thorns Ring",
+   "name": "Thorns Ring",
+   "group": "rings",
+   "order": 3,
+   "output": {
+    "id": "839",
+    "type": "O",
+    "name": "Thorns Ring",
+    "image": "src_assets_items_839",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 50
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 50
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_839"
+  },
+  {
+   "key": "Glowstone Ring",
+   "internalName": "Glowstone Ring",
+   "name": "Glowstone Ring",
+   "group": "rings",
+   "order": 4,
+   "output": {
+    "id": "888",
+    "type": "O",
+    "name": "Glowstone Ring",
+    "image": "src_assets_items_888",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 5
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_items_888"
+  },
+  {
+   "key": "Iridium Band",
+   "internalName": "Iridium Band",
+   "name": "Iridium Band",
+   "group": "rings",
+   "order": 5,
+   "output": {
+    "id": "527",
+    "type": "O",
+    "name": "Iridium Band",
+    "image": "src_assets_items_527",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 5
+    },
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 50
+    },
+    {
+     "id": "769",
+     "type": "O",
+     "name": "Void Essence",
+     "image": "src_assets_items_769",
+     "amount": 50
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_527"
+  },
+  {
+   "key": "Wedding Ring",
+   "internalName": "Wedding Ring",
+   "name": "Wedding Ring",
+   "group": "rings",
+   "order": 6,
+   "output": {
+    "id": "801",
+    "type": "O",
+    "name": "Wedding Ring",
+    "image": "src_assets_items_801",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 5
+    },
+    {
+     "id": "74",
+     "type": "O",
+     "name": "Prismatic Shard",
+     "image": "src_assets_items_074",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 500,
+    "shop": "Traveler",
+    "text": null
+   },
+   "image": "src_assets_items_801"
+  },
+  {
+   "key": "Field Snack",
+   "internalName": "Field Snack",
+   "name": "Field Snack",
+   "group": "edible",
+   "order": 0,
+   "output": {
+    "id": "403",
+    "type": "O",
+    "name": "Field Snack",
+    "image": "src_assets_items_403",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "309",
+     "type": "O",
+     "name": "Acorn",
+     "image": "src_assets_items_309",
+     "amount": 1
+    },
+    {
+     "id": "310",
+     "type": "O",
+     "name": "Maple Seed",
+     "image": "src_assets_items_310",
+     "amount": 1
+    },
+    {
+     "id": "311",
+     "type": "O",
+     "name": "Pine Cone",
+     "image": "src_assets_items_311",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_403"
+  },
+  {
+   "key": "Bug Steak",
+   "internalName": "Bug Steak",
+   "name": "Bug Steak",
+   "group": "edible",
+   "order": 1,
+   "output": {
+    "id": "874",
+    "type": "O",
+    "name": "Bug Steak",
+    "image": "src_assets_items_874",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "684",
+     "type": "O",
+     "name": "Bug Meat",
+     "image": "src_assets_items_684",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_874"
+  },
+  {
+   "key": "Life Elixir",
+   "internalName": "Life Elixir",
+   "name": "Life Elixir",
+   "group": "edible",
+   "order": 2,
+   "output": {
+    "id": "773",
+    "type": "O",
+    "name": "Life Elixir",
+    "image": "src_assets_items_773",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "420",
+     "type": "O",
+     "name": "Red Mushroom",
+     "image": "src_assets_items_420",
+     "amount": 1
+    },
+    {
+     "id": "422",
+     "type": "O",
+     "name": "Purple Mushroom",
+     "image": "src_assets_items_422",
+     "amount": 1
+    },
+    {
+     "id": "257",
+     "type": "O",
+     "name": "Morel",
+     "image": "src_assets_items_257",
+     "amount": 1
+    },
+    {
+     "id": "281",
+     "type": "O",
+     "name": "Chanterelle",
+     "image": "src_assets_items_281",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_773"
+  },
+  {
+   "key": "Oil Of Garlic",
+   "internalName": "Oil Of Garlic",
+   "name": "Oil of Garlic",
+   "group": "edible",
+   "order": 3,
+   "output": {
+    "id": "772",
+    "type": "O",
+    "name": "Oil of Garlic",
+    "image": "src_assets_items_772",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "248",
+     "type": "O",
+     "name": "Garlic",
+     "image": "src_assets_items_248",
+     "amount": 10
+    },
+    {
+     "id": "247",
+     "type": "O",
+     "name": "Oil",
+     "image": "src_assets_items_247",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_772"
+  },
+  {
+   "key": "Monster Musk",
+   "internalName": "Monster Musk",
+   "name": "Monster Musk",
+   "group": "consumables",
+   "order": 0,
+   "output": {
+    "id": "879",
+    "type": "O",
+    "name": "Monster Musk",
+    "image": "src_assets_items_879",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "767",
+     "type": "O",
+     "name": "Bat Wing",
+     "image": "src_assets_items_767",
+     "amount": 30
+    },
+    {
+     "id": "766",
+     "type": "O",
+     "name": "Slime",
+     "image": "src_assets_items_766",
+     "amount": 30
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "WizardReward",
+    "text": null
+   },
+   "image": "src_assets_items_879"
+  },
+  {
+   "key": "Fairy Dust",
+   "internalName": "Fairy Dust",
+   "name": "Fairy Dust",
+   "group": "consumables",
+   "order": 1,
+   "output": {
+    "id": "872",
+    "type": "O",
+    "name": "Fairy Dust",
+    "image": "src_assets_items_872",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "72",
+     "type": "O",
+     "name": "Diamond",
+     "image": "src_assets_items_072",
+     "amount": 1
+    },
+    {
+     "id": "595",
+     "type": "O",
+     "name": "Fairy Rose",
+     "image": "src_assets_items_595",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_pirates_wife",
+    "text": "The Pirate's Wife quest"
+   },
+   "image": "src_assets_items_872"
+  },
+  {
+   "key": "Warp Totem: Beach",
+   "internalName": "Warp Totem: Beach",
+   "name": "Warp Totem: Beach",
+   "group": "consumables",
+   "order": 2,
+   "output": {
+    "id": "690",
+    "type": "O",
+    "name": "Warp Totem: Beach",
+    "image": "src_assets_items_690",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 1
+    },
+    {
+     "id": "393",
+     "type": "O",
+     "name": "Coral",
+     "image": "src_assets_items_393",
+     "amount": 2
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_690"
+  },
+  {
+   "key": "Warp Totem: Mountains",
+   "internalName": "Warp Totem: Mountains",
+   "name": "Warp Totem: Mountains",
+   "group": "consumables",
+   "order": 3,
+   "output": {
+    "id": "689",
+    "type": "O",
+    "name": "Warp Totem: Mountains",
+    "image": "src_assets_items_689",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 1
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_689"
+  },
+  {
+   "key": "Warp Totem: Farm",
+   "internalName": "Warp Totem: Farm",
+   "name": "Warp Totem: Farm",
+   "group": "consumables",
+   "order": 4,
+   "output": {
+    "id": "688",
+    "type": "O",
+    "name": "Warp Totem: Farm",
+    "image": "src_assets_items_688",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 1
+    },
+    {
+     "id": "340",
+     "type": "O",
+     "name": "Honey",
+     "image": "src_assets_items_340",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_688"
+  },
+  {
+   "key": "Warp Totem: Desert",
+   "internalName": "Warp Totem: Desert",
+   "name": "Warp Totem: Desert",
+   "group": "consumables",
+   "order": 5,
+   "output": {
+    "id": "261",
+    "type": "O",
+    "name": "Warp Totem: Desert",
+    "image": "src_assets_items_261",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 2
+    },
+    {
+     "id": "88",
+     "type": "O",
+     "name": "Coconut",
+     "image": "src_assets_items_088",
+     "amount": 1
+    },
+    {
+     "id": "386",
+     "type": "O",
+     "name": "Iridium Ore",
+     "image": "src_assets_items_386",
+     "amount": 4
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "DesertTrade",
+    "text": null
+   },
+   "image": "src_assets_items_261"
+  },
+  {
+   "key": "Warp Totem: Island",
+   "internalName": "Warp Totem: Island",
+   "name": "Warp Totem: Island",
+   "group": "consumables",
+   "order": 6,
+   "output": {
+    "id": "886",
+    "type": "O",
+    "name": "Warp Totem: Island",
+    "image": "src_assets_items_886",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 5
+    },
+    {
+     "id": "852",
+     "type": "O",
+     "name": "Dragon Tooth",
+     "image": "src_assets_items_852",
+     "amount": 1
+    },
+    {
+     "id": "829",
+     "type": "O",
+     "name": "Ginger",
+     "image": "src_assets_items_829",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 10000,
+    "shop": "VolcanoShop",
+    "text": null
+   },
+   "image": "src_assets_items_886"
+  },
+  {
+   "key": "Rain Totem",
+   "internalName": "Rain Totem",
+   "name": "Rain Totem",
+   "group": "consumables",
+   "order": 7,
+   "output": {
+    "id": "681",
+    "type": "O",
+    "name": "Rain Totem",
+    "image": "src_assets_items_681",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 1
+    },
+    {
+     "id": "432",
+     "type": "O",
+     "name": "Truffle Oil",
+     "image": "src_assets_items_432",
+     "amount": 1
+    },
+    {
+     "id": "726",
+     "type": "O",
+     "name": "Pine Tar",
+     "image": "src_assets_items_726",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_681"
+  },
+  {
+   "key": "Treasure Totem",
+   "internalName": "Treasure Totem",
+   "name": "Treasure Totem",
+   "group": "consumables",
+   "order": 8,
+   "output": {
+    "id": "10350",
+    "type": "O",
+    "name": "Treasure Totem",
+    "image": "src_assets_items_10350",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 5
+    },
+    {
+     "id": "982",
+     "type": "O",
+     "name": "Mystic Syrup",
+     "image": "src_assets_items_982",
+     "amount": 1
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_foraging_mastery",
+    "text": "Foraging Mastery"
+   },
+   "image": "src_assets_items_10350"
+  },
+  {
+   "key": "Torch",
+   "internalName": "Torch",
+   "name": "Torch",
+   "group": "lighting",
+   "order": 0,
+   "output": {
+    "id": "93",
+    "type": "O",
+    "name": "Torch",
+    "image": "src_assets_items_093",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 1
+    },
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_items_093"
+  },
+  {
+   "key": "Campfire",
+   "internalName": "Campfire",
+   "name": "Campfire",
+   "group": "lighting",
+   "order": 1,
+   "output": {
+    "id": "146",
+    "type": "BO",
+    "name": "Campfire",
+    "image": "src_assets_big_craftables_campfire",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 10
+    },
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 10
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_campfire"
+  },
+  {
+   "key": "Wooden Brazier",
+   "internalName": "Wooden Brazier",
+   "name": "Wooden Brazier",
+   "group": "lighting",
+   "order": 2,
+   "output": {
+    "id": "143",
+    "type": "BO",
+    "name": "Wooden Brazier",
+    "image": "src_assets_big_craftables_wooden_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 10
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_wooden_brazier"
+  },
+  {
+   "key": "Stone Brazier",
+   "internalName": "Stone Brazier",
+   "name": "Stone Brazier",
+   "group": "lighting",
+   "order": 3,
+   "output": {
+    "id": "144",
+    "type": "BO",
+    "name": "Stone Brazier",
+    "image": "src_assets_big_craftables_stone_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 10
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_stone_brazier"
+  },
+  {
+   "key": "Gold Brazier",
+   "internalName": "Gold Brazier",
+   "name": "Gold Brazier",
+   "group": "lighting",
+   "order": 4,
+   "output": {
+    "id": "145",
+    "type": "BO",
+    "name": "Gold Brazier",
+    "image": "src_assets_big_craftables_gold_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_gold_brazier"
+  },
+  {
+   "key": "Carved Brazier",
+   "internalName": "Carved Brazier",
+   "name": "Carved Brazier",
+   "group": "lighting",
+   "order": 5,
+   "output": {
+    "id": "148",
+    "type": "BO",
+    "name": "Carved Brazier",
+    "image": "src_assets_big_craftables_carved_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 10
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_carved_brazier"
+  },
+  {
+   "key": "Stump Brazier",
+   "internalName": "Stump Brazier",
+   "name": "Stump Brazier",
+   "group": "lighting",
+   "order": 6,
+   "output": {
+    "id": "147",
+    "type": "BO",
+    "name": "Stump Brazier",
+    "image": "src_assets_big_craftables_stump_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 5
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_stump_brazier"
+  },
+  {
+   "key": "Barrel Brazier",
+   "internalName": "Barrel Brazier",
+   "name": "Barrel Brazier",
+   "group": "lighting",
+   "order": 7,
+   "output": {
+    "id": "150",
+    "type": "BO",
+    "name": "Barrel Brazier",
+    "image": "src_assets_big_craftables_barrel_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 50
+    },
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 1
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_barrel_brazier"
+  },
+  {
+   "key": "Skull Brazier",
+   "internalName": "Skull Brazier",
+   "name": "Skull Brazier",
+   "group": "lighting",
+   "order": 8,
+   "output": {
+    "id": "149",
+    "type": "BO",
+    "name": "Skull Brazier",
+    "image": "src_assets_big_craftables_skull_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_skull_brazier"
+  },
+  {
+   "key": "Marble Brazier",
+   "internalName": "Marble Brazier",
+   "name": "Marble Brazier",
+   "group": "lighting",
+   "order": 9,
+   "output": {
+    "id": "151",
+    "type": "BO",
+    "name": "Marble Brazier",
+    "image": "src_assets_big_craftables_marble_brazier",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "567",
+     "type": "O",
+     "name": "Marble",
+     "image": "src_assets_items_567",
+     "amount": 1
+    },
+    {
+     "id": "62",
+     "type": "O",
+     "name": "Aquamarine",
+     "image": "src_assets_items_062",
+     "amount": 1
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 100
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_marble_brazier"
+  },
+  {
+   "key": "Wood Lamp-post",
+   "internalName": "Wood Lamp-post",
+   "name": "Wood Lamp-post",
+   "group": "lighting",
+   "order": 10,
+   "output": {
+    "id": "152",
+    "type": "BO",
+    "name": "Wood Lamp-post",
+    "image": "src_assets_big_craftables_wood_lamppost",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 50
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_wood_lamppost"
+  },
+  {
+   "key": "Iron Lamp-post",
+   "internalName": "Iron Lamp-post",
+   "name": "Iron Lamp-post",
+   "group": "lighting",
+   "order": 11,
+   "output": {
+    "id": "153",
+    "type": "BO",
+    "name": "Iron Lamp-post",
+    "image": "src_assets_big_craftables_iron_lamppost",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_iron_lamppost"
+  },
+  {
+   "key": "Jack-O-Lantern",
+   "internalName": "Jack-O-Lantern",
+   "name": "Jack-O-Lantern",
+   "group": "lighting",
+   "order": 12,
+   "output": {
+    "id": "746",
+    "type": "O",
+    "name": "Jack-O-Lantern",
+    "image": "src_assets_items_746",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "276",
+     "type": "O",
+     "name": "Pumpkin",
+     "image": "src_assets_items_276",
+     "amount": 1
+    },
+    {
+     "id": "93",
+     "type": "O",
+     "name": "Torch",
+     "image": "src_assets_items_093",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 2000,
+    "shop": "Festival_SpiritsEve_Pierre",
+    "text": null
+   },
+   "image": "src_assets_items_746"
+  },
+  {
+   "key": "Charcoal Kiln",
+   "internalName": "Charcoal Kiln",
+   "name": "Charcoal Kiln",
+   "group": "refining",
+   "order": 0,
+   "output": {
+    "id": "114",
+    "type": "BO",
+    "name": "Charcoal Kiln",
+    "image": "src_assets_big_craftables_charcoal_kiln",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 20
+    },
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_charcoal_kiln"
+  },
+  {
+   "key": "Crystalarium",
+   "internalName": "Crystalarium",
+   "name": "Crystalarium",
+   "group": "refining",
+   "order": 1,
+   "output": {
+    "id": "21",
+    "type": "BO",
+    "name": "Crystalarium",
+    "image": "src_assets_big_craftables_crystalarium",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 99
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 5
+    },
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 2
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_crystalarium"
+  },
+  {
+   "key": "Furnace",
+   "internalName": "Furnace",
+   "name": "Furnace",
+   "group": "refining",
+   "order": 2,
+   "output": {
+    "id": "13",
+    "type": "BO",
+    "name": "Furnace",
+    "image": "src_assets_big_craftables_furnace",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "378",
+     "type": "O",
+     "name": "Copper Ore",
+     "image": "src_assets_items_378",
+     "amount": 20
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_clint_copper_ore",
+    "text": "Clint, after collecting Copper Ore"
+   },
+   "image": "src_assets_big_craftables_furnace"
+  },
+  {
+   "key": "Heavy Furnace",
+   "internalName": "Heavy Furnace",
+   "name": "Heavy Furnace",
+   "group": "refining",
+   "order": 3,
+   "output": {
+    "id": "10167",
+    "type": "BO",
+    "name": "Heavy Furnace",
+    "image": "src_assets_big_craftables_heavy_furnace",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "13",
+     "type": "BO",
+     "name": "Furnace",
+     "image": "src_assets_big_craftables_furnace",
+     "amount": 2
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 3
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 50
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_mining_mastery",
+    "text": "Mining Mastery"
+   },
+   "image": "src_assets_big_craftables_heavy_furnace"
+  },
+  {
+   "key": "Lightning Rod",
+   "internalName": "Lightning Rod",
+   "name": "Lightning Rod",
+   "group": "refining",
+   "order": 4,
+   "output": {
+    "id": "9",
+    "type": "BO",
+    "name": "Lightning Rod",
+    "image": "src_assets_big_craftables_lightning_rod",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 1
+    },
+    {
+     "id": "767",
+     "type": "O",
+     "name": "Bat Wing",
+     "image": "src_assets_items_767",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_lightning_rod"
+  },
+  {
+   "key": "Solar Panel",
+   "internalName": "Solar Panel",
+   "name": "Solar Panel",
+   "group": "refining",
+   "order": 5,
+   "output": {
+    "id": "231",
+    "type": "BO",
+    "name": "Solar Panel",
+    "image": "src_assets_big_craftables_solar_panel",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 10
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 5
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "carolineSO",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_solar_panel"
+  },
+  {
+   "key": "Recycling Machine",
+   "internalName": "Recycling Machine",
+   "name": "Recycling Machine",
+   "group": "refining",
+   "order": 6,
+   "output": {
+    "id": "20",
+    "type": "BO",
+    "name": "Recycling Machine",
+    "image": "src_assets_big_craftables_recycling_machine",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 25
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 25
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_recycling_machine"
+  },
+  {
+   "key": "Seed Maker",
+   "internalName": "Seed Maker",
+   "name": "Seed Maker",
+   "group": "refining",
+   "order": 7,
+   "output": {
+    "id": "25",
+    "type": "BO",
+    "name": "Seed Maker",
+    "image": "src_assets_big_craftables_seed_maker",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 25
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 10
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 9,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_seed_maker"
+  },
+  {
+   "key": "Slime Incubator",
+   "internalName": "Slime Incubator",
+   "name": "Slime Incubator",
+   "group": "refining",
+   "order": 8,
+   "output": {
+    "id": "156",
+    "type": "BO",
+    "name": "Slime Incubator",
+    "image": "src_assets_big_craftables_slime_incubator",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 2
+    },
+    {
+     "id": "766",
+     "type": "O",
+     "name": "Slime",
+     "image": "src_assets_items_766",
+     "amount": 100
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_slime_incubator"
+  },
+  {
+   "key": "Ostrich Incubator",
+   "internalName": "Ostrich Incubator",
+   "name": "Ostrich Incubator",
+   "group": "refining",
+   "order": 9,
+   "output": {
+    "id": "254",
+    "type": "BO",
+    "name": "Ostrich Incubator",
+    "image": "src_assets_big_craftables_ostrich_incubator",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 50
+    },
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 50
+    },
+    {
+     "id": "848",
+     "type": "O",
+     "name": "Cinder Shard",
+     "image": "src_assets_items_848",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_island_field_office",
+    "text": "Complete the Island Field Office collection"
+   },
+   "image": "src_assets_big_craftables_ostrich_incubator"
+  },
+  {
+   "key": "Slime Egg-Press",
+   "internalName": "Slime Egg-Press",
+   "name": "Slime Egg-Press",
+   "group": "refining",
+   "order": 10,
+   "output": {
+    "id": "158",
+    "type": "BO",
+    "name": "Slime Egg-Press",
+    "image": "src_assets_big_craftables_slime_eggpress",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 25
+    },
+    {
+     "id": "82",
+     "type": "O",
+     "name": "Fire Quartz",
+     "image": "src_assets_items_082",
+     "amount": 1
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_slime_eggpress"
+  },
+  {
+   "key": "Tapper",
+   "internalName": "Tapper",
+   "name": "Tapper",
+   "group": "refining",
+   "order": 11,
+   "output": {
+    "id": "105",
+    "type": "BO",
+    "name": "Tapper",
+    "image": "src_assets_big_craftables_tapper",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 40
+    },
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_tapper"
+  },
+  {
+   "key": "Heavy Tapper",
+   "internalName": "Heavy Tapper",
+   "name": "Heavy Tapper",
+   "group": "refining",
+   "order": 12,
+   "output": {
+    "id": "264",
+    "type": "BO",
+    "name": "Heavy Tapper",
+    "image": "src_assets_big_craftables_heavy_tapper",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 30
+    },
+    {
+     "id": "910",
+     "type": "O",
+     "name": "Radioactive Bar",
+     "image": "src_assets_items_910",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "QiGemShop",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_heavy_tapper"
+  },
+  {
+   "key": "Worm Bin",
+   "internalName": "Worm Bin",
+   "name": "Worm Bin",
+   "group": "refining",
+   "order": 13,
+   "output": {
+    "id": "154",
+    "type": "BO",
+    "name": "Worm Bin",
+    "image": "src_assets_big_craftables_worm_bin",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 15
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 1
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 50
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_worm_bin"
+  },
+  {
+   "key": "Deluxe Worm Bin",
+   "internalName": "Deluxe Worm Bin",
+   "name": "Deluxe Worm Bin",
+   "group": "refining",
+   "order": 14,
+   "output": {
+    "id": "10103",
+    "type": "BO",
+    "name": "Deluxe Worm Bin",
+    "image": "src_assets_big_craftables_deluxe_worm_bin",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "154",
+     "type": "O",
+     "name": "Sea Cucumber",
+     "image": "src_assets_items_154",
+     "amount": 1
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 30
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_deluxe_worm_bin"
+  },
+  {
+   "key": "Bone Mill",
+   "internalName": "Bone Mill",
+   "name": "Bone Mill",
+   "group": "refining",
+   "order": 15,
+   "output": {
+    "id": "90",
+    "type": "BO",
+    "name": "Bone Mill",
+    "image": "src_assets_big_craftables_bone_mill",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 10
+    },
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 3
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "guntherBones",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_bone_mill"
+  },
+  {
+   "key": "Geode Crusher",
+   "internalName": "Geode Crusher",
+   "name": "Geode Crusher",
+   "group": "refining",
+   "order": 16,
+   "output": {
+    "id": "182",
+    "type": "BO",
+    "name": "Geode Crusher",
+    "image": "src_assets_big_craftables_geode_crusher",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 2
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 50
+    },
+    {
+     "id": "72",
+     "type": "O",
+     "name": "Diamond",
+     "image": "src_assets_items_072",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "ClintReward",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_geode_crusher"
+  },
+  {
+   "key": "Mushroom Log",
+   "internalName": "Mushroom Log",
+   "name": "Mushroom Log",
+   "group": "refining",
+   "order": 17,
+   "output": {
+    "id": "10253",
+    "type": "BO",
+    "name": "Mushroom Log",
+    "image": "src_assets_big_craftables_mushroom_log",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 10
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_mushroom_log"
+  },
+  {
+   "key": "Bait Maker",
+   "internalName": "Bait Maker",
+   "name": "Bait Maker",
+   "group": "refining",
+   "order": 18,
+   "output": {
+    "id": "10009",
+    "type": "BO",
+    "name": "Bait Maker",
+    "image": "src_assets_big_craftables_bait_maker",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 3
+    },
+    {
+     "id": "393",
+     "type": "O",
+     "name": "Coral",
+     "image": "src_assets_items_393",
+     "amount": 3
+    },
+    {
+     "id": "397",
+     "type": "O",
+     "name": "Sea Urchin",
+     "image": "src_assets_items_397",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 6,
+    "skill": "Fishing",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_bait_maker"
+  },
+  {
+   "key": "Tub o' Flowers",
+   "internalName": "Tub o' Flowers",
+   "name": "Tub o' Flowers",
+   "group": "furniture",
+   "order": 0,
+   "output": {
+    "id": "108",
+    "type": "BO",
+    "name": "Tub o' Flowers",
+    "image": "src_assets_big_craftables_tub_o_flowers",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 15
+    },
+    {
+     "id": "427",
+     "type": "O",
+     "name": "Tulip Bulb",
+     "image": "src_assets_items_427",
+     "amount": 1
+    },
+    {
+     "id": "429",
+     "type": "O",
+     "name": "Jazz Seeds",
+     "image": "src_assets_items_429",
+     "amount": 1
+    },
+    {
+     "id": "453",
+     "type": "O",
+     "name": "Poppy Seeds",
+     "image": "src_assets_items_453",
+     "amount": 1
+    },
+    {
+     "id": "455",
+     "type": "O",
+     "name": "Spangle Seeds",
+     "image": "src_assets_items_455",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 1000,
+    "shop": "Festival_FlowerDance_Pierre",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_tub_o_flowers"
+  },
+  {
+   "key": "Wicked Statue",
+   "internalName": "Wicked Statue",
+   "name": "Wicked Statue",
+   "group": "furniture",
+   "order": 1,
+   "output": {
+    "id": "83",
+    "type": "BO",
+    "name": "Wicked Statue",
+    "image": "src_assets_big_craftables_wicked_statue",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 5
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 1000,
+    "shop": "ShadowShop",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_wicked_statue"
+  },
+  {
+   "key": "Flute Block",
+   "internalName": "Flute Block",
+   "name": "Flute Block",
+   "group": "furniture",
+   "order": 2,
+   "output": {
+    "id": "464",
+    "type": "O",
+    "name": "Flute Block",
+    "image": "src_assets_items_464",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 10
+    },
+    {
+     "id": "378",
+     "type": "O",
+     "name": "Copper Ore",
+     "image": "src_assets_items_378",
+     "amount": 2
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_robin_six_heart",
+    "text": "Robin 6-heart event"
+   },
+   "image": "src_assets_items_464"
+  },
+  {
+   "key": "Drum Block",
+   "internalName": "Drum Block",
+   "name": "Drum Block",
+   "group": "furniture",
+   "order": 3,
+   "output": {
+    "id": "463",
+    "type": "O",
+    "name": "Drum Block",
+    "image": "src_assets_items_463",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 10
+    },
+    {
+     "id": "378",
+     "type": "O",
+     "name": "Copper Ore",
+     "image": "src_assets_items_378",
+     "amount": 2
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_robin_six_heart",
+    "text": "Robin 6-heart event"
+   },
+   "image": "src_assets_items_463"
+  },
+  {
+   "key": "Chest",
+   "internalName": "Chest",
+   "name": "Chest",
+   "group": "storage",
+   "order": 0,
+   "output": {
+    "id": "130",
+    "type": "BO",
+    "name": "Chest",
+    "image": "src_assets_big_craftables_chest",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 50
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_chest"
+  },
+  {
+   "key": "Stone Chest",
+   "internalName": "Stone Chest",
+   "name": "Stone Chest",
+   "group": "storage",
+   "order": 1,
+   "output": {
+    "id": "232",
+    "type": "BO",
+    "name": "Stone Chest",
+    "image": "src_assets_big_craftables_stone_chest",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 50
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "robinResource",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_stone_chest"
+  },
+  {
+   "key": "Big Chest",
+   "internalName": "Big Chest",
+   "name": "Big Chest",
+   "group": "storage",
+   "order": 2,
+   "output": {
+    "id": "10013",
+    "type": "BO",
+    "name": "Big Chest",
+    "image": "src_assets_big_craftables_big_chest",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 120
+    },
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 5000,
+    "shop": "Carpenter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_big_chest"
+  },
+  {
+   "key": "Big Stone Chest",
+   "internalName": "Big Stone Chest",
+   "name": "Big Stone Chest",
+   "group": "storage",
+   "order": 3,
+   "output": {
+    "id": "10014",
+    "type": "BO",
+    "name": "Big Stone Chest",
+    "image": "src_assets_big_craftables_big_stone_chest",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 250
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": 5000,
+    "shop": "Dwarf",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_big_stone_chest"
+  },
+  {
+   "key": "Wood Sign",
+   "internalName": "Wood Sign",
+   "name": "Wood Sign",
+   "group": "signs",
+   "order": 0,
+   "output": {
+    "id": "37",
+    "type": "BO",
+    "name": "Wood Sign",
+    "image": "src_assets_big_craftables_wood_sign",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_wood_sign"
+  },
+  {
+   "key": "Stone Sign",
+   "internalName": "Stone Sign",
+   "name": "Stone Sign",
+   "group": "signs",
+   "order": 1,
+   "output": {
+    "id": "38",
+    "type": "BO",
+    "name": "Stone Sign",
+    "image": "src_assets_big_craftables_stone_sign",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_stone_sign"
+  },
+  {
+   "key": "Dark Sign",
+   "internalName": "Dark Sign",
+   "name": "Dark Sign",
+   "group": "signs",
+   "order": 2,
+   "output": {
+    "id": "39",
+    "type": "BO",
+    "name": "Dark Sign",
+    "image": "src_assets_big_craftables_dark_sign",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "767",
+     "type": "O",
+     "name": "Bat Wing",
+     "image": "src_assets_items_767",
+     "amount": 5
+    },
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "KrobusCrafting",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_dark_sign"
+  },
+  {
+   "key": "Text Sign",
+   "internalName": "Text Sign",
+   "name": "Text Sign",
+   "group": "signs",
+   "order": 3,
+   "output": {
+    "id": "10346",
+    "type": "BO",
+    "name": "Text Sign",
+    "image": "src_assets_big_craftables_text_sign",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 25
+    }
+   ],
+   "source": {
+    "kind": "starter",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_text_sign"
+  },
+  {
+   "key": "Garden Pot",
+   "internalName": "Garden Pot",
+   "name": "Garden Pot",
+   "group": "misc",
+   "order": 0,
+   "output": {
+    "id": "62",
+    "type": "BO",
+    "name": "Garden Pot",
+    "image": "src_assets_big_craftables_garden_pot",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330",
+     "amount": 1
+    },
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 10
+    },
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_greenhouse_cutscene",
+    "text": "Evelyn cutscene after completing the Greenhouse"
+   },
+   "image": "src_assets_big_craftables_garden_pot"
+  },
+  {
+   "key": "Scarecrow",
+   "internalName": "Scarecrow",
+   "name": "Scarecrow",
+   "group": "misc",
+   "order": 1,
+   "output": {
+    "id": "8",
+    "type": "BO",
+    "name": "Scarecrow",
+    "image": "src_assets_big_craftables_scarecrow",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 50
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 1,
+    "skill": "Farming",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_scarecrow"
+  },
+  {
+   "key": "Deluxe Scarecrow",
+   "internalName": "Deluxe Scarecrow",
+   "name": "Deluxe Scarecrow",
+   "group": "misc",
+   "order": 2,
+   "output": {
+    "id": "167",
+    "type": "BO",
+    "name": "Deluxe Scarecrow",
+    "image": "src_assets_big_craftables_deluxe_scarecrow",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 50
+    },
+    {
+     "id": "386",
+     "type": "O",
+     "name": "Iridium Ore",
+     "image": "src_assets_items_386",
+     "amount": 1
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 40
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "RarecrowSociety",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_deluxe_scarecrow"
+  },
+  {
+   "key": "Staircase",
+   "internalName": "Staircase",
+   "name": "Staircase",
+   "group": "misc",
+   "order": 3,
+   "output": {
+    "id": "71",
+    "type": "BO",
+    "name": "Staircase",
+    "image": "src_assets_big_craftables_staircase",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 99
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 2,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_staircase"
+  },
+  {
+   "key": "Explosive Ammo",
+   "internalName": "Explosive Ammo",
+   "name": "Explosive Ammo",
+   "group": "misc",
+   "order": 4,
+   "output": {
+    "id": "441",
+    "type": "O",
+    "name": "Explosive Ammo",
+    "image": "src_assets_items_441",
+    "quantity": 5
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 1
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Combat",
+    "text": null
+   },
+   "image": "src_assets_items_441"
+  },
+  {
+   "key": "Transmute (Fe)",
+   "internalName": "Transmute (Fe)",
+   "name": "Iron Bar",
+   "group": "misc",
+   "order": 5,
+   "output": {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "334",
+     "type": "O",
+     "name": "Copper Bar",
+     "image": "src_assets_items_334",
+     "amount": 3
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 4,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_items_335"
+  },
+  {
+   "key": "Transmute (Au)",
+   "internalName": "Transmute (Au)",
+   "name": "Gold Bar",
+   "group": "misc",
+   "order": 6,
+   "output": {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 2
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 7,
+    "skill": "Mining",
+    "text": null
+   },
+   "image": "src_assets_items_336"
+  },
+  {
+   "key": "Mini-Jukebox",
+   "internalName": "Mini-Jukebox",
+   "name": "Mini-Jukebox",
+   "group": "misc",
+   "order": 7,
+   "output": {
+    "id": "209",
+    "type": "BO",
+    "name": "Mini-Jukebox",
+    "image": "src_assets_big_craftables_minijukebox",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 2
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_gus_five_heart",
+    "text": "Gus 5-heart event"
+   },
+   "image": "src_assets_big_craftables_minijukebox"
+  },
+  {
+   "key": "Mini-Obelisk",
+   "internalName": "Mini-Obelisk",
+   "name": "Mini-Obelisk",
+   "group": "misc",
+   "order": 8,
+   "output": {
+    "id": "238",
+    "type": "BO",
+    "name": "Mini-Obelisk",
+    "image": "src_assets_big_craftables_miniobelisk",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 30
+    },
+    {
+     "id": "768",
+     "type": "O",
+     "name": "Solar Essence",
+     "image": "src_assets_items_768",
+     "amount": 20
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 3
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "WizardReward2",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_miniobelisk"
+  },
+  {
+   "key": "Farm Computer",
+   "internalName": "Farm Computer",
+   "name": "Farm Computer",
+   "group": "misc",
+   "order": 9,
+   "output": {
+    "id": "239",
+    "type": "BO",
+    "name": "Farm Computer",
+    "image": "src_assets_big_craftables_farm_computer",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "122",
+     "type": "O",
+     "name": "Dwarf Gadget",
+     "image": "src_assets_items_122",
+     "amount": 1
+    },
+    {
+     "id": "787",
+     "type": "O",
+     "name": "Battery Pack",
+     "image": "src_assets_items_787",
+     "amount": 1
+    },
+    {
+     "id": "338",
+     "type": "O",
+     "name": "Refined Quartz",
+     "image": "src_assets_items_338",
+     "amount": 10
+    }
+   ],
+   "source": {
+    "kind": "mail",
+    "mailKey": "DemetriusReward",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_farm_computer"
+  },
+  {
+   "key": "Hopper",
+   "internalName": "Hopper",
+   "name": "Hopper",
+   "group": "misc",
+   "order": 10,
+   "output": {
+    "id": "275",
+    "type": "BO",
+    "name": "Hopper",
+    "image": "src_assets_big_craftables_hopper",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 10
+    },
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 1
+    },
+    {
+     "id": "910",
+     "type": "O",
+     "name": "Radioactive Bar",
+     "image": "src_assets_items_910",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "shop",
+    "price": null,
+    "shop": "QiGemShop",
+    "text": null
+   },
+   "image": "src_assets_big_craftables_hopper"
+  },
+  {
+   "key": "Cookout Kit",
+   "internalName": "Cookout Kit",
+   "name": "Cookout Kit",
+   "group": "misc",
+   "order": 11,
+   "output": {
+    "id": "926",
+    "type": "O",
+    "name": "Cookout Kit",
+    "image": "src_assets_items_926",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "388",
+     "type": "O",
+     "name": "Wood",
+     "image": "src_assets_items_388",
+     "amount": 15
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 10
+    },
+    {
+     "id": "382",
+     "type": "O",
+     "name": "Coal",
+     "image": "src_assets_items_382",
+     "amount": 3
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 3,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_926"
+  },
+  {
+   "key": "Tent Kit",
+   "internalName": "Tent Kit",
+   "name": "Tent Kit",
+   "group": "misc",
+   "order": 12,
+   "output": {
+    "id": "10345",
+    "type": "O",
+    "name": "Tent Kit",
+    "image": "src_assets_items_10345",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "709",
+     "type": "O",
+     "name": "Hardwood",
+     "image": "src_assets_items_709",
+     "amount": 10
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 25
+    },
+    {
+     "id": "428",
+     "type": "O",
+     "name": "Cloth",
+     "image": "src_assets_items_428",
+     "amount": 1
+    }
+   ],
+   "source": {
+    "kind": "skill",
+    "level": 8,
+    "skill": "Foraging",
+    "text": null
+   },
+   "image": "src_assets_items_10345"
+  },
+  {
+   "key": "Statue Of The Dwarf King",
+   "internalName": "Statue Of The Dwarf King",
+   "name": "Statue Of The Dwarf King",
+   "group": "misc",
+   "order": 13,
+   "output": {
+    "id": "10340",
+    "type": "BO",
+    "name": "Statue Of The Dwarf King",
+    "image": "src_assets_big_craftables_statue_of_the_dwarf_king",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 20
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_mining_mastery",
+    "text": "Mining Mastery"
+   },
+   "image": "src_assets_big_craftables_statue_of_the_dwarf_king"
+  },
+  {
+   "key": "Statue Of Blessings",
+   "internalName": "Statue Of Blessings",
+   "name": "Statue Of Blessings",
+   "group": "misc",
+   "order": 14,
+   "output": {
+    "id": "10339",
+    "type": "BO",
+    "name": "Statue Of Blessings",
+    "image": "src_assets_big_craftables_statue_of_blessings",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "390",
+     "type": "O",
+     "name": "Stone",
+     "image": "src_assets_items_390",
+     "amount": 999
+    },
+    {
+     "id": "771",
+     "type": "O",
+     "name": "Fiber",
+     "image": "src_assets_items_771",
+     "amount": 999
+    },
+    {
+     "id": "92",
+     "type": "O",
+     "name": "Sap",
+     "image": "src_assets_items_092",
+     "amount": 999
+    },
+    {
+     "id": "981",
+     "type": "O",
+     "name": "Moss",
+     "image": "src_assets_items_981",
+     "amount": 333
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_farming_mastery",
+    "text": "Farming Mastery"
+   },
+   "image": "src_assets_big_craftables_statue_of_blessings"
+  },
+  {
+   "key": "Anvil",
+   "internalName": "Anvil",
+   "name": "Anvil",
+   "group": "misc",
+   "order": 15,
+   "output": {
+    "id": "10005",
+    "type": "BO",
+    "name": "Anvil",
+    "image": "src_assets_big_craftables_anvil",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 50
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_combat_mastery",
+    "text": "Combat Mastery"
+   },
+   "image": "src_assets_big_craftables_anvil"
+  },
+  {
+   "key": "Mini-Forge",
+   "internalName": "Mini-Forge",
+   "name": "Mini-Forge",
+   "group": "misc",
+   "order": 16,
+   "output": {
+    "id": "10246",
+    "type": "BO",
+    "name": "Mini-Forge",
+    "image": "src_assets_big_craftables_miniforge",
+    "quantity": 1
+   },
+   "ingredients": [
+    {
+     "id": "852",
+     "type": "O",
+     "name": "Dragon Tooth",
+     "image": "src_assets_items_852",
+     "amount": 5
+    },
+    {
+     "id": "335",
+     "type": "O",
+     "name": "Iron Bar",
+     "image": "src_assets_items_335",
+     "amount": 10
+    },
+    {
+     "id": "336",
+     "type": "O",
+     "name": "Gold Bar",
+     "image": "src_assets_items_336",
+     "amount": 10
+    },
+    {
+     "id": "337",
+     "type": "O",
+     "name": "Iridium Bar",
+     "image": "src_assets_items_337",
+     "amount": 5
+    }
+   ],
+   "source": {
+    "kind": "manual",
+    "textKey": "crafting_source_combat_mastery",
+    "text": "Combat Mastery"
+   },
+   "image": "src_assets_big_craftables_miniforge"
+  }
+ ]
+}

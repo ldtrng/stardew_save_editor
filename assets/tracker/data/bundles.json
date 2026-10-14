@@ -1,0 +1,6552 @@
+{
+ "normal": [
+  {
+   "id": "Crafts Room",
+   "name": "Crafts Room",
+   "reward": "Reward: Bridge Repair",
+   "nameKey": "CommunityCenter_AreaName_CraftsRoom",
+   "rewardKey": "JunimoNote_RewardCrafts",
+   "bundles": [
+    {
+     "key": "Crafts Room/13",
+     "room": "Crafts Room",
+     "name": "Spring Foraging",
+     "internalName": "Spring Foraging",
+     "color": 0,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "16",
+       "type": "O",
+       "name": "Wild Horseradish",
+       "image": "src_assets_items_016",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "18",
+       "type": "O",
+       "name": "Daffodil",
+       "image": "src_assets_items_018",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "20",
+       "type": "O",
+       "name": "Leek",
+       "image": "src_assets_items_020",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "22",
+       "type": "O",
+       "name": "Dandelion",
+       "image": "src_assets_items_022",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "495",
+      "type": "O",
+      "name": "Spring Seeds",
+      "image": "src_assets_items_495",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_spring_foraging_bundle"
+    },
+    {
+     "key": "Crafts Room/14",
+     "room": "Crafts Room",
+     "name": "Summer Foraging",
+     "internalName": "Summer Foraging",
+     "color": 3,
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "396",
+       "type": "O",
+       "name": "Spice Berry",
+       "image": "src_assets_items_396",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "398",
+       "type": "O",
+       "name": "Grape",
+       "image": "src_assets_items_398",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "402",
+       "type": "O",
+       "name": "Sweet Pea",
+       "image": "src_assets_items_402",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "496",
+      "type": "O",
+      "name": "Summer Seeds",
+      "image": "src_assets_items_496",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_summer_foraging_bundle"
+    },
+    {
+     "key": "Crafts Room/15",
+     "room": "Crafts Room",
+     "name": "Fall Foraging",
+     "internalName": "Fall Foraging",
+     "color": 2,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "404",
+       "type": "O",
+       "name": "Common Mushroom",
+       "image": "src_assets_items_404",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "406",
+       "type": "O",
+       "name": "Wild Plum",
+       "image": "src_assets_items_406",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "408",
+       "type": "O",
+       "name": "Hazelnut",
+       "image": "src_assets_items_408",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "410",
+       "type": "O",
+       "name": "Blackberry",
+       "image": "src_assets_items_410",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "497",
+      "type": "O",
+      "name": "Fall Seeds",
+      "image": "src_assets_items_497",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_fall_foraging_bundle"
+    },
+    {
+     "key": "Crafts Room/16",
+     "room": "Crafts Room",
+     "name": "Winter Foraging",
+     "internalName": "Winter Foraging",
+     "color": 6,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "412",
+       "type": "O",
+       "name": "Winter Root",
+       "image": "src_assets_items_412",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "414",
+       "type": "O",
+       "name": "Crystal Fruit",
+       "image": "src_assets_items_414",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "416",
+       "type": "O",
+       "name": "Snow Yam",
+       "image": "src_assets_items_416",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "418",
+       "type": "O",
+       "name": "Crocus",
+       "image": "src_assets_items_418",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "498",
+      "type": "O",
+      "name": "Winter Seeds",
+      "image": "src_assets_items_498",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_winter_foraging_bundle"
+    },
+    {
+     "key": "Crafts Room/17",
+     "room": "Crafts Room",
+     "name": "Construction",
+     "internalName": "Construction",
+     "color": 4,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "388",
+       "type": "O",
+       "name": "Wood",
+       "image": "src_assets_items_388",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "388",
+       "type": "O",
+       "name": "Wood",
+       "image": "src_assets_items_388",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "390",
+       "type": "O",
+       "name": "Stone",
+       "image": "src_assets_items_390",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "709",
+       "type": "O",
+       "name": "Hardwood",
+       "image": "src_assets_items_709",
+       "amount": 10,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "114",
+      "type": "BO",
+      "name": "Charcoal Kiln",
+      "image": "src_assets_big_craftables_charcoal_kiln",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_construction_bundle"
+    },
+    {
+     "key": "Crafts Room/19",
+     "room": "Crafts Room",
+     "name": "Exotic Foraging",
+     "internalName": "Exotic Foraging",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "88",
+       "type": "O",
+       "name": "Coconut",
+       "image": "src_assets_items_088",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "90",
+       "type": "O",
+       "name": "Cactus Fruit",
+       "image": "src_assets_items_090",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "78",
+       "type": "O",
+       "name": "Cave Carrot",
+       "image": "src_assets_items_078",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "420",
+       "type": "O",
+       "name": "Red Mushroom",
+       "image": "src_assets_items_420",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "422",
+       "type": "O",
+       "name": "Purple Mushroom",
+       "image": "src_assets_items_422",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "724",
+       "type": "O",
+       "name": "Maple Syrup",
+       "image": "src_assets_items_724",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "725",
+       "type": "O",
+       "name": "Oak Resin",
+       "image": "src_assets_items_725",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "726",
+       "type": "O",
+       "name": "Pine Tar",
+       "image": "src_assets_items_726",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "257",
+       "type": "O",
+       "name": "Morel",
+       "image": "src_assets_items_257",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "235",
+      "type": "O",
+      "name": "Autumn's Bounty",
+      "image": "src_assets_items_235",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_exotic_foraging_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Pantry",
+   "name": "Pantry",
+   "reward": "Reward: Greenhouse",
+   "nameKey": "CommunityCenter_AreaName_Pantry",
+   "rewardKey": "JunimoNote_RewardPantry",
+   "bundles": [
+    {
+     "key": "Pantry/0",
+     "room": "Pantry",
+     "name": "Spring Crops",
+     "internalName": "Spring Crops",
+     "color": 0,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "24",
+       "type": "O",
+       "name": "Parsnip",
+       "image": "src_assets_items_024",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "188",
+       "type": "O",
+       "name": "Green Bean",
+       "image": "src_assets_items_188",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "190",
+       "type": "O",
+       "name": "Cauliflower",
+       "image": "src_assets_items_190",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "192",
+       "type": "O",
+       "name": "Potato",
+       "image": "src_assets_items_192",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "465",
+      "type": "O",
+      "name": "Speed-Gro",
+      "image": "src_assets_items_465",
+      "amount": 20
+     },
+     "image": "src_assets_bundles_spring_crops_bundle"
+    },
+    {
+     "key": "Pantry/1",
+     "room": "Pantry",
+     "name": "Summer Crops",
+     "internalName": "Summer Crops",
+     "color": 3,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "256",
+       "type": "O",
+       "name": "Tomato",
+       "image": "src_assets_items_256",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "260",
+       "type": "O",
+       "name": "Hot Pepper",
+       "image": "src_assets_items_260",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "258",
+       "type": "O",
+       "name": "Blueberry",
+       "image": "src_assets_items_258",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "254",
+       "type": "O",
+       "name": "Melon",
+       "image": "src_assets_items_254",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "621",
+      "type": "O",
+      "name": "Quality Sprinkler",
+      "image": "src_assets_items_621",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_summer_crops_bundle"
+    },
+    {
+     "key": "Pantry/2",
+     "room": "Pantry",
+     "name": "Fall Crops",
+     "internalName": "Fall Crops",
+     "color": 2,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "270",
+       "type": "O",
+       "name": "Corn",
+       "image": "src_assets_items_270",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "272",
+       "type": "O",
+       "name": "Eggplant",
+       "image": "src_assets_items_272",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "276",
+       "type": "O",
+       "name": "Pumpkin",
+       "image": "src_assets_items_276",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "280",
+       "type": "O",
+       "name": "Yam",
+       "image": "src_assets_items_280",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "10",
+      "type": "BO",
+      "name": "Bee House",
+      "image": "src_assets_big_craftables_bee_house",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_fall_crops_bundle"
+    },
+    {
+     "key": "Pantry/3",
+     "room": "Pantry",
+     "name": "Quality Crops",
+     "internalName": "Quality Crops",
+     "color": 6,
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "24",
+       "type": "O",
+       "name": "Parsnip",
+       "image": "src_assets_items_024",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "254",
+       "type": "O",
+       "name": "Melon",
+       "image": "src_assets_items_254",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "276",
+       "type": "O",
+       "name": "Pumpkin",
+       "image": "src_assets_items_276",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "270",
+       "type": "O",
+       "name": "Corn",
+       "image": "src_assets_items_270",
+       "amount": 5,
+       "quality": 2
+      }
+     ],
+     "reward": {
+      "id": "15",
+      "type": "BO",
+      "name": "Preserves Jar",
+      "image": "src_assets_big_craftables_preserves_jar",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_quality_crops_bundle"
+    },
+    {
+     "key": "Pantry/4",
+     "room": "Pantry",
+     "name": "Animal",
+     "internalName": "Animal",
+     "color": 4,
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "186",
+       "type": "O",
+       "name": "Large Milk",
+       "image": "src_assets_items_186",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "182",
+       "type": "O",
+       "name": "Large Egg",
+       "image": "src_assets_items_182",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "174",
+       "type": "O",
+       "name": "Large Egg",
+       "image": "src_assets_items_174",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "438",
+       "type": "O",
+       "name": "L. Goat Milk",
+       "image": "src_assets_items_438",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "440",
+       "type": "O",
+       "name": "Wool",
+       "image": "src_assets_items_440",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "442",
+       "type": "O",
+       "name": "Duck Egg",
+       "image": "src_assets_items_442",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "16",
+      "type": "BO",
+      "name": "Cheese Press",
+      "image": "src_assets_big_craftables_cheese_press",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_animal_bundle"
+    },
+    {
+     "key": "Pantry/5",
+     "room": "Pantry",
+     "name": "Artisan",
+     "internalName": "Artisan",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 6,
+     "items": [
+      {
+       "id": "432",
+       "type": "O",
+       "name": "Truffle Oil",
+       "image": "src_assets_items_432",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "428",
+       "type": "O",
+       "name": "Cloth",
+       "image": "src_assets_items_428",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "426",
+       "type": "O",
+       "name": "Goat Cheese",
+       "image": "src_assets_items_426",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "424",
+       "type": "O",
+       "name": "Cheese",
+       "image": "src_assets_items_424",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "340",
+       "type": "O",
+       "name": "Honey",
+       "image": "src_assets_items_340",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "344",
+       "type": "O",
+       "name": "Jelly",
+       "image": "src_assets_items_344",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "613",
+       "type": "O",
+       "name": "Apple",
+       "image": "src_assets_items_613",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "634",
+       "type": "O",
+       "name": "Apricot",
+       "image": "src_assets_items_634",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "635",
+       "type": "O",
+       "name": "Orange",
+       "image": "src_assets_items_635",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "636",
+       "type": "O",
+       "name": "Peach",
+       "image": "src_assets_items_636",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "637",
+       "type": "O",
+       "name": "Pomegranate",
+       "image": "src_assets_items_637",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "638",
+       "type": "O",
+       "name": "Cherry",
+       "image": "src_assets_items_638",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "12",
+      "type": "BO",
+      "name": "Keg",
+      "image": "src_assets_big_craftables_keg",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_artisan_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Fish Tank",
+   "name": "Fish Tank",
+   "reward": "Reward: Glittering Boulder Removed",
+   "nameKey": "CommunityCenter_AreaName_FishTank",
+   "rewardKey": "JunimoNote_RewardFishTank",
+   "bundles": [
+    {
+     "key": "Fish Tank/6",
+     "room": "Fish Tank",
+     "name": "River Fish",
+     "internalName": "River Fish",
+     "color": 6,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "145",
+       "type": "O",
+       "name": "Sunfish",
+       "image": "src_assets_items_145",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "143",
+       "type": "O",
+       "name": "Catfish",
+       "image": "src_assets_items_143",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "706",
+       "type": "O",
+       "name": "Shad",
+       "image": "src_assets_items_706",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "699",
+       "type": "O",
+       "name": "Tiger Trout",
+       "image": "src_assets_items_699",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "10102",
+      "type": "O",
+      "name": "Deluxe Bait",
+      "image": "src_assets_items_10102",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_river_fish_bundle"
+    },
+    {
+     "key": "Fish Tank/7",
+     "room": "Fish Tank",
+     "name": "Lake Fish",
+     "internalName": "Lake Fish",
+     "color": 0,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "136",
+       "type": "O",
+       "name": "Largemouth Bass",
+       "image": "src_assets_items_136",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "142",
+       "type": "O",
+       "name": "Carp",
+       "image": "src_assets_items_142",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "700",
+       "type": "O",
+       "name": "Bullhead",
+       "image": "src_assets_items_700",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "698",
+       "type": "O",
+       "name": "Sturgeon",
+       "image": "src_assets_items_698",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "687",
+      "type": "O",
+      "name": "Dressed Spinner",
+      "image": "src_assets_items_687",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_lake_fish_bundle"
+    },
+    {
+     "key": "Fish Tank/8",
+     "room": "Fish Tank",
+     "name": "Ocean Fish",
+     "internalName": "Ocean Fish",
+     "color": 5,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "131",
+       "type": "O",
+       "name": "Sardine",
+       "image": "src_assets_items_131",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "130",
+       "type": "O",
+       "name": "Tuna",
+       "image": "src_assets_items_130",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "150",
+       "type": "O",
+       "name": "Red Snapper",
+       "image": "src_assets_items_150",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "701",
+       "type": "O",
+       "name": "Tilapia",
+       "image": "src_assets_items_701",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "690",
+      "type": "O",
+      "name": "Warp Totem: Beach",
+      "image": "src_assets_items_690",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_ocean_fish_bundle"
+    },
+    {
+     "key": "Fish Tank/9",
+     "room": "Fish Tank",
+     "name": "Night Fishing",
+     "internalName": "Night Fishing",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "140",
+       "type": "O",
+       "name": "Walleye",
+       "image": "src_assets_items_140",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "132",
+       "type": "O",
+       "name": "Bream",
+       "image": "src_assets_items_132",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "148",
+       "type": "O",
+       "name": "Eel",
+       "image": "src_assets_items_148",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "517",
+      "type": "O",
+      "name": "Glow Ring",
+      "image": "src_assets_items_517",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_night_fishing_bundle"
+    },
+    {
+     "key": "Fish Tank/10",
+     "room": "Fish Tank",
+     "name": "Specialty Fish",
+     "internalName": "Specialty Fish",
+     "color": 4,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "128",
+       "type": "O",
+       "name": "Pufferfish",
+       "image": "src_assets_items_128",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "156",
+       "type": "O",
+       "name": "Ghostfish",
+       "image": "src_assets_items_156",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "164",
+       "type": "O",
+       "name": "Sandfish",
+       "image": "src_assets_items_164",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "734",
+       "type": "O",
+       "name": "Woodskip",
+       "image": "src_assets_items_734",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "242",
+      "type": "O",
+      "name": "Dish O' The Sea",
+      "image": "src_assets_items_242",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_specialty_fish_bundle"
+    },
+    {
+     "key": "Fish Tank/11",
+     "room": "Fish Tank",
+     "name": "Crab Pot",
+     "internalName": "Crab Pot",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "715",
+       "type": "O",
+       "name": "Lobster",
+       "image": "src_assets_items_715",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "716",
+       "type": "O",
+       "name": "Crayfish",
+       "image": "src_assets_items_716",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "717",
+       "type": "O",
+       "name": "Crab",
+       "image": "src_assets_items_717",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "718",
+       "type": "O",
+       "name": "Cockle",
+       "image": "src_assets_items_718",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "719",
+       "type": "O",
+       "name": "Mussel",
+       "image": "src_assets_items_719",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "720",
+       "type": "O",
+       "name": "Shrimp",
+       "image": "src_assets_items_720",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "721",
+       "type": "O",
+       "name": "Snail",
+       "image": "src_assets_items_721",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "722",
+       "type": "O",
+       "name": "Periwinkle",
+       "image": "src_assets_items_722",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "723",
+       "type": "O",
+       "name": "Oyster",
+       "image": "src_assets_items_723",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "372",
+       "type": "O",
+       "name": "Clam",
+       "image": "src_assets_items_372",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "710",
+      "type": "O",
+      "name": "Crab Pot",
+      "image": "src_assets_items_710",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_crab_pot_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Boiler Room",
+   "name": "Boiler Room",
+   "reward": "Reward: Minecarts Repaired",
+   "nameKey": "CommunityCenter_AreaName_BoilerRoom",
+   "rewardKey": "JunimoNote_RewardBoiler",
+   "bundles": [
+    {
+     "key": "Boiler Room/20",
+     "room": "Boiler Room",
+     "name": "Blacksmith's",
+     "internalName": "Blacksmith's",
+     "color": 2,
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "334",
+       "type": "O",
+       "name": "Copper Bar",
+       "image": "src_assets_items_334",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "335",
+       "type": "O",
+       "name": "Iron Bar",
+       "image": "src_assets_items_335",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "336",
+       "type": "O",
+       "name": "Gold Bar",
+       "image": "src_assets_items_336",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "13",
+      "type": "BO",
+      "name": "Furnace",
+      "image": "src_assets_big_craftables_furnace",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_blacksmith_bundle"
+    },
+    {
+     "key": "Boiler Room/21",
+     "room": "Boiler Room",
+     "name": "Geologist's",
+     "internalName": "Geologist's",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "80",
+       "type": "O",
+       "name": "Quartz",
+       "image": "src_assets_items_080",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "86",
+       "type": "O",
+       "name": "Earth Crystal",
+       "image": "src_assets_items_086",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "84",
+       "type": "O",
+       "name": "Frozen Tear",
+       "image": "src_assets_items_084",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "82",
+       "type": "O",
+       "name": "Fire Quartz",
+       "image": "src_assets_items_082",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "749",
+      "type": "O",
+      "name": "Omni Geode",
+      "image": "src_assets_items_749",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_geologists_bundle"
+    },
+    {
+     "key": "Boiler Room/22",
+     "room": "Boiler Room",
+     "name": "Adventurer's",
+     "internalName": "Adventurer's",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "766",
+       "type": "O",
+       "name": "Slime",
+       "image": "src_assets_items_766",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "767",
+       "type": "O",
+       "name": "Bat Wing",
+       "image": "src_assets_items_767",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "768",
+       "type": "O",
+       "name": "Solar Essence",
+       "image": "src_assets_items_768",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "769",
+       "type": "O",
+       "name": "Void Essence",
+       "image": "src_assets_items_769",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "518",
+      "type": "O",
+      "name": "Small Magnet Ring",
+      "image": "src_assets_items_518",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_adventurers_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Bulletin Board",
+   "name": "Bulletin Board",
+   "reward": "Reward: Friendship <",
+   "nameKey": "CommunityCenter_AreaName_BulletinBoard",
+   "rewardKey": "JunimoNote_RewardBulletin",
+   "bundles": [
+    {
+     "key": "Bulletin Board/31",
+     "room": "Bulletin Board",
+     "name": "Chef's",
+     "internalName": "Chef's",
+     "color": 4,
+     "isVault": false,
+     "numOfItems": 6,
+     "items": [
+      {
+       "id": "724",
+       "type": "O",
+       "name": "Maple Syrup",
+       "image": "src_assets_items_724",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "259",
+       "type": "O",
+       "name": "Fiddlehead Fern",
+       "image": "src_assets_items_259",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "430",
+       "type": "O",
+       "name": "Truffle",
+       "image": "src_assets_items_430",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "376",
+       "type": "O",
+       "name": "Poppy",
+       "image": "src_assets_items_376",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "228",
+       "type": "O",
+       "name": "Maki Roll",
+       "image": "src_assets_items_228",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "194",
+       "type": "O",
+       "name": "Fried Egg",
+       "image": "src_assets_items_194",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_chefs_bundle"
+    },
+    {
+     "key": "Bulletin Board/32",
+     "room": "Bulletin Board",
+     "name": "Field Research",
+     "internalName": "Field Research",
+     "color": 5,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "422",
+       "type": "O",
+       "name": "Purple Mushroom",
+       "image": "src_assets_items_422",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "392",
+       "type": "O",
+       "name": "Nautilus Shell",
+       "image": "src_assets_items_392",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "702",
+       "type": "O",
+       "name": "Chub",
+       "image": "src_assets_items_702",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "536",
+       "type": "O",
+       "name": "Frozen Geode",
+       "image": "src_assets_items_536",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "20",
+      "type": "BO",
+      "name": "Recycling Machine",
+      "image": "src_assets_big_craftables_recycling_machine",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_field_research_bundle"
+    },
+    {
+     "key": "Bulletin Board/33",
+     "room": "Bulletin Board",
+     "name": "Enchanter's",
+     "internalName": "Enchanter's",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "725",
+       "type": "O",
+       "name": "Oak Resin",
+       "image": "src_assets_items_725",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "348",
+       "type": "O",
+       "name": "Wine",
+       "image": "src_assets_items_348",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "446",
+       "type": "O",
+       "name": "Rabbit's Foot",
+       "image": "src_assets_items_446",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "637",
+       "type": "O",
+       "name": "Pomegranate",
+       "image": "src_assets_items_637",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "336",
+      "type": "O",
+      "name": "Gold Bar",
+      "image": "src_assets_items_336",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_enchanters_bundle"
+    },
+    {
+     "key": "Bulletin Board/34",
+     "room": "Bulletin Board",
+     "name": "Dye",
+     "internalName": "Dye",
+     "color": 6,
+     "isVault": false,
+     "numOfItems": 6,
+     "items": [
+      {
+       "id": "420",
+       "type": "O",
+       "name": "Red Mushroom",
+       "image": "src_assets_items_420",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "397",
+       "type": "O",
+       "name": "Sea Urchin",
+       "image": "src_assets_items_397",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "421",
+       "type": "O",
+       "name": "Sunflower",
+       "image": "src_assets_items_421",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "444",
+       "type": "O",
+       "name": "Duck Feather",
+       "image": "src_assets_items_444",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "62",
+       "type": "O",
+       "name": "Aquamarine",
+       "image": "src_assets_items_062",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "266",
+       "type": "O",
+       "name": "Red Cabbage",
+       "image": "src_assets_items_266",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "25",
+      "type": "BO",
+      "name": "Seed Maker",
+      "image": "src_assets_big_craftables_seed_maker",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_dye_bundle"
+    },
+    {
+     "key": "Bulletin Board/35",
+     "room": "Bulletin Board",
+     "name": "Fodder",
+     "internalName": "Fodder",
+     "color": 3,
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "262",
+       "type": "O",
+       "name": "Wheat",
+       "image": "src_assets_items_262",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "178",
+       "type": "O",
+       "name": "Hay",
+       "image": "src_assets_items_178",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "613",
+       "type": "O",
+       "name": "Apple",
+       "image": "src_assets_items_613",
+       "amount": 3,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "104",
+      "type": "BO",
+      "name": "Heater",
+      "image": "src_assets_big_craftables_heater",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_fodder_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Vault",
+   "name": "Vault",
+   "reward": "Reward: Bus Repair",
+   "nameKey": "CommunityCenter_AreaName_Vault",
+   "rewardKey": "JunimoNote_RewardVault",
+   "bundles": [
+    {
+     "key": "Vault/23",
+     "room": "Vault",
+     "name": "2,500g",
+     "internalName": "2,500g",
+     "color": 4,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 2500,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_2500_bundle"
+    },
+    {
+     "key": "Vault/24",
+     "room": "Vault",
+     "name": "5,000g",
+     "internalName": "5,000g",
+     "color": 2,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 5000,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "369",
+      "type": "O",
+      "name": "Quality Fertilizer",
+      "image": "src_assets_items_369",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_5000_bundle"
+    },
+    {
+     "key": "Vault/25",
+     "room": "Vault",
+     "name": "10,000g",
+     "internalName": "10,000g",
+     "color": 3,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 10000,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "9",
+      "type": "BO",
+      "name": "Lightning Rod",
+      "image": "src_assets_big_craftables_lightning_rod",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_10000_bundle"
+    },
+    {
+     "key": "Vault/26",
+     "room": "Vault",
+     "name": "25,000g",
+     "internalName": "25,000g",
+     "color": 1,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 25000,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "21",
+      "type": "BO",
+      "name": "Crystalarium",
+      "image": "src_assets_big_craftables_crystalarium",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_25000_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Abandoned Joja Mart",
+   "name": "Abandoned JojaMart",
+   "reward": "Reward: Friendship <",
+   "nameKey": "CommunityCenter_AreaName_AbandonedJojaMart",
+   "rewardKey": "JunimoNote_RewardBulletin",
+   "bundles": [
+    {
+     "key": "Abandoned Joja Mart/36",
+     "room": "Abandoned Joja Mart",
+     "name": "The Missing",
+     "internalName": "The Missing",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "348",
+       "type": "O",
+       "name": "Wine",
+       "image": "src_assets_items_348",
+       "amount": 1,
+       "quality": 1
+      },
+      {
+       "id": "807",
+       "type": "O",
+       "name": "Dinosaur Mayonnaise",
+       "image": "src_assets_items_807",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "74",
+       "type": "O",
+       "name": "Prismatic Shard",
+       "image": "src_assets_items_074",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "454",
+       "type": "O",
+       "name": "Ancient Fruit",
+       "image": "src_assets_items_454",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "795",
+       "type": "O",
+       "name": "Void Salmon",
+       "image": "src_assets_items_795",
+       "amount": 1,
+       "quality": 2
+      },
+      {
+       "id": "445",
+       "type": "O",
+       "name": "Caviar",
+       "image": "src_assets_items_445",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": null,
+     "image": "src_assets_bundles_the_missing_bundle"
+    }
+   ]
+  }
+ ],
+ "remixed": [
+  {
+   "id": "Crafts Room",
+   "name": "Crafts Room",
+   "reward": "Reward: Bridge Repair",
+   "nameKey": "CommunityCenter_AreaName_CraftsRoom",
+   "rewardKey": "JunimoNote_RewardCrafts",
+   "bundles": [
+    {
+     "key": "Crafts Room/R13",
+     "room": "Crafts Room",
+     "name": "Spring Foraging",
+     "internalName": "Spring Foraging",
+     "color": "Green",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "16",
+       "type": "O",
+       "name": "Wild Horseradish",
+       "image": "src_assets_items_016",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "18",
+       "type": "O",
+       "name": "Daffodil",
+       "image": "src_assets_items_018",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "20",
+       "type": "O",
+       "name": "Leek",
+       "image": "src_assets_items_020",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "22",
+       "type": "O",
+       "name": "Dandelion",
+       "image": "src_assets_items_022",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "399",
+       "type": "O",
+       "name": "Spring Onion",
+       "image": "src_assets_items_399",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "495",
+      "type": "O",
+      "name": "Spring Seeds",
+      "image": "src_assets_items_495",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_spring_foraging_bundle",
+     "groups": [
+      [
+       {
+        "id": "16",
+        "type": "O",
+        "name": "Wild Horseradish",
+        "image": "src_assets_items_016",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "18",
+        "type": "O",
+        "name": "Daffodil",
+        "image": "src_assets_items_018",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "20",
+        "type": "O",
+        "name": "Leek",
+        "image": "src_assets_items_020",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "22",
+        "type": "O",
+        "name": "Dandelion",
+        "image": "src_assets_items_022",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "399",
+        "type": "O",
+        "name": "Spring Onion",
+        "image": "src_assets_items_399",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Crafts Room/R14",
+     "room": "Crafts Room",
+     "name": "Summer Foraging",
+     "internalName": "Summer Foraging",
+     "color": "Yellow",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "398",
+       "type": "O",
+       "name": "Grape",
+       "image": "src_assets_items_398",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "396",
+       "type": "O",
+       "name": "Spice Berry",
+       "image": "src_assets_items_396",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "402",
+       "type": "O",
+       "name": "Sweet Pea",
+       "image": "src_assets_items_402",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "496",
+      "type": "O",
+      "name": "Summer Seeds",
+      "image": "src_assets_items_496",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_summer_foraging_bundle",
+     "groups": [
+      [
+       {
+        "id": "398",
+        "type": "O",
+        "name": "Grape",
+        "image": "src_assets_items_398",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "396",
+        "type": "O",
+        "name": "Spice Berry",
+        "image": "src_assets_items_396",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "402",
+        "type": "O",
+        "name": "Sweet Pea",
+        "image": "src_assets_items_402",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 3
+    },
+    {
+     "key": "Crafts Room/R15",
+     "room": "Crafts Room",
+     "name": "Fall Foraging",
+     "internalName": "Fall Foraging",
+     "color": "Orange",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "404",
+       "type": "O",
+       "name": "Common Mushroom",
+       "image": "src_assets_items_404",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "406",
+       "type": "O",
+       "name": "Wild Plum",
+       "image": "src_assets_items_406",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "408",
+       "type": "O",
+       "name": "Hazelnut",
+       "image": "src_assets_items_408",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "410",
+       "type": "O",
+       "name": "Blackberry",
+       "image": "src_assets_items_410",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "497",
+      "type": "O",
+      "name": "Fall Seeds",
+      "image": "src_assets_items_497",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_fall_foraging_bundle",
+     "groups": [
+      [
+       {
+        "id": "404",
+        "type": "O",
+        "name": "Common Mushroom",
+        "image": "src_assets_items_404",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "406",
+        "type": "O",
+        "name": "Wild Plum",
+        "image": "src_assets_items_406",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "408",
+        "type": "O",
+        "name": "Hazelnut",
+        "image": "src_assets_items_408",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "410",
+        "type": "O",
+        "name": "Blackberry",
+        "image": "src_assets_items_410",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Crafts Room/R16",
+     "room": "Crafts Room",
+     "name": "Winter Foraging",
+     "internalName": "Winter Foraging",
+     "color": "Teal",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "412",
+       "type": "O",
+       "name": "Winter Root",
+       "image": "src_assets_items_412",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "414",
+       "type": "O",
+       "name": "Crystal Fruit",
+       "image": "src_assets_items_414",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "416",
+       "type": "O",
+       "name": "Snow Yam",
+       "image": "src_assets_items_416",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "418",
+       "type": "O",
+       "name": "Crocus",
+       "image": "src_assets_items_418",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "283",
+       "type": "O",
+       "name": "Holly",
+       "image": "src_assets_items_283",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "498",
+      "type": "O",
+      "name": "Winter Seeds",
+      "image": "src_assets_items_498",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_winter_foraging_bundle",
+     "groups": [
+      [
+       {
+        "id": "412",
+        "type": "O",
+        "name": "Winter Root",
+        "image": "src_assets_items_412",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "414",
+        "type": "O",
+        "name": "Crystal Fruit",
+        "image": "src_assets_items_414",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "416",
+        "type": "O",
+        "name": "Snow Yam",
+        "image": "src_assets_items_416",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "418",
+        "type": "O",
+        "name": "Crocus",
+        "image": "src_assets_items_418",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "283",
+        "type": "O",
+        "name": "Holly",
+        "image": "src_assets_items_283",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Crafts Room/R17A",
+     "room": "Crafts Room",
+     "name": "Construction",
+     "internalName": "Construction",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "388",
+       "type": "O",
+       "name": "Wood",
+       "image": "src_assets_items_388",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "388",
+       "type": "O",
+       "name": "Wood",
+       "image": "src_assets_items_388",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "390",
+       "type": "O",
+       "name": "Stone",
+       "image": "src_assets_items_390",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "709",
+       "type": "O",
+       "name": "Hardwood",
+       "image": "src_assets_items_709",
+       "amount": 10,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "114",
+      "type": "BO",
+      "name": "Charcoal Kiln",
+      "image": "src_assets_big_craftables_charcoal_kiln",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_construction_bundle",
+     "groups": [
+      [
+       {
+        "id": "388",
+        "type": "O",
+        "name": "Wood",
+        "image": "src_assets_items_388",
+        "amount": 99,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "388",
+        "type": "O",
+        "name": "Wood",
+        "image": "src_assets_items_388",
+        "amount": 99,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "390",
+        "type": "O",
+        "name": "Stone",
+        "image": "src_assets_items_390",
+        "amount": 99,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "709",
+        "type": "O",
+        "name": "Hardwood",
+        "image": "src_assets_items_709",
+        "amount": 10,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Crafts Room/R17B",
+     "room": "Crafts Room",
+     "name": "Sticky",
+     "internalName": "Sticky",
+     "color": "Yellow",
+     "isVault": false,
+     "numOfItems": 1,
+     "items": [
+      {
+       "id": "92",
+       "type": "O",
+       "name": "Sap",
+       "image": "src_assets_items_092",
+       "amount": 500,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "114",
+      "type": "BO",
+      "name": "Charcoal Kiln",
+      "image": "src_assets_big_craftables_charcoal_kiln",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_sticky_bundle",
+     "groups": [
+      [
+       {
+        "id": "92",
+        "type": "O",
+        "name": "Sap",
+        "image": "src_assets_items_092",
+        "amount": 500,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Crafts Room/R17C",
+     "room": "Crafts Room",
+     "name": "Forest",
+     "internalName": "Forest",
+     "color": "Green",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "981",
+       "type": "O",
+       "name": "Moss",
+       "image": "src_assets_items_981",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "771",
+       "type": "O",
+       "name": "Fiber",
+       "image": "src_assets_items_771",
+       "amount": 200,
+       "quality": 0
+      },
+      {
+       "id": "309",
+       "type": "O",
+       "name": "Acorn",
+       "image": "src_assets_items_309",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "310",
+       "type": "O",
+       "name": "Maple Seed",
+       "image": "src_assets_items_310",
+       "amount": 10,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "114",
+      "type": "BO",
+      "name": "Charcoal Kiln",
+      "image": "src_assets_big_craftables_charcoal_kiln",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_forest_bundle",
+     "groups": [
+      [
+       {
+        "id": "981",
+        "type": "O",
+        "name": "Moss",
+        "image": "src_assets_items_981",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "771",
+        "type": "O",
+        "name": "Fiber",
+        "image": "src_assets_items_771",
+        "amount": 200,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "309",
+        "type": "O",
+        "name": "Acorn",
+        "image": "src_assets_items_309",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "310",
+        "type": "O",
+        "name": "Maple Seed",
+        "image": "src_assets_items_310",
+        "amount": 10,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 3
+    },
+    {
+     "key": "Crafts Room/R19A",
+     "room": "Crafts Room",
+     "name": "Exotic Foraging",
+     "internalName": "Exotic Foraging",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "88",
+       "type": "O",
+       "name": "Coconut",
+       "image": "src_assets_items_088",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "90",
+       "type": "O",
+       "name": "Cactus Fruit",
+       "image": "src_assets_items_090",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "78",
+       "type": "O",
+       "name": "Cave Carrot",
+       "image": "src_assets_items_078",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "420",
+       "type": "O",
+       "name": "Red Mushroom",
+       "image": "src_assets_items_420",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "422",
+       "type": "O",
+       "name": "Purple Mushroom",
+       "image": "src_assets_items_422",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "724",
+       "type": "O",
+       "name": "Maple Syrup",
+       "image": "src_assets_items_724",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "725",
+       "type": "O",
+       "name": "Oak Resin",
+       "image": "src_assets_items_725",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "726",
+       "type": "O",
+       "name": "Pine Tar",
+       "image": "src_assets_items_726",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "257",
+       "type": "O",
+       "name": "Morel",
+       "image": "src_assets_items_257",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "235",
+      "type": "O",
+      "name": "Autumn's Bounty",
+      "image": "src_assets_items_235",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_exotic_foraging_bundle",
+     "groups": [
+      [
+       {
+        "id": "88",
+        "type": "O",
+        "name": "Coconut",
+        "image": "src_assets_items_088",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "90",
+        "type": "O",
+        "name": "Cactus Fruit",
+        "image": "src_assets_items_090",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "78",
+        "type": "O",
+        "name": "Cave Carrot",
+        "image": "src_assets_items_078",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "420",
+        "type": "O",
+        "name": "Red Mushroom",
+        "image": "src_assets_items_420",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "422",
+        "type": "O",
+        "name": "Purple Mushroom",
+        "image": "src_assets_items_422",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "724",
+        "type": "O",
+        "name": "Maple Syrup",
+        "image": "src_assets_items_724",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "725",
+        "type": "O",
+        "name": "Oak Resin",
+        "image": "src_assets_items_725",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "726",
+        "type": "O",
+        "name": "Pine Tar",
+        "image": "src_assets_items_726",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "257",
+        "type": "O",
+        "name": "Morel",
+        "image": "src_assets_items_257",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Crafts Room/R19B",
+     "room": "Crafts Room",
+     "name": "Wild Medicine",
+     "internalName": "Wild Medicine",
+     "color": "Green",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "422",
+       "type": "O",
+       "name": "Purple Mushroom",
+       "image": "src_assets_items_422",
+       "amount": 5,
+       "quality": 0
+      },
+      {
+       "id": "259",
+       "type": "O",
+       "name": "Fiddlehead Fern",
+       "image": "src_assets_items_259",
+       "amount": 5,
+       "quality": 0
+      },
+      {
+       "id": "157",
+       "type": "O",
+       "name": "White Algae",
+       "image": "src_assets_items_157",
+       "amount": 5,
+       "quality": 0
+      },
+      {
+       "id": "304",
+       "type": "O",
+       "name": "Hops",
+       "image": "src_assets_items_304",
+       "amount": 5,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "926",
+      "type": "O",
+      "name": "Cookout Kit",
+      "image": "src_assets_items_926",
+      "amount": 2
+     },
+     "image": "src_assets_bundles_wild_medicine_bundle",
+     "groups": [
+      [
+       {
+        "id": "422",
+        "type": "O",
+        "name": "Purple Mushroom",
+        "image": "src_assets_items_422",
+        "amount": 5,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "259",
+        "type": "O",
+        "name": "Fiddlehead Fern",
+        "image": "src_assets_items_259",
+        "amount": 5,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "157",
+        "type": "O",
+        "name": "White Algae",
+        "image": "src_assets_items_157",
+        "amount": 5,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "304",
+        "type": "O",
+        "name": "Hops",
+        "image": "src_assets_items_304",
+        "amount": 5,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    }
+   ]
+  },
+  {
+   "id": "Pantry",
+   "name": "Pantry",
+   "reward": "Reward: Greenhouse",
+   "nameKey": "CommunityCenter_AreaName_Pantry",
+   "rewardKey": "JunimoNote_RewardPantry",
+   "bundles": [
+    {
+     "key": "Pantry/R0",
+     "room": "Pantry",
+     "name": "Spring Crops",
+     "internalName": "Spring Crops",
+     "color": "Green",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "24",
+       "type": "O",
+       "name": "Parsnip",
+       "image": "src_assets_items_024",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "188",
+       "type": "O",
+       "name": "Green Bean",
+       "image": "src_assets_items_188",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "190",
+       "type": "O",
+       "name": "Cauliflower",
+       "image": "src_assets_items_190",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "192",
+       "type": "O",
+       "name": "Potato",
+       "image": "src_assets_items_192",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "250",
+       "type": "O",
+       "name": "Kale",
+       "image": "src_assets_items_250",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "990",
+       "type": "O",
+       "name": "Carrot",
+       "image": "src_assets_items_990",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "465",
+      "type": "O",
+      "name": "Speed-Gro",
+      "image": "src_assets_items_465",
+      "amount": 20
+     },
+     "image": "src_assets_bundles_spring_crops_bundle",
+     "groups": [
+      [
+       {
+        "id": "24",
+        "type": "O",
+        "name": "Parsnip",
+        "image": "src_assets_items_024",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "188",
+        "type": "O",
+        "name": "Green Bean",
+        "image": "src_assets_items_188",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "190",
+        "type": "O",
+        "name": "Cauliflower",
+        "image": "src_assets_items_190",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "192",
+        "type": "O",
+        "name": "Potato",
+        "image": "src_assets_items_192",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "250",
+        "type": "O",
+        "name": "Kale",
+        "image": "src_assets_items_250",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "990",
+        "type": "O",
+        "name": "Carrot",
+        "image": "src_assets_items_990",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Pantry/R1",
+     "room": "Pantry",
+     "name": "Summer Crops",
+     "internalName": "Summer Crops",
+     "color": "Yellow",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "256",
+       "type": "O",
+       "name": "Tomato",
+       "image": "src_assets_items_256",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "260",
+       "type": "O",
+       "name": "Hot Pepper",
+       "image": "src_assets_items_260",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "258",
+       "type": "O",
+       "name": "Blueberry",
+       "image": "src_assets_items_258",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "254",
+       "type": "O",
+       "name": "Melon",
+       "image": "src_assets_items_254",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "991",
+       "type": "O",
+       "name": "Summer Squash",
+       "image": "src_assets_items_991",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "621",
+      "type": "O",
+      "name": "Quality Sprinkler",
+      "image": "src_assets_items_621",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_summer_crops_bundle",
+     "groups": [
+      [
+       {
+        "id": "256",
+        "type": "O",
+        "name": "Tomato",
+        "image": "src_assets_items_256",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "260",
+        "type": "O",
+        "name": "Hot Pepper",
+        "image": "src_assets_items_260",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "258",
+        "type": "O",
+        "name": "Blueberry",
+        "image": "src_assets_items_258",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "254",
+        "type": "O",
+        "name": "Melon",
+        "image": "src_assets_items_254",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "991",
+        "type": "O",
+        "name": "Summer Squash",
+        "image": "src_assets_items_991",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Pantry/R2",
+     "room": "Pantry",
+     "name": "Fall Crops",
+     "internalName": "Fall Crops",
+     "color": "Orange",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "270",
+       "type": "O",
+       "name": "Corn",
+       "image": "src_assets_items_270",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "272",
+       "type": "O",
+       "name": "Eggplant",
+       "image": "src_assets_items_272",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "276",
+       "type": "O",
+       "name": "Pumpkin",
+       "image": "src_assets_items_276",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "280",
+       "type": "O",
+       "name": "Yam",
+       "image": "src_assets_items_280",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "992",
+       "type": "O",
+       "name": "Broccoli",
+       "image": "src_assets_items_992",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "10",
+      "type": "BO",
+      "name": "Bee House",
+      "image": "src_assets_big_craftables_bee_house",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_fall_crops_bundle",
+     "groups": [
+      [
+       {
+        "id": "270",
+        "type": "O",
+        "name": "Corn",
+        "image": "src_assets_items_270",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "272",
+        "type": "O",
+        "name": "Eggplant",
+        "image": "src_assets_items_272",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "276",
+        "type": "O",
+        "name": "Pumpkin",
+        "image": "src_assets_items_276",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "280",
+        "type": "O",
+        "name": "Yam",
+        "image": "src_assets_items_280",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "992",
+        "type": "O",
+        "name": "Broccoli",
+        "image": "src_assets_items_992",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Pantry/R3A",
+     "room": "Pantry",
+     "name": "Quality Crops",
+     "internalName": "Quality Crops",
+     "color": "Teal",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "24",
+       "type": "O",
+       "name": "Parsnip",
+       "image": "src_assets_items_024",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "188",
+       "type": "O",
+       "name": "Green Bean",
+       "image": "src_assets_items_188",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "190",
+       "type": "O",
+       "name": "Cauliflower",
+       "image": "src_assets_items_190",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "192",
+       "type": "O",
+       "name": "Potato",
+       "image": "src_assets_items_192",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "254",
+       "type": "O",
+       "name": "Melon",
+       "image": "src_assets_items_254",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "260",
+       "type": "O",
+       "name": "Hot Pepper",
+       "image": "src_assets_items_260",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "258",
+       "type": "O",
+       "name": "Blueberry",
+       "image": "src_assets_items_258",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "276",
+       "type": "O",
+       "name": "Pumpkin",
+       "image": "src_assets_items_276",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "272",
+       "type": "O",
+       "name": "Eggplant",
+       "image": "src_assets_items_272",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "280",
+       "type": "O",
+       "name": "Yam",
+       "image": "src_assets_items_280",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "270",
+       "type": "O",
+       "name": "Corn",
+       "image": "src_assets_items_270",
+       "amount": 5,
+       "quality": 2
+      }
+     ],
+     "reward": {
+      "id": "15",
+      "type": "BO",
+      "name": "Preserves Jar",
+      "image": "src_assets_big_craftables_preserves_jar",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_quality_crops_bundle",
+     "groups": [
+      [
+       {
+        "id": "24",
+        "type": "O",
+        "name": "Parsnip",
+        "image": "src_assets_items_024",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "188",
+        "type": "O",
+        "name": "Green Bean",
+        "image": "src_assets_items_188",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "190",
+        "type": "O",
+        "name": "Cauliflower",
+        "image": "src_assets_items_190",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "192",
+        "type": "O",
+        "name": "Potato",
+        "image": "src_assets_items_192",
+        "amount": 5,
+        "quality": 2
+       }
+      ],
+      [
+       {
+        "id": "254",
+        "type": "O",
+        "name": "Melon",
+        "image": "src_assets_items_254",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "260",
+        "type": "O",
+        "name": "Hot Pepper",
+        "image": "src_assets_items_260",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "258",
+        "type": "O",
+        "name": "Blueberry",
+        "image": "src_assets_items_258",
+        "amount": 5,
+        "quality": 2
+       }
+      ],
+      [
+       {
+        "id": "276",
+        "type": "O",
+        "name": "Pumpkin",
+        "image": "src_assets_items_276",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "272",
+        "type": "O",
+        "name": "Eggplant",
+        "image": "src_assets_items_272",
+        "amount": 5,
+        "quality": 2
+       },
+       {
+        "id": "280",
+        "type": "O",
+        "name": "Yam",
+        "image": "src_assets_items_280",
+        "amount": 5,
+        "quality": 2
+       }
+      ],
+      [
+       {
+        "id": "270",
+        "type": "O",
+        "name": "Corn",
+        "image": "src_assets_items_270",
+        "amount": 5,
+        "quality": 2
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Pantry/R3B",
+     "room": "Pantry",
+     "name": "Rare Crops",
+     "internalName": "Rare Crops",
+     "color": "Teal",
+     "isVault": false,
+     "numOfItems": 1,
+     "items": [
+      {
+       "id": "454",
+       "type": "O",
+       "name": "Ancient Fruit",
+       "image": "src_assets_items_454",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "417",
+       "type": "O",
+       "name": "Sweet Gem Berry",
+       "image": "src_assets_items_417",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "15",
+      "type": "BO",
+      "name": "Preserves Jar",
+      "image": "src_assets_big_craftables_preserves_jar",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_rare_crops_bundle",
+     "groups": [
+      [
+       {
+        "id": "454",
+        "type": "O",
+        "name": "Ancient Fruit",
+        "image": "src_assets_items_454",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "417",
+        "type": "O",
+        "name": "Sweet Gem Berry",
+        "image": "src_assets_items_417",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Pantry/R4A",
+     "room": "Pantry",
+     "name": "Animal",
+     "internalName": "Animal",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "186",
+       "type": "O",
+       "name": "Large Milk",
+       "image": "src_assets_items_186",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "182",
+       "type": "O",
+       "name": "Large Egg",
+       "image": "src_assets_items_182",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "174",
+       "type": "O",
+       "name": "Large Egg",
+       "image": "src_assets_items_174",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "438",
+       "type": "O",
+       "name": "L. Goat Milk",
+       "image": "src_assets_items_438",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "440",
+       "type": "O",
+       "name": "Wool",
+       "image": "src_assets_items_440",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "442",
+       "type": "O",
+       "name": "Duck Egg",
+       "image": "src_assets_items_442",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "16",
+      "type": "BO",
+      "name": "Cheese Press",
+      "image": "src_assets_big_craftables_cheese_press",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_animal_bundle",
+     "groups": [
+      [
+       {
+        "id": "186",
+        "type": "O",
+        "name": "Large Milk",
+        "image": "src_assets_items_186",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "182",
+        "type": "O",
+        "name": "Large Egg",
+        "image": "src_assets_items_182",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "174",
+        "type": "O",
+        "name": "Large Egg",
+        "image": "src_assets_items_174",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "438",
+        "type": "O",
+        "name": "L. Goat Milk",
+        "image": "src_assets_items_438",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "440",
+        "type": "O",
+        "name": "Wool",
+        "image": "src_assets_items_440",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "442",
+        "type": "O",
+        "name": "Duck Egg",
+        "image": "src_assets_items_442",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Pantry/R4B",
+     "room": "Pantry",
+     "name": "Fish Farmer's",
+     "internalName": "Fish Farmer's",
+     "color": "Blue",
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "812",
+       "type": "O",
+       "name": "Roe",
+       "image": "src_assets_items_812",
+       "amount": 15,
+       "quality": 0
+      },
+      {
+       "id": "447",
+       "type": "O",
+       "name": "Aged Roe",
+       "image": "src_assets_items_447",
+       "amount": 15,
+       "quality": 0
+      },
+      {
+       "id": "814",
+       "type": "O",
+       "name": "Squid Ink",
+       "image": "src_assets_items_814",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "154",
+      "type": "BO",
+      "name": "Worm Bin",
+      "image": "src_assets_big_craftables_worm_bin",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_fish_farmers_bundle",
+     "groups": [
+      [
+       {
+        "id": "812",
+        "type": "O",
+        "name": "Roe",
+        "image": "src_assets_items_812",
+        "amount": 15,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "447",
+        "type": "O",
+        "name": "Aged Roe",
+        "image": "src_assets_items_447",
+        "amount": 15,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "814",
+        "type": "O",
+        "name": "Squid Ink",
+        "image": "src_assets_items_814",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Pantry/R4C",
+     "room": "Pantry",
+     "name": "Garden",
+     "internalName": "Garden",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "591",
+       "type": "O",
+       "name": "Tulip",
+       "image": "src_assets_items_591",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "593",
+       "type": "O",
+       "name": "Summer Spangle",
+       "image": "src_assets_items_593",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "595",
+       "type": "O",
+       "name": "Fairy Rose",
+       "image": "src_assets_items_595",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "597",
+       "type": "O",
+       "name": "Blue Jazz",
+       "image": "src_assets_items_597",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "421",
+       "type": "O",
+       "name": "Sunflower",
+       "image": "src_assets_items_421",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "621",
+      "type": "O",
+      "name": "Quality Sprinkler",
+      "image": "src_assets_items_621",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_garden_bundle",
+     "groups": [
+      [
+       {
+        "id": "591",
+        "type": "O",
+        "name": "Tulip",
+        "image": "src_assets_items_591",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "593",
+        "type": "O",
+        "name": "Summer Spangle",
+        "image": "src_assets_items_593",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "595",
+        "type": "O",
+        "name": "Fairy Rose",
+        "image": "src_assets_items_595",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "597",
+        "type": "O",
+        "name": "Blue Jazz",
+        "image": "src_assets_items_597",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "421",
+        "type": "O",
+        "name": "Sunflower",
+        "image": "src_assets_items_421",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Pantry/R5A",
+     "room": "Pantry",
+     "name": "Artisan",
+     "internalName": "Artisan",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 6,
+     "items": [
+      {
+       "id": "432",
+       "type": "O",
+       "name": "Truffle Oil",
+       "image": "src_assets_items_432",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "428",
+       "type": "O",
+       "name": "Cloth",
+       "image": "src_assets_items_428",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "426",
+       "type": "O",
+       "name": "Goat Cheese",
+       "image": "src_assets_items_426",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "424",
+       "type": "O",
+       "name": "Cheese",
+       "image": "src_assets_items_424",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "340",
+       "type": "O",
+       "name": "Honey",
+       "image": "src_assets_items_340",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "344",
+       "type": "O",
+       "name": "Jelly",
+       "image": "src_assets_items_344",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "613",
+       "type": "O",
+       "name": "Apple",
+       "image": "src_assets_items_613",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "634",
+       "type": "O",
+       "name": "Apricot",
+       "image": "src_assets_items_634",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "635",
+       "type": "O",
+       "name": "Orange",
+       "image": "src_assets_items_635",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "636",
+       "type": "O",
+       "name": "Peach",
+       "image": "src_assets_items_636",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "637",
+       "type": "O",
+       "name": "Pomegranate",
+       "image": "src_assets_items_637",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "638",
+       "type": "O",
+       "name": "Cherry",
+       "image": "src_assets_items_638",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "12",
+      "type": "BO",
+      "name": "Keg",
+      "image": "src_assets_big_craftables_keg",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_artisan_bundle",
+     "groups": [
+      [
+       {
+        "id": "432",
+        "type": "O",
+        "name": "Truffle Oil",
+        "image": "src_assets_items_432",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "428",
+        "type": "O",
+        "name": "Cloth",
+        "image": "src_assets_items_428",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "426",
+        "type": "O",
+        "name": "Goat Cheese",
+        "image": "src_assets_items_426",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "424",
+        "type": "O",
+        "name": "Cheese",
+        "image": "src_assets_items_424",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "340",
+        "type": "O",
+        "name": "Honey",
+        "image": "src_assets_items_340",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "344",
+        "type": "O",
+        "name": "Jelly",
+        "image": "src_assets_items_344",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "613",
+        "type": "O",
+        "name": "Apple",
+        "image": "src_assets_items_613",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "634",
+        "type": "O",
+        "name": "Apricot",
+        "image": "src_assets_items_634",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "635",
+        "type": "O",
+        "name": "Orange",
+        "image": "src_assets_items_635",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "636",
+        "type": "O",
+        "name": "Peach",
+        "image": "src_assets_items_636",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "637",
+        "type": "O",
+        "name": "Pomegranate",
+        "image": "src_assets_items_637",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "638",
+        "type": "O",
+        "name": "Cherry",
+        "image": "src_assets_items_638",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Pantry/R5B",
+     "room": "Pantry",
+     "name": "Brewer's",
+     "internalName": "Brewer's",
+     "color": "Orange",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "459",
+       "type": "O",
+       "name": "Mead",
+       "image": "src_assets_items_459",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "348",
+       "type": "O",
+       "name": "Wine",
+       "image": "src_assets_items_348",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "350",
+       "type": "O",
+       "name": "Juice",
+       "image": "src_assets_items_350",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "303",
+       "type": "O",
+       "name": "Pale Ale",
+       "image": "src_assets_items_303",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "614",
+       "type": "O",
+       "name": "Green Tea",
+       "image": "src_assets_items_614",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "12",
+      "type": "BO",
+      "name": "Keg",
+      "image": "src_assets_big_craftables_keg",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_brewers_bundle",
+     "groups": [
+      [
+       {
+        "id": "459",
+        "type": "O",
+        "name": "Mead",
+        "image": "src_assets_items_459",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "348",
+        "type": "O",
+        "name": "Wine",
+        "image": "src_assets_items_348",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "350",
+        "type": "O",
+        "name": "Juice",
+        "image": "src_assets_items_350",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "303",
+        "type": "O",
+        "name": "Pale Ale",
+        "image": "src_assets_items_303",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "614",
+        "type": "O",
+        "name": "Green Tea",
+        "image": "src_assets_items_614",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    }
+   ]
+  },
+  {
+   "id": "Fish Tank",
+   "name": "Fish Tank",
+   "reward": "Reward: Glittering Boulder Removed",
+   "nameKey": "CommunityCenter_AreaName_FishTank",
+   "rewardKey": "JunimoNote_RewardFishTank",
+   "bundles": [
+    {
+     "key": "Fish Tank/R6",
+     "room": "Fish Tank",
+     "name": "River Fish",
+     "internalName": "River Fish",
+     "color": "Teal",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "145",
+       "type": "O",
+       "name": "Sunfish",
+       "image": "src_assets_items_145",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "143",
+       "type": "O",
+       "name": "Catfish",
+       "image": "src_assets_items_143",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "706",
+       "type": "O",
+       "name": "Shad",
+       "image": "src_assets_items_706",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "699",
+       "type": "O",
+       "name": "Tiger Trout",
+       "image": "src_assets_items_699",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "10102",
+      "type": "O",
+      "name": "Deluxe Bait",
+      "image": "src_assets_items_10102",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_river_fish_bundle",
+     "groups": [
+      [
+       {
+        "id": "145",
+        "type": "O",
+        "name": "Sunfish",
+        "image": "src_assets_items_145",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "143",
+        "type": "O",
+        "name": "Catfish",
+        "image": "src_assets_items_143",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "706",
+        "type": "O",
+        "name": "Shad",
+        "image": "src_assets_items_706",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "699",
+        "type": "O",
+        "name": "Tiger Trout",
+        "image": "src_assets_items_699",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Fish Tank/R7",
+     "room": "Fish Tank",
+     "name": "Lake Fish",
+     "internalName": "Lake Fish",
+     "color": "Green",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "136",
+       "type": "O",
+       "name": "Largemouth Bass",
+       "image": "src_assets_items_136",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "142",
+       "type": "O",
+       "name": "Carp",
+       "image": "src_assets_items_142",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "700",
+       "type": "O",
+       "name": "Bullhead",
+       "image": "src_assets_items_700",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "698",
+       "type": "O",
+       "name": "Sturgeon",
+       "image": "src_assets_items_698",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "687",
+      "type": "O",
+      "name": "Dressed Spinner",
+      "image": "src_assets_items_687",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_lake_fish_bundle",
+     "groups": [
+      [
+       {
+        "id": "136",
+        "type": "O",
+        "name": "Largemouth Bass",
+        "image": "src_assets_items_136",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "142",
+        "type": "O",
+        "name": "Carp",
+        "image": "src_assets_items_142",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "700",
+        "type": "O",
+        "name": "Bullhead",
+        "image": "src_assets_items_700",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "698",
+        "type": "O",
+        "name": "Sturgeon",
+        "image": "src_assets_items_698",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Fish Tank/R8",
+     "room": "Fish Tank",
+     "name": "Ocean Fish",
+     "internalName": "Ocean Fish",
+     "color": "Blue",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "131",
+       "type": "O",
+       "name": "Sardine",
+       "image": "src_assets_items_131",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "130",
+       "type": "O",
+       "name": "Tuna",
+       "image": "src_assets_items_130",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "150",
+       "type": "O",
+       "name": "Red Snapper",
+       "image": "src_assets_items_150",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "701",
+       "type": "O",
+       "name": "Tilapia",
+       "image": "src_assets_items_701",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "690",
+      "type": "O",
+      "name": "Warp Totem: Beach",
+      "image": "src_assets_items_690",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_ocean_fish_bundle",
+     "groups": [
+      [
+       {
+        "id": "131",
+        "type": "O",
+        "name": "Sardine",
+        "image": "src_assets_items_131",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "130",
+        "type": "O",
+        "name": "Tuna",
+        "image": "src_assets_items_130",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "150",
+        "type": "O",
+        "name": "Red Snapper",
+        "image": "src_assets_items_150",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "701",
+        "type": "O",
+        "name": "Tilapia",
+        "image": "src_assets_items_701",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Fish Tank/R9",
+     "room": "Fish Tank",
+     "name": "Night Fishing",
+     "internalName": "Night Fishing",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "140",
+       "type": "O",
+       "name": "Walleye",
+       "image": "src_assets_items_140",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "132",
+       "type": "O",
+       "name": "Bream",
+       "image": "src_assets_items_132",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "148",
+       "type": "O",
+       "name": "Eel",
+       "image": "src_assets_items_148",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "517",
+      "type": "O",
+      "name": "Glow Ring",
+      "image": "src_assets_items_517",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_night_fishing_bundle",
+     "groups": [
+      [
+       {
+        "id": "140",
+        "type": "O",
+        "name": "Walleye",
+        "image": "src_assets_items_140",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "132",
+        "type": "O",
+        "name": "Bream",
+        "image": "src_assets_items_132",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "148",
+        "type": "O",
+        "name": "Eel",
+        "image": "src_assets_items_148",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 3
+    },
+    {
+     "key": "Fish Tank/R10A",
+     "room": "Fish Tank",
+     "name": "Specialty Fish",
+     "internalName": "Specialty Fish",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "128",
+       "type": "O",
+       "name": "Pufferfish",
+       "image": "src_assets_items_128",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "156",
+       "type": "O",
+       "name": "Ghostfish",
+       "image": "src_assets_items_156",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "164",
+       "type": "O",
+       "name": "Sandfish",
+       "image": "src_assets_items_164",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "734",
+       "type": "O",
+       "name": "Woodskip",
+       "image": "src_assets_items_734",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "242",
+      "type": "O",
+      "name": "Dish O' The Sea",
+      "image": "src_assets_items_242",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_specialty_fish_bundle",
+     "groups": [
+      [
+       {
+        "id": "128",
+        "type": "O",
+        "name": "Pufferfish",
+        "image": "src_assets_items_128",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "156",
+        "type": "O",
+        "name": "Ghostfish",
+        "image": "src_assets_items_156",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "164",
+        "type": "O",
+        "name": "Sandfish",
+        "image": "src_assets_items_164",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "734",
+        "type": "O",
+        "name": "Woodskip",
+        "image": "src_assets_items_734",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Fish Tank/R10B",
+     "room": "Fish Tank",
+     "name": "Quality Fish",
+     "internalName": "Quality Fish",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "136",
+       "type": "O",
+       "name": "Largemouth Bass",
+       "image": "src_assets_items_136",
+       "amount": 1,
+       "quality": 2
+      },
+      {
+       "id": "706",
+       "type": "O",
+       "name": "Shad",
+       "image": "src_assets_items_706",
+       "amount": 1,
+       "quality": 2
+      },
+      {
+       "id": "130",
+       "type": "O",
+       "name": "Tuna",
+       "image": "src_assets_items_130",
+       "amount": 1,
+       "quality": 2
+      },
+      {
+       "id": "140",
+       "type": "O",
+       "name": "Walleye",
+       "image": "src_assets_items_140",
+       "amount": 1,
+       "quality": 2
+      }
+     ],
+     "reward": {
+      "id": "242",
+      "type": "O",
+      "name": "Dish O' The Sea",
+      "image": "src_assets_items_242",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_quality_fish_bundle",
+     "groups": [
+      [
+       {
+        "id": "136",
+        "type": "O",
+        "name": "Largemouth Bass",
+        "image": "src_assets_items_136",
+        "amount": 1,
+        "quality": 2
+       }
+      ],
+      [
+       {
+        "id": "706",
+        "type": "O",
+        "name": "Shad",
+        "image": "src_assets_items_706",
+        "amount": 1,
+        "quality": 2
+       }
+      ],
+      [
+       {
+        "id": "130",
+        "type": "O",
+        "name": "Tuna",
+        "image": "src_assets_items_130",
+        "amount": 1,
+        "quality": 2
+       }
+      ],
+      [
+       {
+        "id": "140",
+        "type": "O",
+        "name": "Walleye",
+        "image": "src_assets_items_140",
+        "amount": 1,
+        "quality": 2
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Fish Tank/R10C",
+     "room": "Fish Tank",
+     "name": "Master Fisher's",
+     "internalName": "Master Fisher's",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "162",
+       "type": "O",
+       "name": "Lava Eel",
+       "image": "src_assets_items_162",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "165",
+       "type": "O",
+       "name": "Scorpion Carp",
+       "image": "src_assets_items_165",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "149",
+       "type": "O",
+       "name": "Octopus",
+       "image": "src_assets_items_149",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "800",
+       "type": "O",
+       "name": "Blobfish",
+       "image": "src_assets_items_800",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "242",
+      "type": "O",
+      "name": "Dish O' The Sea",
+      "image": "src_assets_items_242",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_master_fishers_bundle",
+     "groups": [
+      [
+       {
+        "id": "162",
+        "type": "O",
+        "name": "Lava Eel",
+        "image": "src_assets_items_162",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "165",
+        "type": "O",
+        "name": "Scorpion Carp",
+        "image": "src_assets_items_165",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "149",
+        "type": "O",
+        "name": "Octopus",
+        "image": "src_assets_items_149",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "800",
+        "type": "O",
+        "name": "Blobfish",
+        "image": "src_assets_items_800",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Fish Tank/R11",
+     "room": "Fish Tank",
+     "name": "Crab Pot",
+     "internalName": "Crab Pot",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "715",
+       "type": "O",
+       "name": "Lobster",
+       "image": "src_assets_items_715",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "716",
+       "type": "O",
+       "name": "Crayfish",
+       "image": "src_assets_items_716",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "717",
+       "type": "O",
+       "name": "Crab",
+       "image": "src_assets_items_717",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "718",
+       "type": "O",
+       "name": "Cockle",
+       "image": "src_assets_items_718",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "719",
+       "type": "O",
+       "name": "Mussel",
+       "image": "src_assets_items_719",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "720",
+       "type": "O",
+       "name": "Shrimp",
+       "image": "src_assets_items_720",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "721",
+       "type": "O",
+       "name": "Snail",
+       "image": "src_assets_items_721",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "722",
+       "type": "O",
+       "name": "Periwinkle",
+       "image": "src_assets_items_722",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "723",
+       "type": "O",
+       "name": "Oyster",
+       "image": "src_assets_items_723",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "372",
+       "type": "O",
+       "name": "Clam",
+       "image": "src_assets_items_372",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "710",
+      "type": "O",
+      "name": "Crab Pot",
+      "image": "src_assets_items_710",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_crab_pot_bundle",
+     "groups": [
+      [
+       {
+        "id": "715",
+        "type": "O",
+        "name": "Lobster",
+        "image": "src_assets_items_715",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "716",
+        "type": "O",
+        "name": "Crayfish",
+        "image": "src_assets_items_716",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "717",
+        "type": "O",
+        "name": "Crab",
+        "image": "src_assets_items_717",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "718",
+        "type": "O",
+        "name": "Cockle",
+        "image": "src_assets_items_718",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "719",
+        "type": "O",
+        "name": "Mussel",
+        "image": "src_assets_items_719",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "720",
+        "type": "O",
+        "name": "Shrimp",
+        "image": "src_assets_items_720",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "721",
+        "type": "O",
+        "name": "Snail",
+        "image": "src_assets_items_721",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "722",
+        "type": "O",
+        "name": "Periwinkle",
+        "image": "src_assets_items_722",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "723",
+        "type": "O",
+        "name": "Oyster",
+        "image": "src_assets_items_723",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "372",
+        "type": "O",
+        "name": "Clam",
+        "image": "src_assets_items_372",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    }
+   ]
+  },
+  {
+   "id": "Boiler Room",
+   "name": "Boiler Room",
+   "reward": "Reward: Minecarts Repaired",
+   "nameKey": "CommunityCenter_AreaName_BoilerRoom",
+   "rewardKey": "JunimoNote_RewardBoiler",
+   "bundles": [
+    {
+     "key": "Boiler Room/R20",
+     "room": "Boiler Room",
+     "name": "Blacksmith's",
+     "internalName": "Blacksmith's",
+     "color": "Orange",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "334",
+       "type": "O",
+       "name": "Copper Bar",
+       "image": "src_assets_items_334",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "335",
+       "type": "O",
+       "name": "Iron Bar",
+       "image": "src_assets_items_335",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "336",
+       "type": "O",
+       "name": "Gold Bar",
+       "image": "src_assets_items_336",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "13",
+      "type": "BO",
+      "name": "Furnace",
+      "image": "src_assets_big_craftables_furnace",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_blacksmith_bundle",
+     "groups": [
+      [
+       {
+        "id": "334",
+        "type": "O",
+        "name": "Copper Bar",
+        "image": "src_assets_items_334",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "335",
+        "type": "O",
+        "name": "Iron Bar",
+        "image": "src_assets_items_335",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "336",
+        "type": "O",
+        "name": "Gold Bar",
+        "image": "src_assets_items_336",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Boiler Room/R21",
+     "room": "Boiler Room",
+     "name": "Geologist's",
+     "internalName": "Geologist's",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "80",
+       "type": "O",
+       "name": "Quartz",
+       "image": "src_assets_items_080",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "86",
+       "type": "O",
+       "name": "Earth Crystal",
+       "image": "src_assets_items_086",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "84",
+       "type": "O",
+       "name": "Frozen Tear",
+       "image": "src_assets_items_084",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "82",
+       "type": "O",
+       "name": "Fire Quartz",
+       "image": "src_assets_items_082",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "749",
+      "type": "O",
+      "name": "Omni Geode",
+      "image": "src_assets_items_749",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_geologists_bundle",
+     "groups": [
+      [
+       {
+        "id": "80",
+        "type": "O",
+        "name": "Quartz",
+        "image": "src_assets_items_080",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "86",
+        "type": "O",
+        "name": "Earth Crystal",
+        "image": "src_assets_items_086",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "84",
+        "type": "O",
+        "name": "Frozen Tear",
+        "image": "src_assets_items_084",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "82",
+        "type": "O",
+        "name": "Fire Quartz",
+        "image": "src_assets_items_082",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Boiler Room/R22",
+     "room": "Boiler Room",
+     "name": "Adventurer's",
+     "internalName": "Adventurer's",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "766",
+       "type": "O",
+       "name": "Slime",
+       "image": "src_assets_items_766",
+       "amount": 99,
+       "quality": 0
+      },
+      {
+       "id": "767",
+       "type": "O",
+       "name": "Bat Wing",
+       "image": "src_assets_items_767",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "768",
+       "type": "O",
+       "name": "Solar Essence",
+       "image": "src_assets_items_768",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "769",
+       "type": "O",
+       "name": "Void Essence",
+       "image": "src_assets_items_769",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "881",
+       "type": "O",
+       "name": "Bone Fragment",
+       "image": "src_assets_items_881",
+       "amount": 10,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "518",
+      "type": "O",
+      "name": "Small Magnet Ring",
+      "image": "src_assets_items_518",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_adventurers_bundle",
+     "groups": [
+      [
+       {
+        "id": "766",
+        "type": "O",
+        "name": "Slime",
+        "image": "src_assets_items_766",
+        "amount": 99,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "767",
+        "type": "O",
+        "name": "Bat Wing",
+        "image": "src_assets_items_767",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "768",
+        "type": "O",
+        "name": "Solar Essence",
+        "image": "src_assets_items_768",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "769",
+        "type": "O",
+        "name": "Void Essence",
+        "image": "src_assets_items_769",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "881",
+        "type": "O",
+        "name": "Bone Fragment",
+        "image": "src_assets_items_881",
+        "amount": 10,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": 4
+    },
+    {
+     "key": "Boiler Room/R22B",
+     "room": "Boiler Room",
+     "name": "Treasure Hunter's",
+     "internalName": "Treasure Hunter's",
+     "color": "Yellow",
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "66",
+       "type": "O",
+       "name": "Amethyst",
+       "image": "src_assets_items_066",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "68",
+       "type": "O",
+       "name": "Topaz",
+       "image": "src_assets_items_068",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "60",
+       "type": "O",
+       "name": "Emerald",
+       "image": "src_assets_items_060",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "72",
+       "type": "O",
+       "name": "Diamond",
+       "image": "src_assets_items_072",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "64",
+       "type": "O",
+       "name": "Ruby",
+       "image": "src_assets_items_064",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "62",
+       "type": "O",
+       "name": "Aquamarine",
+       "image": "src_assets_items_062",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "204",
+      "type": "O",
+      "name": "Lucky Lunch",
+      "image": "src_assets_items_204",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_treasure_hunters_bundle",
+     "groups": [
+      [
+       {
+        "id": "66",
+        "type": "O",
+        "name": "Amethyst",
+        "image": "src_assets_items_066",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "68",
+        "type": "O",
+        "name": "Topaz",
+        "image": "src_assets_items_068",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "60",
+        "type": "O",
+        "name": "Emerald",
+        "image": "src_assets_items_060",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "72",
+        "type": "O",
+        "name": "Diamond",
+        "image": "src_assets_items_072",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "64",
+        "type": "O",
+        "name": "Ruby",
+        "image": "src_assets_items_064",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "62",
+        "type": "O",
+        "name": "Aquamarine",
+        "image": "src_assets_items_062",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Boiler Room/R22C",
+     "room": "Boiler Room",
+     "name": "Engineer's",
+     "internalName": "Engineer's",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "386",
+       "type": "O",
+       "name": "Iridium Ore",
+       "image": "src_assets_items_386",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "787",
+       "type": "O",
+       "name": "Battery Pack",
+       "image": "src_assets_items_787",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "338",
+       "type": "O",
+       "name": "Refined Quartz",
+       "image": "src_assets_items_338",
+       "amount": 5,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "13",
+      "type": "BO",
+      "name": "Furnace",
+      "image": "src_assets_big_craftables_furnace",
+      "amount": 2
+     },
+     "image": "src_assets_bundles_engineers_bundle",
+     "groups": [
+      [
+       {
+        "id": "386",
+        "type": "O",
+        "name": "Iridium Ore",
+        "image": "src_assets_items_386",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "787",
+        "type": "O",
+        "name": "Battery Pack",
+        "image": "src_assets_items_787",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "338",
+        "type": "O",
+        "name": "Refined Quartz",
+        "image": "src_assets_items_338",
+        "amount": 5,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    }
+   ]
+  },
+  {
+   "id": "Bulletin Board",
+   "name": "Bulletin Board",
+   "reward": "Reward: Friendship <",
+   "nameKey": "CommunityCenter_AreaName_BulletinBoard",
+   "rewardKey": "JunimoNote_RewardBulletin",
+   "bundles": [
+    {
+     "key": "Bulletin Board/R31",
+     "room": "Bulletin Board",
+     "name": "Chef's",
+     "internalName": "Chef's",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 6,
+     "items": [
+      {
+       "id": "724",
+       "type": "O",
+       "name": "Maple Syrup",
+       "image": "src_assets_items_724",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "259",
+       "type": "O",
+       "name": "Fiddlehead Fern",
+       "image": "src_assets_items_259",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "430",
+       "type": "O",
+       "name": "Truffle",
+       "image": "src_assets_items_430",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "376",
+       "type": "O",
+       "name": "Poppy",
+       "image": "src_assets_items_376",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "228",
+       "type": "O",
+       "name": "Maki Roll",
+       "image": "src_assets_items_228",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "194",
+       "type": "O",
+       "name": "Fried Egg",
+       "image": "src_assets_items_194",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "221",
+      "type": "O",
+      "name": "Pink Cake",
+      "image": "src_assets_items_221",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_chefs_bundle",
+     "groups": [
+      [
+       {
+        "id": "724",
+        "type": "O",
+        "name": "Maple Syrup",
+        "image": "src_assets_items_724",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "259",
+        "type": "O",
+        "name": "Fiddlehead Fern",
+        "image": "src_assets_items_259",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "430",
+        "type": "O",
+        "name": "Truffle",
+        "image": "src_assets_items_430",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "376",
+        "type": "O",
+        "name": "Poppy",
+        "image": "src_assets_items_376",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "228",
+        "type": "O",
+        "name": "Maki Roll",
+        "image": "src_assets_items_228",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "194",
+        "type": "O",
+        "name": "Fried Egg",
+        "image": "src_assets_items_194",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R32",
+     "room": "Bulletin Board",
+     "name": "Field Research",
+     "internalName": "Field Research",
+     "color": "Blue",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "422",
+       "type": "O",
+       "name": "Purple Mushroom",
+       "image": "src_assets_items_422",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "392",
+       "type": "O",
+       "name": "Nautilus Shell",
+       "image": "src_assets_items_392",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "702",
+       "type": "O",
+       "name": "Chub",
+       "image": "src_assets_items_702",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "536",
+       "type": "O",
+       "name": "Frozen Geode",
+       "image": "src_assets_items_536",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "20",
+      "type": "BO",
+      "name": "Recycling Machine",
+      "image": "src_assets_big_craftables_recycling_machine",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_field_research_bundle",
+     "groups": [
+      [
+       {
+        "id": "422",
+        "type": "O",
+        "name": "Purple Mushroom",
+        "image": "src_assets_items_422",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "392",
+        "type": "O",
+        "name": "Nautilus Shell",
+        "image": "src_assets_items_392",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "702",
+        "type": "O",
+        "name": "Chub",
+        "image": "src_assets_items_702",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "536",
+        "type": "O",
+        "name": "Frozen Geode",
+        "image": "src_assets_items_536",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R33",
+     "room": "Bulletin Board",
+     "name": "Enchanter's",
+     "internalName": "Enchanter's",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 4,
+     "items": [
+      {
+       "id": "725",
+       "type": "O",
+       "name": "Oak Resin",
+       "image": "src_assets_items_725",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "348",
+       "type": "O",
+       "name": "Wine",
+       "image": "src_assets_items_348",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "446",
+       "type": "O",
+       "name": "Rabbit's Foot",
+       "image": "src_assets_items_446",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "637",
+       "type": "O",
+       "name": "Pomegranate",
+       "image": "src_assets_items_637",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "336",
+      "type": "O",
+      "name": "Gold Bar",
+      "image": "src_assets_items_336",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_enchanters_bundle",
+     "groups": [
+      [
+       {
+        "id": "725",
+        "type": "O",
+        "name": "Oak Resin",
+        "image": "src_assets_items_725",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "348",
+        "type": "O",
+        "name": "Wine",
+        "image": "src_assets_items_348",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "446",
+        "type": "O",
+        "name": "Rabbit's Foot",
+        "image": "src_assets_items_446",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "637",
+        "type": "O",
+        "name": "Pomegranate",
+        "image": "src_assets_items_637",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R34",
+     "room": "Bulletin Board",
+     "name": "Dye",
+     "internalName": "Dye",
+     "color": "Teal",
+     "isVault": false,
+     "numOfItems": 6,
+     "items": [
+      {
+       "id": "420",
+       "type": "O",
+       "name": "Red Mushroom",
+       "image": "src_assets_items_420",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "284",
+       "type": "O",
+       "name": "Beet",
+       "image": "src_assets_items_284",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "397",
+       "type": "O",
+       "name": "Sea Urchin",
+       "image": "src_assets_items_397",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "300",
+       "type": "O",
+       "name": "Amaranth",
+       "image": "src_assets_items_300",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "421",
+       "type": "O",
+       "name": "Sunflower",
+       "image": "src_assets_items_421",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "268",
+       "type": "O",
+       "name": "Starfruit",
+       "image": "src_assets_items_268",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "444",
+       "type": "O",
+       "name": "Duck Feather",
+       "image": "src_assets_items_444",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "90",
+       "type": "O",
+       "name": "Cactus Fruit",
+       "image": "src_assets_items_090",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "62",
+       "type": "O",
+       "name": "Aquamarine",
+       "image": "src_assets_items_062",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "258",
+       "type": "O",
+       "name": "Blueberry",
+       "image": "src_assets_items_258",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "266",
+       "type": "O",
+       "name": "Red Cabbage",
+       "image": "src_assets_items_266",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "337",
+       "type": "O",
+       "name": "Iridium Bar",
+       "image": "src_assets_items_337",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "25",
+      "type": "BO",
+      "name": "Seed Maker",
+      "image": "src_assets_big_craftables_seed_maker",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_dye_bundle",
+     "groups": [
+      [
+       {
+        "id": "420",
+        "type": "O",
+        "name": "Red Mushroom",
+        "image": "src_assets_items_420",
+        "amount": 1,
+        "quality": 0
+       },
+       {
+        "id": "284",
+        "type": "O",
+        "name": "Beet",
+        "image": "src_assets_items_284",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "397",
+        "type": "O",
+        "name": "Sea Urchin",
+        "image": "src_assets_items_397",
+        "amount": 1,
+        "quality": 0
+       },
+       {
+        "id": "300",
+        "type": "O",
+        "name": "Amaranth",
+        "image": "src_assets_items_300",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "421",
+        "type": "O",
+        "name": "Sunflower",
+        "image": "src_assets_items_421",
+        "amount": 1,
+        "quality": 0
+       },
+       {
+        "id": "268",
+        "type": "O",
+        "name": "Starfruit",
+        "image": "src_assets_items_268",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "444",
+        "type": "O",
+        "name": "Duck Feather",
+        "image": "src_assets_items_444",
+        "amount": 1,
+        "quality": 0
+       },
+       {
+        "id": "90",
+        "type": "O",
+        "name": "Cactus Fruit",
+        "image": "src_assets_items_090",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "62",
+        "type": "O",
+        "name": "Aquamarine",
+        "image": "src_assets_items_062",
+        "amount": 1,
+        "quality": 0
+       },
+       {
+        "id": "258",
+        "type": "O",
+        "name": "Blueberry",
+        "image": "src_assets_items_258",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "266",
+        "type": "O",
+        "name": "Red Cabbage",
+        "image": "src_assets_items_266",
+        "amount": 1,
+        "quality": 0
+       },
+       {
+        "id": "337",
+        "type": "O",
+        "name": "Iridium Bar",
+        "image": "src_assets_items_337",
+        "amount": 1,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35",
+     "room": "Bulletin Board",
+     "name": "Fodder",
+     "internalName": "Fodder",
+     "color": "Yellow",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "262",
+       "type": "O",
+       "name": "Wheat",
+       "image": "src_assets_items_262",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "178",
+       "type": "O",
+       "name": "Hay",
+       "image": "src_assets_items_178",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "613",
+       "type": "O",
+       "name": "Apple",
+       "image": "src_assets_items_613",
+       "amount": 3,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "104",
+      "type": "BO",
+      "name": "Heater",
+      "image": "src_assets_big_craftables_heater",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_fodder_bundle",
+     "groups": [
+      [
+       {
+        "id": "262",
+        "type": "O",
+        "name": "Wheat",
+        "image": "src_assets_items_262",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "178",
+        "type": "O",
+        "name": "Hay",
+        "image": "src_assets_items_178",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "613",
+        "type": "O",
+        "name": "Apple",
+        "image": "src_assets_items_613",
+        "amount": 3,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35B",
+     "room": "Bulletin Board",
+     "name": "Children's",
+     "internalName": "Children's",
+     "color": "Green",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "103",
+       "type": "O",
+       "name": "Ancient Doll",
+       "image": "src_assets_items_103",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "233",
+       "type": "O",
+       "name": "Ice Cream",
+       "image": "src_assets_items_233",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "223",
+       "type": "O",
+       "name": "Cookies",
+       "image": "src_assets_items_223",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "296",
+       "type": "O",
+       "name": "Salmonberry",
+       "image": "src_assets_items_296",
+       "amount": 10,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "787",
+      "type": "O",
+      "name": "Battery Pack",
+      "image": "src_assets_items_787",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_childrens_bundle",
+     "groups": [
+      [
+       {
+        "id": "103",
+        "type": "O",
+        "name": "Ancient Doll",
+        "image": "src_assets_items_103",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "233",
+        "type": "O",
+        "name": "Ice Cream",
+        "image": "src_assets_items_233",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "223",
+        "type": "O",
+        "name": "Cookies",
+        "image": "src_assets_items_223",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "296",
+        "type": "O",
+        "name": "Salmonberry",
+        "image": "src_assets_items_296",
+        "amount": 10,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35C",
+     "room": "Bulletin Board",
+     "name": "Forager's",
+     "internalName": "Forager's",
+     "color": "Orange",
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "296",
+       "type": "O",
+       "name": "Salmonberry",
+       "image": "src_assets_items_296",
+       "amount": 50,
+       "quality": 0
+      },
+      {
+       "id": "410",
+       "type": "O",
+       "name": "Blackberry",
+       "image": "src_assets_items_410",
+       "amount": 50,
+       "quality": 0
+      },
+      {
+       "id": "406",
+       "type": "O",
+       "name": "Wild Plum",
+       "image": "src_assets_items_406",
+       "amount": 15,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "105",
+      "type": "BO",
+      "name": "Tapper",
+      "image": "src_assets_big_craftables_tapper",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_foragers_bundle",
+     "groups": [
+      [
+       {
+        "id": "296",
+        "type": "O",
+        "name": "Salmonberry",
+        "image": "src_assets_items_296",
+        "amount": 50,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "410",
+        "type": "O",
+        "name": "Blackberry",
+        "image": "src_assets_items_410",
+        "amount": 50,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "406",
+        "type": "O",
+        "name": "Wild Plum",
+        "image": "src_assets_items_406",
+        "amount": 15,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35D",
+     "room": "Bulletin Board",
+     "name": "Home Cook's",
+     "internalName": "Home Cook's",
+     "color": "Yellow",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "category": -5,
+       "name": "Egg",
+       "anyName": "Egg (Any)",
+       "displayItemId": "176",
+       "image": "src_assets_items_176",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "category": -6,
+       "name": "Milk",
+       "anyName": "Milk (Any)",
+       "displayItemId": "184",
+       "image": "src_assets_items_184",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "246",
+       "type": "O",
+       "name": "Wheat Flour",
+       "image": "src_assets_items_246",
+       "amount": 100,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "201",
+      "type": "O",
+      "name": "Complete Breakfast",
+      "image": "src_assets_items_201",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_home_cooks_bundle",
+     "groups": [
+      [
+       {
+        "category": -5,
+        "name": "Egg",
+        "anyName": "Egg (Any)",
+        "displayItemId": "176",
+        "image": "src_assets_items_176",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "category": -6,
+        "name": "Milk",
+        "anyName": "Milk (Any)",
+        "displayItemId": "184",
+        "image": "src_assets_items_184",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "246",
+        "type": "O",
+        "name": "Wheat Flour",
+        "image": "src_assets_items_246",
+        "amount": 100,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35E",
+     "room": "Bulletin Board",
+     "name": "Helper's",
+     "internalName": "Helper's",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "987",
+       "type": "O",
+       "name": "Prize Ticket",
+       "image": "src_assets_items_987",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "988",
+       "type": "O",
+       "name": "Mystery Box",
+       "image": "src_assets_items_988",
+       "amount": 5,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "986",
+      "type": "O",
+      "name": "Stardrop Tea",
+      "image": "src_assets_items_986",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_helpers_bundle",
+     "groups": [
+      [
+       {
+        "id": "987",
+        "type": "O",
+        "name": "Prize Ticket",
+        "image": "src_assets_items_987",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "988",
+        "type": "O",
+        "name": "Mystery Box",
+        "image": "src_assets_items_988",
+        "amount": 5,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35F",
+     "room": "Bulletin Board",
+     "name": "Spirit's Eve",
+     "internalName": "Spirit's Eve",
+     "color": "Purple",
+     "isVault": false,
+     "numOfItems": 3,
+     "items": [
+      {
+       "id": "746",
+       "type": "O",
+       "name": "Jack-O-Lantern",
+       "image": "src_assets_items_746",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "270",
+       "type": "O",
+       "name": "Corn",
+       "image": "src_assets_items_270",
+       "amount": 10,
+       "quality": 0
+      },
+      {
+       "id": "767",
+       "type": "O",
+       "name": "Bat Wing",
+       "image": "src_assets_items_767",
+       "amount": 10,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "201",
+      "type": "O",
+      "name": "Complete Breakfast",
+      "image": "src_assets_items_201",
+      "amount": 5
+     },
+     "image": "src_assets_bundles_spirits_eve_bundle",
+     "groups": [
+      [
+       {
+        "id": "746",
+        "type": "O",
+        "name": "Jack-O-Lantern",
+        "image": "src_assets_items_746",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "270",
+        "type": "O",
+        "name": "Corn",
+        "image": "src_assets_items_270",
+        "amount": 10,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "767",
+        "type": "O",
+        "name": "Bat Wing",
+        "image": "src_assets_items_767",
+        "amount": 10,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    },
+    {
+     "key": "Bulletin Board/R35G",
+     "room": "Bulletin Board",
+     "name": "Winter Star",
+     "internalName": "Winter Star",
+     "color": "Red",
+     "isVault": false,
+     "numOfItems": 2,
+     "items": [
+      {
+       "id": "283",
+       "type": "O",
+       "name": "Holly",
+       "image": "src_assets_items_283",
+       "amount": 5,
+       "quality": 0
+      },
+      {
+       "id": "604",
+       "type": "O",
+       "name": "Plum Pudding",
+       "image": "src_assets_items_604",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "239",
+       "type": "O",
+       "name": "Stuffing",
+       "image": "src_assets_items_239",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "993",
+       "type": "O",
+       "name": "Powdermelon",
+       "image": "src_assets_items_993",
+       "amount": 5,
+       "quality": 0
+      }
+     ],
+     "reward": {
+      "id": "988",
+      "type": "O",
+      "name": "Mystery Box",
+      "image": "src_assets_items_988",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_winter_star_bundle",
+     "groups": [
+      [
+       {
+        "id": "283",
+        "type": "O",
+        "name": "Holly",
+        "image": "src_assets_items_283",
+        "amount": 5,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "604",
+        "type": "O",
+        "name": "Plum Pudding",
+        "image": "src_assets_items_604",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "239",
+        "type": "O",
+        "name": "Stuffing",
+        "image": "src_assets_items_239",
+        "amount": 1,
+        "quality": 0
+       }
+      ],
+      [
+       {
+        "id": "993",
+        "type": "O",
+        "name": "Powdermelon",
+        "image": "src_assets_items_993",
+        "amount": 5,
+        "quality": 0
+       }
+      ]
+     ],
+     "pick": -1
+    }
+   ]
+  },
+  {
+   "id": "Vault",
+   "name": "Vault",
+   "reward": "Reward: Bus Repair",
+   "nameKey": "CommunityCenter_AreaName_Vault",
+   "rewardKey": "JunimoNote_RewardVault",
+   "bundles": [
+    {
+     "key": "Vault/23",
+     "room": "Vault",
+     "name": "2,500g",
+     "internalName": "2,500g",
+     "color": 4,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 2500,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "220",
+      "type": "O",
+      "name": "Chocolate Cake",
+      "image": "src_assets_items_220",
+      "amount": 3
+     },
+     "image": "src_assets_bundles_2500_bundle"
+    },
+    {
+     "key": "Vault/24",
+     "room": "Vault",
+     "name": "5,000g",
+     "internalName": "5,000g",
+     "color": 2,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 5000,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "369",
+      "type": "O",
+      "name": "Quality Fertilizer",
+      "image": "src_assets_items_369",
+      "amount": 30
+     },
+     "image": "src_assets_bundles_5000_bundle"
+    },
+    {
+     "key": "Vault/25",
+     "room": "Vault",
+     "name": "10,000g",
+     "internalName": "10,000g",
+     "color": 3,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 10000,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "9",
+      "type": "BO",
+      "name": "Lightning Rod",
+      "image": "src_assets_big_craftables_lightning_rod",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_10000_bundle"
+    },
+    {
+     "key": "Vault/26",
+     "room": "Vault",
+     "name": "25,000g",
+     "internalName": "25,000g",
+     "color": 1,
+     "isVault": true,
+     "numOfItems": 1,
+     "items": [
+      {
+       "gold": 25000,
+       "amount": 1
+      }
+     ],
+     "reward": {
+      "id": "21",
+      "type": "BO",
+      "name": "Crystalarium",
+      "image": "src_assets_big_craftables_crystalarium",
+      "amount": 1
+     },
+     "image": "src_assets_bundles_25000_bundle"
+    }
+   ]
+  },
+  {
+   "id": "Abandoned Joja Mart",
+   "name": "Abandoned JojaMart",
+   "reward": "Reward: Friendship <",
+   "nameKey": "CommunityCenter_AreaName_AbandonedJojaMart",
+   "rewardKey": "JunimoNote_RewardBulletin",
+   "bundles": [
+    {
+     "key": "Abandoned Joja Mart/36",
+     "room": "Abandoned Joja Mart",
+     "name": "The Missing",
+     "internalName": "The Missing",
+     "color": 1,
+     "isVault": false,
+     "numOfItems": 5,
+     "items": [
+      {
+       "id": "348",
+       "type": "O",
+       "name": "Wine",
+       "image": "src_assets_items_348",
+       "amount": 1,
+       "quality": 1
+      },
+      {
+       "id": "807",
+       "type": "O",
+       "name": "Dinosaur Mayonnaise",
+       "image": "src_assets_items_807",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "74",
+       "type": "O",
+       "name": "Prismatic Shard",
+       "image": "src_assets_items_074",
+       "amount": 1,
+       "quality": 0
+      },
+      {
+       "id": "454",
+       "type": "O",
+       "name": "Ancient Fruit",
+       "image": "src_assets_items_454",
+       "amount": 5,
+       "quality": 2
+      },
+      {
+       "id": "795",
+       "type": "O",
+       "name": "Void Salmon",
+       "image": "src_assets_items_795",
+       "amount": 1,
+       "quality": 2
+      },
+      {
+       "id": "445",
+       "type": "O",
+       "name": "Caviar",
+       "image": "src_assets_items_445",
+       "amount": 1,
+       "quality": 0
+      }
+     ],
+     "reward": null,
+     "image": "src_assets_bundles_the_missing_bundle"
+    }
+   ]
+  }
+ ],
+ "bundleItemSaveIds": {
+  "Bulletin Board/R35D": {
+   "-5": 176,
+   "-6": 184
+  }
+ }
+}

@@ -1,0 +1,2432 @@
+[
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   10,
+   10,
+   0,
+   0
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "251",
+  "harvestId": 815,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 1,
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "seedId": 251,
+  "seed": {
+   "id": "251",
+   "type": "O",
+   "name": "Tea Sapling",
+   "image": "src_assets_items_251"
+  },
+  "harvest": {
+   "id": "815",
+   "type": "O",
+   "name": "Tea Leaves",
+   "image": "src_assets_items_815"
+  },
+  "name": "Tea Leaves",
+  "seedPrice": 250,
+  "harvestSellPrice": 50,
+  "totalGrowDays": 20,
+  "goldPerDay": null,
+  "inAllCropsList": true,
+  "image": "src_assets_items_815",
+  "seedImage": "src_assets_items_251"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   3
+  ],
+  "extraHarvestChance": 0.1,
+  "gameId": "273",
+  "harvestId": 271,
+  "harvestMaxIncreasePerFarmingLevel": 0.1,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 1,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": true,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 273,
+  "seed": {
+   "id": "273",
+   "type": "O",
+   "name": "Rice Shoot",
+   "image": "src_assets_items_273"
+  },
+  "harvest": {
+   "id": "271",
+   "type": "O",
+   "name": "Unmilled Rice",
+   "image": "src_assets_items_271"
+  },
+  "name": "Unmilled Rice",
+  "seedPrice": 20,
+  "harvestSellPrice": 30,
+  "totalGrowDays": 8,
+  "goldPerDay": -1.67,
+  "inAllCropsList": true,
+  "image": "src_assets_items_271",
+  "seedImage": "src_assets_items_273"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "299",
+  "harvestId": 300,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 1,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 299,
+  "seed": {
+   "id": "299",
+   "type": "O",
+   "name": "Amaranth Seeds",
+   "image": "src_assets_items_299"
+  },
+  "harvest": {
+   "id": "300",
+   "type": "O",
+   "name": "Amaranth",
+   "image": "src_assets_items_300"
+  },
+  "name": "Amaranth",
+  "seedPrice": 35,
+  "harvestSellPrice": 150,
+  "totalGrowDays": 7,
+  "goldPerDay": 11.43,
+  "inAllCropsList": true,
+  "image": "src_assets_items_300",
+  "seedImage": "src_assets_items_299"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   2,
+   3,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "301",
+  "harvestId": 398,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": true,
+  "needsWatering": true,
+  "regrowDays": 3,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 301,
+  "seed": {
+   "id": "301",
+   "type": "O",
+   "name": "Grape Starter",
+   "image": "src_assets_items_301"
+  },
+  "harvest": {
+   "id": "398",
+   "type": "O",
+   "name": "Grape",
+   "image": "src_assets_items_398"
+  },
+  "name": "Grape",
+  "seedPrice": 30,
+  "harvestSellPrice": 80,
+  "totalGrowDays": 10,
+  "goldPerDay": 16.8,
+  "inAllCropsList": true,
+  "image": "src_assets_items_398",
+  "seedImage": "src_assets_items_301"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   2,
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "302",
+  "harvestId": 304,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": true,
+  "needsWatering": true,
+  "regrowDays": 1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 302,
+  "seed": {
+   "id": "302",
+   "type": "O",
+   "name": "Hops Starter",
+   "image": "src_assets_items_302"
+  },
+  "harvest": {
+   "id": "304",
+   "type": "O",
+   "name": "Hops",
+   "image": "src_assets_items_304"
+  },
+  "name": "Hops",
+  "seedPrice": 30,
+  "harvestSellPrice": 25,
+  "totalGrowDays": 11,
+  "goldPerDay": 13.52,
+  "inAllCropsList": true,
+  "image": "src_assets_items_304",
+  "seedImage": "src_assets_items_302"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   2,
+   4,
+   6,
+   6,
+   6
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "347",
+  "harvestId": 417,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 347,
+  "seed": {
+   "id": "347",
+   "type": "O",
+   "name": "Rare Seed",
+   "image": "src_assets_items_347"
+  },
+  "harvest": {
+   "id": "417",
+   "type": "O",
+   "name": "Sweet Gem Berry",
+   "image": "src_assets_items_417"
+  },
+  "name": "Sweet Gem Berry",
+  "seedPrice": 200,
+  "harvestSellPrice": 3000,
+  "totalGrowDays": 24,
+  "goldPerDay": 83.33,
+  "inAllCropsList": true,
+  "image": "src_assets_items_417",
+  "seedImage": "src_assets_items_347"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   4,
+   4,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "425",
+  "harvestId": 595,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 425,
+  "seed": {
+   "id": "425",
+   "type": "O",
+   "name": "Fairy Seeds",
+   "image": "src_assets_items_425"
+  },
+  "harvest": {
+   "id": "595",
+   "type": "O",
+   "name": "Fairy Rose",
+   "image": "src_assets_items_595"
+  },
+  "name": "Fairy Rose",
+  "seedPrice": 100,
+  "harvestSellPrice": 290,
+  "totalGrowDays": 12,
+  "goldPerDay": 7.5,
+  "inAllCropsList": true,
+  "image": "src_assets_items_595",
+  "seedImage": "src_assets_items_425"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "427",
+  "harvestId": 591,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 427,
+  "seed": {
+   "id": "427",
+   "type": "O",
+   "name": "Tulip Bulb",
+   "image": "src_assets_items_427"
+  },
+  "harvest": {
+   "id": "591",
+   "type": "O",
+   "name": "Tulip",
+   "image": "src_assets_items_591"
+  },
+  "name": "Tulip",
+  "seedPrice": 10,
+  "harvestSellPrice": 30,
+  "totalGrowDays": 6,
+  "goldPerDay": 1.67,
+  "inAllCropsList": true,
+  "image": "src_assets_items_591",
+  "seedImage": "src_assets_items_427"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "429",
+  "harvestId": 597,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 429,
+  "seed": {
+   "id": "429",
+   "type": "O",
+   "name": "Jazz Seeds",
+   "image": "src_assets_items_429"
+  },
+  "harvest": {
+   "id": "597",
+   "type": "O",
+   "name": "Blue Jazz",
+   "image": "src_assets_items_597"
+  },
+  "name": "Blue Jazz",
+  "seedPrice": 15,
+  "harvestSellPrice": 50,
+  "totalGrowDays": 7,
+  "goldPerDay": 2.86,
+  "inAllCropsList": true,
+  "image": "src_assets_items_597",
+  "seedImage": "src_assets_items_429"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   3,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "431",
+  "harvestId": 421,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "seedId": 431,
+  "seed": {
+   "id": "431",
+   "type": "O",
+   "name": "Sunflower Seeds",
+   "image": "src_assets_items_431"
+  },
+  "harvest": {
+   "id": "421",
+   "type": "O",
+   "name": "Sunflower",
+   "image": "src_assets_items_421"
+  },
+  "name": "Sunflower",
+  "seedPrice": 20,
+  "harvestSellPrice": 80,
+  "totalGrowDays": 8,
+  "goldPerDay": -15,
+  "inAllCropsList": true,
+  "image": "src_assets_items_421",
+  "seedImage": "src_assets_items_431"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   3,
+   2
+  ],
+  "extraHarvestChance": 0.02,
+  "gameId": "433",
+  "harvestId": 433,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 4,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 2,
+  "seasons": [
+   "spring",
+   "summer"
+  ],
+  "seedId": 433,
+  "seed": {
+   "id": "433",
+   "type": "O",
+   "name": "Coffee Bean",
+   "image": "src_assets_items_433"
+  },
+  "harvest": {
+   "id": "433",
+   "type": "O",
+   "name": "Coffee Bean",
+   "image": "src_assets_items_433"
+  },
+  "name": "Coffee Bean",
+  "seedPrice": 15,
+  "harvestSellPrice": 15,
+  "totalGrowDays": 10,
+  "goldPerDay": 20.77,
+  "inAllCropsList": true,
+  "image": "src_assets_items_433",
+  "seedImage": "src_assets_items_433"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "453",
+  "harvestId": 376,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 453,
+  "seed": {
+   "id": "453",
+   "type": "O",
+   "name": "Poppy Seeds",
+   "image": "src_assets_items_453"
+  },
+  "harvest": {
+   "id": "376",
+   "type": "O",
+   "name": "Poppy",
+   "image": "src_assets_items_376"
+  },
+  "name": "Poppy",
+  "seedPrice": 50,
+  "harvestSellPrice": 140,
+  "totalGrowDays": 7,
+  "goldPerDay": 5.71,
+  "inAllCropsList": true,
+  "image": "src_assets_items_376",
+  "seedImage": "src_assets_items_453"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   3,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "455",
+  "harvestId": 593,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 455,
+  "seed": {
+   "id": "455",
+   "type": "O",
+   "name": "Spangle Seeds",
+   "image": "src_assets_items_455"
+  },
+  "harvest": {
+   "id": "593",
+   "type": "O",
+   "name": "Summer Spangle",
+   "image": "src_assets_items_593"
+  },
+  "name": "Summer Spangle",
+  "seedPrice": 25,
+  "harvestSellPrice": 90,
+  "totalGrowDays": 8,
+  "goldPerDay": 5,
+  "inAllCropsList": true,
+  "image": "src_assets_items_593",
+  "seedImage": "src_assets_items_455"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "472",
+  "harvestId": 24,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 472,
+  "seed": {
+   "id": "472",
+   "type": "O",
+   "name": "Parsnip Seeds",
+   "image": "src_assets_items_472"
+  },
+  "harvest": {
+   "id": "24",
+   "type": "O",
+   "name": "Parsnip",
+   "image": "src_assets_items_024"
+  },
+  "name": "Parsnip",
+  "seedPrice": 10,
+  "harvestSellPrice": 35,
+  "totalGrowDays": 4,
+  "goldPerDay": 3.75,
+  "inAllCropsList": true,
+  "image": "src_assets_items_024",
+  "seedImage": "src_assets_items_472"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "473",
+  "harvestId": 188,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": true,
+  "needsWatering": true,
+  "regrowDays": 3,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 473,
+  "seed": {
+   "id": "473",
+   "type": "O",
+   "name": "Bean Starter",
+   "image": "src_assets_items_473"
+  },
+  "harvest": {
+   "id": "188",
+   "type": "O",
+   "name": "Green Bean",
+   "image": "src_assets_items_188"
+  },
+  "name": "Green Bean",
+  "seedPrice": 30,
+  "harvestSellPrice": 40,
+  "totalGrowDays": 10,
+  "goldPerDay": 7.2,
+  "inAllCropsList": true,
+  "image": "src_assets_items_188",
+  "seedImage": "src_assets_items_473"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   4,
+   4,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "474",
+  "harvestId": 190,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 474,
+  "seed": {
+   "id": "474",
+   "type": "O",
+   "name": "Cauliflower Seeds",
+   "image": "src_assets_items_474"
+  },
+  "harvest": {
+   "id": "190",
+   "type": "O",
+   "name": "Cauliflower",
+   "image": "src_assets_items_190"
+  },
+  "name": "Cauliflower",
+  "seedPrice": 40,
+  "harvestSellPrice": 175,
+  "totalGrowDays": 12,
+  "goldPerDay": 7.92,
+  "inAllCropsList": true,
+  "image": "src_assets_items_190",
+  "seedImage": "src_assets_items_474"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   2,
+   1
+  ],
+  "extraHarvestChance": 0.2,
+  "gameId": "475",
+  "harvestId": 192,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 475,
+  "seed": {
+   "id": "475",
+   "type": "O",
+   "name": "Potato Seeds",
+   "image": "src_assets_items_475"
+  },
+  "harvest": {
+   "id": "192",
+   "type": "O",
+   "name": "Potato",
+   "image": "src_assets_items_192"
+  },
+  "name": "Potato",
+  "seedPrice": 25,
+  "harvestSellPrice": 80,
+  "totalGrowDays": 6,
+  "goldPerDay": 8.33,
+  "inAllCropsList": true,
+  "image": "src_assets_items_192",
+  "seedImage": "src_assets_items_475"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "476",
+  "harvestId": 248,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 476,
+  "seed": {
+   "id": "476",
+   "type": "O",
+   "name": "Garlic Seeds",
+   "image": "src_assets_items_476"
+  },
+  "harvest": {
+   "id": "248",
+   "type": "O",
+   "name": "Garlic",
+   "image": "src_assets_items_248"
+  },
+  "name": "Garlic",
+  "seedPrice": 20,
+  "harvestSellPrice": 60,
+  "totalGrowDays": 4,
+  "goldPerDay": 5,
+  "inAllCropsList": true,
+  "image": "src_assets_items_248",
+  "seedImage": "src_assets_items_476"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "477",
+  "harvestId": 250,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 1,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 477,
+  "seed": {
+   "id": "477",
+   "type": "O",
+   "name": "Kale Seeds",
+   "image": "src_assets_items_477"
+  },
+  "harvest": {
+   "id": "250",
+   "type": "O",
+   "name": "Kale",
+   "image": "src_assets_items_250"
+  },
+  "name": "Kale",
+  "seedPrice": 35,
+  "harvestSellPrice": 110,
+  "totalGrowDays": 6,
+  "goldPerDay": 6.67,
+  "inAllCropsList": true,
+  "image": "src_assets_items_250",
+  "seedImage": "src_assets_items_477"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   2,
+   2,
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "478",
+  "harvestId": 252,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 478,
+  "seed": {
+   "id": "478",
+   "type": "O",
+   "name": "Rhubarb Seeds",
+   "image": "src_assets_items_478"
+  },
+  "harvest": {
+   "id": "252",
+   "type": "O",
+   "name": "Rhubarb",
+   "image": "src_assets_items_252"
+  },
+  "name": "Rhubarb",
+  "seedPrice": 50,
+  "harvestSellPrice": 220,
+  "totalGrowDays": 13,
+  "goldPerDay": 9.23,
+  "inAllCropsList": true,
+  "image": "src_assets_items_252",
+  "seedImage": "src_assets_items_478"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   3,
+   3,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "479",
+  "harvestId": 254,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 479,
+  "seed": {
+   "id": "479",
+   "type": "O",
+   "name": "Melon Seeds",
+   "image": "src_assets_items_479"
+  },
+  "harvest": {
+   "id": "254",
+   "type": "O",
+   "name": "Melon",
+   "image": "src_assets_items_254"
+  },
+  "name": "Melon",
+  "seedPrice": 40,
+  "harvestSellPrice": 250,
+  "totalGrowDays": 12,
+  "goldPerDay": 14.17,
+  "inAllCropsList": true,
+  "image": "src_assets_items_254",
+  "seedImage": "src_assets_items_479"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   2,
+   2,
+   2,
+   3
+  ],
+  "extraHarvestChance": 0.05,
+  "gameId": "480",
+  "harvestId": 256,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 4,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 480,
+  "seed": {
+   "id": "480",
+   "type": "O",
+   "name": "Tomato Seeds",
+   "image": "src_assets_items_480"
+  },
+  "harvest": {
+   "id": "256",
+   "type": "O",
+   "name": "Tomato",
+   "image": "src_assets_items_256"
+  },
+  "name": "Tomato",
+  "seedPrice": 25,
+  "harvestSellPrice": 60,
+  "totalGrowDays": 11,
+  "goldPerDay": 9.26,
+  "inAllCropsList": true,
+  "image": "src_assets_items_256",
+  "seedImage": "src_assets_items_480"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   3,
+   3,
+   4,
+   2
+  ],
+  "extraHarvestChance": 0.02,
+  "gameId": "481",
+  "harvestId": 258,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 3,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 3,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 4,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 481,
+  "seed": {
+   "id": "481",
+   "type": "O",
+   "name": "Blueberry Seeds",
+   "image": "src_assets_items_481"
+  },
+  "harvest": {
+   "id": "258",
+   "type": "O",
+   "name": "Blueberry",
+   "image": "src_assets_items_258"
+  },
+  "name": "Blueberry",
+  "seedPrice": 40,
+  "harvestSellPrice": 50,
+  "totalGrowDays": 13,
+  "goldPerDay": 20.8,
+  "inAllCropsList": true,
+  "image": "src_assets_items_258",
+  "seedImage": "src_assets_items_481"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0.03,
+  "gameId": "482",
+  "harvestId": 260,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 3,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 482,
+  "seed": {
+   "id": "482",
+   "type": "O",
+   "name": "Pepper Seeds",
+   "image": "src_assets_items_482"
+  },
+  "harvest": {
+   "id": "260",
+   "type": "O",
+   "name": "Hot Pepper",
+   "image": "src_assets_items_260"
+  },
+  "name": "Hot Pepper",
+  "seedPrice": 20,
+  "harvestSellPrice": 40,
+  "totalGrowDays": 5,
+  "goldPerDay": 10.77,
+  "inAllCropsList": true,
+  "image": "src_assets_items_260",
+  "seedImage": "src_assets_items_482"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "483",
+  "harvestId": 262,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 1,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "seedId": 483,
+  "seed": {
+   "id": "483",
+   "type": "O",
+   "name": "Wheat Seeds",
+   "image": "src_assets_items_483"
+  },
+  "harvest": {
+   "id": "262",
+   "type": "O",
+   "name": "Wheat",
+   "image": "src_assets_items_262"
+  },
+  "name": "Wheat",
+  "seedPrice": 5,
+  "harvestSellPrice": 25,
+  "totalGrowDays": 4,
+  "goldPerDay": 3.75,
+  "inAllCropsList": true,
+  "image": "src_assets_items_262",
+  "seedImage": "src_assets_items_483"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   1,
+   2,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "484",
+  "harvestId": 264,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 484,
+  "seed": {
+   "id": "484",
+   "type": "O",
+   "name": "Radish Seeds",
+   "image": "src_assets_items_484"
+  },
+  "harvest": {
+   "id": "264",
+   "type": "O",
+   "name": "Radish",
+   "image": "src_assets_items_264"
+  },
+  "name": "Radish",
+  "seedPrice": 20,
+  "harvestSellPrice": 90,
+  "totalGrowDays": 6,
+  "goldPerDay": 8.33,
+  "inAllCropsList": true,
+  "image": "src_assets_items_264",
+  "seedImage": "src_assets_items_484"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   1,
+   2,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "485",
+  "harvestId": 266,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 485,
+  "seed": {
+   "id": "485",
+   "type": "O",
+   "name": "Red Cabbage Seeds",
+   "image": "src_assets_items_485"
+  },
+  "harvest": {
+   "id": "266",
+   "type": "O",
+   "name": "Red Cabbage",
+   "image": "src_assets_items_266"
+  },
+  "name": "Red Cabbage",
+  "seedPrice": 50,
+  "harvestSellPrice": 260,
+  "totalGrowDays": 9,
+  "goldPerDay": 17.78,
+  "inAllCropsList": true,
+  "image": "src_assets_items_266",
+  "seedImage": "src_assets_items_485"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   3,
+   2,
+   3,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "486",
+  "harvestId": 268,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 486,
+  "seed": {
+   "id": "486",
+   "type": "O",
+   "name": "Starfruit Seeds",
+   "image": "src_assets_items_486"
+  },
+  "harvest": {
+   "id": "268",
+   "type": "O",
+   "name": "Starfruit",
+   "image": "src_assets_items_268"
+  },
+  "name": "Starfruit",
+  "seedPrice": 200,
+  "harvestSellPrice": 750,
+  "totalGrowDays": 13,
+  "goldPerDay": 26.92,
+  "inAllCropsList": true,
+  "image": "src_assets_items_268",
+  "seedImage": "src_assets_items_486"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   3,
+   3,
+   3,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "487",
+  "harvestId": 270,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 4,
+  "seasons": [
+   "summer",
+   "fall"
+  ],
+  "seedId": 487,
+  "seed": {
+   "id": "487",
+   "type": "O",
+   "name": "Corn Seeds",
+   "image": "src_assets_items_487"
+  },
+  "harvest": {
+   "id": "270",
+   "type": "O",
+   "name": "Corn",
+   "image": "src_assets_items_270"
+  },
+  "name": "Corn",
+  "seedPrice": 75,
+  "harvestSellPrice": 50,
+  "totalGrowDays": 14,
+  "goldPerDay": 7.41,
+  "inAllCropsList": true,
+  "image": "src_assets_items_270",
+  "seedImage": "src_assets_items_487"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0.002,
+  "gameId": "488",
+  "harvestId": 272,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 5,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 488,
+  "seed": {
+   "id": "488",
+   "type": "O",
+   "name": "Eggplant Seeds",
+   "image": "src_assets_items_488"
+  },
+  "harvest": {
+   "id": "272",
+   "type": "O",
+   "name": "Eggplant",
+   "image": "src_assets_items_272"
+  },
+  "name": "Eggplant",
+  "seedPrice": 10,
+  "harvestSellPrice": 60,
+  "totalGrowDays": 5,
+  "goldPerDay": 11.2,
+  "inAllCropsList": true,
+  "image": "src_assets_items_272",
+  "seedImage": "src_assets_items_488"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   2,
+   2,
+   1,
+   2,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "489",
+  "harvestId": 274,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 489,
+  "seed": {
+   "id": "489",
+   "type": "O",
+   "name": "Artichoke Seeds",
+   "image": "src_assets_items_489"
+  },
+  "harvest": {
+   "id": "274",
+   "type": "O",
+   "name": "Artichoke",
+   "image": "src_assets_items_274"
+  },
+  "name": "Artichoke",
+  "seedPrice": 15,
+  "harvestSellPrice": 160,
+  "totalGrowDays": 8,
+  "goldPerDay": 16.25,
+  "inAllCropsList": true,
+  "image": "src_assets_items_274",
+  "seedImage": "src_assets_items_489"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   3,
+   4,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "490",
+  "harvestId": 276,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 490,
+  "seed": {
+   "id": "490",
+   "type": "O",
+   "name": "Pumpkin Seeds",
+   "image": "src_assets_items_490"
+  },
+  "harvest": {
+   "id": "276",
+   "type": "O",
+   "name": "Pumpkin",
+   "image": "src_assets_items_276"
+  },
+  "name": "Pumpkin",
+  "seedPrice": 50,
+  "harvestSellPrice": 320,
+  "totalGrowDays": 13,
+  "goldPerDay": 16.92,
+  "inAllCropsList": true,
+  "image": "src_assets_items_276",
+  "seedImage": "src_assets_items_490"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "491",
+  "harvestId": 278,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 491,
+  "seed": {
+   "id": "491",
+   "type": "O",
+   "name": "Bok Choy Seeds",
+   "image": "src_assets_items_491"
+  },
+  "harvest": {
+   "id": "278",
+   "type": "O",
+   "name": "Bok Choy",
+   "image": "src_assets_items_278"
+  },
+  "name": "Bok Choy",
+  "seedPrice": 25,
+  "harvestSellPrice": 80,
+  "totalGrowDays": 4,
+  "goldPerDay": 7.5,
+  "inAllCropsList": true,
+  "image": "src_assets_items_278",
+  "seedImage": "src_assets_items_491"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   3,
+   3,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "492",
+  "harvestId": 280,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 492,
+  "seed": {
+   "id": "492",
+   "type": "O",
+   "name": "Yam Seeds",
+   "image": "src_assets_items_492"
+  },
+  "harvest": {
+   "id": "280",
+   "type": "O",
+   "name": "Yam",
+   "image": "src_assets_items_280"
+  },
+  "name": "Yam",
+  "seedPrice": 30,
+  "harvestSellPrice": 160,
+  "totalGrowDays": 10,
+  "goldPerDay": 10,
+  "inAllCropsList": true,
+  "image": "src_assets_items_280",
+  "seedImage": "src_assets_items_492"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   2,
+   1,
+   1,
+   2
+  ],
+  "extraHarvestChance": 0.1,
+  "gameId": "493",
+  "harvestId": 282,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 2,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 5,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 493,
+  "seed": {
+   "id": "493",
+   "type": "O",
+   "name": "Cranberry Seeds",
+   "image": "src_assets_items_493"
+  },
+  "harvest": {
+   "id": "282",
+   "type": "O",
+   "name": "Cranberries",
+   "image": "src_assets_items_282"
+  },
+  "name": "Cranberries",
+  "seedPrice": 120,
+  "harvestSellPrice": 75,
+  "totalGrowDays": 7,
+  "goldPerDay": 18.89,
+  "inAllCropsList": true,
+  "image": "src_assets_items_282",
+  "seedImage": "src_assets_items_493"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "494",
+  "harvestId": 284,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 494,
+  "seed": {
+   "id": "494",
+   "type": "O",
+   "name": "Beet Seeds",
+   "image": "src_assets_items_494"
+  },
+  "harvest": {
+   "id": "284",
+   "type": "O",
+   "name": "Beet",
+   "image": "src_assets_items_284"
+  },
+  "name": "Beet",
+  "seedPrice": 10,
+  "harvestSellPrice": 100,
+  "totalGrowDays": 6,
+  "goldPerDay": 13.33,
+  "inAllCropsList": true,
+  "image": "src_assets_items_284",
+  "seedImage": "src_assets_items_494"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "495",
+  "harvestId": 16,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 495,
+  "seed": {
+   "id": "495",
+   "type": "O",
+   "name": "Spring Seeds",
+   "image": "src_assets_items_495"
+  },
+  "harvest": {
+   "id": "16",
+   "type": "O",
+   "name": "Wild Horseradish",
+   "image": "src_assets_items_016"
+  },
+  "name": "Wild Horseradish",
+  "seedPrice": 35,
+  "harvestSellPrice": 50,
+  "totalGrowDays": 7,
+  "goldPerDay": null,
+  "inAllCropsList": false,
+  "image": "src_assets_items_016",
+  "seedImage": "src_assets_items_495"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "496",
+  "harvestId": 396,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 496,
+  "seed": {
+   "id": "496",
+   "type": "O",
+   "name": "Summer Seeds",
+   "image": "src_assets_items_496"
+  },
+  "harvest": {
+   "id": "396",
+   "type": "O",
+   "name": "Spice Berry",
+   "image": "src_assets_items_396"
+  },
+  "name": "Spice Berry",
+  "seedPrice": 55,
+  "harvestSellPrice": 80,
+  "totalGrowDays": 7,
+  "goldPerDay": null,
+  "inAllCropsList": false,
+  "image": "src_assets_items_396",
+  "seedImage": "src_assets_items_496"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "497",
+  "harvestId": 404,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 497,
+  "seed": {
+   "id": "497",
+   "type": "O",
+   "name": "Fall Seeds",
+   "image": "src_assets_items_497"
+  },
+  "harvest": {
+   "id": "404",
+   "type": "O",
+   "name": "Common Mushroom",
+   "image": "src_assets_items_404"
+  },
+  "name": "Common Mushroom",
+  "seedPrice": 45,
+  "harvestSellPrice": 40,
+  "totalGrowDays": 7,
+  "goldPerDay": null,
+  "inAllCropsList": false,
+  "image": "src_assets_items_404",
+  "seedImage": "src_assets_items_497"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "498",
+  "harvestId": 412,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "winter"
+  ],
+  "seedId": 498,
+  "seed": {
+   "id": "498",
+   "type": "O",
+   "name": "Winter Seeds",
+   "image": "src_assets_items_498"
+  },
+  "harvest": {
+   "id": "412",
+   "type": "O",
+   "name": "Winter Root",
+   "image": "src_assets_items_412"
+  },
+  "name": "Winter Root",
+  "seedPrice": 30,
+  "harvestSellPrice": 70,
+  "totalGrowDays": 7,
+  "goldPerDay": null,
+  "inAllCropsList": false,
+  "image": "src_assets_items_412",
+  "seedImage": "src_assets_items_498"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   2,
+   7,
+   7,
+   7,
+   5
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "499",
+  "harvestId": 454,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 7,
+  "seasons": [
+   "spring",
+   "summer",
+   "fall"
+  ],
+  "seedId": 499,
+  "seed": {
+   "id": "499",
+   "type": "O",
+   "name": "Ancient Seeds",
+   "image": "src_assets_items_499"
+  },
+  "harvest": {
+   "id": "454",
+   "type": "O",
+   "name": "Ancient Fruit",
+   "image": "src_assets_items_454"
+  },
+  "name": "Ancient Fruit",
+  "seedPrice": 30,
+  "harvestSellPrice": 550,
+  "totalGrowDays": 28,
+  "goldPerDay": 57.14,
+  "inAllCropsList": true,
+  "image": "src_assets_items_454",
+  "seedImage": "src_assets_items_499"
+ },
+ {
+  "countForMonoculture": true,
+  "countForPolyculture": true,
+  "daysInPhase": [
+   1,
+   1,
+   2,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0.02,
+  "gameId": "745",
+  "harvestId": 400,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 4,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 745,
+  "seed": {
+   "id": "745",
+   "type": "O",
+   "name": "Strawberry Seeds",
+   "image": "src_assets_items_745"
+  },
+  "harvest": {
+   "id": "400",
+   "type": "O",
+   "name": "Strawberry",
+   "image": "src_assets_items_400"
+  },
+  "name": "Strawberry",
+  "seedPrice": 0,
+  "harvestSellPrice": 120,
+  "totalGrowDays": 8,
+  "goldPerDay": 20.83,
+  "inAllCropsList": true,
+  "image": "src_assets_items_400",
+  "seedImage": "src_assets_items_745"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   2,
+   2,
+   2,
+   3,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "802",
+  "harvestId": 90,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 3,
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "seedId": 802,
+  "seed": {
+   "id": "802",
+   "type": "O",
+   "name": "Cactus Seeds",
+   "image": "src_assets_items_802"
+  },
+  "harvest": {
+   "id": "90",
+   "type": "O",
+   "name": "Cactus Fruit",
+   "image": "src_assets_items_090"
+  },
+  "name": "Cactus Fruit",
+  "seedPrice": 0,
+  "harvestSellPrice": 75,
+  "totalGrowDays": 12,
+  "goldPerDay": 24.11,
+  "inAllCropsList": true,
+  "image": "src_assets_items_090",
+  "seedImage": "src_assets_items_802"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "831",
+  "harvestId": 830,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": true,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 831,
+  "seed": {
+   "id": "831",
+   "type": "O",
+   "name": "Taro Tuber",
+   "image": "src_assets_items_831"
+  },
+  "harvest": {
+   "id": "830",
+   "type": "O",
+   "name": "Taro Root",
+   "image": "src_assets_items_830"
+  },
+  "name": "Taro Root",
+  "seedPrice": 20,
+  "harvestSellPrice": 100,
+  "totalGrowDays": 10,
+  "goldPerDay": 14.29,
+  "inAllCropsList": true,
+  "image": "src_assets_items_830",
+  "seedImage": "src_assets_items_831"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   3,
+   3,
+   4,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "833",
+  "harvestId": 832,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 7,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 833,
+  "seed": {
+   "id": "833",
+   "type": "O",
+   "name": "Pineapple Seeds",
+   "image": "src_assets_items_833"
+  },
+  "harvest": {
+   "id": "832",
+   "type": "O",
+   "name": "Pineapple",
+   "image": "src_assets_items_832"
+  },
+  "name": "Pineapple",
+  "seedPrice": 240,
+  "harvestSellPrice": 300,
+  "totalGrowDays": 14,
+  "goldPerDay": 28.57,
+  "inAllCropsList": true,
+  "image": "src_assets_items_832",
+  "seedImage": "src_assets_items_833"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0.01,
+  "gameId": "885",
+  "harvestId": 771,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": 0,
+  "harvestMaxStack": 7,
+  "harvestMethod": 1,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 4,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": false,
+  "regrowDays": -1,
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "seedId": 885,
+  "seed": {
+   "id": "885",
+   "type": "O",
+   "name": "Fiber Seeds",
+   "image": "src_assets_items_885"
+  },
+  "harvest": {
+   "id": "771",
+   "type": "O",
+   "name": "Fiber",
+   "image": "src_assets_items_771"
+  },
+  "name": "Fiber",
+  "seedPrice": 5,
+  "harvestSellPrice": 1,
+  "totalGrowDays": 7,
+  "goldPerDay": 0,
+  "inAllCropsList": true,
+  "image": "src_assets_items_771",
+  "seedImage": "src_assets_items_885"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "890",
+  "harvestId": 889,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": 0,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring",
+   "summer",
+   "fall",
+   "winter"
+  ],
+  "seedId": 890,
+  "seed": {
+   "id": "890",
+   "type": "O",
+   "name": "Qi Bean",
+   "image": "src_assets_items_890"
+  },
+  "harvest": {
+   "id": "889",
+   "type": "O",
+   "name": "Qi Fruit",
+   "image": "src_assets_items_889"
+  },
+  "name": "Qi Fruit",
+  "seedPrice": 1,
+  "harvestSellPrice": 1,
+  "totalGrowDays": 4,
+  "goldPerDay": null,
+  "inAllCropsList": false,
+  "image": "src_assets_items_889",
+  "seedImage": "src_assets_items_890"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   1,
+   1
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "CarrotSeeds",
+  "harvestId": 990,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "spring"
+  ],
+  "seedId": 994,
+  "seed": {
+   "id": "994",
+   "type": "O",
+   "name": "Carrot Seeds",
+   "image": "src_assets_items_994"
+  },
+  "harvest": {
+   "id": "990",
+   "type": "O",
+   "name": "Carrot",
+   "image": "src_assets_items_990"
+  },
+  "name": "Carrot",
+  "seedPrice": 15,
+  "harvestSellPrice": 35,
+  "totalGrowDays": 3,
+  "goldPerDay": 11.67,
+  "inAllCropsList": true,
+  "image": "src_assets_items_990",
+  "seedImage": "src_assets_items_994"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   1,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "SummerSquashSeeds",
+  "harvestId": 991,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 3,
+  "seasons": [
+   "summer"
+  ],
+  "seedId": 995,
+  "seed": {
+   "id": "995",
+   "type": "O",
+   "name": "Summer Squash Seeds",
+   "image": "src_assets_items_995"
+  },
+  "harvest": {
+   "id": "991",
+   "type": "O",
+   "name": "Summer Squash",
+   "image": "src_assets_items_991"
+  },
+  "name": "Summer Squash",
+  "seedPrice": 20,
+  "harvestSellPrice": 45,
+  "totalGrowDays": 6,
+  "goldPerDay": 12.85,
+  "inAllCropsList": true,
+  "image": "src_assets_items_991",
+  "seedImage": "src_assets_items_995"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   2,
+   2,
+   3
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "BroccoliSeeds",
+  "harvestId": 992,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": 4,
+  "seasons": [
+   "fall"
+  ],
+  "seedId": 996,
+  "seed": {
+   "id": "996",
+   "type": "O",
+   "name": "Broccoli Seeds",
+   "image": "src_assets_items_996"
+  },
+  "harvest": {
+   "id": "992",
+   "type": "O",
+   "name": "Broccoli",
+   "image": "src_assets_items_992"
+  },
+  "name": "Broccoli",
+  "seedPrice": 40,
+  "harvestSellPrice": 70,
+  "totalGrowDays": 8,
+  "goldPerDay": 14.58,
+  "inAllCropsList": true,
+  "image": "src_assets_items_992",
+  "seedImage": "src_assets_items_996"
+ },
+ {
+  "countForMonoculture": false,
+  "countForPolyculture": false,
+  "daysInPhase": [
+   1,
+   1,
+   1,
+   2,
+   2
+  ],
+  "extraHarvestChance": 0,
+  "gameId": "PowdermelonSeeds",
+  "harvestId": 993,
+  "harvestMaxIncreasePerFarmingLevel": 0,
+  "harvestMaxQuality": null,
+  "harvestMaxStack": 1,
+  "harvestMethod": 0,
+  "harvestMinQuality": 0,
+  "harvestMinStack": 1,
+  "isPaddyCrop": false,
+  "isRaised": false,
+  "needsWatering": true,
+  "regrowDays": -1,
+  "seasons": [
+   "winter"
+  ],
+  "seedId": 997,
+  "seed": {
+   "id": "997",
+   "type": "O",
+   "name": "Powdermelon Seeds",
+   "image": "src_assets_items_997"
+  },
+  "harvest": {
+   "id": "993",
+   "type": "O",
+   "name": "Powdermelon",
+   "image": "src_assets_items_993"
+  },
+  "name": "Powdermelon",
+  "seedPrice": 20,
+  "harvestSellPrice": 60,
+  "totalGrowDays": 7,
+  "goldPerDay": 8.57,
+  "inAllCropsList": true,
+  "image": "src_assets_items_993",
+  "seedImage": "src_assets_items_997"
+ }
+]

@@ -1,0 +1,54 @@
+name: stardew_save_editor
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  archive: ^4.5.2
+  collection: ^1.19.1
+  file_picker: ^13.1.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_mobile_ads: ^9.1.0
+  in_app_review: ^2.0.12
+  intl: ^0.20.2
+  package_info_plus: ^10.2.2
+  path_provider: ^2.1.6
+  provider: ^6.1.5+1
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+  xml: ^7.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/editor/data/
+    - assets/editor/sheets/
+    - assets/editor/portraits/
+    - assets/editor/buildings/
+    - assets/editor/farmer/
+    - assets/tracker/data/
+    - assets/tracker/img/
+    - assets/tracker/i18n/
+    - assets/i18n/
+  fonts:
+    - family: Pixelify
+      fonts:
+        - asset: assets/fonts/PixelifySans.ttf
+    - family: Tiny5
+      fonts:
+        - asset: assets/fonts/Tiny5.ttf
+    - family: DotGothic16
+      fonts:
+        - asset: assets/fonts/DotGothic16.ttf

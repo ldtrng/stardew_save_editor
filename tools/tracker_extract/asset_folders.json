@@ -1,0 +1,230 @@
+{
+ "src/assets": {
+  "n": 29,
+  "types": {
+   "png": 27,
+   "gif": 1,
+   "svg": 1
+  },
+  "dims": {
+   "48x48": 20,
+   "24x24": 3,
+   "32x32": 2,
+   "18x18": 1
+  },
+  "ex": [
+   "src_assets_24pxsilver_quality_icon",
+   "src_assets_24pxgold_quality_icon"
+  ]
+ },
+ "src/assets/ads": {
+  "n": 4,
+  "types": {
+   "png": 4
+  },
+  "dims": {
+   "1024x1024": 2,
+   "1000x1000": 1,
+   "480x480": 1
+  },
+  "ex": [
+   "src_assets_ads_pokopedia",
+   "src_assets_ads_logmo"
+  ]
+ },
+ "src/assets/big_craftables": {
+  "n": 63,
+  "types": {
+   "png": 63
+  },
+  "dims": {
+   "48x96": 52,
+   "48x75": 7,
+   "48x63": 1,
+   "48x48": 1
+  },
+  "ex": [
+   "src_assets_big_craftables_scarecrow",
+   "src_assets_big_craftables_lightning_rod"
+  ]
+ },
+ "src/assets/buildings": {
+  "n": 25,
+  "types": {
+   "png": 25
+  },
+  "dims": {
+   "72x72": 7,
+   "120x320": 4,
+   "72x82": 3,
+   "72x83": 2
+  },
+  "ex": [
+   "src_assets_buildings_coop",
+   "src_assets_buildings_barn"
+  ]
+ },
+ "src/assets/bundles": {
+  "n": 48,
+  "types": {
+   "png": 48
+  },
+  "dims": {
+   "136x136": 32,
+   "144x143": 16
+  },
+  "ex": [
+   "src_assets_bundles_spring_crops_bundle",
+   "src_assets_bundles_summer_crops_bundle"
+  ]
+ },
+ "src/assets/items": {
+  "n": 978,
+  "types": {
+   "png": 978
+  },
+  "dims": {
+   "48x48": 976,
+   "48x45": 2
+  },
+  "ex": [
+   "src_assets_items_000",
+   "src_assets_items_001"
+  ]
+ },
+ "src/assets/objects": {
+  "n": 1,
+  "types": {
+   "png": 1
+  },
+  "dims": {
+   "39x54": 1
+  },
+  "ex": [
+   "src_assets_objects_calendar"
+  ]
+ },
+ "src/assets/onboarding": {
+  "n": 3,
+  "types": {
+   "png": 3
+  },
+  "dims": {
+   "1242x1344": 3
+  },
+  "ex": [
+   "src_assets_onboarding_onboarding1",
+   "src_assets_onboarding_onboarding2"
+  ]
+ },
+ "src/assets/sprites": {
+  "n": 1,
+  "types": {
+   "png": 1
+  },
+  "dims": {
+   "384x624": 1
+  },
+  "ex": [
+   "src_assets_sprites_springobjects"
+  ]
+ },
+ "src/assets/villagers": {
+  "n": 69,
+  "types": {
+   "png": 69
+  },
+  "dims": {
+   "128x128": 35,
+   "32x32": 34
+  },
+  "ex": [
+   "src_assets_villagers_robin",
+   "src_assets_villagers_robin_icon"
+  ]
+ },
+ "src/assets/walnuts": {
+  "n": 55,
+  "types": {
+   "png": 55
+  },
+  "dims": {
+   "175x175": 44,
+   "175x111": 2,
+   "175x161": 1,
+   "175x166": 1
+  },
+  "ex": [
+   "src_assets_walnuts_walnutlocation1",
+   "src_assets_walnuts_walnutlocation2"
+  ]
+ },
+ "src/assets/wearables/boots": {
+  "n": 17,
+  "types": {
+   "png": 17
+  },
+  "dims": {
+   "48x48": 17
+  },
+  "ex": [
+   "src_assets_wearables_boots_504",
+   "src_assets_wearables_boots_505"
+  ]
+ },
+ "src/assets/wearables/hats": {
+  "n": 121,
+  "types": {
+   "png": 121
+  },
+  "dims": {
+   "54x54": 88,
+   "48x48": 25,
+   "60x54": 2,
+   "54x48": 2
+  },
+  "ex": [
+   "src_assets_wearables_hats_0",
+   "src_assets_wearables_hats_1"
+  ]
+ },
+ "src/assets/wearables/pants": {
+  "n": 17,
+  "types": {
+   "png": 17
+  },
+  "dims": {
+   "48x48": 17
+  },
+  "ex": [
+   "src_assets_wearables_pants_0",
+   "src_assets_wearables_pants_1"
+  ]
+ },
+ "src/assets/wearables/shirts": {
+  "n": 303,
+  "types": {
+   "png": 303
+  },
+  "dims": {
+   "32x32": 303
+  },
+  "ex": [
+   "src_assets_wearables_shirts_1000",
+   "src_assets_wearables_shirts_1001"
+  ]
+ },
+ "src/assets/wearables/trinkets": {
+  "n": 8,
+  "types": {
+   "png": 8
+  },
+  "dims": {
+   "48x48": 8
+  },
+  "ex": [
+   "src_assets_wearables_trinkets_basiliskpaw",
+   "src_assets_wearables_trinkets_fairybox"
+  ]
+ }
+}

@@ -1,0 +1,2014 @@
+{
+ "miningNodes": [
+  {
+   "items": [
+    {
+     "id": "66",
+     "type": "O",
+     "name": "Amethyst",
+     "image": "src_assets_items_066"
+    }
+   ],
+   "nameItem": 66,
+   "name": "Amethyst",
+   "image": "src_assets_items_066"
+  },
+  {
+   "items": [
+    {
+     "id": "62",
+     "type": "O",
+     "name": "Aquamarine",
+     "image": "src_assets_items_062"
+    }
+   ],
+   "nameItem": 62,
+   "name": "Aquamarine",
+   "image": "src_assets_items_062"
+  },
+  {
+   "items": [
+    {
+     "id": "378",
+     "type": "O",
+     "name": "Copper Ore",
+     "image": "src_assets_items_378"
+    }
+   ],
+   "nameItem": 378,
+   "name": "Copper Ore",
+   "image": "src_assets_items_378"
+  },
+  {
+   "items": [
+    {
+     "id": "72",
+     "type": "O",
+     "name": "Diamond",
+     "image": "src_assets_items_072"
+    }
+   ],
+   "nameItem": 72,
+   "name": "Diamond",
+   "image": "src_assets_items_072"
+  },
+  {
+   "items": [
+    {
+     "id": "60",
+     "type": "O",
+     "name": "Emerald",
+     "image": "src_assets_items_060"
+    }
+   ],
+   "nameItem": 60,
+   "name": "Emerald",
+   "image": "src_assets_items_060"
+  },
+  {
+   "items": [
+    {
+     "id": "66",
+     "type": "O",
+     "name": "Amethyst",
+     "image": "src_assets_items_066"
+    },
+    {
+     "id": "62",
+     "type": "O",
+     "name": "Aquamarine",
+     "image": "src_assets_items_062"
+    },
+    {
+     "id": "60",
+     "type": "O",
+     "name": "Emerald",
+     "image": "src_assets_items_060"
+    },
+    {
+     "id": "70",
+     "type": "O",
+     "name": "Jade",
+     "image": "src_assets_items_070"
+    },
+    {
+     "id": "64",
+     "type": "O",
+     "name": "Ruby",
+     "image": "src_assets_items_064"
+    },
+    {
+     "id": "68",
+     "type": "O",
+     "name": "Topaz",
+     "image": "src_assets_items_068"
+    }
+   ],
+   "nameKey": "mining_node_gem",
+   "name": "Gem Node",
+   "image": null
+  },
+  {
+   "items": [
+    {
+     "id": "384",
+     "type": "O",
+     "name": "Gold Ore",
+     "image": "src_assets_items_384"
+    }
+   ],
+   "nameItem": 384,
+   "name": "Gold Ore",
+   "image": "src_assets_items_384"
+  },
+  {
+   "items": [
+    {
+     "id": "386",
+     "type": "O",
+     "name": "Iridium Ore",
+     "image": "src_assets_items_386"
+    }
+   ],
+   "nameItem": 386,
+   "name": "Iridium Ore",
+   "image": "src_assets_items_386"
+  },
+  {
+   "items": [
+    {
+     "id": "380",
+     "type": "O",
+     "name": "Iron Ore",
+     "image": "src_assets_items_380"
+    }
+   ],
+   "nameItem": 380,
+   "name": "Iron Ore",
+   "image": "src_assets_items_380"
+  },
+  {
+   "items": [
+    {
+     "id": "70",
+     "type": "O",
+     "name": "Jade",
+     "image": "src_assets_items_070"
+    }
+   ],
+   "nameItem": 70,
+   "name": "Jade",
+   "image": "src_assets_items_070"
+  },
+  {
+   "items": [
+    {
+     "id": "386",
+     "type": "O",
+     "name": "Iridium Ore",
+     "image": "src_assets_items_386"
+    },
+    {
+     "id": "384",
+     "type": "O",
+     "name": "Gold Ore",
+     "image": "src_assets_items_384"
+    },
+    {
+     "id": "74",
+     "type": "O",
+     "name": "Prismatic Shard",
+     "image": "src_assets_items_074"
+    }
+   ],
+   "nameKey": "mining_node_mystic",
+   "name": "Mystic Node",
+   "image": null
+  },
+  {
+   "items": [
+    {
+     "id": "64",
+     "type": "O",
+     "name": "Ruby",
+     "image": "src_assets_items_064"
+    }
+   ],
+   "nameItem": 64,
+   "name": "Ruby",
+   "image": "src_assets_items_064"
+  },
+  {
+   "items": [
+    {
+     "id": "68",
+     "type": "O",
+     "name": "Topaz",
+     "image": "src_assets_items_068"
+    }
+   ],
+   "nameItem": 68,
+   "name": "Topaz",
+   "image": "src_assets_items_068"
+  },
+  {
+   "items": [
+    {
+     "id": "535",
+     "type": "O",
+     "name": "Geode",
+     "image": "src_assets_items_535"
+    }
+   ],
+   "nameItem": 535,
+   "name": "Geode",
+   "image": "src_assets_items_535"
+  },
+  {
+   "items": [
+    {
+     "id": "536",
+     "type": "O",
+     "name": "Frozen Geode",
+     "image": "src_assets_items_536"
+    }
+   ],
+   "nameItem": 536,
+   "name": "Frozen Geode",
+   "image": "src_assets_items_536"
+  },
+  {
+   "items": [
+    {
+     "id": "537",
+     "type": "O",
+     "name": "Magma Geode",
+     "image": "src_assets_items_537"
+    }
+   ],
+   "nameItem": 537,
+   "name": "Magma Geode",
+   "image": "src_assets_items_537"
+  },
+  {
+   "items": [
+    {
+     "id": "881",
+     "type": "O",
+     "name": "Bone Fragment",
+     "image": "src_assets_items_881"
+    },
+    {
+     "id": "823",
+     "type": "O",
+     "name": "Fossilized Leg",
+     "image": "src_assets_items_823"
+    },
+    {
+     "id": "824",
+     "type": "O",
+     "name": "Fossilized Ribs",
+     "image": "src_assets_items_824"
+    },
+    {
+     "id": "579",
+     "type": "O",
+     "name": "Prehistoric Scapula",
+     "image": "src_assets_items_579"
+    },
+    {
+     "id": "580",
+     "type": "O",
+     "name": "Prehistoric Tibia",
+     "image": "src_assets_items_580"
+    },
+    {
+     "id": "581",
+     "type": "O",
+     "name": "Prehistoric Skull",
+     "image": "src_assets_items_581"
+    },
+    {
+     "id": "582",
+     "type": "O",
+     "name": "Skeletal Hand",
+     "image": "src_assets_items_582"
+    },
+    {
+     "id": "583",
+     "type": "O",
+     "name": "Prehistoric Rib",
+     "image": "src_assets_items_583"
+    },
+    {
+     "id": "584",
+     "type": "O",
+     "name": "Prehistoric Vertebra",
+     "image": "src_assets_items_584"
+    },
+    {
+     "id": "585",
+     "type": "O",
+     "name": "Skeletal Tail",
+     "image": "src_assets_items_585"
+    },
+    {
+     "id": "586",
+     "type": "O",
+     "name": "Nautilus Fossil",
+     "image": "src_assets_items_586"
+    },
+    {
+     "id": "587",
+     "type": "O",
+     "name": "Amphibian Fossil",
+     "image": "src_assets_items_587"
+    },
+    {
+     "id": "588",
+     "type": "O",
+     "name": "Palm Fossil",
+     "image": "src_assets_items_588"
+    },
+    {
+     "id": "589",
+     "type": "O",
+     "name": "Trilobite",
+     "image": "src_assets_items_589"
+    }
+   ],
+   "nameItem": 881,
+   "name": "Bone Fragment",
+   "image": "src_assets_items_881"
+  },
+  {
+   "items": [
+    {
+     "id": "848",
+     "type": "O",
+     "name": "Cinder Shard",
+     "image": "src_assets_items_848"
+    }
+   ],
+   "nameItem": 848,
+   "name": "Cinder Shard",
+   "image": "src_assets_items_848"
+  },
+  {
+   "items": [
+    {
+     "id": "330",
+     "type": "O",
+     "name": "Clay",
+     "image": "src_assets_items_330"
+    }
+   ],
+   "nameItem": 330,
+   "name": "Clay",
+   "image": "src_assets_items_330"
+  },
+  {
+   "items": [
+    {
+     "id": "749",
+     "type": "O",
+     "name": "Omni Geode",
+     "image": "src_assets_items_749"
+    }
+   ],
+   "nameItem": 749,
+   "name": "Omni Geode",
+   "image": "src_assets_items_749"
+  },
+  {
+   "items": [
+    {
+     "id": "909",
+     "type": "O",
+     "name": "Radioactive Ore",
+     "image": "src_assets_items_909"
+    }
+   ],
+   "nameItem": 909,
+   "name": "Radioactive Ore",
+   "image": "src_assets_items_909"
+  },
+  {
+   "items": [
+    {
+     "id": "719",
+     "type": "O",
+     "name": "Mussel",
+     "image": "src_assets_items_719"
+    }
+   ],
+   "nameItem": 719,
+   "name": "Mussel",
+   "image": "src_assets_items_719"
+  }
+ ],
+ "minesTilling": [
+  {
+   "id": "78",
+   "type": "O",
+   "name": "Cave Carrot",
+   "image": "src_assets_items_078",
+   "chance": 5.03
+  },
+  {
+   "id": "330",
+   "type": "O",
+   "name": "Clay",
+   "image": "src_assets_items_330",
+   "chance": 4.68
+  },
+  {
+   "id": "390",
+   "type": "O",
+   "name": "Stone",
+   "image": "src_assets_items_390",
+   "chance": 1.33
+  },
+  {
+   "id": "102",
+   "type": "O",
+   "name": "Lost Book",
+   "image": "src_assets_items_102",
+   "chance": 0.16
+  },
+  {
+   "id": "770",
+   "type": "O",
+   "name": "Mixed Seeds",
+   "image": "src_assets_items_770",
+   "chance": 0.16
+  },
+  {
+   "id": "96",
+   "type": "O",
+   "name": "Dwarf Scroll I",
+   "image": "src_assets_items_096",
+   "chance": 0.16
+  },
+  {
+   "id": "110",
+   "type": "O",
+   "name": "Rusty Spoon",
+   "image": "src_assets_items_110",
+   "chance": 0.16
+  },
+  {
+   "id": "112",
+   "type": "O",
+   "name": "Rusty Cog",
+   "image": "src_assets_items_112",
+   "chance": 0.16
+  },
+  {
+   "id": "585",
+   "type": "O",
+   "name": "Skeletal Tail",
+   "image": "src_assets_items_585",
+   "chance": 0.16
+  },
+  {
+   "id": "121",
+   "type": "O",
+   "name": "Dwarvish Helm",
+   "image": "src_assets_items_121",
+   "chance": 0.1,
+   "maxLevel": 39,
+   "minLevel": 1
+  },
+  {
+   "id": "97",
+   "type": "O",
+   "name": "Dwarf Scroll II",
+   "image": "src_assets_items_097",
+   "chance": 0.1,
+   "maxLevel": 39,
+   "minLevel": 1
+  },
+  {
+   "id": "122",
+   "type": "O",
+   "name": "Dwarf Gadget",
+   "image": "src_assets_items_122",
+   "chance": 0.1,
+   "maxLevel": 79,
+   "minLevel": 40
+  },
+  {
+   "id": "336",
+   "type": "O",
+   "name": "Gold Bar",
+   "image": "src_assets_items_336",
+   "chance": 0.1,
+   "maxLevel": 79,
+   "minLevel": 40
+  },
+  {
+   "id": "99",
+   "type": "O",
+   "name": "Dwarf Scroll IV",
+   "image": "src_assets_items_099",
+   "chance": 0.2,
+   "maxLevel": 120,
+   "minLevel": 80
+  },
+  {
+   "id": "126",
+   "type": "O",
+   "name": "Strange Doll",
+   "image": "src_assets_items_126",
+   "chance": 0.03
+  },
+  {
+   "id": "127",
+   "type": "O",
+   "name": "Strange Doll",
+   "image": "src_assets_items_127",
+   "chance": 0.03
+  },
+  {
+   "id": "749",
+   "type": "O",
+   "name": "Omni Geode",
+   "image": "src_assets_items_749",
+   "chance": 0.17
+  },
+  {
+   "id": "378",
+   "type": "O",
+   "name": "Copper Ore",
+   "image": "src_assets_items_378"
+  },
+  {
+   "id": "380",
+   "type": "O",
+   "name": "Iron Ore",
+   "image": "src_assets_items_380"
+  },
+  {
+   "id": "384",
+   "type": "O",
+   "name": "Gold Ore",
+   "image": "src_assets_items_384"
+  },
+  {
+   "id": "386",
+   "type": "O",
+   "name": "Iridium Ore",
+   "image": "src_assets_items_386"
+  },
+  {
+   "id": "909",
+   "type": "O",
+   "name": "Radioactive Ore",
+   "image": "src_assets_items_909"
+  }
+ ],
+ "panningItems": [
+  {
+   "id": "378",
+   "type": "O",
+   "name": "Copper Ore",
+   "image": "src_assets_items_378",
+   "chance": 0.4
+  },
+  {
+   "id": "380",
+   "type": "O",
+   "name": "Iron Ore",
+   "image": "src_assets_items_380",
+   "chance": 0.359
+  },
+  {
+   "id": "384",
+   "type": "O",
+   "name": "Gold Ore",
+   "image": "src_assets_items_384",
+   "chance": 0.231
+  },
+  {
+   "id": "386",
+   "type": "O",
+   "name": "Iridium Ore",
+   "image": "src_assets_items_386",
+   "chance": 0.01
+  },
+  {
+   "id": "66",
+   "type": "O",
+   "name": "Amethyst",
+   "image": "src_assets_items_066",
+   "chance": 0.016
+  },
+  {
+   "id": "62",
+   "type": "O",
+   "name": "Aquamarine",
+   "image": "src_assets_items_062",
+   "chance": 0.016
+  },
+  {
+   "id": "72",
+   "type": "O",
+   "name": "Diamond",
+   "image": "src_assets_items_072",
+   "chance": 0.02
+  },
+  {
+   "id": "60",
+   "type": "O",
+   "name": "Emerald",
+   "image": "src_assets_items_060",
+   "chance": 0.016
+  },
+  {
+   "id": "64",
+   "type": "O",
+   "name": "Ruby",
+   "image": "src_assets_items_064",
+   "chance": 0.016
+  },
+  {
+   "id": "68",
+   "type": "O",
+   "name": "Topaz",
+   "image": "src_assets_items_068",
+   "chance": 0.016
+  },
+  {
+   "id": "382",
+   "type": "O",
+   "name": "Coal",
+   "image": "src_assets_items_382",
+   "chance": 0.5
+  },
+  {
+   "id": "86",
+   "type": "O",
+   "name": "Earth Crystal",
+   "image": "src_assets_items_086",
+   "chance": 0.049
+  },
+  {
+   "id": "82",
+   "type": "O",
+   "name": "Fire Quartz",
+   "image": "src_assets_items_082",
+   "chance": 0.042
+  },
+  {
+   "id": "84",
+   "type": "O",
+   "name": "Frozen Tear",
+   "image": "src_assets_items_084",
+   "chance": 0.049
+  },
+  {
+   "id": "749",
+   "type": "O",
+   "name": "Omni Geode",
+   "image": "src_assets_items_749",
+   "chance": 0.26
+  },
+  {
+   "id": "822",
+   "type": "O",
+   "name": "Fossilized Tail",
+   "image": "src_assets_items_822",
+   "chance": 0.2
+  },
+  {
+   "id": "831",
+   "type": "O",
+   "name": "Taro Tuber",
+   "image": "src_assets_items_831",
+   "chance": 0.2
+  },
+  {
+   "id": "859",
+   "type": "O",
+   "name": "Lucky Ring",
+   "image": "src_assets_items_859",
+   "chance": null
+  }
+ ],
+ "treasureChestItems": [
+  {
+   "id": "273",
+   "type": "O",
+   "name": "Rice Shoot",
+   "image": "src_assets_items_273",
+   "chance": "15%"
+  },
+  {
+   "id": "890",
+   "type": "O",
+   "name": "Qi Bean",
+   "image": "src_assets_items_890",
+   "chance": "48%"
+  },
+  {
+   "id": "386",
+   "type": "O",
+   "name": "Iridium Ore",
+   "image": "src_assets_items_386",
+   "chance": "1.1%"
+  },
+  {
+   "id": "384",
+   "type": "O",
+   "name": "Gold Ore",
+   "image": "src_assets_items_384",
+   "chance": "9%"
+  },
+  {
+   "id": "380",
+   "type": "O",
+   "name": "Iron Ore",
+   "image": "src_assets_items_380",
+   "chance": "5-10%"
+  },
+  {
+   "id": "378",
+   "type": "O",
+   "name": "Copper Ore",
+   "image": "src_assets_items_378",
+   "chance": "5-12%"
+  },
+  {
+   "id": "388",
+   "type": "O",
+   "name": "Wood",
+   "image": "src_assets_items_388",
+   "chance": "5-6%"
+  },
+  {
+   "id": "2",
+   "type": "O",
+   "name": "Diamond Stone",
+   "image": "src_assets_items_002",
+   "chance": "5-6%"
+  },
+  {
+   "id": "382",
+   "type": "O",
+   "name": "Coal",
+   "image": "src_assets_items_382",
+   "chance": "9-61%"
+  },
+  {
+   "id": "687",
+   "type": "O",
+   "name": "Dressed Spinner",
+   "image": "src_assets_items_687",
+   "chance": "4%"
+  },
+  {
+   "id": "685",
+   "type": "O",
+   "name": "Bait",
+   "image": "src_assets_items_685",
+   "chance": "24-37%"
+  },
+  {
+   "id": "774",
+   "type": "O",
+   "name": "Wild Bait",
+   "image": "src_assets_items_774",
+   "chance": "8-9%"
+  },
+  {
+   "id": "102",
+   "type": "O",
+   "name": "Lost Book",
+   "image": "src_assets_items_102",
+   "chance": "4%"
+  },
+  {
+   "id": "585",
+   "type": "O",
+   "name": "Skeletal Tail",
+   "image": "src_assets_items_585",
+   "chance": "2.8-3.1%"
+  },
+  {
+   "id": "586",
+   "type": "O",
+   "name": "Nautilus Fossil",
+   "image": "src_assets_items_586",
+   "chance": "2.8-3.1%"
+  },
+  {
+   "id": "587",
+   "type": "O",
+   "name": "Amphibian Fossil",
+   "image": "src_assets_items_587",
+   "chance": "2.8-3.1%"
+  },
+  {
+   "id": "103",
+   "type": "O",
+   "name": "Ancient Doll",
+   "image": "src_assets_items_103",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "104",
+   "type": "O",
+   "name": "Elvish Jewelry",
+   "image": "src_assets_items_104",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "105",
+   "type": "O",
+   "name": "Chewing Stick",
+   "image": "src_assets_items_105",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "106",
+   "type": "O",
+   "name": "Ornamental Fan",
+   "image": "src_assets_items_106",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "107",
+   "type": "O",
+   "name": "Dinosaur Egg",
+   "image": "src_assets_items_107",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "108",
+   "type": "O",
+   "name": "Rare Disc",
+   "image": "src_assets_items_108",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "109",
+   "type": "O",
+   "name": "Ancient Sword",
+   "image": "src_assets_items_109",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "110",
+   "type": "O",
+   "name": "Rusty Spoon",
+   "image": "src_assets_items_110",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "111",
+   "type": "O",
+   "name": "Rusty Spur",
+   "image": "src_assets_items_111",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "112",
+   "type": "O",
+   "name": "Rusty Cog",
+   "image": "src_assets_items_112",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "113",
+   "type": "O",
+   "name": "Chicken Statue",
+   "image": "src_assets_items_113",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "114",
+   "type": "O",
+   "name": "Ancient Seed",
+   "image": "src_assets_items_114",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "115",
+   "type": "O",
+   "name": "Prehistoric Tool",
+   "image": "src_assets_items_115",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "116",
+   "type": "O",
+   "name": "Dried Starfish",
+   "image": "src_assets_items_116",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "117",
+   "type": "O",
+   "name": "Anchor",
+   "image": "src_assets_items_117",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "118",
+   "type": "O",
+   "name": "Glass Shards",
+   "image": "src_assets_items_118",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "119",
+   "type": "O",
+   "name": "Bone Flute",
+   "image": "src_assets_items_119",
+   "chance": "0.7-0.8%"
+  },
+  {
+   "id": "535",
+   "type": "O",
+   "name": "Geode",
+   "image": "src_assets_items_535",
+   "chance": "2-49%"
+  },
+  {
+   "id": "537",
+   "type": "O",
+   "name": "Magma Geode",
+   "image": "src_assets_items_537",
+   "chance": "7%"
+  },
+  {
+   "id": "536",
+   "type": "O",
+   "name": "Frozen Geode",
+   "image": "src_assets_items_536",
+   "chance": "2-7%"
+  },
+  {
+   "id": "82",
+   "type": "O",
+   "name": "Fire Quartz",
+   "image": "src_assets_items_082",
+   "chance": "4%"
+  },
+  {
+   "id": "64",
+   "type": "O",
+   "name": "Ruby",
+   "image": "src_assets_items_064",
+   "chance": "4%"
+  },
+  {
+   "id": "60",
+   "type": "O",
+   "name": "Emerald",
+   "image": "src_assets_items_060",
+   "chance": "4%"
+  },
+  {
+   "id": "84",
+   "type": "O",
+   "name": "Frozen Tear",
+   "image": "src_assets_items_084",
+   "chance": "4%"
+  },
+  {
+   "id": "70",
+   "type": "O",
+   "name": "Jade",
+   "image": "src_assets_items_070",
+   "chance": "4%"
+  },
+  {
+   "id": "62",
+   "type": "O",
+   "name": "Aquamarine",
+   "image": "src_assets_items_062",
+   "chance": "4%"
+  },
+  {
+   "id": "86",
+   "type": "O",
+   "name": "Earth Crystal",
+   "image": "src_assets_items_086",
+   "chance": "4%"
+  },
+  {
+   "id": "66",
+   "type": "O",
+   "name": "Amethyst",
+   "image": "src_assets_items_066",
+   "chance": "4%"
+  },
+  {
+   "id": "68",
+   "type": "O",
+   "name": "Topaz",
+   "image": "src_assets_items_068",
+   "chance": "4%"
+  },
+  {
+   "id": "72",
+   "type": "O",
+   "name": "Diamond",
+   "image": "src_assets_items_072",
+   "chance": "4-5%"
+  },
+  {
+   "id": "770",
+   "type": "O",
+   "name": "Mixed Seeds",
+   "image": "src_assets_items_770",
+   "chance": "12%"
+  },
+  {
+   "id": "516",
+   "type": "O",
+   "name": "Small Glow Ring",
+   "image": "src_assets_items_516",
+   "chance": "~0.24-0.32%"
+  },
+  {
+   "id": "517",
+   "type": "O",
+   "name": "Glow Ring",
+   "image": "src_assets_items_517",
+   "chance": "~0.03-0.09%"
+  },
+  {
+   "id": "518",
+   "type": "O",
+   "name": "Small Magnet Ring",
+   "image": "src_assets_items_518",
+   "chance": "~0.24-0.32%"
+  },
+  {
+   "id": "519",
+   "type": "O",
+   "name": "Magnet Ring",
+   "image": "src_assets_items_519",
+   "chance": "~0.03-0.09%"
+  },
+  {
+   "id": "529",
+   "type": "O",
+   "name": "Amethyst Ring",
+   "image": "src_assets_items_529",
+   "chance": "~0.05%"
+  },
+  {
+   "id": "530",
+   "type": "O",
+   "name": "Topaz Ring",
+   "image": "src_assets_items_530",
+   "chance": "~0.05%"
+  },
+  {
+   "id": "531",
+   "type": "O",
+   "name": "Aquamarine Ring",
+   "image": "src_assets_items_531",
+   "chance": "~0.05%"
+  },
+  {
+   "id": "532",
+   "type": "O",
+   "name": "Jade Ring",
+   "image": "src_assets_items_532",
+   "chance": "~0.05%"
+  },
+  {
+   "id": "533",
+   "type": "O",
+   "name": "Emerald Ring",
+   "image": "src_assets_items_533",
+   "chance": "~0.05%"
+  },
+  {
+   "id": "534",
+   "type": "O",
+   "name": "Ruby Ring",
+   "image": "src_assets_items_534",
+   "chance": "~0.05%"
+  },
+  {
+   "id": "166",
+   "type": "O",
+   "name": "Treasure Chest",
+   "image": "src_assets_items_166",
+   "chance": "~0.24%"
+  },
+  {
+   "id": "74",
+   "type": "O",
+   "name": "Prismatic Shard",
+   "image": "src_assets_items_074",
+   "chance": "~0.012%"
+  },
+  {
+   "id": "126",
+   "type": "O",
+   "name": "Strange Doll",
+   "image": "src_assets_items_126",
+   "chance": "~0.12%"
+  },
+  {
+   "id": "126",
+   "type": "O",
+   "name": "Strange Doll",
+   "image": "src_assets_items_126",
+   "chance": "~0.12%"
+  },
+  {
+   "id": "527",
+   "type": "O",
+   "name": "Iridium Band",
+   "image": "src_assets_items_527",
+   "chance": "~0.12%"
+  },
+  {
+   "id": "928",
+   "type": "O",
+   "name": "Golden Egg",
+   "image": "src_assets_items_928",
+   "chance": "~0.12%"
+  }
+ ],
+ "trashIds": [
+  {
+   "id": "309",
+   "type": "O",
+   "name": "Acorn",
+   "image": "src_assets_items_309"
+  },
+  {
+   "id": "66",
+   "type": "O",
+   "name": "Amethyst",
+   "image": "src_assets_items_066"
+  },
+  {
+   "id": "216",
+   "type": "O",
+   "name": "Bread",
+   "image": "src_assets_items_216"
+  },
+  {
+   "id": "132",
+   "type": "O",
+   "name": "Bream",
+   "image": "src_assets_items_132"
+  },
+  {
+   "id": "171",
+   "type": "O",
+   "name": "Broken CD",
+   "image": "src_assets_items_171"
+  },
+  {
+   "id": "170",
+   "type": "O",
+   "name": "Broken Glasses",
+   "image": "src_assets_items_170"
+  },
+  {
+   "id": "78",
+   "type": "O",
+   "name": "Cave Carrot",
+   "image": "src_assets_items_078"
+  },
+  {
+   "id": "86",
+   "type": "O",
+   "name": "Earth Crystal",
+   "image": "src_assets_items_086"
+  },
+  {
+   "id": "403",
+   "type": "O",
+   "name": "Field Snack",
+   "image": "src_assets_items_403"
+  },
+  {
+   "id": "153",
+   "type": "O",
+   "name": "Green Algae",
+   "image": "src_assets_items_153"
+  },
+  {
+   "id": "167",
+   "type": "O",
+   "name": "Joja Cola",
+   "image": "src_assets_items_167"
+  },
+  {
+   "id": "136",
+   "type": "O",
+   "name": "Largemouth Bass",
+   "image": "src_assets_items_136"
+  },
+  {
+   "id": "310",
+   "type": "O",
+   "name": "Maple Seed",
+   "image": "src_assets_items_310"
+  },
+  {
+   "id": "311",
+   "type": "O",
+   "name": "Pine Cone",
+   "image": "src_assets_items_311"
+  },
+  {
+   "id": "80",
+   "type": "O",
+   "name": "Quartz",
+   "image": "src_assets_items_080"
+  },
+  {
+   "id": "420",
+   "type": "O",
+   "name": "Red Mushroom",
+   "image": "src_assets_items_420"
+  },
+  {
+   "id": "152",
+   "type": "O",
+   "name": "Seaweed",
+   "image": "src_assets_items_152"
+  },
+  {
+   "id": "172",
+   "type": "O",
+   "name": "Soggy Newspaper",
+   "image": "src_assets_items_172"
+  },
+  {
+   "id": "68",
+   "type": "O",
+   "name": "Topaz",
+   "image": "src_assets_items_068"
+  },
+  {
+   "id": "168",
+   "type": "O",
+   "name": "Trash",
+   "image": "src_assets_items_168"
+  },
+  {
+   "id": "535",
+   "type": "O",
+   "name": "Geode",
+   "image": "src_assets_items_535"
+  },
+  {
+   "id": "749",
+   "type": "O",
+   "name": "Omni Geode",
+   "image": "src_assets_items_749"
+  },
+  {
+   "id": "382",
+   "type": "O",
+   "name": "Coal",
+   "image": "src_assets_items_382"
+  },
+  {
+   "id": "378",
+   "type": "O",
+   "name": "Copper Ore",
+   "image": "src_assets_items_378"
+  },
+  {
+   "id": "380",
+   "type": "O",
+   "name": "Iron Ore",
+   "image": "src_assets_items_380"
+  },
+  {
+   "id": "167",
+   "type": "O",
+   "name": "Joja Cola",
+   "image": "src_assets_items_167"
+  },
+  {
+   "id": "270",
+   "type": "O",
+   "name": "Corn",
+   "image": "src_assets_items_270"
+  },
+  {
+   "id": "809",
+   "type": "O",
+   "name": "Movie Ticket",
+   "image": "src_assets_items_809"
+  },
+  {
+   "id": "223",
+   "type": "O",
+   "name": "Cookies",
+   "image": "src_assets_items_223"
+  },
+  {
+   "id": "422",
+   "type": "O",
+   "name": "Purple Mushroom",
+   "image": "src_assets_items_422"
+  },
+  {
+   "id": "62",
+   "type": "O",
+   "name": "Aquamarine",
+   "image": "src_assets_items_062"
+  },
+  {
+   "id": "72",
+   "type": "O",
+   "name": "Diamond",
+   "image": "src_assets_items_072"
+  },
+  {
+   "id": "60",
+   "type": "O",
+   "name": "Emerald",
+   "image": "src_assets_items_060"
+  },
+  {
+   "id": "82",
+   "type": "O",
+   "name": "Fire Quartz",
+   "image": "src_assets_items_082"
+  },
+  {
+   "id": "84",
+   "type": "O",
+   "name": "Frozen Tear",
+   "image": "src_assets_items_084"
+  },
+  {
+   "id": "70",
+   "type": "O",
+   "name": "Jade",
+   "image": "src_assets_items_070"
+  },
+  {
+   "id": "64",
+   "type": "O",
+   "name": "Ruby",
+   "image": "src_assets_items_064"
+  },
+  {
+   "id": "334",
+   "type": "O",
+   "name": "Copper Bar",
+   "image": "src_assets_items_334"
+  },
+  {
+   "id": "336",
+   "type": "O",
+   "name": "Gold Bar",
+   "image": "src_assets_items_336"
+  },
+  {
+   "id": "335",
+   "type": "O",
+   "name": "Iron Bar",
+   "image": "src_assets_items_335"
+  },
+  {
+   "id": "338",
+   "type": "O",
+   "name": "Refined Quartz",
+   "image": "src_assets_items_338"
+  },
+  {
+   "id": "90",
+   "type": "O",
+   "name": "Cactus Fruit",
+   "image": "src_assets_items_090"
+  },
+  {
+   "id": "88",
+   "type": "O",
+   "name": "Coconut",
+   "image": "src_assets_items_088"
+  },
+  {
+   "id": "164",
+   "type": "O",
+   "name": "Sandfish",
+   "image": "src_assets_items_164"
+  },
+  {
+   "id": "165",
+   "type": "O",
+   "name": "Scorpion Carp",
+   "image": "src_assets_items_165"
+  },
+  {
+   "id": "890",
+   "type": "O",
+   "name": "Qi Bean",
+   "image": "src_assets_items_890"
+  },
+  {
+   "id": "129",
+   "type": "O",
+   "name": "Anchovy",
+   "image": "src_assets_items_129"
+  },
+  {
+   "id": "142",
+   "type": "O",
+   "name": "Carp",
+   "image": "src_assets_items_142"
+  },
+  {
+   "id": "143",
+   "type": "O",
+   "name": "Catfish",
+   "image": "src_assets_items_143"
+  },
+  {
+   "id": "18",
+   "type": "O",
+   "name": "Daffodil",
+   "image": "src_assets_items_018"
+  },
+  {
+   "id": "22",
+   "type": "O",
+   "name": "Dandelion",
+   "image": "src_assets_items_022"
+  },
+  {
+   "id": "148",
+   "type": "O",
+   "name": "Eel",
+   "image": "src_assets_items_148"
+  },
+  {
+   "id": "267",
+   "type": "O",
+   "name": "Flounder",
+   "image": "src_assets_items_267"
+  },
+  {
+   "id": "147",
+   "type": "O",
+   "name": "Herring",
+   "image": "src_assets_items_147"
+  },
+  {
+   "id": "20",
+   "type": "O",
+   "name": "Leek",
+   "image": "src_assets_items_020"
+  },
+  {
+   "id": "131",
+   "type": "O",
+   "name": "Sardine",
+   "image": "src_assets_items_131"
+  },
+  {
+   "id": "137",
+   "type": "O",
+   "name": "Smallmouth Bass",
+   "image": "src_assets_items_137"
+  },
+  {
+   "id": "145",
+   "type": "O",
+   "name": "Sunfish",
+   "image": "src_assets_items_145"
+  },
+  {
+   "id": "16",
+   "type": "O",
+   "name": "Wild Horseradish",
+   "image": "src_assets_items_016"
+  },
+  {
+   "id": "142",
+   "type": "O",
+   "name": "Carp",
+   "image": "src_assets_items_142"
+  },
+  {
+   "id": "267",
+   "type": "O",
+   "name": "Flounder",
+   "image": "src_assets_items_267"
+  },
+  {
+   "id": "398",
+   "type": "O",
+   "name": "Grape",
+   "image": "src_assets_items_398"
+  },
+  {
+   "id": "149",
+   "type": "O",
+   "name": "Octopus",
+   "image": "src_assets_items_149"
+  },
+  {
+   "id": "144",
+   "type": "O",
+   "name": "Pike",
+   "image": "src_assets_items_144"
+  },
+  {
+   "id": "128",
+   "type": "O",
+   "name": "Pufferfish",
+   "image": "src_assets_items_128"
+  },
+  {
+   "id": "138",
+   "type": "O",
+   "name": "Rainbow Trout",
+   "image": "src_assets_items_138"
+  },
+  {
+   "id": "146",
+   "type": "O",
+   "name": "Red Mullet",
+   "image": "src_assets_items_146"
+  },
+  {
+   "id": "150",
+   "type": "O",
+   "name": "Red Snapper",
+   "image": "src_assets_items_150"
+  },
+  {
+   "id": "396",
+   "type": "O",
+   "name": "Spice Berry",
+   "image": "src_assets_items_396"
+  },
+  {
+   "id": "145",
+   "type": "O",
+   "name": "Sunfish",
+   "image": "src_assets_items_145"
+  },
+  {
+   "id": "155",
+   "type": "O",
+   "name": "Super Cucumber",
+   "image": "src_assets_items_155"
+  },
+  {
+   "id": "402",
+   "type": "O",
+   "name": "Sweet Pea",
+   "image": "src_assets_items_402"
+  },
+  {
+   "id": "130",
+   "type": "O",
+   "name": "Tuna",
+   "image": "src_assets_items_130"
+  },
+  {
+   "id": "129",
+   "type": "O",
+   "name": "Anchovy",
+   "image": "src_assets_items_129"
+  },
+  {
+   "id": "410",
+   "type": "O",
+   "name": "Blackberry",
+   "image": "src_assets_items_410"
+  },
+  {
+   "id": "142",
+   "type": "O",
+   "name": "Carp",
+   "image": "src_assets_items_142"
+  },
+  {
+   "id": "143",
+   "type": "O",
+   "name": "Catfish",
+   "image": "src_assets_items_143"
+  },
+  {
+   "id": "404",
+   "type": "O",
+   "name": "Common Mushroom",
+   "image": "src_assets_items_404"
+  },
+  {
+   "id": "148",
+   "type": "O",
+   "name": "Eel",
+   "image": "src_assets_items_148"
+  },
+  {
+   "id": "408",
+   "type": "O",
+   "name": "Hazelnut",
+   "image": "src_assets_items_408"
+  },
+  {
+   "id": "269",
+   "type": "O",
+   "name": "Midnight Carp",
+   "image": "src_assets_items_269"
+  },
+  {
+   "id": "150",
+   "type": "O",
+   "name": "Red Snapper",
+   "image": "src_assets_items_150"
+  },
+  {
+   "id": "139",
+   "type": "O",
+   "name": "Salmon",
+   "image": "src_assets_items_139"
+  },
+  {
+   "id": "131",
+   "type": "O",
+   "name": "Sardine",
+   "image": "src_assets_items_131"
+  },
+  {
+   "id": "154",
+   "type": "O",
+   "name": "Sea Cucumber",
+   "image": "src_assets_items_154"
+  },
+  {
+   "id": "137",
+   "type": "O",
+   "name": "Smallmouth Bass",
+   "image": "src_assets_items_137"
+  },
+  {
+   "id": "155",
+   "type": "O",
+   "name": "Super Cucumber",
+   "image": "src_assets_items_155"
+  },
+  {
+   "id": "140",
+   "type": "O",
+   "name": "Walleye",
+   "image": "src_assets_items_140"
+  },
+  {
+   "id": "406",
+   "type": "O",
+   "name": "Wild Plum",
+   "image": "src_assets_items_406"
+  },
+  {
+   "id": "418",
+   "type": "O",
+   "name": "Crocus",
+   "image": "src_assets_items_418"
+  },
+  {
+   "id": "414",
+   "type": "O",
+   "name": "Crystal Fruit",
+   "image": "src_assets_items_414"
+  },
+  {
+   "id": "147",
+   "type": "O",
+   "name": "Herring",
+   "image": "src_assets_items_147"
+  },
+  {
+   "id": "269",
+   "type": "O",
+   "name": "Midnight Carp",
+   "image": "src_assets_items_269"
+  },
+  {
+   "id": "141",
+   "type": "O",
+   "name": "Perch",
+   "image": "src_assets_items_141"
+  },
+  {
+   "id": "144",
+   "type": "O",
+   "name": "Pike",
+   "image": "src_assets_items_144"
+  },
+  {
+   "id": "146",
+   "type": "O",
+   "name": "Red Mullet",
+   "image": "src_assets_items_146"
+  },
+  {
+   "id": "150",
+   "type": "O",
+   "name": "Red Snapper",
+   "image": "src_assets_items_150"
+  },
+  {
+   "id": "131",
+   "type": "O",
+   "name": "Sardine",
+   "image": "src_assets_items_131"
+  },
+  {
+   "id": "154",
+   "type": "O",
+   "name": "Sea Cucumber",
+   "image": "src_assets_items_154"
+  },
+  {
+   "id": "416",
+   "type": "O",
+   "name": "Snow Yam",
+   "image": "src_assets_items_416"
+  },
+  {
+   "id": "151",
+   "type": "O",
+   "name": "Squid",
+   "image": "src_assets_items_151"
+  },
+  {
+   "id": "130",
+   "type": "O",
+   "name": "Tuna",
+   "image": "src_assets_items_130"
+  },
+  {
+   "id": "140",
+   "type": "O",
+   "name": "Walleye",
+   "image": "src_assets_items_140"
+  },
+  {
+   "id": "412",
+   "type": "O",
+   "name": "Winter Root",
+   "image": "src_assets_items_412"
+  },
+  {
+   "id": "235",
+   "type": "O",
+   "name": "Autumn's Bounty",
+   "image": "src_assets_items_235"
+  },
+  {
+   "id": "198",
+   "type": "O",
+   "name": "Baked Fish",
+   "image": "src_assets_items_198"
+  },
+  {
+   "id": "207",
+   "type": "O",
+   "name": "Bean Hotpot",
+   "image": "src_assets_items_207"
+  },
+  {
+   "id": "234",
+   "type": "O",
+   "name": "Blueberry Tart",
+   "image": "src_assets_items_234"
+  },
+  {
+   "id": "209",
+   "type": "O",
+   "name": "Carp Surprise",
+   "image": "src_assets_items_209"
+  },
+  {
+   "id": "197",
+   "type": "O",
+   "name": "Cheese Cauliflower",
+   "image": "src_assets_items_197"
+  },
+  {
+   "id": "220",
+   "type": "O",
+   "name": "Chocolate Cake",
+   "image": "src_assets_items_220"
+  },
+  {
+   "id": "201",
+   "type": "O",
+   "name": "Complete Breakfast",
+   "image": "src_assets_items_201"
+  },
+  {
+   "id": "223",
+   "type": "O",
+   "name": "Cookies",
+   "image": "src_assets_items_223"
+  },
+  {
+   "id": "238",
+   "type": "O",
+   "name": "Cranberry Sauce",
+   "image": "src_assets_items_238"
+  },
+  {
+   "id": "214",
+   "type": "O",
+   "name": "Crispy Bass",
+   "image": "src_assets_items_214"
+  },
+  {
+   "id": "231",
+   "type": "O",
+   "name": "Eggplant Parmesan",
+   "image": "src_assets_items_231"
+  },
+  {
+   "id": "213",
+   "type": "O",
+   "name": "Fish Taco",
+   "image": "src_assets_items_213"
+  },
+  {
+   "id": "202",
+   "type": "O",
+   "name": "Fried Calamari",
+   "image": "src_assets_items_202"
+  },
+  {
+   "id": "225",
+   "type": "O",
+   "name": "Fried Eel",
+   "image": "src_assets_items_225"
+  },
+  {
+   "id": "194",
+   "type": "O",
+   "name": "Fried Egg",
+   "image": "src_assets_items_194"
+  },
+  {
+   "id": "205",
+   "type": "O",
+   "name": "Fried Mushroom",
+   "image": "src_assets_items_205"
+  },
+  {
+   "id": "208",
+   "type": "O",
+   "name": "Glazed Yams",
+   "image": "src_assets_items_208"
+  },
+  {
+   "id": "210",
+   "type": "O",
+   "name": "Hashbrowns",
+   "image": "src_assets_items_210"
+  },
+  {
+   "id": "233",
+   "type": "O",
+   "name": "Ice Cream",
+   "image": "src_assets_items_233"
+  },
+  {
+   "id": "204",
+   "type": "O",
+   "name": "Lucky Lunch",
+   "image": "src_assets_items_204"
+  },
+  {
+   "id": "228",
+   "type": "O",
+   "name": "Maki Roll",
+   "image": "src_assets_items_228"
+  },
+  {
+   "id": "195",
+   "type": "O",
+   "name": "Omelet",
+   "image": "src_assets_items_195"
+  },
+  {
+   "id": "211",
+   "type": "O",
+   "name": "Pancakes",
+   "image": "src_assets_items_211"
+  },
+  {
+   "id": "199",
+   "type": "O",
+   "name": "Parsnip Soup",
+   "image": "src_assets_items_199"
+  },
+  {
+   "id": "215",
+   "type": "O",
+   "name": "Pepper Poppers",
+   "image": "src_assets_items_215"
+  },
+  {
+   "id": "221",
+   "type": "O",
+   "name": "Pink Cake",
+   "image": "src_assets_items_221"
+  },
+  {
+   "id": "236",
+   "type": "O",
+   "name": "Pumpkin Soup",
+   "image": "src_assets_items_236"
+  },
+  {
+   "id": "230",
+   "type": "O",
+   "name": "Red Plate",
+   "image": "src_assets_items_230"
+  },
+  {
+   "id": "222",
+   "type": "O",
+   "name": "Rhubarb Pie",
+   "image": "src_assets_items_222"
+  },
+  {
+   "id": "232",
+   "type": "O",
+   "name": "Rice Pudding",
+   "image": "src_assets_items_232"
+  },
+  {
+   "id": "212",
+   "type": "O",
+   "name": "Salmon Dinner",
+   "image": "src_assets_items_212"
+  },
+  {
+   "id": "227",
+   "type": "O",
+   "name": "Sashimi",
+   "image": "src_assets_items_227"
+  },
+  {
+   "id": "226",
+   "type": "O",
+   "name": "Spicy Eel",
+   "image": "src_assets_items_226"
+  },
+  {
+   "id": "203",
+   "type": "O",
+   "name": "Strange Bun",
+   "image": "src_assets_items_203"
+  },
+  {
+   "id": "239",
+   "type": "O",
+   "name": "Stuffing",
+   "image": "src_assets_items_239"
+  },
+  {
+   "id": "237",
+   "type": "O",
+   "name": "Super Meal",
+   "image": "src_assets_items_237"
+  },
+  {
+   "id": "218",
+   "type": "O",
+   "name": "Tom Kha Soup",
+   "image": "src_assets_items_218"
+  },
+  {
+   "id": "229",
+   "type": "O",
+   "name": "Tortilla",
+   "image": "src_assets_items_229"
+  },
+  {
+   "id": "219",
+   "type": "O",
+   "name": "Trout Soup",
+   "image": "src_assets_items_219"
+  },
+  {
+   "id": "200",
+   "type": "O",
+   "name": "Vegetable Medley",
+   "image": "src_assets_items_200"
+  }
+ ]
+}

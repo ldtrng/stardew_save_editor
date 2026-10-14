@@ -1,0 +1,55 @@
+Stardew Valley útmutató, tökéletesség-ellenőrzőlista és mentésszerkesztő (save editor) egyetlen pixelart alkalmazásban. Születésnapok, fesztiválok, a falusiak kedvenc ajándékai, a Közösségi Központ csomagjai, halak és mind a 130 aranydió, mellettük pedig egy mentésszerkesztő, amely minden módosítás előtt automatikus biztonsági mentést készít.
+
+Nem hivatalos, rajongók által készített alkalmazás. Nem áll kapcsolatban a ConcernedApe céggel.
+
+■ Naptár és napi terv
+• A falusiak születésnapjai, fesztiválok és a főzőműsor ismétlései
+• Minden növény utolsó ültetési napja az évszakváltás előtt
+• Saját jegyzetek és teendők bármelyik napra
+
+■ Falusiak, ajándékok és szívek
+• A Stardew Valley minden lakójának imádott és kedvelt ajándékai
+• Napi menetrend, esős napokon és házasság után is
+• Barátság- és románcszívek követése
+
+■ A Közösségi Központ csomagjai
+• Minden szoba, csomag és tárgy, normál és remixelt csomagokkal
+• Lásd, mi hiányzik még, és hol találod meg
+
+■ Tökéletesség-ellenőrzőlista
+• Halak évszak, időjárás, napszak és helyszín szerint
+• Termények napi haszonnal
+• Főzési és barkácsrecept, valamint a szállítási gyűjtemény
+• Múzeumi leletek és ásványok
+• A Gyömbér-sziget mind a 130 aranydiója és minden csillaggyümölcs
+• Kalapok, ingek, nadrágok, csizmák, gyűrűk és csecsebecsék
+• Szörnyirtási célok, Robin és a Varázsló épületei
+• Több farm, mindegyik saját haladással
+
+■ Mentésszerkesztő a Stardew Valley 1.6-hoz
+• Pénz, képességek, szakmák és pénztárca-tárgyak
+• A karakter megjelenése
+• Leltár, felszerelés és a farm összes ládája és hűtője
+• Kapcsolatok, szívek és családi állapot
+• Főzési és barkácsreceptek feloldása
+• A Közösségi Központ csomagjainak teljesítése
+• Épületek és háziállatok
+• Mr. Qi különleges megbízásai
+• Androidos és PC-s mentésekkel is működik
+• Nem kell root: a játék Saves mappája közvetlenül megnyitható
+
+■ Automatikus biztonsági mentések
+A szerkesztő minden módosítás előtt másolatot ment. Bármelyik korábbi változat egy koppintással visszaállítható. Szerkesztés előtt zárd be a játékot, utána nyisd meg újra a változások megtekintéséhez.
+
+■ Haladás importálása
+Tölts be egy mentést, és az útmutató magától kitöltődik: kifogott halak, elszállított tárgyak, főzött ételek, barkácsolt tárgyak, múzeumi adományok, csillaggyümölcsök, szívek és csomagtárgyak. Nem kell több száz négyzetet kézzel kipipálni.
+
+■ Stardew Valley játékosoknak
+• Pixelart felület meleg farmszínekkel
+• Az útmutató és a lista offline is működik, fiók nélkül
+• 13 nyelv, köztük magyar
+• Reklámokat tartalmaz. Nincs előfizetés, nincs próbaidőszak.
+
+Akár az első tavaszodat töltöd, akár a tökéletességre hajtasz, ez a Stardew Valley útmutató, ellenőrzőlista és mentésszerkesztő az egész farmot a zsebedbe teszi.
+
+A Stardew Valley a ConcernedApe LLC védjegye. Ezt az alkalmazást nem a ConcernedApe készítette, hagyta jóvá vagy támogatta. A játék nevét csak a kompatibilitás jelzésére használjuk.

@@ -1,0 +1,18 @@
+@font-face { font-family: Pixelify; src: url(PixelifySans.ttf); font-display: swap; }
+:root { --bg:#f3e2b8; --panel:#fff4d6; --wood:#b8763a; --outline:#4a2c17; --text:#3b2416; --muted:#8a6a4a; --grass:#3f7d2a; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#1c2421; --panel:#2b3530; --wood:#8a5a2f; --outline:#0e1210; --text:#f3e6c4; --muted:#b4a88a; --grass:#7cc25a; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font: 17px/1.6 Pixelify, system-ui, sans-serif; font-feature-settings: "liga" 0; }
+header { background:var(--wood); border-bottom:4px solid var(--outline); padding:14px 16px; display:flex; gap:12px; align-items:center; }
+header img { width:44px; height:44px; image-rendering: pixelated; border:2px solid var(--outline); }
+header a { color:#fff; text-decoration:none; font-size:22px; font-weight:700; }
+main { max-width:780px; margin:24px auto; padding:0 16px 48px; }
+.card { background:var(--panel); border:3px solid var(--outline); box-shadow:5px 5px 0 rgba(74,44,23,.35); padding:18px 20px; margin-bottom:20px; }
+h1 { font-size:30px; margin:0 0 4px; }
+h2 { font-size:21px; margin:22px 0 6px; color:var(--grass); }
+.muted { color:var(--muted); font-size:14px; }
+a { color:var(--grass); }
+ul { padding-left:22px; }
+footer { text-align:center; color:var(--muted); font-size:13px; padding:0 16px 32px; }

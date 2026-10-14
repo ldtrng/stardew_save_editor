@@ -1,0 +1,665 @@
+[
+ {
+  "id": "walnut-location-1",
+  "quantity": 1,
+  "type": {
+   "kind": "golden_walnut"
+  },
+  "location": "general",
+  "number": 1,
+  "description": "Golden Coconuts, which are found anywhere on Ginger Island, can be brought to the Blacksmith back in Stardew Valley to be opened. The first coconut that Clint opens produces a Golden Walnut.",
+  "image": "src_assets_walnuts_walnutlocation1"
+ },
+ {
+  "id": "walnut-location-2",
+  "quantity": 5,
+  "type": {
+   "kind": "fishing"
+  },
+  "location": "general",
+  "number": 2,
+  "description": "A maximum of five Golden Walnuts can be obtained by fishing anywhere on Ginger Island. Until five have been collected in this manner, each cast anywhere on the island gives a 15% chance to obtain a walnut.",
+  "image": "src_assets_walnuts_walnutlocation2"
+ },
+ {
+  "id": "walnut-location-3",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "east",
+  "number": 3,
+  "description": "A walnut in a bush is found in the jungle on the path towards Leo's hut.",
+  "image": "src_assets_walnuts_walnutlocation3"
+ },
+ {
+  "id": "walnut-location-4",
+  "quantity": 3,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "east",
+  "number": 4,
+  "description": "Place a Banana on the altar by the staircase to Leo's hut. A gorilla appears and rewards the player with 3 walnuts.",
+  "image": "src_assets_walnuts_walnutlocation4"
+ },
+ {
+  "id": "walnut-location-5",
+  "quantity": 1,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "east",
+  "number": 5,
+  "description": "Hit the tree inside Leo's hut with an axe.",
+  "image": "src_assets_walnuts_walnutlocation5"
+ },
+ {
+  "id": "walnut-location-6",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "east",
+  "number": 6,
+  "description": "From the foot of the stairs to Leo's hut, follow the path eastward along a hidden passage to the Gem Bird Shrine. There is a walnut to the south of the shrine.",
+  "image": "src_assets_walnuts_walnutlocation6"
+ },
+ {
+  "id": "walnut-location-7",
+  "quantity": 5,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "east",
+  "number": 7,
+  "description": "Complete the Gem Birds puzzle to receive 5 walnuts. Image shows a final gem being placed on the pedestals.",
+  "image": "src_assets_walnuts_walnutlocation7"
+ },
+ {
+  "id": "walnut-location-8",
+  "quantity": 5,
+  "type": {
+   "kind": "harvesting"
+  },
+  "location": "west",
+  "number": 8,
+  "description": "Each crop harvested on the Ginger Island farm, either by hand or with an Iridium Scythe, have a 5% chance of yielding a Golden Walnut, up to a total of 5. Only crops that do not regrow and do not require a Scythe to harvest will give Golden Walnuts.",
+  "image": "src_assets_walnuts_walnutlocation8"
+ },
+ {
+  "id": "walnut-location-9",
+  "quantity": 15,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "west",
+  "number": 9,
+  "description": "After the farmhouse is repaired, the player may talk to the Gourmand Frog. The frog then asks the player to grow a Melon, a Wheat, and a Garlic, in that order. When a crop is mature, leave it unharvested and talk to the frog again to show him the crop. The reward is 5 golden walnuts per crop. Harvest each crop after receiving its reward. The three crops yield a total of 15 walnuts.",
+  "image": "src_assets_walnuts_walnutlocation9"
+ },
+ {
+  "id": "walnut-location-10",
+  "quantity": 1,
+  "type": {
+   "kind": "journal_scrap",
+   "scrap": 6
+  },
+  "location": "west",
+  "number": 10,
+  "description": "Go south from the farm to the southeast corner of the beach where there is a curved palm tree on the eastern cliff. Dig in the corner tile where the eastern cliff meets the northern cliff adjacent to it. (Digging will produce nothing if the journal scrap has not yet been read.)",
+  "image": "src_assets_walnuts_walnutlocation10"
+ },
+ {
+  "id": "walnut-location-11",
+  "quantity": 5,
+  "type": {
+   "kind": "mining"
+  },
+  "location": "west",
+  "number": 11,
+  "description": "Mining the Mussel Nodes has a 10% chance of yielding a walnut, up to a total of 5.",
+  "image": "src_assets_walnuts_walnutlocation11"
+ },
+ {
+  "id": "walnut-location-12",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 12,
+  "description": "Locate the shipwreck at the southwest side of the beach south of the farm. Find the hidden path at the wreck's west corner and follow it into the ship. There is a walnut on a plant inside.",
+  "image": "src_assets_walnuts_walnutlocation12"
+ },
+ {
+  "id": "walnut-location-13",
+  "quantity": 1,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "west",
+  "number": 13,
+  "description": "Locate the mole at the southeast side of the beach south of Birdie's hut. Lock it into a single hole by covering the other three holes with placeable objects. Then \"whack the mole\" by hitting it with the Axe, Pickaxe, or Watering Can to receive a golden walnut. The placeable objects can then be removed. Alternatively, an upgraded Watering Can can be used to whack the mole without covering the other holes.",
+  "image": "src_assets_walnuts_walnutlocation13"
+ },
+ {
+  "id": "walnut-location-14",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 14,
+  "description": "Find the blue starfish triangle as depicted in the image on the beach south of the farm. Dig up the center.",
+  "image": "src_assets_walnuts_walnutlocation14"
+ },
+ {
+  "id": "walnut-location-15",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 15,
+  "description": "Find the starfish diamond as depicted in the image near the tide pools. It may be partially covered by a large rock. Dig up the center.",
+  "image": "src_assets_walnuts_walnutlocation15"
+ },
+ {
+  "id": "walnut-location-16",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 16,
+  "description": "Find the X marked in the sand in the tide pools. Dig up the center.",
+  "image": "src_assets_walnuts_walnutlocation16"
+ },
+ {
+  "id": "walnut-location-17",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 17,
+  "description": "Find a diamond of indents in the sand to the bottom-left of the tide pools, near the ocean. Dig up the center.",
+  "image": "src_assets_walnuts_walnutlocation17"
+ },
+ {
+  "id": "walnut-location-18",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 18,
+  "description": "A walnut is found behind a coconut tree by the pond west of the farm.",
+  "image": "src_assets_walnuts_walnutlocation18"
+ },
+ {
+  "id": "walnut-location-19",
+  "quantity": 5,
+  "type": {
+   "kind": "quest"
+  },
+  "location": "west",
+  "number": 19,
+  "description": "Complete The Pirate's Wife Quest to receive 5 walnuts as part of the reward.",
+  "image": "src_assets_walnuts_walnutlocation19"
+ },
+ {
+  "id": "walnut-location-20",
+  "quantity": 1,
+  "type": {
+   "kind": "journal_scrap",
+   "scrap": 4
+  },
+  "location": "west",
+  "number": 20,
+  "description": "Dig in the sand north of Birdie's Hut to find a Quality Bobber and 1 Golden Walnut. (Digging will produce nothing if the journal scrap has not yet been read.)",
+  "image": "src_assets_walnuts_walnutlocation20"
+ },
+ {
+  "id": "walnut-location-21",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 21,
+  "description": "Walk up the western coast towards Qi's Walnut Room to find a walnut bush to the bottom-right near a cliff.",
+  "image": "src_assets_walnuts_walnutlocation21"
+ },
+ {
+  "id": "walnut-location-22",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 22,
+  "description": "Walk up past Qi's Walnut Room through the ocean water to find a walnut bush.",
+  "image": "src_assets_walnuts_walnutlocation22"
+ },
+ {
+  "id": "walnut-location-23",
+  "quantity": 1,
+  "type": {
+   "kind": "fighting"
+  },
+  "location": "west",
+  "number": 23,
+  "description": "Killing the slimes in the Tiger Slime Grove can yield up to one walnut.",
+  "image": "src_assets_walnuts_walnutlocation23"
+ },
+ {
+  "id": "walnut-location-24",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 24,
+  "description": "A walnut is found behind a mahogany tree in the Tiger Slime Grove.",
+  "image": "src_assets_walnuts_walnutlocation24"
+ },
+ {
+  "id": "walnut-location-25",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 25,
+  "description": "Find a circle of grass in the Tiger Slime Grove, likely hidden behind a Mahogany Tree. Dig up the center.",
+  "image": "src_assets_walnuts_walnutlocation25"
+ },
+ {
+  "id": "walnut-location-26",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 26,
+  "description": "From the farm's Parrot Express station, proceed west over the bridge across the river and find a walnut bush partially hidden by the southern wall.",
+  "image": "src_assets_walnuts_walnutlocation26"
+ },
+ {
+  "id": "walnut-location-27",
+  "quantity": 3,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "west",
+  "number": 27,
+  "description": "Complete the Simon Says puzzle in the cave north of Tiger Slime Grove to receive 3 walnuts. Image shows directions from the farm's Parrot Express station.",
+  "image": "src_assets_walnuts_walnutlocation27"
+ },
+ {
+  "id": "walnut-location-28",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 28,
+  "description": "Go east from the Tiger Slime Grove and follow the cliff edge, destroying any rocks or weeds along the way. At the end of the path is a walnut bush.",
+  "image": "src_assets_walnuts_walnutlocation28"
+ },
+ {
+  "id": "walnut-location-29",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 29,
+  "description": "Dig the center of the diamond-shaped pebbles to the east of the farm's Parrot Express station.",
+  "image": "src_assets_walnuts_walnutlocation29"
+ },
+ {
+  "id": "walnut-location-30",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 30,
+  "description": "East of the farm's Parrot Express station, follow the hidden path that jogs eastward and northward. At its ultimate extent is a walnut bush.",
+  "image": "src_assets_walnuts_walnutlocation30"
+ },
+ {
+  "id": "walnut-location-31",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "west",
+  "number": 31,
+  "description": "South of the farm's Parrot Express station, go south along the cliff and bend eastward overlooking the farmhouse, to the walnut bush.",
+  "image": "src_assets_walnuts_walnutlocation31"
+ },
+ {
+  "id": "walnut-location-32",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 32,
+  "description": "Atop the stairs at the Island North entrance, turn west and dig at the center of stone circle.",
+  "image": "src_assets_walnuts_walnutlocation32"
+ },
+ {
+  "id": "walnut-location-33",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 33,
+  "description": "Atop the stairs at the Island North entrance, turn west into the hidden passage to reach a grove with a walnut bush.",
+  "image": "src_assets_walnuts_walnutlocation33"
+ },
+ {
+  "id": "walnut-location-34",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 34,
+  "description": "Atop the stairs at the Island North entrance, move northeast to the grassy area and dig at the center of a circle of flowers.",
+  "image": "src_assets_walnuts_walnutlocation34"
+ },
+ {
+  "id": "walnut-location-35",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 35,
+  "description": "Atop the stairs at the Island North entrance, go northeast to the circle of flowers in the grassy area, then turn east and move onward to another grassy area. Dig at the center of the circle of stones.",
+  "image": "src_assets_walnuts_walnutlocation35"
+ },
+ {
+  "id": "walnut-location-36",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 36,
+  "description": "Southeast of the Island Field Office, find the patch of sand with unusual texture and dig for the buried golden walnut.",
+  "image": "src_assets_walnuts_walnutlocation36"
+ },
+ {
+  "id": "walnut-location-37",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 37,
+  "description": "Up the north steps of the dig site, dig at the center of the stone circle.",
+  "image": "src_assets_walnuts_walnutlocation37"
+ },
+ {
+  "id": "walnut-location-38",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 38,
+  "description": "Up the north steps of the dig site and west across the bridge, there is a walnut plant.",
+  "image": "src_assets_walnuts_walnutlocation38"
+ },
+ {
+  "id": "walnut-location-39",
+  "quantity": 2,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 39,
+  "description": "Up the north steps of the dig site and east through the hidden passage in the cliff, the path emerges to a bridge eastward and two walnut plants beyond it.",
+  "image": "src_assets_walnuts_walnutlocation39"
+ },
+ {
+  "id": "walnut-location-40",
+  "quantity": 6,
+  "type": {
+   "kind": "island_field_office"
+  },
+  "location": "north",
+  "number": 40,
+  "description": "Complete the Large Animal collection at the Island Field Office.",
+  "image": "src_assets_walnuts_walnutlocation40"
+ },
+ {
+  "id": "walnut-location-41",
+  "quantity": 3,
+  "type": {
+   "kind": "island_field_office"
+  },
+  "location": "north",
+  "number": 41,
+  "description": "Complete the Snake collection at the Island Field Office.",
+  "image": "src_assets_walnuts_walnutlocation40"
+ },
+ {
+  "id": "walnut-location-42",
+  "quantity": 1,
+  "type": {
+   "kind": "island_field_office"
+  },
+  "location": "north",
+  "number": 42,
+  "description": "Donate a Mummified Frog to the Island Field Office.",
+  "image": "src_assets_walnuts_walnutlocation40"
+ },
+ {
+  "id": "walnut-location-43",
+  "quantity": 1,
+  "type": {
+   "kind": "island_field_office"
+  },
+  "location": "north",
+  "number": 43,
+  "description": "Donate a Mummified Bat to the Island Field Office.",
+  "image": "src_assets_walnuts_walnutlocation40"
+ },
+ {
+  "id": "walnut-location-44",
+  "quantity": 1,
+  "type": {
+   "kind": "island_field_office"
+  },
+  "location": "north",
+  "number": 44,
+  "description": "Finish Purple Flowers Island Survey to get 1 walnut. The correct number is 22.",
+  "image": "src_assets_walnuts_walnutlocation40"
+ },
+ {
+  "id": "walnut-location-45",
+  "quantity": 1,
+  "type": {
+   "kind": "island_field_office"
+  },
+  "location": "north",
+  "number": 45,
+  "description": "Finish Purple Starfish Island Survey to get 1 walnut. The correct number is 18.",
+  "image": "src_assets_walnuts_walnutlocation40"
+ },
+ {
+  "id": "walnut-location-46",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 46,
+  "description": "Southeast of the Volcano Dungeon's entrance, find the walnut plant hidden by a tree.",
+  "image": "src_assets_walnuts_walnutlocation46"
+ },
+ {
+  "id": "walnut-location-47",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 47,
+  "description": "Eastward from the Volcano Dungeon entrance, dig in the sand circled by two bushes and an arc of stones.",
+  "image": "src_assets_walnuts_walnutlocation47"
+ },
+ {
+  "id": "walnut-location-48",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 48,
+  "description": "Northeast of the Volcano Dungeon entrance, there is a curved tree protruding high from the side of the Volcano. The walnut hidden in that tree can be knocked down using a slingshot.",
+  "image": "src_assets_walnuts_walnutlocation48"
+ },
+ {
+  "id": "walnut-location-49",
+  "quantity": 1,
+  "type": {
+   "kind": "journal_scrap",
+   "scrap": 10
+  },
+  "location": "north",
+  "number": 49,
+  "description": "Southwest of the Volcano Dungeon's entrance is a curved palm tree growing out of the cliff's side. Dig the tile that is visible just inside the loop of the palm tree. (Digging will produce nothing if the journal scrap has not yet been read.)",
+  "image": "src_assets_walnuts_walnutlocation49"
+ },
+ {
+  "id": "walnut-location-50",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 50,
+  "description": "Dig at the center of the circle of stones at the extreme northwest of the map, a location where Leo sometimes stands.",
+  "image": "src_assets_walnuts_walnutlocation50"
+ },
+ {
+  "id": "walnut-location-51",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 51,
+  "description": "At the extreme northwest of the map, west of the volcano, proceed west along the wall and a notch north through the hidden passage westward. There is a walnut in the secluded bush.",
+  "image": "src_assets_walnuts_walnutlocation51"
+ },
+ {
+  "id": "walnut-location-52",
+  "quantity": 2,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "north",
+  "number": 52,
+  "description": "When at the river of lava at the entrance of the Volcano Dungeon, use a Watering Can to make a long path westward. Extend the path southward to the landing near the river's end. Exit the volcano south into an open area with two bushes.",
+  "image": "src_assets_walnuts_walnutlocation52"
+ },
+ {
+  "id": "walnut-location-53",
+  "quantity": 17,
+  "type": {
+   "kind": "mining"
+  },
+  "location": "north",
+  "number": 53,
+  "description": "While in the Volcano Dungeon, up to 17 golden walnuts can be found through various methods.\nUp to 5 Golden Walnuts can be obtained by breaking rocks.\nUp to 5 Golden Walnuts can be obtained by killing enemies.\nUp to 5 Golden Walnuts can be obtained by breaking metal crates.\nUp to 1 Golden Walnut can be obtained by opening a common chest.\nUp to 1 Golden Walnut can be obtained by opening a rare chest.",
+  "image": "src_assets_walnuts_walnutlocation53"
+ },
+ {
+  "id": "walnut-location-54",
+  "quantity": 2,
+  "type": {
+   "kind": "volcano_dungeon"
+  },
+  "location": "north",
+  "number": 54,
+  "description": "Reach the Forge. There is a walnut plant both at the forge's entrance and at its exit.",
+  "image": "src_assets_walnuts_walnutlocation54"
+ },
+ {
+  "id": "walnut-location-55",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "south",
+  "number": 55,
+  "description": "Go up the stairs to Island North, immediately turn east, then go south through a hidden route behind a tree to access the walnut bush visible on the upper cliff in Island South. Note that the Parrot Hint considers this walnut as being hidden in Island North.",
+  "image": "src_assets_walnuts_walnutlocation55"
+ },
+ {
+  "id": "walnut-location-56",
+  "quantity": 1,
+  "type": {
+   "kind": "fishing"
+  },
+  "location": "south",
+  "number": 56,
+  "description": "Go to the Island Southeast, accessible after the beach resort is built. The first time the player fishes in the starfish-shaped tide pool will yield a golden walnut.",
+  "image": "src_assets_walnuts_walnutlocation56"
+ },
+ {
+  "id": "walnut-location-57",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "south",
+  "number": 57,
+  "description": "Go to the Island Southeast, which is accessible after the beach resort is built. Find a diamond of yellow starfish and dig up the center.",
+  "image": "src_assets_walnuts_walnutlocation57"
+ },
+ {
+  "id": "walnut-location-58",
+  "quantity": 5,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "south",
+  "number": 58,
+  "description": "On a rainy day, go to the Island Southeast, which is accessible after the Beach Resort is built. There will be a mermaid on a rock and a set of five rocks on the beach. Place a Flute Block under each set of stones on the shore, then tune them based on the number of stones above them. A large stone symbolizes 5, while a small stone symbolizes 1 (solution here). Once the blocks have been tuned correctly, run past them from left to right.",
+  "image": "src_assets_walnuts_walnutlocation58"
+ },
+ {
+  "id": "walnut-location-59",
+  "quantity": 3,
+  "type": {
+   "kind": "puzzle"
+  },
+  "location": "south",
+  "number": 59,
+  "description": "On a non-rainy night after 8 PM on an even day, go to the Pirate Cove, which is accessible after the beach resort is built. Winning a round of darts will yield a prize of a walnut up to 3 times.",
+  "image": "src_assets_walnuts_walnutlocation59"
+ },
+ {
+  "id": "walnut-location-60",
+  "quantity": 1,
+  "type": {
+   "kind": "exploration"
+  },
+  "location": "south",
+  "number": 60,
+  "description": "Go to the Pirate Cove, which is accessible after the beach resort is built. Dig up the patch of exposed sand among the barrels east of the water.",
+  "image": "src_assets_walnuts_walnutlocation60"
+ }
+]

@@ -1,0 +1,834 @@
+[
+ {
+  "id": "Junimo Hut",
+  "name": "Junimo Hut",
+  "description": "Junimos will harvest crops around the hut for you.",
+  "builder": "Wizard",
+  "buildCost": 20000,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 200
+   },
+   {
+    "id": "268",
+    "type": "O",
+    "name": "Starfruit",
+    "image": "src_assets_items_268",
+    "amount": 9
+   },
+   {
+    "id": "771",
+    "type": "O",
+    "name": "Fiber",
+    "image": "src_assets_items_771",
+    "amount": 100
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_junimo_hut"
+ },
+ {
+  "id": "Earth Obelisk",
+  "name": "Earth Obelisk",
+  "description": "Warps you to the mountains.",
+  "builder": "Wizard",
+  "buildCost": 500000,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "amount": 10
+   },
+   {
+    "id": "86",
+    "type": "O",
+    "name": "Earth Crystal",
+    "image": "src_assets_items_086",
+    "amount": 10
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_earth_obelisk"
+ },
+ {
+  "id": "Water Obelisk",
+  "name": "Water Obelisk",
+  "description": "Warps you to the beach.",
+  "builder": "Wizard",
+  "buildCost": 500000,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "amount": 5
+   },
+   {
+    "id": "372",
+    "type": "O",
+    "name": "Clam",
+    "image": "src_assets_items_372",
+    "amount": 10
+   },
+   {
+    "id": "393",
+    "type": "O",
+    "name": "Coral",
+    "image": "src_assets_items_393",
+    "amount": 10
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_water_obelisk"
+ },
+ {
+  "id": "Desert Obelisk",
+  "name": "Desert Obelisk",
+  "description": "Warps you to the desert.",
+  "builder": "Wizard",
+  "buildCost": 1000000,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "amount": 20
+   },
+   {
+    "id": "88",
+    "type": "O",
+    "name": "Coconut",
+    "image": "src_assets_items_088",
+    "amount": 10
+   },
+   {
+    "id": "90",
+    "type": "O",
+    "name": "Cactus Fruit",
+    "image": "src_assets_items_090",
+    "amount": 10
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_desert_obelisk"
+ },
+ {
+  "id": "Island Obelisk",
+  "name": "Island Obelisk",
+  "description": "Warps you to Ginger Island.",
+  "builder": "Wizard",
+  "buildCost": 1000000,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "amount": 10
+   },
+   {
+    "id": "852",
+    "type": "O",
+    "name": "Dragon Tooth",
+    "image": "src_assets_items_852",
+    "amount": 10
+   },
+   {
+    "id": "91",
+    "type": "O",
+    "name": "Banana",
+    "image": "src_assets_items_091",
+    "amount": 10
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": "PLAYER_HAS_MAIL Any Visited_Island",
+  "size": {
+   "X": 3,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_island_obelisk"
+ },
+ {
+  "id": "Gold Clock",
+  "name": "Gold Clock",
+  "description": "Prevents debris from appearing on your farm. Keeps fences from decaying.",
+  "builder": "Wizard",
+  "buildCost": 10000000,
+  "buildDays": 0,
+  "buildMaterials": [],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_gold_clock"
+ },
+ {
+  "id": "Coop",
+  "name": "Coop",
+  "description": "Houses 4 coop-dwelling animals.",
+  "builder": "Robin",
+  "buildCost": 4000,
+  "buildDays": 3,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 300
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 100
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 6,
+   "Y": 3
+  },
+  "maxOccupants": 4,
+  "validOccupantTypes": [
+   "Coop"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_coop"
+ },
+ {
+  "id": "Barn",
+  "name": "Barn",
+  "description": "Houses 4 barn-dwelling animals.",
+  "builder": "Robin",
+  "buildCost": 6000,
+  "buildDays": 3,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 350
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 150
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 4
+  },
+  "maxOccupants": 4,
+  "validOccupantTypes": [
+   "Barn"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_barn"
+ },
+ {
+  "id": "Well",
+  "name": "Well",
+  "description": "Provides a place for you to refill your watering can.",
+  "builder": "Robin",
+  "buildCost": 1000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 75
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 3
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_well"
+ },
+ {
+  "id": "Silo",
+  "name": "Silo",
+  "description": "Allows you to cut and store grass for feed.",
+  "builder": "Robin",
+  "buildCost": 100,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 100
+   },
+   {
+    "id": "330",
+    "type": "O",
+    "name": "Clay",
+    "image": "src_assets_items_330",
+    "amount": 10
+   },
+   {
+    "id": "334",
+    "type": "O",
+    "name": "Copper Bar",
+    "image": "src_assets_items_334",
+    "amount": 5
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 3,
+   "Y": 3
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 240,
+  "image": "src_assets_buildings_silo"
+ },
+ {
+  "id": "Mill",
+  "name": "Mill",
+  "description": "Allows you to mill wheat, beets and rice.",
+  "builder": "Robin",
+  "buildCost": 2500,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 150
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 50
+   },
+   {
+    "id": "428",
+    "type": "O",
+    "name": "Cloth",
+    "image": "src_assets_items_428",
+    "amount": 4
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 4,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_mill"
+ },
+ {
+  "id": "Shed",
+  "name": "Shed",
+  "description": "An empty building. Fill it with whatever you like! The interior can be decorated.",
+  "builder": "Robin",
+  "buildCost": 15000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 300
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 3
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_shed"
+ },
+ {
+  "id": "Fish Pond",
+  "name": "Fish Pond",
+  "description": "Raise fish and harvest their produce. Fish multiply over time.",
+  "builder": "Robin",
+  "buildCost": 5000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 200
+   },
+   {
+    "id": "152",
+    "type": "O",
+    "name": "Seaweed",
+    "image": "src_assets_items_152",
+    "amount": 5
+   },
+   {
+    "id": "153",
+    "type": "O",
+    "name": "Green Algae",
+    "image": "src_assets_items_153",
+    "amount": 5
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 5,
+   "Y": 5
+  },
+  "maxOccupants": -1,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_fish_pond"
+ },
+ {
+  "id": "Cabin",
+  "name": "Cabin",
+  "description": "A home for a friend! Subsidized by the town agricultural fund.",
+  "builder": "Robin",
+  "buildCost": 100,
+  "buildDays": 0,
+  "buildMaterials": [],
+  "buildingToUpgrade": null,
+  "buildCondition": "CAN_BUILD_CABIN",
+  "size": {
+   "X": 5,
+   "Y": 3
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_plank_cabin_stage_1"
+ },
+ {
+  "id": "Pet Bowl",
+  "name": "Pet Bowl",
+  "description": "Provides a dedicated home for one pet.",
+  "builder": "Robin",
+  "buildCost": 5000,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "709",
+    "type": "O",
+    "name": "Hardwood",
+    "image": "src_assets_items_709",
+    "amount": 25
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 2,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_pet_bowl_wood"
+ },
+ {
+  "id": "Stable",
+  "name": "Stable",
+  "description": "Allows you to keep and ride a horse. Horse included.",
+  "builder": "Robin",
+  "buildCost": 10000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "709",
+    "type": "O",
+    "name": "Hardwood",
+    "image": "src_assets_items_709",
+    "amount": 100
+   },
+   {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "amount": 5
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": "CAN_BUILD_FOR_CABINS Stable",
+  "size": {
+   "X": 4,
+   "Y": 2
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_horse_stable"
+ },
+ {
+  "id": "Slime Hutch",
+  "name": "Slime Hutch",
+  "description": "Raise up to 20 slimes. Fill water troughs and slimes will create slime balls.",
+  "builder": "Robin",
+  "buildCost": 10000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 500
+   },
+   {
+    "id": "338",
+    "type": "O",
+    "name": "Refined Quartz",
+    "image": "src_assets_items_338",
+    "amount": 10
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "amount": 1
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 4
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [
+   "Slime"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_slime_hutch"
+ },
+ {
+  "id": "Big Coop",
+  "name": "Big Coop",
+  "description": "Houses 8 coop-dwelling animals. Comes with an incubator. Unlocks ducks.",
+  "builder": "Robin",
+  "buildCost": 10000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 400
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 150
+   }
+  ],
+  "buildingToUpgrade": "Coop",
+  "buildCondition": null,
+  "size": {
+   "X": 6,
+   "Y": 3
+  },
+  "maxOccupants": 8,
+  "validOccupantTypes": [
+   "Coop"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_big_coop"
+ },
+ {
+  "id": "Deluxe Coop",
+  "name": "Deluxe Coop",
+  "description": "Houses 12 coop-dwelling animals. Comes with an auto-feed system. Unlocks rabbits.",
+  "builder": "Robin",
+  "buildCost": 20000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 500
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 200
+   }
+  ],
+  "buildingToUpgrade": "Big Coop",
+  "buildCondition": null,
+  "size": {
+   "X": 6,
+   "Y": 3
+  },
+  "maxOccupants": 12,
+  "validOccupantTypes": [
+   "Coop"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_deluxe_coop"
+ },
+ {
+  "id": "Big Barn",
+  "name": "Big Barn",
+  "description": "Houses 8 barn-dwelling animals. Allows animals to give birth. Unlocks goats.",
+  "builder": "Robin",
+  "buildCost": 12000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 450
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 200
+   }
+  ],
+  "buildingToUpgrade": "Barn",
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 4
+  },
+  "maxOccupants": 8,
+  "validOccupantTypes": [
+   "Barn"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_big_barn"
+ },
+ {
+  "id": "Deluxe Barn",
+  "name": "Deluxe Barn",
+  "description": "Houses 12 barn-dwelling animals. Comes with an auto-feed system. Unlocks sheep and pigs.",
+  "builder": "Robin",
+  "buildCost": 25000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 550
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 300
+   }
+  ],
+  "buildingToUpgrade": "Big Barn",
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 4
+  },
+  "maxOccupants": 12,
+  "validOccupantTypes": [
+   "Barn"
+  ],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_deluxe_barn"
+ },
+ {
+  "id": "Big Shed",
+  "name": "Big Shed",
+  "description": "Doubles the size of the shed. The interior can be decorated.",
+  "builder": "Robin",
+  "buildCost": 20000,
+  "buildDays": 2,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 550
+   },
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "amount": 300
+   }
+  ],
+  "buildingToUpgrade": "Shed",
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 3
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_big_shed"
+ },
+ {
+  "id": "Shipping Bin",
+  "name": "Shipping Bin",
+  "description": "Throw items inside to sell them overnight.",
+  "builder": "Robin",
+  "buildCost": 250,
+  "buildDays": 0,
+  "buildMaterials": [
+   {
+    "id": "388",
+    "type": "O",
+    "name": "Wood",
+    "image": "src_assets_items_388",
+    "amount": 150
+   }
+  ],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 2,
+   "Y": 1
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": "src_assets_buildings_shippingbox"
+ },
+ {
+  "id": "Farmhouse",
+  "name": "Farmhouse",
+  "description": "Farmhouse",
+  "builder": "None",
+  "buildCost": 0,
+  "buildDays": 0,
+  "buildMaterials": [],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 9,
+   "Y": 5
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": null
+ },
+ {
+  "id": "Greenhouse",
+  "name": "Greenhouse",
+  "description": "A place to grow crops from any season, year round!",
+  "builder": "None",
+  "buildCost": 0,
+  "buildDays": 0,
+  "buildMaterials": [],
+  "buildingToUpgrade": null,
+  "buildCondition": null,
+  "size": {
+   "X": 7,
+   "Y": 6
+  },
+  "maxOccupants": 20,
+  "validOccupantTypes": [],
+  "hayCapacity": 0,
+  "image": null
+ }
+]

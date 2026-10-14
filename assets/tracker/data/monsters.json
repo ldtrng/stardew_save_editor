@@ -1,0 +1,2966 @@
+[
+ {
+  "id": "Green Slime",
+  "name": "Green Slime",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 1,
+  "distanceThreshold": 4,
+  "experience": 3,
+  "health": 24,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.75
+   },
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.05
+   },
+   {
+    "id": "153",
+    "type": "O",
+    "name": "Green Algae",
+    "image": "src_assets_items_153",
+    "chance": 0.1
+   },
+   {
+    "id": "66",
+    "type": "O",
+    "name": "Amethyst",
+    "image": "src_assets_items_066",
+    "chance": 0.015
+   },
+   {
+    "id": "92",
+    "type": "O",
+    "name": "Sap",
+    "image": "src_assets_items_092",
+    "chance": 0.15
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Dust Spirit",
+  "name": "Dust Sprite",
+  "attackMissChance": 0,
+  "damage": 6,
+  "defense": 2,
+  "distanceThreshold": 4,
+  "experience": 2,
+  "health": 40,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 1000,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.5
+   },
+   {
+    "id": "433",
+    "type": "O",
+    "name": "Coffee Bean",
+    "image": "src_assets_items_433",
+    "chance": 0.01
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.001
+   },
+   {
+    "id": "84",
+    "type": "O",
+    "name": "Frozen Tear",
+    "image": "src_assets_items_084",
+    "chance": 0.02
+   },
+   {
+    "id": "414",
+    "type": "O",
+    "name": "Crystal Fruit",
+    "image": "src_assets_items_414",
+    "chance": 0.02
+   },
+   {
+    "id": "97",
+    "type": "O",
+    "name": "Dwarf Scroll II",
+    "image": "src_assets_items_097",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Bat",
+  "name": "Bat",
+  "attackMissChance": 0,
+  "damage": 6,
+  "defense": 1,
+  "distanceThreshold": 4,
+  "experience": 3,
+  "health": 24,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767",
+    "chance": 0.9
+   },
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767",
+    "chance": 0.4
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.001
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.02
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Frost Bat",
+  "name": "Frost Bat",
+  "attackMissChance": 0,
+  "damage": 7,
+  "defense": 1,
+  "distanceThreshold": 4,
+  "experience": 7,
+  "health": 36,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767",
+    "chance": 0.9
+   },
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767",
+    "chance": 0.55
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.001
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.02
+   },
+   {
+    "id": "97",
+    "type": "O",
+    "name": "Dwarf Scroll II",
+    "image": "src_assets_items_097",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Lava Bat",
+  "name": "Lava Bat",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 1,
+  "distanceThreshold": 4,
+  "experience": 15,
+  "health": 80,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767",
+    "chance": 0.9
+   },
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767",
+    "chance": 0.7
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.001
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.02
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Iridium Bat",
+  "name": "Iridium Bat",
+  "attackMissChance": 0,
+  "damage": 30,
+  "defense": 1,
+  "distanceThreshold": 4,
+  "experience": 22,
+  "health": 300,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.9
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.5
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.25
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.1
+   },
+   {
+    "id": "288",
+    "type": "O",
+    "name": "Mega Bomb",
+    "image": "src_assets_items_288",
+    "chance": 0.05
+   },
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.5
+   },
+   {
+    "id": "773",
+    "type": "O",
+    "name": "Life Elixir",
+    "image": "src_assets_items_773",
+    "chance": 0.05
+   },
+   {
+    "id": "349",
+    "type": "O",
+    "name": "Energy Tonic",
+    "image": "src_assets_items_349",
+    "chance": 0.05
+   },
+   {
+    "id": "787",
+    "type": "O",
+    "name": "Battery Pack",
+    "image": "src_assets_items_787",
+    "chance": 0.05
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "chance": 0.008
+   }
+  ]
+ },
+ {
+  "id": "Stone Golem",
+  "name": "Stone Golem",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 5,
+  "distanceThreshold": 3,
+  "experience": 5,
+  "health": 45,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "390",
+    "type": "O",
+    "name": "Stone",
+    "image": "src_assets_items_390",
+    "chance": 0.9
+   },
+   {
+    "id": "80",
+    "type": "O",
+    "name": "Quartz",
+    "image": "src_assets_items_080",
+    "chance": 0.1
+   },
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Wilderness Golem",
+  "name": "Wilderness Golem",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 1,
+  "distanceThreshold": 3,
+  "experience": 5,
+  "health": 30,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "771",
+    "type": "O",
+    "name": "Fiber",
+    "image": "src_assets_items_771",
+    "chance": 0.9
+   },
+   {
+    "id": "771",
+    "type": "O",
+    "name": "Fiber",
+    "image": "src_assets_items_771",
+    "chance": 0.5
+   },
+   {
+    "id": "770",
+    "type": "O",
+    "name": "Mixed Seeds",
+    "image": "src_assets_items_770",
+    "chance": 0.5
+   },
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.1
+   },
+   {
+    "id": "86",
+    "type": "O",
+    "name": "Earth Crystal",
+    "image": "src_assets_items_086",
+    "chance": 0.005
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Iridium Golem",
+  "name": "Wilderness Golem",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 1,
+  "distanceThreshold": 3,
+  "experience": 5,
+  "health": 30,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "771",
+    "type": "O",
+    "name": "Fiber",
+    "image": "src_assets_items_771",
+    "chance": 0.9
+   },
+   {
+    "id": "771",
+    "type": "O",
+    "name": "Fiber",
+    "image": "src_assets_items_771",
+    "chance": 0.5
+   },
+   {
+    "id": "770",
+    "type": "O",
+    "name": "Mixed Seeds",
+    "image": "src_assets_items_770",
+    "chance": 0.5
+   },
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.1
+   },
+   {
+    "id": "86",
+    "type": "O",
+    "name": "Earth Crystal",
+    "image": "src_assets_items_086",
+    "chance": 0.005
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Grub",
+  "name": "Grub",
+  "attackMissChance": 0,
+  "damage": 4,
+  "defense": 0,
+  "distanceThreshold": 3,
+  "experience": 2,
+  "health": 20,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.005,
+  "randomMovesDuration": 1000,
+  "speed": 1,
+  "drops": [
+   {
+    "id": "684",
+    "type": "O",
+    "name": "Bug Meat",
+    "image": "src_assets_items_684",
+    "chance": 0.6
+   },
+   {
+    "id": "273",
+    "type": "O",
+    "name": "Rice Shoot",
+    "image": "src_assets_items_273",
+    "chance": 0.05
+   },
+   {
+    "id": "273",
+    "type": "O",
+    "name": "Rice Shoot",
+    "image": "src_assets_items_273",
+    "chance": 0.05
+   },
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157",
+    "chance": 0.02
+   },
+   {
+    "id": "114",
+    "type": "O",
+    "name": "Ancient Seed",
+    "image": "src_assets_items_114",
+    "chance": 0.005
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Fly",
+  "name": "Fly",
+  "attackMissChance": 0,
+  "damage": 6,
+  "defense": 1,
+  "distanceThreshold": 13,
+  "experience": 10,
+  "health": 22,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.005,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "684",
+    "type": "O",
+    "name": "Bug Meat",
+    "image": "src_assets_items_684",
+    "chance": 0.9
+   },
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157",
+    "chance": 0.02
+   },
+   {
+    "id": "114",
+    "type": "O",
+    "name": "Ancient Seed",
+    "image": "src_assets_items_114",
+    "chance": 0.005
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Frost Jelly",
+  "name": "Frost Jelly",
+  "attackMissChance": 0,
+  "damage": 7,
+  "defense": 0,
+  "distanceThreshold": 4,
+  "experience": 6,
+  "health": 106,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.75
+   },
+   {
+    "id": "412",
+    "type": "O",
+    "name": "Winter Root",
+    "image": "src_assets_items_412",
+    "chance": 0.08
+   },
+   {
+    "id": "70",
+    "type": "O",
+    "name": "Jade",
+    "image": "src_assets_items_070",
+    "chance": 0.02
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.015
+   },
+   {
+    "id": "92",
+    "type": "O",
+    "name": "Sap",
+    "image": "src_assets_items_092",
+    "chance": 0.5
+   },
+   {
+    "id": "97",
+    "type": "O",
+    "name": "Dwarf Scroll II",
+    "image": "src_assets_items_097",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Sludge",
+  "name": "Sludge",
+  "attackMissChance": 0,
+  "damage": 16,
+  "defense": 0,
+  "distanceThreshold": 4,
+  "experience": 10,
+  "health": 205,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.8
+   },
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157",
+    "chance": 0.1
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.01
+   },
+   {
+    "id": "92",
+    "type": "O",
+    "name": "Sap",
+    "image": "src_assets_items_092",
+    "chance": 0.5
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Shadow Guy",
+  "name": "Shadow Guy",
+  "attackMissChance": 0,
+  "damage": 20,
+  "defense": 2,
+  "distanceThreshold": -1,
+  "experience": 15,
+  "health": 125,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.75
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.1
+   },
+   {
+    "id": "329",
+    "type": "O",
+    "name": "Stone Floor",
+    "image": "src_assets_items_329",
+    "chance": 0.02
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "chance": 0.002
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.01
+   },
+   {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "chance": 0.02
+   },
+   {
+    "id": "334",
+    "type": "O",
+    "name": "Copper Bar",
+    "image": "src_assets_items_334",
+    "chance": 0.04
+   },
+   {
+    "id": "203",
+    "type": "O",
+    "name": "Strange Bun",
+    "image": "src_assets_items_203",
+    "chance": 0.04
+   },
+   {
+    "id": "293",
+    "type": "O",
+    "name": "Brick Floor",
+    "image": "src_assets_items_293",
+    "chance": 0.03
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.003
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Ghost",
+  "name": "Ghost",
+  "attackMissChance": 0,
+  "damage": 10,
+  "defense": 3,
+  "distanceThreshold": 12,
+  "experience": 15,
+  "health": 96,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 4,
+  "drops": [
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.95
+   },
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.1
+   },
+   {
+    "id": "156",
+    "type": "O",
+    "name": "Ghostfish",
+    "image": "src_assets_items_156",
+    "chance": 0.08
+   },
+   {
+    "id": "338",
+    "type": "O",
+    "name": "Refined Quartz",
+    "image": "src_assets_items_338",
+    "chance": 0.08
+   },
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "chance": 0.2
+   },
+   {
+    "id": "97",
+    "type": "O",
+    "name": "Dwarf Scroll II",
+    "image": "src_assets_items_097",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Carbon Ghost",
+  "name": "Carbon Ghost",
+  "attackMissChance": 0,
+  "damage": 25,
+  "defense": 3,
+  "distanceThreshold": 12,
+  "experience": 20,
+  "health": 190,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 4,
+  "drops": [
+   {
+    "id": "749",
+    "type": "O",
+    "name": "Omni Geode",
+    "image": "src_assets_items_749",
+    "chance": 0.99
+   },
+   {
+    "id": "338",
+    "type": "O",
+    "name": "Refined Quartz",
+    "image": "src_assets_items_338",
+    "chance": 0.1
+   }
+  ]
+ },
+ {
+  "id": "Duggy",
+  "name": "Duggy",
+  "attackMissChance": 0,
+  "damage": 6,
+  "defense": 0,
+  "distanceThreshold": 1,
+  "experience": 10,
+  "health": 40,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "286",
+    "type": "O",
+    "name": "Cherry Bomb",
+    "image": "src_assets_items_286",
+    "chance": 0.25
+   },
+   {
+    "id": "535",
+    "type": "O",
+    "name": "Geode",
+    "image": "src_assets_items_535",
+    "chance": 0.25
+   },
+   {
+    "id": "280",
+    "type": "O",
+    "name": "Yam",
+    "image": "src_assets_items_280",
+    "chance": 0.03
+   },
+   {
+    "id": "105",
+    "type": "O",
+    "name": "Chewing Stick",
+    "image": "src_assets_items_105",
+    "chance": 0.02
+   },
+   {
+    "id": "86",
+    "type": "O",
+    "name": "Earth Crystal",
+    "image": "src_assets_items_086",
+    "chance": 0.1
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.01
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Rock Crab",
+  "name": "Rock Crab",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 1,
+  "distanceThreshold": 1,
+  "experience": 4,
+  "health": 30,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "717",
+    "type": "O",
+    "name": "Crab",
+    "image": "src_assets_items_717",
+    "chance": 0.15
+   },
+   {
+    "id": "286",
+    "type": "O",
+    "name": "Cherry Bomb",
+    "image": "src_assets_items_286",
+    "chance": 0.4
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Truffle Crab",
+  "name": "Rock Crab",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 1,
+  "distanceThreshold": 1,
+  "experience": 4,
+  "health": 30,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "430",
+    "type": "O",
+    "name": "Truffle",
+    "image": "src_assets_items_430",
+    "chance": 0.999
+   },
+   {
+    "id": "430",
+    "type": "O",
+    "name": "Truffle",
+    "image": "src_assets_items_430",
+    "chance": 0.5
+   },
+   {
+    "id": "430",
+    "type": "O",
+    "name": "Truffle",
+    "image": "src_assets_items_430",
+    "chance": 0.1
+   },
+   {
+    "id": "717",
+    "type": "O",
+    "name": "Crab",
+    "image": "src_assets_items_717",
+    "chance": 0.25
+   },
+   {
+    "id": "432",
+    "type": "O",
+    "name": "Truffle Oil",
+    "image": "src_assets_items_432",
+    "chance": 0.1
+   }
+  ]
+ },
+ {
+  "id": "Lava Crab",
+  "name": "Lava Crab",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 3,
+  "distanceThreshold": 1,
+  "experience": 12,
+  "health": 120,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "717",
+    "type": "O",
+    "name": "Crab",
+    "image": "src_assets_items_717",
+    "chance": 0.25
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.4
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Iridium Crab",
+  "name": "Iridium Crab",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 3,
+  "distanceThreshold": 1,
+  "experience": 20,
+  "health": 240,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "732",
+    "type": "O",
+    "name": "Crab Cakes",
+    "image": "src_assets_items_732",
+    "chance": 0.5
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.5
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.5
+   },
+   {
+    "id": "386",
+    "type": "O",
+    "name": "Iridium Ore",
+    "image": "src_assets_items_386",
+    "chance": 0.5
+   }
+  ]
+ },
+ {
+  "id": "Fireball",
+  "name": "Fireball",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 0,
+  "distanceThreshold": -1,
+  "experience": 0,
+  "health": 1,
+  "isGlider": true,
+  "isMine": false,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 1e-07
+   }
+  ]
+ },
+ {
+  "id": "Squid Kid",
+  "name": "Squid Kid",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 2,
+  "distanceThreshold": 6,
+  "experience": 15,
+  "health": 1,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.75
+   },
+   {
+    "id": "814",
+    "type": "O",
+    "name": "Squid Ink",
+    "image": "src_assets_items_814",
+    "chance": 0.2
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.05
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.1
+   },
+   {
+    "id": "288",
+    "type": "O",
+    "name": "Mega Bomb",
+    "image": "src_assets_items_288",
+    "chance": 0.05
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Skeleton Warrior",
+  "name": "Skeleton Warrior",
+  "attackMissChance": 0,
+  "damage": 12,
+  "defense": 3,
+  "distanceThreshold": 5,
+  "experience": 15,
+  "health": 300,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.25
+   },
+   {
+    "id": "105",
+    "type": "O",
+    "name": "Chewing Stick",
+    "image": "src_assets_items_105",
+    "chance": 0.03
+   },
+   {
+    "id": "106",
+    "type": "O",
+    "name": "Ornamental Fan",
+    "image": "src_assets_items_106",
+    "chance": 0.03
+   },
+   {
+    "id": "166",
+    "type": "O",
+    "name": "Treasure Chest",
+    "image": "src_assets_items_166",
+    "chance": 0.001
+   },
+   {
+    "id": "60",
+    "type": "O",
+    "name": "Emerald",
+    "image": "src_assets_items_060",
+    "chance": 0.04
+   },
+   {
+    "id": "232",
+    "type": "O",
+    "name": "Rice Pudding",
+    "image": "src_assets_items_232",
+    "chance": 0.04
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.03
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.01
+   },
+   {
+    "id": "97",
+    "type": "O",
+    "name": "Dwarf Scroll II",
+    "image": "src_assets_items_097",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Crow",
+  "name": "Crow",
+  "attackMissChance": 0,
+  "damage": 0,
+  "defense": 3,
+  "distanceThreshold": 5,
+  "experience": 1,
+  "health": 1,
+  "isGlider": false,
+  "isMine": false,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.9
+   }
+  ]
+ },
+ {
+  "id": "Frog",
+  "name": "Frog",
+  "attackMissChance": 0,
+  "damage": 0,
+  "defense": 3,
+  "distanceThreshold": 5,
+  "experience": 1,
+  "health": 1,
+  "isGlider": false,
+  "isMine": false,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.9
+   }
+  ]
+ },
+ {
+  "id": "Cat",
+  "name": "Cat",
+  "attackMissChance": 0,
+  "damage": 0,
+  "defense": 3,
+  "distanceThreshold": 6,
+  "experience": 0,
+  "health": 300,
+  "isGlider": false,
+  "isMine": false,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "category": -6,
+    "name": "Milk",
+    "anyName": "Milk (Any)",
+    "displayItemId": "184",
+    "image": "src_assets_items_184",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Shadow Brute",
+  "name": "Shadow Brute",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 2,
+  "distanceThreshold": 8,
+  "experience": 15,
+  "health": 160,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.75
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.1
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "chance": 0.002
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.01
+   },
+   {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "chance": 0.02
+   },
+   {
+    "id": "334",
+    "type": "O",
+    "name": "Copper Bar",
+    "image": "src_assets_items_334",
+    "chance": 0.04
+   },
+   {
+    "id": "203",
+    "type": "O",
+    "name": "Strange Bun",
+    "image": "src_assets_items_203",
+    "chance": 0.04
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.003
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "Shadow Shaman",
+  "name": "Shadow Shaman",
+  "attackMissChance": 0,
+  "damage": 17,
+  "defense": 2,
+  "distanceThreshold": 8,
+  "experience": 15,
+  "health": 80,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.75
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.2
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "chance": 0.002
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.01
+   },
+   {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "chance": 0.02
+   },
+   {
+    "id": "334",
+    "type": "O",
+    "name": "Copper Bar",
+    "image": "src_assets_items_334",
+    "chance": 0.04
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.003
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "Skeleton",
+  "name": "Skeleton",
+  "attackMissChance": 0,
+  "damage": 10,
+  "defense": 1,
+  "distanceThreshold": 8,
+  "experience": 8,
+  "health": 140,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "881",
+    "type": "O",
+    "name": "Bone Fragment",
+    "image": "src_assets_items_881",
+    "chance": 0.5
+   },
+   {
+    "id": "881",
+    "type": "O",
+    "name": "Bone Fragment",
+    "image": "src_assets_items_881",
+    "chance": 0.4
+   },
+   {
+    "id": "881",
+    "type": "O",
+    "name": "Bone Fragment",
+    "image": "src_assets_items_881",
+    "chance": 0.2
+   },
+   {
+    "id": "579",
+    "type": "O",
+    "name": "Prehistoric Scapula",
+    "image": "src_assets_items_579",
+    "chance": 0.005
+   }
+  ]
+ },
+ {
+  "id": "Skeleton Mage",
+  "name": "Skeleton Mage",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 1,
+  "distanceThreshold": 8,
+  "experience": 8,
+  "health": 60,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "80",
+    "type": "O",
+    "name": "Quartz",
+    "image": "src_assets_items_080",
+    "chance": 0
+   }
+  ]
+ },
+ {
+  "id": "Metal Head",
+  "name": "Metal Head",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 8,
+  "distanceThreshold": 8,
+  "experience": 6,
+  "health": 40,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.65
+   },
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378",
+    "chance": 0.1
+   },
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Spiker",
+  "name": "Spiker",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 4,
+  "distanceThreshold": 8,
+  "experience": 1,
+  "health": 5,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378",
+    "chance": 0.1
+   },
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.1
+   }
+  ]
+ },
+ {
+  "id": "Bug",
+  "name": "Bug",
+  "attackMissChance": 0,
+  "damage": 8,
+  "defense": 0,
+  "distanceThreshold": -1,
+  "experience": 1,
+  "health": 1,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "684",
+    "type": "O",
+    "name": "Bug Meat",
+    "image": "src_assets_items_684",
+    "chance": 0.76
+   },
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157",
+    "chance": 0.02
+   },
+   {
+    "id": "114",
+    "type": "O",
+    "name": "Ancient Seed",
+    "image": "src_assets_items_114",
+    "chance": 0.005
+   },
+   {
+    "id": "96",
+    "type": "O",
+    "name": "Dwarf Scroll I",
+    "image": "src_assets_items_096",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Mummy",
+  "name": "Mummy",
+  "attackMissChance": 0,
+  "damage": 30,
+  "defense": 0,
+  "distanceThreshold": 8,
+  "experience": 20,
+  "health": 260,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.99
+   },
+   {
+    "id": "428",
+    "type": "O",
+    "name": "Cloth",
+    "image": "src_assets_items_428",
+    "chance": 0.2
+   },
+   {
+    "id": "428",
+    "type": "O",
+    "name": "Cloth",
+    "image": "src_assets_items_428",
+    "chance": 0.05
+   },
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.15
+   },
+   {
+    "id": "243",
+    "type": "O",
+    "name": "Miner's Treat",
+    "image": "src_assets_items_243",
+    "chance": 0.04
+   },
+   {
+    "id": "856",
+    "type": "O",
+    "name": "Curiosity Lure",
+    "image": "src_assets_items_856",
+    "chance": 0.01
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Big Slime",
+  "name": "Big Slime",
+  "attackMissChance": 0,
+  "damage": 5,
+  "defense": 0,
+  "distanceThreshold": 5,
+  "experience": 7,
+  "health": 60,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.99
+   },
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.9
+   },
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.4
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Serpent",
+  "name": "Serpent",
+  "attackMissChance": 0,
+  "damage": 23,
+  "defense": 0,
+  "distanceThreshold": 13,
+  "experience": 20,
+  "health": 150,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.99
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.15
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.15
+   },
+   {
+    "id": "226",
+    "type": "O",
+    "name": "Spicy Eel",
+    "image": "src_assets_items_226",
+    "chance": 0.06
+   },
+   {
+    "id": "446",
+    "type": "O",
+    "name": "Rabbit's Foot",
+    "image": "src_assets_items_446",
+    "chance": 0.008
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Pepper Rex",
+  "name": "Pepper Rex",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 5,
+  "distanceThreshold": 3,
+  "experience": 7,
+  "health": 300,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "80",
+    "type": "O",
+    "name": "Quartz",
+    "image": "src_assets_items_080",
+    "chance": 0
+   }
+  ]
+ },
+ {
+  "id": "Tiger Slime",
+  "name": "Tiger Slime",
+  "attackMissChance": 0,
+  "damage": 23,
+  "defense": 0,
+  "distanceThreshold": 4,
+  "experience": 20,
+  "health": 415,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766",
+    "chance": 0.8
+   },
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157",
+    "chance": 0.1
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.01
+   },
+   {
+    "id": "92",
+    "type": "O",
+    "name": "Sap",
+    "image": "src_assets_items_092",
+    "chance": 0.5
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Lava Lurk",
+  "name": "Lava Lurk",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 5,
+  "distanceThreshold": 3,
+  "experience": 12,
+  "health": 220,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "881",
+    "type": "O",
+    "name": "Bone Fragment",
+    "image": "src_assets_items_881",
+    "chance": 0.5
+   },
+   {
+    "id": "881",
+    "type": "O",
+    "name": "Bone Fragment",
+    "image": "src_assets_items_881",
+    "chance": 0.4
+   },
+   {
+    "id": "881",
+    "type": "O",
+    "name": "Bone Fragment",
+    "image": "src_assets_items_881",
+    "chance": 0.2
+   },
+   {
+    "id": "852",
+    "type": "O",
+    "name": "Dragon Tooth",
+    "image": "src_assets_items_852",
+    "chance": 0.15
+   }
+  ]
+ },
+ {
+  "id": "Hot Head",
+  "name": "Hot Head",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 8,
+  "distanceThreshold": 8,
+  "experience": 16,
+  "health": 250,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.65
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.1
+   },
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378",
+    "chance": 0.1
+   },
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380",
+    "chance": 0.1
+   },
+   {
+    "id": "382",
+    "type": "O",
+    "name": "Coal",
+    "image": "src_assets_items_382",
+    "chance": 0.1
+   },
+   {
+    "id": "833",
+    "type": "O",
+    "name": "Pineapple Seeds",
+    "image": "src_assets_items_833",
+    "chance": 0.1
+   },
+   {
+    "id": "833",
+    "type": "O",
+    "name": "Pineapple Seeds",
+    "image": "src_assets_items_833",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Magma Sprite",
+  "name": "Magma Sprite",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 8,
+  "distanceThreshold": 8,
+  "experience": 15,
+  "health": 220,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.5
+   },
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.2
+   }
+  ]
+ },
+ {
+  "id": "Magma Duggy",
+  "name": "Magma Duggy",
+  "attackMissChance": 0,
+  "damage": 16,
+  "defense": 0,
+  "distanceThreshold": 1,
+  "experience": 18,
+  "health": 380,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "831",
+    "type": "O",
+    "name": "Taro Tuber",
+    "image": "src_assets_items_831",
+    "chance": 0.5
+   },
+   {
+    "id": "831",
+    "type": "O",
+    "name": "Taro Tuber",
+    "image": "src_assets_items_831",
+    "chance": 0.5
+   },
+   {
+    "id": "288",
+    "type": "O",
+    "name": "Mega Bomb",
+    "image": "src_assets_items_288",
+    "chance": 0.4
+   },
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.4
+   },
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.15
+   }
+  ]
+ },
+ {
+  "id": "Magma Sparker",
+  "name": "Magma Sparker",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 8,
+  "distanceThreshold": 8,
+  "experience": 17,
+  "health": 310,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 2000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.5
+   },
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.2
+   }
+  ]
+ },
+ {
+  "id": "False Magma Cap",
+  "name": "False Magma Cap",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 3,
+  "distanceThreshold": 1,
+  "experience": 14,
+  "health": 290,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "851",
+    "type": "O",
+    "name": "Magma Cap",
+    "image": "src_assets_items_851",
+    "chance": 0.99
+   },
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.5
+   },
+   {
+    "id": "848",
+    "type": "O",
+    "name": "Cinder Shard",
+    "image": "src_assets_items_848",
+    "chance": 0.2
+   }
+  ]
+ },
+ {
+  "id": "Dwarvish Sentry",
+  "name": "Dwarvish Sentry",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 5,
+  "distanceThreshold": -1,
+  "experience": 15,
+  "health": 300,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "60",
+    "type": "O",
+    "name": "Emerald",
+    "image": "src_assets_items_060",
+    "chance": 0.1
+   },
+   {
+    "id": "62",
+    "type": "O",
+    "name": "Aquamarine",
+    "image": "src_assets_items_062",
+    "chance": 0.1
+   },
+   {
+    "id": "64",
+    "type": "O",
+    "name": "Ruby",
+    "image": "src_assets_items_064",
+    "chance": 0.1
+   },
+   {
+    "id": "66",
+    "type": "O",
+    "name": "Amethyst",
+    "image": "src_assets_items_066",
+    "chance": 0.1
+   },
+   {
+    "id": "68",
+    "type": "O",
+    "name": "Topaz",
+    "image": "src_assets_items_068",
+    "chance": 0.1
+   },
+   {
+    "id": "70",
+    "type": "O",
+    "name": "Jade",
+    "image": "src_assets_items_070",
+    "chance": 0.1
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072",
+    "chance": 0.1
+   }
+  ]
+ },
+ {
+  "id": "Putrid Ghost",
+  "name": "Putrid Ghost",
+  "attackMissChance": 0,
+  "damage": 25,
+  "defense": 3,
+  "distanceThreshold": 12,
+  "experience": 25,
+  "health": 500,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 0,
+  "speed": 4,
+  "drops": [
+   {
+    "id": "749",
+    "type": "O",
+    "name": "Omni Geode",
+    "image": "src_assets_items_749",
+    "chance": 0.99
+   }
+  ]
+ },
+ {
+  "id": "Shadow Sniper",
+  "name": "Shadow Sniper",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 2,
+  "distanceThreshold": 8,
+  "experience": 20,
+  "health": 300,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.1,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.75
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.1
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "chance": 0.002
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.01
+   },
+   {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "chance": 0.02
+   },
+   {
+    "id": "334",
+    "type": "O",
+    "name": "Copper Bar",
+    "image": "src_assets_items_334",
+    "chance": 0.04
+   },
+   {
+    "id": "203",
+    "type": "O",
+    "name": "Strange Bun",
+    "image": "src_assets_items_203",
+    "chance": 0.04
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.003
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "Spider",
+  "name": "Spider",
+  "attackMissChance": 0,
+  "damage": 15,
+  "defense": 2,
+  "distanceThreshold": 8,
+  "experience": 15,
+  "health": 200,
+  "isGlider": false,
+  "isMine": true,
+  "jitteriness": 0.1,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.75
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.1
+   },
+   {
+    "id": "337",
+    "type": "O",
+    "name": "Iridium Bar",
+    "image": "src_assets_items_337",
+    "chance": 0.002
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.01
+   },
+   {
+    "id": "335",
+    "type": "O",
+    "name": "Iron Bar",
+    "image": "src_assets_items_335",
+    "chance": 0.02
+   },
+   {
+    "id": "334",
+    "type": "O",
+    "name": "Copper Bar",
+    "image": "src_assets_items_334",
+    "chance": 0.04
+   },
+   {
+    "id": "203",
+    "type": "O",
+    "name": "Strange Bun",
+    "image": "src_assets_items_203",
+    "chance": 0.04
+   },
+   {
+    "id": "108",
+    "type": "O",
+    "name": "Rare Disc",
+    "image": "src_assets_items_108",
+    "chance": 0.003
+   },
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145",
+    "chance": 0.1
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "Royal Serpent",
+  "name": "Royal Serpent",
+  "attackMissChance": 0,
+  "damage": 23,
+  "defense": 0,
+  "distanceThreshold": 13,
+  "experience": 20,
+  "health": 150,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0.01,
+  "randomMovesDuration": 1000,
+  "speed": 2,
+  "drops": [
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.99
+   },
+   {
+    "id": "769",
+    "type": "O",
+    "name": "Void Essence",
+    "image": "src_assets_items_769",
+    "chance": 0.15
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.15
+   },
+   {
+    "id": "226",
+    "type": "O",
+    "name": "Spicy Eel",
+    "image": "src_assets_items_226",
+    "chance": 0.06
+   },
+   {
+    "id": "446",
+    "type": "O",
+    "name": "Rabbit's Foot",
+    "image": "src_assets_items_446",
+    "chance": 0.008
+   },
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074",
+    "chance": 0.001
+   }
+  ]
+ },
+ {
+  "id": "Blue Squid",
+  "name": "Blue Squid",
+  "attackMissChance": 0,
+  "damage": 18,
+  "defense": 2,
+  "distanceThreshold": 6,
+  "experience": 15,
+  "health": 80,
+  "isGlider": true,
+  "isMine": true,
+  "jitteriness": 0,
+  "randomMovesDuration": 0,
+  "speed": 3,
+  "drops": [
+   {
+    "id": "768",
+    "type": "O",
+    "name": "Solar Essence",
+    "image": "src_assets_items_768",
+    "chance": 0.75
+   },
+   {
+    "id": "814",
+    "type": "O",
+    "name": "Squid Ink",
+    "image": "src_assets_items_814",
+    "chance": 0.2
+   },
+   {
+    "id": "336",
+    "type": "O",
+    "name": "Gold Bar",
+    "image": "src_assets_items_336",
+    "chance": 0.05
+   },
+   {
+    "id": "287",
+    "type": "O",
+    "name": "Bomb",
+    "image": "src_assets_items_287",
+    "chance": 0.1
+   },
+   {
+    "id": "288",
+    "type": "O",
+    "name": "Mega Bomb",
+    "image": "src_assets_items_288",
+    "chance": 0.05
+   },
+   {
+    "id": "98",
+    "type": "O",
+    "name": "Dwarf Scroll III",
+    "image": "src_assets_items_098",
+    "chance": 0.005
+   },
+   {
+    "id": "99",
+    "type": "O",
+    "name": "Dwarf Scroll IV",
+    "image": "src_assets_items_099",
+    "chance": 0.001
+   }
+  ]
+ }
+]

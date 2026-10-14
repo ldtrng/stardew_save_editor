@@ -1,0 +1,37 @@
+[
+ {
+  "id": "startdrop-1",
+  "textKey": "stardrop_1",
+  "text": "Sold for 2,000 stars at the Stardew Valley Fair."
+ },
+ {
+  "id": "startdrop-2",
+  "textKey": "stardrop_2",
+  "text": "Obtained from the treasure chest on floor 100 in the Mines."
+ },
+ {
+  "id": "startdrop-3",
+  "textKey": "stardrop_3",
+  "text": "From the player's spouse or roommate when friendship level reaches 12.5 hearts."
+ },
+ {
+  "id": "startdrop-4",
+  "textKey": "stardrop_4",
+  "text": "Sold by Krobus for 20,000g in the Sewers."
+ },
+ {
+  "id": "startdrop-5",
+  "textKey": "stardrop_5",
+  "text": "Obtained from Old Master Cannoli in the Secret Woods after giving him a Sweet Gem Berry."
+ },
+ {
+  "id": "startdrop-6",
+  "textKey": "stardrop_6",
+  "text": "Received in a letter from Willy the day after attaining the Master Angler Achievement."
+ },
+ {
+  "id": "startdrop-7",
+  "textKey": "stardrop_7",
+  "text": "Reward for donating all 95 items to the Museum."
+ }
+]

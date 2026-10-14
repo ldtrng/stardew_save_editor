@@ -1,0 +1,549 @@
+{
+ "Universal_Dislike": {
+  "items": [
+   {
+    "category": -4,
+    "name": "Fish",
+    "anyName": "Fish (Any)",
+    "displayItemId": "145",
+    "image": "src_assets_items_145"
+   },
+   {
+    "category": -8,
+    "name": "Crafting"
+   },
+   {
+    "category": -12,
+    "name": "Mineral"
+   },
+   {
+    "category": -15,
+    "name": "Metal Resource"
+   },
+   {
+    "category": -16,
+    "name": "Building Resource"
+   },
+   {
+    "category": -19,
+    "name": "Fertilizer"
+   },
+   {
+    "category": -22,
+    "name": "Fishing Tackle"
+   },
+   {
+    "category": -24,
+    "name": "Decor"
+   },
+   {
+    "category": -25,
+    "name": "Cooking Ingredient"
+   },
+   {
+    "category": -28,
+    "name": "Monster Loot"
+   },
+   {
+    "category": -74,
+    "name": "Seed"
+   },
+   {
+    "id": "78",
+    "type": "O",
+    "name": "Cave Carrot",
+    "image": "src_assets_items_078"
+   },
+   {
+    "id": "169",
+    "type": "O",
+    "name": "Driftwood",
+    "image": "src_assets_items_169"
+   },
+   {
+    "id": "246",
+    "type": "O",
+    "name": "Wheat Flour",
+    "image": "src_assets_items_246"
+   },
+   {
+    "id": "247",
+    "type": "O",
+    "name": "Oil",
+    "image": "src_assets_items_247"
+   },
+   {
+    "id": "305",
+    "type": "O",
+    "name": "Void Egg",
+    "image": "src_assets_items_305"
+   },
+   {
+    "id": "309",
+    "type": "O",
+    "name": "Acorn",
+    "image": "src_assets_items_309"
+   },
+   {
+    "id": "310",
+    "type": "O",
+    "name": "Maple Seed",
+    "image": "src_assets_items_310"
+   },
+   {
+    "id": "311",
+    "type": "O",
+    "name": "Pine Cone",
+    "image": "src_assets_items_311"
+   },
+   {
+    "id": "403",
+    "type": "O",
+    "name": "Field Snack",
+    "image": "src_assets_items_403"
+   },
+   {
+    "id": "419",
+    "type": "O",
+    "name": "Vinegar",
+    "image": "src_assets_items_419"
+   },
+   {
+    "id": "423",
+    "type": "O",
+    "name": "Rice",
+    "image": "src_assets_items_423"
+   },
+   {
+    "id": "535",
+    "type": "O",
+    "name": "Geode",
+    "image": "src_assets_items_535"
+   },
+   {
+    "id": "536",
+    "type": "O",
+    "name": "Frozen Geode",
+    "image": "src_assets_items_536"
+   },
+   {
+    "id": "537",
+    "type": "O",
+    "name": "Magma Geode",
+    "image": "src_assets_items_537"
+   },
+   {
+    "id": "725",
+    "type": "O",
+    "name": "Oak Resin",
+    "image": "src_assets_items_725"
+   },
+   {
+    "id": "726",
+    "type": "O",
+    "name": "Pine Tar",
+    "image": "src_assets_items_726"
+   },
+   {
+    "id": "749",
+    "type": "O",
+    "name": "Omni Geode",
+    "image": "src_assets_items_749"
+   },
+   {
+    "id": "271",
+    "type": "O",
+    "name": "Unmilled Rice",
+    "image": "src_assets_items_271"
+   },
+   {
+    "id": "10039",
+    "type": "O",
+    "name": "Price Catalogue",
+    "image": "src_assets_items_10039"
+   }
+  ],
+  "tags": [
+   "category_trinket"
+  ],
+  "reaction": null
+ },
+ "Universal_Hate": {
+  "items": [
+   {
+    "id": "0",
+    "type": "O",
+    "name": "Weeds",
+    "image": "src_assets_items_000"
+   },
+   {
+    "category": -20,
+    "name": "Junk"
+   },
+   {
+    "category": -21,
+    "name": "Bait"
+   },
+   {
+    "id": "92",
+    "type": "O",
+    "name": "Sap",
+    "image": "src_assets_items_092"
+   },
+   {
+    "id": "110",
+    "type": "O",
+    "name": "Rusty Spoon",
+    "image": "src_assets_items_110"
+   },
+   {
+    "id": "111",
+    "type": "O",
+    "name": "Rusty Spur",
+    "image": "src_assets_items_111"
+   },
+   {
+    "id": "112",
+    "type": "O",
+    "name": "Rusty Cog",
+    "image": "src_assets_items_112"
+   },
+   {
+    "id": "142",
+    "type": "O",
+    "name": "Carp",
+    "image": "src_assets_items_142"
+   },
+   {
+    "id": "152",
+    "type": "O",
+    "name": "Seaweed",
+    "image": "src_assets_items_152"
+   },
+   {
+    "id": "153",
+    "type": "O",
+    "name": "Green Algae",
+    "image": "src_assets_items_153"
+   },
+   {
+    "id": "157",
+    "type": "O",
+    "name": "White Algae",
+    "image": "src_assets_items_157"
+   },
+   {
+    "id": "178",
+    "type": "O",
+    "name": "Hay",
+    "image": "src_assets_items_178"
+   },
+   {
+    "id": "105",
+    "type": "O",
+    "name": "Chewing Stick",
+    "image": "src_assets_items_105"
+   },
+   {
+    "id": "168",
+    "type": "O",
+    "name": "Trash",
+    "image": "src_assets_items_168"
+   },
+   {
+    "id": "170",
+    "type": "O",
+    "name": "Broken Glasses",
+    "image": "src_assets_items_170"
+   },
+   {
+    "id": "171",
+    "type": "O",
+    "name": "Broken CD",
+    "image": "src_assets_items_171"
+   },
+   {
+    "id": "172",
+    "type": "O",
+    "name": "Soggy Newspaper",
+    "image": "src_assets_items_172"
+   },
+   {
+    "id": "374",
+    "type": "O",
+    "name": null,
+    "image": "src_assets_items_374"
+   },
+   {
+    "id": "376",
+    "type": "O",
+    "name": "Poppy",
+    "image": "src_assets_items_376"
+   },
+   {
+    "id": "378",
+    "type": "O",
+    "name": "Copper Ore",
+    "image": "src_assets_items_378"
+   },
+   {
+    "id": "380",
+    "type": "O",
+    "name": "Iron Ore",
+    "image": "src_assets_items_380"
+   },
+   {
+    "id": "397",
+    "type": "O",
+    "name": "Sea Urchin",
+    "image": "src_assets_items_397"
+   },
+   {
+    "id": "420",
+    "type": "O",
+    "name": "Red Mushroom",
+    "image": "src_assets_items_420"
+   },
+   {
+    "id": "684",
+    "type": "O",
+    "name": "Bug Meat",
+    "image": "src_assets_items_684"
+   },
+   {
+    "id": "721",
+    "type": "O",
+    "name": "Snail",
+    "image": "src_assets_items_721"
+   },
+   {
+    "id": "766",
+    "type": "O",
+    "name": "Slime",
+    "image": "src_assets_items_766"
+   },
+   {
+    "id": "767",
+    "type": "O",
+    "name": "Bat Wing",
+    "image": "src_assets_items_767"
+   },
+   {
+    "id": "772",
+    "type": "O",
+    "name": "Oil of Garlic",
+    "image": "src_assets_items_772"
+   },
+   {
+    "id": "203",
+    "type": "O",
+    "name": "Strange Bun",
+    "image": "src_assets_items_203"
+   },
+   {
+    "id": "308",
+    "type": "O",
+    "name": "Void Mayonnaise",
+    "image": "src_assets_items_308"
+   },
+   {
+    "id": "265",
+    "type": "O",
+    "name": "Seafoam Pudding",
+    "image": "src_assets_items_265"
+   },
+   {
+    "id": "909",
+    "type": "O",
+    "name": "Radioactive Ore",
+    "image": "src_assets_items_909"
+   },
+   {
+    "id": "910",
+    "type": "O",
+    "name": "Radioactive Bar",
+    "image": "src_assets_items_910"
+   }
+  ],
+  "tags": [],
+  "reaction": null
+ },
+ "Universal_Like": {
+  "items": [
+   {
+    "category": -2,
+    "name": "Gem"
+   },
+   {
+    "category": -7,
+    "name": "Cooking"
+   },
+   {
+    "category": -26,
+    "name": "Artisan Goods"
+   },
+   {
+    "category": -75,
+    "name": "Vegetable"
+   },
+   {
+    "category": -80,
+    "name": "Flower"
+   },
+   {
+    "id": "72",
+    "type": "O",
+    "name": "Diamond",
+    "image": "src_assets_items_072"
+   },
+   {
+    "id": "395",
+    "type": "O",
+    "name": "Coffee",
+    "image": "src_assets_items_395"
+   },
+   {
+    "id": "613",
+    "type": "O",
+    "name": "Apple",
+    "image": "src_assets_items_613"
+   },
+   {
+    "id": "634",
+    "type": "O",
+    "name": "Apricot",
+    "image": "src_assets_items_634"
+   },
+   {
+    "id": "635",
+    "type": "O",
+    "name": "Orange",
+    "image": "src_assets_items_635"
+   },
+   {
+    "id": "636",
+    "type": "O",
+    "name": "Peach",
+    "image": "src_assets_items_636"
+   },
+   {
+    "id": "637",
+    "type": "O",
+    "name": "Pomegranate",
+    "image": "src_assets_items_637"
+   },
+   {
+    "id": "638",
+    "type": "O",
+    "name": "Cherry",
+    "image": "src_assets_items_638"
+   },
+   {
+    "id": "724",
+    "type": "O",
+    "name": "Maple Syrup",
+    "image": "src_assets_items_724"
+   },
+   {
+    "id": "459",
+    "type": "O",
+    "name": "Mead",
+    "image": "src_assets_items_459"
+   },
+   {
+    "id": "873",
+    "type": "O",
+    "name": "Piña Colada",
+    "image": "src_assets_items_873"
+   },
+   {
+    "id": "394",
+    "type": "O",
+    "name": "Rainbow Shell",
+    "image": "src_assets_items_394"
+   },
+   {
+    "id": "166",
+    "type": "O",
+    "name": "Treasure Chest",
+    "image": "src_assets_items_166"
+   }
+  ],
+  "tags": [],
+  "reaction": null
+ },
+ "Universal_Love": {
+  "items": [
+   {
+    "id": "74",
+    "type": "O",
+    "name": "Prismatic Shard",
+    "image": "src_assets_items_074"
+   },
+   {
+    "id": "446",
+    "type": "O",
+    "name": "Rabbit's Foot",
+    "image": "src_assets_items_446"
+   },
+   {
+    "id": "797",
+    "type": "O",
+    "name": "Pearl",
+    "image": "src_assets_items_797"
+   },
+   {
+    "id": "373",
+    "type": "O",
+    "name": "Golden Pumpkin",
+    "image": "src_assets_items_373"
+   },
+   {
+    "id": "279",
+    "type": "O",
+    "name": "Magic Rock Candy",
+    "image": "src_assets_items_279"
+   }
+  ],
+  "tags": [],
+  "reaction": null
+ },
+ "Universal_Neutral": {
+  "items": [
+   {
+    "id": "194",
+    "type": "O",
+    "name": "Fried Egg",
+    "image": "src_assets_items_194"
+   },
+   {
+    "id": "216",
+    "type": "O",
+    "name": "Bread",
+    "image": "src_assets_items_216"
+   },
+   {
+    "id": "262",
+    "type": "O",
+    "name": "Wheat",
+    "image": "src_assets_items_262"
+   },
+   {
+    "id": "304",
+    "type": "O",
+    "name": "Hops",
+    "image": "src_assets_items_304"
+   },
+   {
+    "id": "815",
+    "type": "O",
+    "name": "Tea Leaves",
+    "image": "src_assets_items_815"
+   }
+  ],
+  "tags": [
+   "book_item"
+  ],
+  "reaction": null
+ }
+}

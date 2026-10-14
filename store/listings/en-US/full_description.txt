@@ -1,0 +1,65 @@
+Plan every day in Stardew Valley, tick off your perfection checklist and edit your save file, all in one pixel-art companion. This Stardew Valley tracker puts birthdays, festivals, villager gifts, Community Center bundles, fish and all 130 Golden Walnuts next to an on-device save editor that makes an automatic backup before every change.
+
+Unofficial fan-made app. Not affiliated with ConcernedApe.
+
+■ Calendar and daily planning
+• Villager birthdays, festivals and Queen of Sauce reruns for every day
+• Last day to plant each crop, so nothing withers at season change
+• Your own to-do notes on any date
+
+■ Villagers, gifts and hearts
+• Loved and liked gifts for every villager in Stardew Valley
+• Daily schedules, including rainy days and married routines
+• Heart tracker for friendship and romance
+
+■ Community Center bundles
+• Every room, bundle and item, for normal and remixed bundles
+• See what you still need and where to find it
+
+■ Perfection checklist tracker
+• Fish checklist by season, weather, time and location
+• Crops with profit per day
+• Cooking and crafting recipes, plus the shipping collection
+• Museum artifacts and minerals
+• All 130 Golden Walnuts on Ginger Island and every Stardrop
+• Hats, shirts, pants, boots, rings and trinkets
+• Monster eradication goals, Carpenter and Wizard buildings
+• Multiple farms, each with its own progress
+
+■ Save editor for Stardew Valley 1.6
+• Money, skills, professions and wallet items
+• Character appearance
+• Inventory, equipment and every chest or fridge on your farm
+• Relationships, hearts and marriage status
+• Unlock cooking and crafting recipes
+• Complete Community Center bundles
+• Buildings and farm animals
+• Mr. Qi special orders
+• Works with Stardew Valley save files from Android and PC
+• No root needed: open the game's Saves folder directly
+
+■ Automatic backups
+The save editor writes a backup copy before every change. Restore any earlier version in one tap if something does not look right. Close the game before you edit, then reopen it to see your changes.
+
+■ Import your progress
+Load a save file and the tracker fills itself in: fish caught, items shipped, dishes cooked, items crafted, museum donations, Stardrops, villager hearts and bundle items. No more ticking hundreds of boxes by hand.
+
+■ Made for Stardew Valley players
+• Pixel-art interface with a warm farm palette
+• Tracker works offline, no account needed
+• 13 languages: English, Deutsch, Español, Français, Italiano, Magyar, Português (Brasil), Русский, Türkçe, Tiếng Việt, 日本語, 한국어, 简体中文
+• Supported by ads. No subscription, no trial period.
+
+■ Questions
+Does the save editor work with my PC farm?
+Yes. Copy the save folder from your PC to your phone, edit it, then copy it back. Stardew Valley 1.6 saves are supported.
+
+What if an edit goes wrong?
+Every edit starts with an automatic backup. Open Backups and restore the previous version.
+
+Do I have to use the save editor?
+No. The tracker and checklist work on their own. Tick items by hand or import them from a save.
+
+Whether you are on your first spring or chasing perfection, this Stardew Valley tracker, checklist and save editor keeps your whole farm in your pocket.
+
+Stardew Valley is a trademark of ConcernedApe LLC. This unofficial fan-made tracker and save editor is not made, endorsed or sponsored by ConcernedApe. The game name is used only to describe compatibility.

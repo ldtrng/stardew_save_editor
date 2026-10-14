@@ -2,7 +2,6 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
 
 import '../firebase_options.dart';
 
@@ -27,11 +26,6 @@ class AppFirebase {
 /// Events carry no personal data: only feature names, counts and languages.
 class Analytics {
   static FirebaseAnalytics? get instance => AppFirebase.ready ? FirebaseAnalytics.instance : null;
-
-  static List<NavigatorObserver> get observers {
-    final a = instance;
-    return a == null ? const [] : [FirebaseAnalyticsObserver(analytics: a)];
-  }
 
   static void log(String name, [Map<String, Object>? params]) {
     instance?.logEvent(name: name, parameters: params).catchError((_) {});
@@ -60,7 +54,9 @@ class RemoteSettings {
     'ads_detail_every': 4,
     'ads_tab_every': 5,
     'ads_native_every': 12,
-    'ads_collapsible_banner': true,
+    // Off: the expanded overlay was seen outliving its page on Android,
+    // which risks accidental clicks. Re-enable remotely after device checks.
+    'ads_collapsible_banner': false,
     'review_min_moments': 3,
   };
 

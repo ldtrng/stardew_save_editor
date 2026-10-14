@@ -17,10 +17,12 @@ import 'ui/theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // Firebase first so Remote Config ad pacing is active before ads load.
-  if (!screenshotMode) await AppFirebase.init();
+  // Firebase starts in parallel so it never delays the first frame; ads wait
+  // for it so Remote Config ad pacing is active before the first request.
+  final firebase = screenshotMode ? Future<void>.value() : AppFirebase.init();
   runApp(await bootstrap());
   if (!screenshotMode) {
+    await firebase;
     Analytics.setLanguage(L10n.i.code);
     AdsService.instance.init();
   }
@@ -69,7 +71,6 @@ class ValleyApp extends StatelessWidget {
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       // Rebuild everything when the language changes so every tr() re-runs.
       navigatorKey: screenshotMode ? shotNavigatorKey : null,
-      navigatorObservers: Analytics.observers,
       home: AppShell(key: ValueKey(l10n.code)),
     );
   }

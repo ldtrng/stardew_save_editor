@@ -72,7 +72,7 @@
     },
     "ads_collapsible_banner": {
       "defaultValue": {
-        "value": "true"
+        "value": "false"
       },
       "valueType": "BOOLEAN",
       "description": "Use a collapsible banner on detail pages."

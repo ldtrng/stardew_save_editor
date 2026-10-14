@@ -12,8 +12,8 @@ import 'ad_ids.dart';
 
 /// Ad placement policy (tuned for revenue while staying within AdMob policy).
 /// Pacing values come from Remote Config (see [RemoteSettings.defaults]):
-/// * Banner: anchored adaptive on tab screens and editor screens; collapsible
-///   banner on detail pages.
+/// * Banner: anchored adaptive on tab, editor and detail screens (detail pages
+///   can switch to a collapsible banner via Remote Config; off by default).
 /// * Native: inline cards inside long lists (every [nativeEvery] rows).
 /// * Interstitial: at natural breaks only — after exporting/writing a save,
 ///   after importing progress, leaving an editor section, every 4th detail page

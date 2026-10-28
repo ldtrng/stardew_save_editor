@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
 
 import '../../save/farmer.dart';
 import '../../state/editor_state.dart';
@@ -43,7 +42,6 @@ class InventoryScreen extends StatelessWidget {
     final p = context.farm;
     final slots = f.itemSlots.length;
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr('Inventory'))),
       body: ListView(
         padding: EdgeInsets.fromLTRB(16, 4, 16, 40),

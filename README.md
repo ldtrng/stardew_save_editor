@@ -27,7 +27,7 @@ flutter test
 | `lib/features/{calendar,villagers,tracker,settings,onboarding}/` | Tracker screens |
 | `lib/data/game_data.dart` | Loads `assets/tracker/data/*.json` |
 | `lib/state/` | Editor, tracker (per-farm checklists/notes, SharedPreferences JSON), settings |
-| `lib/ads/` | AdMob: banner, interstitial, app open, rewarded (24 h ad-free) + UMP consent |
+| `lib/ads/` | AdMob: banner, interstitial, app open, rewarded (bulk tools) + UMP consent |
 | `android/.../MainActivity.kt` | SAF bridge: game Saves folder access (Android ≤ 12), save-as without extension |
 | `assets/editor/` | Item DB + sprite sheets from stardew-save-editor |
 | `assets/tracker/` | Game data + 1,734 images extracted from the tracker APK |
@@ -44,9 +44,9 @@ flutter test
 |---|---|
 | Banner (anchored adaptive) | Tab screens and editor sections; collapsible banner on detail pages |
 | Native (small template) | Inside long lists, after the first few rows then every 12 rows |
-| Interstitial | After export / write-back, after import, every 2nd editor-section exit, every 4th detail page, every 5th tab switch — ≥ 2 min apart, not in the first 45 s |
-| App open | Cold start (from the 2nd launch) and resume after ≥ 30 s; ≥ 3 h apart; never after pickers/share |
-| Rewarded | +4 h ad-free per video (max 24 h); bulk editor tools (max hearts, unlock all recipes, complete room, max skills) unlocked 1 h |
+| Interstitial | After export / write-back / import, after opening or restoring a save, sharing or restoring a tracker backup, creating or switching a farm; every 2nd editor-section or collection exit, every 3rd detail page (all detail navigations count), every 4th tab switch — no time-based gap |
+| App open | Cold start (from the 2nd launch) and every return from the background; never after pickers/share or another full-screen ad |
+| Rewarded | Bulk editor tools (max hearts, unlock all recipes, complete room, max skills) unlocked 1 h |
 
 UMP consent runs before any request. Debug builds use Google test units; release uses `lib/ads/ad_ids.dart`.
 In-app review is requested after positive moments (`lib/services/review.dart`).

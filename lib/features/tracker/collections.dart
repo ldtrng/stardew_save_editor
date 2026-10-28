@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../ads/ads_service.dart';
+import '../../ads/native_ad.dart';
 import '../../data/game_data.dart';
 import '../../l10n/l10n.dart';
 import '../../l10n/names.dart';
@@ -240,6 +242,24 @@ class CookingScreen extends StatelessWidget {
   }
 }
 
+/// Cooking recipes store buffs as `{buffs: [{skill, level}], duration}` (seconds);
+/// other data uses a list of `{attributes, duration}` (minutes). Normalises both
+/// to the latter for [BuffView].
+List<Map> _recipeBuffs(Object? b) {
+  if (b is List) return b.cast<Map>();
+  if (b is! Map) return const [];
+  final attrs = <String, num>{};
+  for (final e in (b['buffs'] as List? ?? const []).cast<Map>()) {
+    final skill = e['skill'].toString();
+    final k = skill == 'max_energy' ? 'Max Stamina' : skill.split('_').map(cap).join(' ');
+    attrs[k] = (attrs[k] ?? 0) + (e['level'] as num);
+  }
+  final secs = b['duration'] as num?;
+  return [
+    {'attributes': attrs, 'duration': secs == null ? null : (secs / 60).round()},
+  ];
+}
+
 class RecipeDetail extends StatelessWidget {
   const RecipeDetail({super.key, required this.recipe, required this.category, required this.id});
   final Json recipe;
@@ -252,7 +272,7 @@ class RecipeDetail extends StatelessWidget {
     final ingredients = (r['ingredients'] as List? ?? const []).cast<Map>();
     final sources = (r['sources'] as List? ?? (r['source'] != null ? [r['source']] : const [])).cast<Map>();
     final out = r['output'] as Map?;
-    final buffs = (r['buffs'] as List? ?? const []).cast<Map>();
+    final buffs = _recipeBuffs(r['buffs']);
     final name = recipeName(r);
     final outId = (out?['id'] ?? r['id'])?.toString();
     final outType = (out?['type'] ?? 'O').toString();
@@ -273,7 +293,10 @@ class RecipeDetail extends StatelessWidget {
                 ? null
                 : () {
                     final s = ItemDetailScreen.forId(i['id'].toString());
-                    if (s != null) Navigator.push(context, MaterialPageRoute(builder: (_) => s));
+                    if (s != null) {
+                      AdsService.instance.onDetailViewed();
+                      Navigator.push(context, MaterialPageRoute(builder: (_) => s));
+                    }
                   },
           ),
       ]),
@@ -661,40 +684,50 @@ class BuildingsRefScreen extends StatelessWidget {
     final p = context.farm;
     return DetailScaffold(
       title: builder == 'Wizard' ? tr("Wizard's Tower") : tr("Carpenter's Shop"),
+      nativeAd: false,
       children: [
-        for (final b in list) ...[
-          PixelPanel(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                TImage(b['image'], size: 72),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                    Text(buildingName(b), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
-                    Text(L10n.i.buildingDescription(b['id'].toString()) ?? b['description']?.toString() ?? '',
-                        style: TextStyle(color: p.textMuted, fontSize: 13)),
-                    const SizedBox(height: 4),
-                    Wrap(spacing: 6, runSpacing: 4, children: [
-                      PixelTag('💰 ${b['buildCost']}g', color: p.wheat),
-                      if (b['size'] != null) PixelTag(tr('Size {w}×{h}', {'w': b['size']['X'], 'h': b['size']['Y']})),
-                      if (_n(b['buildDays']) > 0) PixelTag(tr('{n} days', {'n': b['buildDays']})),
-                      if (b['buildingToUpgrade'] != null)
-                        PixelTag(tr('Upgrade of {name}', {'name': L10n.i.buildingName(b['buildingToUpgrade'].toString())})),
-                    ]),
-                  ]),
-                ),
-              ]),
-              if ((b['buildMaterials'] as List? ?? const []).isNotEmpty) ...[
-                const SizedBox(height: 8),
-                Wrap(spacing: 6, runSpacing: 6, children: [
-                  for (final m in (b['buildMaterials'] as List).cast<Map>()) ItemRefChip(ref: m),
-                ]),
-              ],
-            ]),
-          ),
+        for (var i = 0; i < list.length; i++) ...[
+          // One native ad after the second building (Carpenter's Shop and Wizard's Tower).
+          if (i == 2) ...[
+            NativeListAd(margin: EdgeInsets.zero),
+            const SizedBox(height: 10),
+          ],
+          _buildingPanel(list[i], p),
           const SizedBox(height: 10),
         ],
       ],
+    );
+  }
+
+  Widget _buildingPanel(Json b, FarmPalette p) {
+    return PixelPanel(
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          TImage(b['image'], size: 72),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(buildingName(b), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
+              Text(L10n.i.buildingDescription(b['id'].toString()) ?? b['description']?.toString() ?? '',
+                  style: TextStyle(color: p.textMuted, fontSize: 13)),
+              const SizedBox(height: 4),
+              Wrap(spacing: 6, runSpacing: 4, children: [
+                PixelTag('💰 ${b['buildCost']}g', color: p.wheat),
+                if (b['size'] != null) PixelTag(tr('Size {w}×{h}', {'w': b['size']['X'], 'h': b['size']['Y']})),
+                if (_n(b['buildDays']) > 0) PixelTag(tr('{n} days', {'n': b['buildDays']})),
+                if (b['buildingToUpgrade'] != null)
+                  PixelTag(tr('Upgrade of {name}', {'name': L10n.i.buildingName(b['buildingToUpgrade'].toString())})),
+              ]),
+            ]),
+          ),
+        ]),
+        if ((b['buildMaterials'] as List? ?? const []).isNotEmpty) ...[
+          const SizedBox(height: 8),
+          Wrap(spacing: 6, runSpacing: 6, children: [
+            for (final m in (b['buildMaterials'] as List).cast<Map>()) ItemRefChip(ref: m),
+          ]),
+        ],
+      ]),
     );
   }
 }

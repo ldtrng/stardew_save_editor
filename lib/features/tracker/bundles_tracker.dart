@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../../ads/ads_service.dart';
 import '../../l10n/l10n.dart';
 import '../../l10n/names.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
+import '../../ads/native_ad.dart';
 import '../../data/game_data.dart';
 import '../../state/tracker_state.dart';
 import '../../ui/theme.dart';
@@ -39,7 +40,6 @@ class BundlesTrackerScreen extends StatelessWidget {
     final p = context.farm;
     return Scaffold(
       appBar: AppBar(title: Text(tr('Bundles'))),
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       body: ListView(
         padding: EdgeInsets.fromLTRB(16, 12, 16, 32),
         children: [
@@ -51,16 +51,23 @@ class BundlesTrackerScreen extends StatelessWidget {
             value: remixed,
             onChanged: t.setRemixed,
           ),
-          for (final room in rooms) ...[
+          for (var r = 0; r < rooms.length; r++) ...[
+            // One native ad after every second room (never after the last), each
+            // with its own key so no two slots share an ad instance.
+            if (r > 0 && r % 2 == 0) ...[
+              SizedBox(height: 4),
+              NativeListAd(key: ValueKey('bundles_native_$r'), margin: EdgeInsets.zero),
+              SizedBox(height: 8),
+            ],
             PlankHeader(
-              '${tr(room['name'].toString())}  ${(room['bundles'] as List).where((b) => bundleComplete(t, b as Map)).length}/${(room['bundles'] as List).length}',
+              '${tr(rooms[r]['name'].toString())}  ${(rooms[r]['bundles'] as List).where((b) => bundleComplete(t, b as Map)).length}/${(rooms[r]['bundles'] as List).length}',
             ),
-            if (room['reward'] != null)
+            if (rooms[r]['reward'] != null)
               Padding(
                 padding: EdgeInsets.only(bottom: 6),
-                child: Text(tr(room['reward'].toString()), style: TextStyle(color: p.textMuted, fontSize: 13)),
+                child: Text(tr(rooms[r]['reward'].toString()), style: TextStyle(color: p.textMuted, fontSize: 13)),
               ),
-            for (final b in (room['bundles'] as List).cast<Map>()) ...[
+            for (final b in (rooms[r]['bundles'] as List).cast<Map>()) ...[
               _BundleCard(bundle: b),
               SizedBox(height: 8),
             ],
@@ -107,7 +114,10 @@ class _BundleCard extends StatelessWidget {
                   ? null
                   : () {
                       final s = ItemDetailScreen.forId(items[i]['id'].toString());
-                      if (s != null) Navigator.push(context, MaterialPageRoute(builder: (_) => s));
+                      if (s != null) {
+                        AdsService.instance.onDetailViewed();
+                        Navigator.push(context, MaterialPageRoute(builder: (_) => s));
+                      }
                     },
               child: Padding(
                 padding: EdgeInsets.fromLTRB(16, 2, 4, 2),

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
 
 import '../../save/color.dart';
 import '../../state/editor_state.dart';
@@ -26,7 +25,6 @@ class AppearanceScreen extends StatelessWidget {
     }
 
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr('Appearance'))),
       body: ListView(
         padding: EdgeInsets.fromLTRB(16, 16, 16, 40),

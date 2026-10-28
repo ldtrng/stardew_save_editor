@@ -44,19 +44,13 @@ class Analytics {
 /// be tuned per audience without an app update.
 class RemoteSettings {
   static const defaults = <String, Object>{
-    'ads_interstitial_gap_sec': 120,
-    'ads_session_grace_sec': 45,
-    'ads_app_open_gap_min': 180,
-    'ads_app_open_away_sec': 30,
     'ads_app_open_cold_start': true,
     'ads_interstitial_after_export': true,
     'ads_section_every': 2,
-    'ads_detail_every': 4,
-    'ads_tab_every': 5,
+    'ads_detail_every': 3,
+    'ads_collection_every': 2,
+    'ads_tab_every': 4,
     'ads_native_every': 12,
-    // Off: the expanded overlay was seen outliving its page on Android,
-    // which risks accidental clicks. Re-enable remotely after device checks.
-    'ads_collapsible_banner': false,
     'review_min_moments': 3,
   };
 

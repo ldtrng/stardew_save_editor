@@ -1,39 +1,11 @@
 {
   "parameters": {
-    "ads_interstitial_gap_sec": {
-      "defaultValue": {
-        "value": "120"
-      },
-      "valueType": "NUMBER",
-      "description": "Minimum seconds between interstitials (and after an app open ad)."
-    },
-    "ads_session_grace_sec": {
-      "defaultValue": {
-        "value": "45"
-      },
-      "valueType": "NUMBER",
-      "description": "No interstitial during the first N seconds of a session."
-    },
-    "ads_app_open_gap_min": {
-      "defaultValue": {
-        "value": "180"
-      },
-      "valueType": "NUMBER",
-      "description": "Minimum minutes between app open ads."
-    },
-    "ads_app_open_away_sec": {
-      "defaultValue": {
-        "value": "30"
-      },
-      "valueType": "NUMBER",
-      "description": "Show an app open ad on resume after at least N seconds in background."
-    },
     "ads_app_open_cold_start": {
       "defaultValue": {
         "value": "true"
       },
       "valueType": "BOOLEAN",
-      "description": "Show an app open ad on cold start (from the 2nd launch, only if it loads within 5 s)."
+      "description": "Show an app open ad before the home page on cold start (not on the first launch after install; the home page waits up to 5 s for it)."
     },
     "ads_interstitial_after_export": {
       "defaultValue": {
@@ -51,14 +23,21 @@
     },
     "ads_detail_every": {
       "defaultValue": {
-        "value": "4"
+        "value": "3"
       },
       "valueType": "NUMBER",
       "description": "Interstitial on every Nth detail page (min 2)."
     },
+    "ads_collection_every": {
+      "defaultValue": {
+        "value": "2"
+      },
+      "valueType": "NUMBER",
+      "description": "Interstitial due after every Nth exit from a collection list."
+    },
     "ads_tab_every": {
       "defaultValue": {
-        "value": "5"
+        "value": "4"
       },
       "valueType": "NUMBER",
       "description": "Interstitial on every Nth bottom tab switch (min 2)."
@@ -68,14 +47,7 @@
         "value": "12"
       },
       "valueType": "NUMBER",
-      "description": "Native ad every N rows in collection lists (min 4)."
-    },
-    "ads_collapsible_banner": {
-      "defaultValue": {
-        "value": "false"
-      },
-      "valueType": "BOOLEAN",
-      "description": "Use a collapsible banner on detail pages."
+      "description": "Native ad every N rows in collection lists (min 12, so two slots are never on screen together)."
     },
     "review_min_moments": {
       "defaultValue": {

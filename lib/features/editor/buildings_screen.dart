@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
 
 import '../../save/buildings.dart';
 import '../../state/editor_state.dart';
@@ -21,7 +20,6 @@ class BuildingsScreen extends StatelessWidget {
     final buildings = save.buildings();
     final p = context.farm;
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr('Buildings ({n})', {'n': buildings.length}))),
       body: ListView.separated(
         padding: EdgeInsets.fromLTRB(16, 16, 16, 40),

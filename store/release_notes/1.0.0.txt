@@ -1,0 +1,117 @@
+<en-US>
+First release of Tracker & Save Editor for Stardew Valley:
+• Calendar with birthdays, festivals and crop deadlines
+• Villager gifts, schedules and heart tracker
+• Community Center bundles and perfection checklist
+• Save editor for Stardew Valley 1.6 with automatic backups
+• Import your progress straight from a save file
+• 13 languages
+</en-US>
+<vi>
+Phiên bản đầu tiên của Tracker & Sửa Save cho Stardew Valley:
+• Lịch sinh nhật, lễ hội và hạn trồng cây
+• Quà tặng, lịch trình và tim của dân làng
+• Gói Trung tâm Cộng đồng và checklist hoàn hảo
+• Sửa save Stardew Valley 1.6, tự sao lưu trước mỗi lần sửa
+• Nhập tiến độ trực tiếp từ file save
+• 13 ngôn ngữ
+</vi>
+<pt-BR>
+Primeira versão do Guia e Editor de Save para Stardew Valley:
+• Calendário com aniversários, festivais e prazos de plantio
+• Presentes, rotinas e corações dos aldeões
+• Pacotes do Centro Comunitário e checklist de perfeição
+• Editor de save do Stardew Valley 1.6 com backup automático
+• Importe seu progresso direto do arquivo de save
+• 13 idiomas
+</pt-BR>
+<es-ES>
+Primera versión de la Guía y Editor de Save para Stardew Valley:
+• Calendario con cumpleaños, festivales y plazos de cultivo
+• Regalos, horarios y corazones de los aldeanos
+• Lotes del centro cívico y checklist de perfección
+• Editor de partidas de Stardew Valley 1.6 con copia de seguridad automática
+• Importa tu progreso desde el archivo de guardado
+• 13 idiomas
+</es-ES>
+<de-DE>
+Erste Version von Tracker & Save-Editor für Stardew Valley:
+• Kalender mit Geburtstagen, Festen und Pflanzfristen
+• Geschenke, Tagesabläufe und Herzen der Dorfbewohner
+• Gemeinschaftszentrum-Bündel und Perfektions-Checkliste
+• Savegame-Editor für Stardew Valley 1.6 mit automatischem Backup
+• Fortschritt direkt aus dem Spielstand importieren
+• 13 Sprachen
+</de-DE>
+<fr-FR>
+Première version du guide et éditeur pour Stardew Valley :
+• Calendrier des anniversaires, festivals et dates limites de plantation
+• Cadeaux, emplois du temps et cœurs des villageois
+• Lots du Centre communautaire et checklist de perfection
+• Éditeur de sauvegarde Stardew Valley 1.6 avec sauvegarde automatique
+• Importez votre progression depuis un fichier de save
+• 13 langues
+</fr-FR>
+<ru-RU>
+Первая версия гайда и редактора для Stardew Valley:
+• Календарь дней рождения, фестивалей и сроков посадки
+• Подарки, расписания и сердечки жителей
+• Наборы Общественного центра и чек-лист идеала
+• Редактор сохранений Stardew Valley 1.6 с автоматической копией
+• Импорт прогресса прямо из файла сохранения
+• 13 языков
+</ru-RU>
+<ja-JP>
+スターデューバレー用 攻略・図鑑・セーブ編集アプリの初回リリース：
+• 誕生日・お祭り・作物の植え付け期限カレンダー
+• 住民の好きなプレゼント、スケジュール、ハート管理
+• コミュニティセンターのバンドルとパーフェクション進捗
+• Stardew Valley 1.6 対応のセーブ編集（自動バックアップ付き）
+• セーブデータから進捗をそのまま取り込み
+• 13言語に対応
+</ja-JP>
+<ko-KR>
+스타듀밸리 공략·도감·세이브 에디터 첫 출시:
+• 생일, 축제, 작물 심기 마감일 달력
+• 주민 선물, 일정, 하트 관리
+• 커뮤니티 센터 꾸러미와 완벽 달성 체크리스트
+• 스타듀밸리 1.6 세이브 수정 및 자동 백업
+• 세이브 파일에서 진행도 바로 가져오기
+• 13개 언어 지원
+</ko-KR>
+<zh-CN>
+星露谷物语攻略图鉴与存档修改器首个版本：
+• 村民生日、节日与作物种植截止日历
+• 村民送礼喜好、日程与好感度追踪
+• 社区中心收集包与完美度清单
+• 星露谷物语 1.6 存档修改器，修改前自动备份
+• 直接从存档导入游戏进度
+• 支持 13 种语言
+</zh-CN>
+<it-IT>
+Prima versione della Guida ed Editor per Stardew Valley:
+• Calendario con compleanni, festival e scadenze di semina
+• Regali, orari e cuori degli abitanti
+• Pacchetti del Centro comunitario e checklist della perfezione
+• Editor di salvataggi di Stardew Valley 1.6 con backup automatico
+• Importa i progressi direttamente dal file di salvataggio
+• 13 lingue
+</it-IT>
+<tr-TR>
+Stardew Valley Rehber ve Save Editör'ün ilk sürümü:
+• Doğum günleri, festivaller ve ekim son günleri takvimi
+• Köylü hediyeleri, programları ve kalp takibi
+• Topluluk Merkezi paketleri ve mükemmellik listesi
+• Otomatik yedeklemeli Stardew Valley 1.6 save editörü
+• İlerlemeni doğrudan kayıt dosyasından aktar
+• 13 dil
+</tr-TR>
+<hu-HU>
+A Stardew Valley útmutató és mentésszerkesztő első kiadása:
+• Naptár születésnapokkal, fesztiválokkal és ültetési határidőkkel
+• A falusiak ajándékai, napirendje és szívei
+• Közösségi központ csomagok és tökéletesség-lista
+• Stardew Valley 1.6 mentésszerkesztő automatikus biztonsági mentéssel
+• Haladás importálása közvetlenül a mentésfájlból
+• 13 nyelv
+</hu-HU>

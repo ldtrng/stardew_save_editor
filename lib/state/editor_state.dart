@@ -54,24 +54,28 @@ class EditorState extends ChangeNotifier {
     }
   }
 
-  Future<void> loadBytes(Uint8List bytes, String name, {String? uri}) => _busy(() async {
-        final parsed = await compute(_parseIsolate, (bytes, name));
-        save = parsed;
-        fileName = name;
-        sourceUri = uri;
-        playerIndex = 0;
-        dirty = false;
-        await _backup(bytes, name);
-      });
+  Future<void> loadBytes(Uint8List bytes, String name, {String? uri, bool showAd = true}) async {
+    await _busy(() async {
+      final parsed = await compute(_parseIsolate, (bytes, name));
+      save = parsed;
+      fileName = name;
+      sourceUri = uri;
+      playerIndex = 0;
+      dirty = false;
+      await _backup(bytes, name);
+    });
+    if (showAd) AdsService.instance.onTaskDone('save_opened');
+  }
 
   static SaveFile _parseIsolate((Uint8List, String) args) => SaveFile.parse(args.$1, args.$2);
 
   /// Opens a save with the system file picker.
-  Future<bool> pickFile() async {
+  /// [showAd] is false when the caller shows its own ad afterwards (progress import).
+  Future<bool> pickFile({bool showAd = true}) async {
     final file = await AdsService.instance.external(() => FilePicker.pickFile(dialogTitle: 'Select your save file'));
     if (file == null) return false;
     final bytes = await file.xFile.readAsBytes();
-    await loadBytes(bytes, file.name);
+    await loadBytes(bytes, file.name, showAd: showAd);
     Analytics.log('save_opened', {'source': 'file_picker'});
     return true;
   }

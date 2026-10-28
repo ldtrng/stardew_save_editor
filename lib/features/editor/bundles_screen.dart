@@ -4,7 +4,6 @@ import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 import '../../ads/ads_service.dart';
-import '../../ads/banner_ad.dart';
 
 import '../../save/bundles.dart';
 import '../../state/editor_state.dart';
@@ -36,7 +35,6 @@ class _BundlesScreenState extends State<BundlesScreen> {
     final cc = _cc;
     if (cc == null) {
       return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
         appBar: AppBar(title: Text(tr('Bundles'))),
         body: EmptyState(icon: Icons.redeem_outlined, title: tr('No Community Center bundles in this save')),
       );
@@ -49,7 +47,6 @@ class _BundlesScreenState extends State<BundlesScreen> {
     final rooms = cc.byRoom;
     final p = context.farm;
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr('Community Center'))),
       body: ListView(
         padding: EdgeInsets.fromLTRB(16, 4, 16, 40),

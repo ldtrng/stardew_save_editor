@@ -54,29 +54,13 @@ class SettingsScreen extends StatelessWidget {
             subtitle: tr('Fills fish, shipping, cooking, crafting, museum, bundles, hearts and date'),
             onTap: () => importFromSave(context),
           ),
-          PlankHeader(tr('Ads')),
-          if (ads.adFree)
-            _Tile(
-              icon: Icons.celebration_outlined,
-              title: tr('Ad-free is on (watch again to extend)'),
-              subtitle: tr('Until {date}', {'date': _fmt(ads.adFreeUntil!)}),
-            )
-          else
-            _Tile(
-              icon: Icons.ondemand_video,
-              title: tr('Watch a video: 4 hours without ads'),
-              subtitle: ads.rewardedReady ? tr('Each video adds 4 hours (up to 24 hours)') : tr('Loading…'),
-              onTap: () async {
-                final ok = await ads.watchForAdFree();
-                if (context.mounted) {
-                  showToast(context, ok ? tr('Ads are off until {date}', {'date': _fmt(ads.adFreeUntil!)}) : tr('No video available right now, try again later.'));
-                }
-              },
-            ),
           FutureBuilder<bool>(
             future: ads.privacyOptionsRequired(),
             builder: (context, snap) => snap.data == true
-                ? _Tile(icon: Icons.privacy_tip_outlined, title: tr('Ad privacy choices'), onTap: ads.showPrivacyOptions)
+                ? Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    PlankHeader(tr('Ads')),
+                    _Tile(icon: Icons.privacy_tip_outlined, title: tr('Ad privacy choices'), onTap: ads.showPrivacyOptions),
+                  ])
                 : SizedBox.shrink(),
           ),
           PlankHeader(tr('Language')),
@@ -192,9 +176,6 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 
-  static String _fmt(DateTime d) =>
-      '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')} ${d.hour.toString().padLeft(2, '0')}:${d.minute.toString().padLeft(2, '0')}';
-
   Future<void> _exportTracker(BuildContext context) async {
     final t = context.read<TrackerState>();
     final bytes = utf8.encode(t.exportJson());
@@ -203,6 +184,7 @@ class SettingsScreen extends StatelessWidget {
     await file.writeAsBytes(bytes);
     await AdsService.instance.external(
         () => SharePlus.instance.share(ShareParams(files: [XFile(file.path)], text: 'SV Tracker backup')));
+    AdsService.instance.onTaskDone('tracker_export');
   }
 
   Future<void> _importTracker(BuildContext context) async {
@@ -212,6 +194,7 @@ class SettingsScreen extends StatelessWidget {
     try {
       t.importJson(utf8.decode(await f.xFile.readAsBytes()));
       if (context.mounted) showToast(context, tr('Tracker data restored'));
+      AdsService.instance.onTaskDone('tracker_import');
     } catch (e) {
       if (context.mounted) showToast(context, tr('Not a valid backup file'));
     }
@@ -226,7 +209,7 @@ Future<void> importFromSave(BuildContext context) async {
   SaveFile? save = editor.save;
   if (save == null) {
     try {
-      if (!await editor.pickFile()) return;
+      if (!await editor.pickFile(showAd: false)) return;
       save = editor.save;
     } catch (e) {
       if (context.mounted) showToast(context, tr('Could not read save: {error}', {'error': e}));

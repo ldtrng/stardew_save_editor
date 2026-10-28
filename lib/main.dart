@@ -3,6 +3,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'ads/ads_service.dart';
+import 'ads/banner_ad.dart';
+import 'ads/startup_gate.dart';
 import 'app_shell.dart';
 import 'data/game_data.dart';
 import 'dev/screenshot_mode.dart';
@@ -71,7 +73,9 @@ class ValleyApp extends StatelessWidget {
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       // Rebuild everything when the language changes so every tr() re-runs.
       navigatorKey: screenshotMode ? shotNavigatorKey : null,
-      home: AppShell(key: ValueKey(l10n.code)),
+      // One banner under every page (see AdBannerHost).
+      builder: (context, child) => screenshotMode ? child! : AdBannerHost(child: child!),
+      home: screenshotMode ? AppShell(key: ValueKey(l10n.code)) : StartupGate(child: AppShell(key: ValueKey(l10n.code))),
     );
   }
 }

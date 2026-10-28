@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
+import '../../ads/ads_service.dart';
 import '../../state/tracker_state.dart';
 import '../../ui/theme.dart';
 import '../../ui/widgets.dart';
@@ -34,8 +35,10 @@ class FarmsSheet extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(10, 4, 4, 4),
               color: f.id == t.farm.id ? p.wheat.withValues(alpha: 0.45) : null,
               onTap: () {
+                final changed = f.id != t.farm.id;
                 t.selectFarm(f.id);
                 Navigator.pop(context);
+                if (changed) AdsService.instance.onTaskDone('farm_switched');
               },
               child: Row(children: [
                 Icon(f.id == t.farm.id ? Icons.radio_button_checked : Icons.radio_button_off, color: p.woodDark),
@@ -112,6 +115,7 @@ Future<void> editFarmDialog(BuildContext context, FarmProfile? farm) async {
                 final f = t.addFarm(name);
                 if (remixed) t.setRemixed(true);
                 t.selectFarm(f.id);
+                AdsService.instance.onTaskDone('farm_created');
               } else {
                 t.renameFarm(farm, name);
                 if (farm.remixedBundles != remixed) {

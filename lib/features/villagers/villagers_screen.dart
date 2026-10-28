@@ -5,7 +5,6 @@ import '../../l10n/names.dart';
 import 'package:provider/provider.dart';
 
 import '../../ads/ads_service.dart';
-import '../../ads/banner_ad.dart';
 import '../../data/game_data.dart';
 import '../../state/tracker_state.dart';
 import '../../ui/theme.dart';
@@ -37,7 +36,6 @@ class _VillagersScreenState extends State<VillagersScreen> {
     }).toList();
     return Scaffold(
       appBar: AppBar(title: Text(tr('Villagers'))),
-      bottomNavigationBar: AdBanner(),
       body: Column(children: [
         Padding(
           padding: EdgeInsets.fromLTRB(16, 12, 16, 6),

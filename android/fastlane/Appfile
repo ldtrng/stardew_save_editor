@@ -1,0 +1,4 @@
+# Service-account key lives outside the repo next to the upload keystore
+# (see tools/README.md). Override with SUPPLY_JSON_KEY or PLAY_JSON_KEY.
+json_key_file(ENV['SUPPLY_JSON_KEY'] || File.expand_path('~/Documents/ldtr_key_storage/play-service-account.json'))
+package_name('io.ld2t.stardew_save_editor')

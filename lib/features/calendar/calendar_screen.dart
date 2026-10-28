@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '../../ads/ads_service.dart';
 import '../../l10n/l10n.dart';
 import '../../l10n/names.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
 import '../../data/game_data.dart';
 import '../../state/tracker_state.dart';
 import '../../ui/theme.dart';
@@ -102,7 +102,6 @@ class CalendarScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: AdBanner(),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: p.grassDark,
         foregroundColor: Colors.white,
@@ -124,7 +123,10 @@ class CalendarScreen extends StatelessWidget {
                 title: Text(villagerName(v['name'])),
                 subtitle: _bestGifts(v),
                 trailing: Icon(Icons.chevron_right),
-                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => VillagerDetail(villager: v))),
+                onTap: () {
+                  AdsService.instance.onDetailViewed();
+                  Navigator.push(context, MaterialPageRoute(builder: (_) => VillagerDetail(villager: v)));
+                },
               ),
           ],
           if (ev.festivals.isNotEmpty || ev.recurring.isNotEmpty || qos != null) ...[
@@ -145,7 +147,10 @@ class CalendarScreen extends StatelessWidget {
               for (final c in plant)
                 ItemRefChip(
                   ref: {'name': cropName(c), 'image': c['image']},
-                  onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CropDetail(crop: c))),
+                  onTap: () {
+                    AdsService.instance.onDetailViewed();
+                    Navigator.push(context, MaterialPageRoute(builder: (_) => CropDetail(crop: c)));
+                  },
                 ),
             ]),
           ],

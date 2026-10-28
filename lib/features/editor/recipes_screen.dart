@@ -8,7 +8,6 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../../ads/ads_service.dart';
-import '../../ads/banner_ad.dart';
 
 import '../../save/game_constants.dart';
 import '../../save/items.dart';
@@ -60,7 +59,6 @@ class _RecipesScreenState extends State<RecipesScreen> {
         .where((r) => q.isEmpty || label(r).toLowerCase().contains(q) || (recipeDisplayNames[r] ?? r).toLowerCase().contains(q))
         .toList();
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(
         title: Text('${widget.cooking ? tr('Cooking') : tr('Crafting')} ${known.keys.where(all.contains).length}/${all.length}'),
         actions: [

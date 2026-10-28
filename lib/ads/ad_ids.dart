@@ -7,7 +7,6 @@ class AdIds {
   static const _prodBanner = 'ca-app-pub-2822978318382771/4186060461';
   static const _prodInterstitial = 'ca-app-pub-2822978318382771/9005388281';
   static const _prodAppOpen = 'ca-app-pub-2822978318382771/6038198184';
-  static const _prodRewarded = 'ca-app-pub-2822978318382771/2164647764';
   static const _prodNative = 'ca-app-pub-2822978318382771/4774886277';
   static const _prodRewardedTools = 'ca-app-pub-2822978318382771/5758076719';
 
@@ -22,7 +21,6 @@ class AdIds {
   static String get banner => _pick(_prodBanner, _testBanner);
   static String get interstitial => _pick(_prodInterstitial, _testInterstitial);
   static String get appOpen => _pick(_prodAppOpen, _testAppOpen);
-  static String get rewarded => _pick(_prodRewarded, _testRewarded);
   static String get native => _pick(_prodNative, _testNative);
   static String get rewardedTools => _pick(_prodRewardedTools, _testRewarded);
 }

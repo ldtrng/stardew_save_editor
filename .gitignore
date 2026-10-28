@@ -52,3 +52,10 @@ research/
 
 # Raw device captures (regenerate with tools/store/capture.sh)
 store/screenshots/raw/
+
+# Play publishing (fastlane): generated metadata, service-account keys
+/build/play_metadata/
+android/fastlane/report.xml
+android/fastlane/README.md
+play-service-account*.json
+*-service-account*.json

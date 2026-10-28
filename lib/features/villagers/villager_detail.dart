@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../../ads/ads_service.dart';
 import '../../l10n/l10n.dart';
 import '../../l10n/names.dart';
 import 'package:provider/provider.dart';
 
+import '../../ads/native_ad.dart';
 import '../../data/game_data.dart';
 import '../../state/tracker_state.dart';
 import '../../ui/theme.dart';
@@ -29,7 +31,7 @@ class VillagerDetail extends StatelessWidget {
     final hearts = t.hearts(name);
     final rels = (v['relationships'] as List? ?? []).cast<Map>();
     final display = villagerName(name);
-    return DetailScaffold(title: display, children: [
+    return DetailScaffold(title: display, nativeAd: false, children: [
       PixelPanel(
         color: p.panelAlt,
         child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -56,11 +58,16 @@ class VillagerDetail extends StatelessWidget {
               ref: {'name': _relationLabel(name, r), 'image': GameData.i.villager(r['npc'].toString())?['image']},
               onTap: () {
                 final other = GameData.i.villager(r['npc'].toString());
-                if (other != null) Navigator.push(context, MaterialPageRoute(builder: (_) => VillagerDetail(villager: other)));
+                if (other != null) {
+                  AdsService.instance.onDetailViewed();
+                  Navigator.push(context, MaterialPageRoute(builder: (_) => VillagerDetail(villager: other)));
+                }
               },
             ),
         ]),
       ],
+      SizedBox(height: 12),
+      NativeMediaAd(margin: .zero),
       if (v['gifts'] != null) ...[PlankHeader(tr('Gifts')), _Gifts(villager: name, gifts: v['gifts'] as Map)],
       if (v['hasSchedule'] == true || GameData.i.villagerSchedules['schedules'][name] != null) ...[
         PlankHeader(tr('Schedule')),
@@ -113,7 +120,10 @@ class _GiftsState extends State<_Gifts> {
                 ? null
                 : () {
                     final s = ItemDetailScreen.forId(it['id'].toString());
-                    if (s != null) Navigator.push(context, MaterialPageRoute(builder: (_) => s));
+                    if (s != null) {
+                      AdsService.instance.onDetailViewed();
+                      Navigator.push(context, MaterialPageRoute(builder: (_) => s));
+                    }
                   },
           ),
       ]),

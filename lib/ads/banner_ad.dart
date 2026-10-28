@@ -1,28 +1,38 @@
+import 'dart:async';
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../ui/theme.dart';
 import 'ad_ids.dart';
+import 'ad_style.dart';
 import 'ads_service.dart';
 
-/// Anchored adaptive banner; collapses to nothing when ads are off.
-/// [collapsible] requests a collapsible banner (used on detail pages).
-class AdBanner extends StatefulWidget {
-  const AdBanner({super.key, this.collapsible = false});
-  final bool collapsible;
+/// One anchored adaptive banner under the whole navigator (installed through
+/// `MaterialApp.builder`), so every page shows it without per-screen widgets and
+/// without a new ad request each time a page opens. Collapses to nothing while
+/// no ad is loaded or ads are off, and steps aside while the keyboard is open.
+class AdBannerHost extends StatefulWidget {
+  const AdBannerHost({super.key, required this.child});
+  final Widget child;
   @override
-  State<AdBanner> createState() => _AdBannerState();
+  State<AdBannerHost> createState() => _AdBannerHostState();
 }
 
-class _AdBannerState extends State<AdBanner> {
+class _AdBannerHostState extends State<AdBannerHost> {
   BannerAd? _ad;
   bool _loaded = false;
+  bool _loading = false;
   int? _width;
+  int _failures = 0;
+  Timer? _retry;
 
   @override
   void initState() {
     super.initState();
     AdsService.instance.addListener(_onAds);
+    AdsService.instance.startupReady.addListener(_onAds);
   }
 
   void _onAds() {
@@ -31,6 +41,8 @@ class _AdBannerState extends State<AdBanner> {
       _ad?.dispose();
       _ad = null;
       _loaded = false;
+    } else {
+      _load();
     }
     setState(() {});
   }
@@ -42,38 +54,62 @@ class _AdBannerState extends State<AdBanner> {
   }
 
   Future<void> _load() async {
-    if (!AdsService.instance.showAds) return;
-    final width = MediaQuery.of(context).size.width.truncate();
+    if (_loading || !AdsService.instance.showAds) return;
+    // Wait out the back-off after a failed request instead of hammering the
+    // ad server (every rebuild or tab switch used to fire a new request).
+    if (_retry?.isActive ?? false) return;
+    final width = MediaQuery.sizeOf(context).width.truncate();
     if (_ad != null && _width == width) return;
-    _width = width;
+    _loading = true;
     // ignore: deprecated_member_use
     final size = await AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(width);
-    if (size == null || !mounted) return;
+    _loading = false;
+    if (!mounted) return;
+    if (size == null) return _scheduleRetry();
+    _width = width;
+    _loaded = false;
     _ad?.dispose();
-    _ad = BannerAd(
+    final ad = BannerAd(
       adUnitId: AdIds.banner,
       size: size,
-      request: widget.collapsible ? const AdRequest(extras: {'collapsible': 'bottom'}) : const AdRequest(),
+      request: const AdRequest(),
       listener: BannerAdListener(
-        onAdLoaded: (_) => mounted ? setState(() => _loaded = true) : null,
-        onAdFailedToLoad: (ad, _) {
-          ad.dispose();
-          if (!mounted) return;
+        onAdLoaded: (a) {
+          if (!mounted || !identical(a, _ad)) return;
+          _failures = 0;
+          setState(() => _loaded = true);
+        },
+        onAdFailedToLoad: (a, _) {
+          a.dispose();
+          if (!mounted || !identical(a, _ad)) return;
           setState(() {
             _ad = null;
+            _loaded = false;
             _width = null;
           });
-          Future.delayed(const Duration(seconds: 45), () {
-            if (mounted && _ad == null) _load();
-          });
+          _scheduleRetry();
         },
       ),
-    )..load();
+    );
+    _ad = ad;
+    ad.load();
+  }
+
+  /// 30 s, 1 m, 2 m, 4 m, then every 5 m while the banner stays on screen.
+  void _scheduleRetry() {
+    _failures++;
+    final seconds = min(30 * (1 << min(_failures - 1, 4)), 300);
+    _retry?.cancel();
+    _retry = Timer(Duration(seconds: seconds), () {
+      if (mounted) _load();
+    });
   }
 
   @override
   void dispose() {
+    _retry?.cancel();
     AdsService.instance.removeListener(_onAds);
+    AdsService.instance.startupReady.removeListener(_onAds);
     _ad?.dispose();
     super.dispose();
   }
@@ -81,18 +117,34 @@ class _AdBannerState extends State<AdBanner> {
   @override
   Widget build(BuildContext context) {
     final ad = _ad;
-    if (!AdsService.instance.showAds) return const SizedBox.shrink();
-    if (ad == null) {
-      if (_width == null) WidgetsBinding.instance.addPostFrameCallback((_) => _load());
-      return const SizedBox.shrink();
-    }
-    if (!_loaded) return const SizedBox.shrink();
-    return Container(
-      decoration: BoxDecoration(border: Border(top: BorderSide(color: context.farm.outline, width: 2))),
-      width: ad.size.width.toDouble(),
-      height: ad.size.height.toDouble(),
-      alignment: Alignment.center,
-      child: AdWidget(ad: ad),
-    );
+    final mq = MediaQuery.of(context);
+    // Not before the home page is revealed (the cold-start app open ad comes first).
+    final shown = ad != null && _loaded && AdsService.instance.showAds && AdsService.instance.startupReady.value;
+    final keyboard = mq.viewInsets.bottom > 0;
+    final p = context.farm;
+    // The banner takes over the bottom system inset, so pages above it must not
+    // pad for it again.
+    final inset = mq.padding.bottom;
+    final pageMedia = (!shown || keyboard) ? mq : mq.copyWith(padding: mq.padding.copyWith(bottom: 0), viewPadding: mq.viewPadding.copyWith(bottom: 0));
+    // The tree shape never changes, so the navigator keeps its state when the
+    // ad appears or goes away.
+    return Column(children: [
+      Expanded(child: MediaQuery(data: pageMedia, child: widget.child)),
+      if (shown)
+        // Kept in the tree (just not laid out) while the keyboard is up, so the
+        // loaded ad survives and no new request is made.
+        Visibility(
+          visible: !keyboard,
+          maintainState: true,
+          child: Container(
+            decoration: BoxDecoration(color: adSurface(p), border: Border(top: BorderSide(color: p.outline, width: 2))),
+            width: double.infinity,
+            height: ad.size.height.toDouble() + 2 + inset,
+            padding: EdgeInsets.only(bottom: inset),
+            alignment: Alignment.center,
+            child: SizedBox(width: ad.size.width.toDouble(), height: ad.size.height.toDouble(), child: AdWidget(ad: ad)),
+          ),
+        ),
+    ]);
   }
 }

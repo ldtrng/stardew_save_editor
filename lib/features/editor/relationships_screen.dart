@@ -5,7 +5,6 @@ import '../../l10n/names.dart';
 import 'package:provider/provider.dart';
 
 import '../../ads/ads_service.dart';
-import '../../ads/banner_ad.dart';
 
 import '../../save/farmer.dart';
 import '../../save/game_constants.dart';
@@ -24,7 +23,6 @@ class RelationshipsScreen extends StatelessWidget {
     final list = f.friendships;
     final missing = socialNpcs.where((n) => !list.any((x) => x.name == n)).length;
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(
         title: Text(tr('Relationships')),
         actions: [

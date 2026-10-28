@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../ads/ads_service.dart';
 import '../../l10n/l10n.dart';
 import '../../l10n/names.dart';
 import 'collections.dart' show bundleUsage;
@@ -181,6 +182,7 @@ class ItemDetailScreen extends StatelessWidget {
                         onTap: () {
                           final v = GameData.i.villager(n);
                           if (v != null) {
+                            AdsService.instance.onDetailViewed();
                             Navigator.push(context, MaterialPageRoute(builder: (_) => VillagerDetail(villager: v)));
                           }
                         },

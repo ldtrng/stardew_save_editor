@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
 
 import '../../save/qi_quests.dart';
 import '../../state/editor_state.dart';
@@ -23,7 +22,6 @@ class QiQuestsScreen extends StatelessWidget {
     final active = qi.inProgress;
     final p = context.farm;
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr("Qi's Special Orders"))),
       body: ListView(
         padding: EdgeInsets.fromLTRB(16, 12, 16, 40),

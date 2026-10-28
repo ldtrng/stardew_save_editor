@@ -5,7 +5,6 @@ import '../../l10n/names.dart';
 import 'package:provider/provider.dart';
 
 import '../../ads/ads_service.dart';
-import '../../ads/banner_ad.dart';
 
 import '../../save/farmer.dart';
 import '../../save/game_constants.dart';
@@ -34,7 +33,6 @@ class CharacterScreen extends StatelessWidget {
         });
 
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr('Character'))),
       body: ListView(
         padding: EdgeInsets.fromLTRB(16, 4, 16, 40),

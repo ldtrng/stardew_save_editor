@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:math';
+import 'package:flutter/foundation.dart' show kDebugMode;
 
 import 'package:flutter/material.dart';
 
@@ -16,64 +17,57 @@ import 'ad_ids.dart';
 ///   can switch to a collapsible banner via Remote Config; off by default).
 /// * Native: inline cards inside long lists (every [nativeEvery] rows).
 /// * Interstitial: at natural breaks only — after exporting/writing a save,
-///   after importing progress, leaving an editor section, every 4th detail page
-///   and every 5th tab switch. ≥ 2 min apart, never in the first 45 s.
-/// * App open: cold start (from the 2nd launch) and when returning after ≥ 30 s
-///   in background; ≥ 3 h apart; never right after pickers/share sheets.
-/// * Rewarded: bulk editor tools (unlocked for 1 h), and +4 h ad-free per video
-///   (stacking up to 24 h).
+///   after importing progress, leaving an editor section, every Nth detail page
+///   and every Nth tab switch. No time-based gap: pacing comes from the counters.
+/// * App open: cold start (from the 2nd launch) and every return from the
+///   background; never right after pickers/share sheets or another full-screen ad.
+/// * Rewarded: bulk editor tools (unlocked for 1 h).
 class AdsService extends ChangeNotifier with WidgetsBindingObserver {
   AdsService._();
   static final AdsService instance = AdsService._();
 
-  static const _kAdFreeUntil = 'ads_ad_free_until';
+  static const _kLegacyAdFreeUntil = 'ads_ad_free_until';
   static const _kLaunches = 'ads_launch_count';
-  static Duration get _interstitialGap => RemoteSettings.seconds('ads_interstitial_gap_sec');
-  static Duration get _sessionGrace => RemoteSettings.seconds('ads_session_grace_sec');
-  static Duration get _appOpenGap => RemoteSettings.minutes('ads_app_open_gap_min');
-  static const adFreePerVideo = Duration(hours: 4);
-  static const adFreeMax = Duration(hours: 24);
   static const toolsUnlock = Duration(hours: 1);
-  static int get nativeEvery => RemoteSettings.getInt('ads_native_every', min: 4);
-  static bool get collapsibleBanner => RemoteSettings.getBool('ads_collapsible_banner');
+  static int get nativeEvery => RemoteSettings.getInt('ads_native_every', min: 12);
 
   bool _initialized = false;
   bool _canRequest = false;
-  DateTime? _adFreeUntil;
   DateTime? _toolsUntil;
   int _launches = 0;
-  final DateTime _sessionStart = DateTime.now();
   DateTime? _lastInterstitial;
   DateTime? _lastAppOpen;
   DateTime? _pausedAt;
   int _externalDepth = 0;
-  int _detailViews = 0;
-  int _tabSwitches = 0;
-  int _sectionExits = 0;
+  final Map<String, int> _since = {};
   bool _fullscreenShowing = false;
   bool _coldStartPending = true;
 
+  /// False until the cold-start app open ad has been shown, failed or timed
+  /// out; [StartupGate] keeps the home page hidden meanwhile.
+  final ValueNotifier<bool> startupReady = ValueNotifier(false);
+
   InterstitialAd? _interstitial;
+  bool _interstitialLoading = false;
+  int _interstitialFailures = 0;
   AppOpenAd? _appOpen;
+  bool _appOpenLoading = false;
   DateTime? _appOpenLoadedAt;
-  RewardedAd? _rewarded;
   RewardedAd? _rewardedTools;
 
-  bool get adFree => _adFreeUntil != null && DateTime.now().isBefore(_adFreeUntil!);
-  DateTime? get adFreeUntil => adFree ? _adFreeUntil : null;
-  bool get showAds => _canRequest && !adFree;
-  bool get rewardedReady => _rewarded != null;
+  bool get showAds => _canRequest;
   bool get toolsUnlocked => _toolsUntil != null && DateTime.now().isBefore(_toolsUntil!);
 
   Future<void> init() async {
     if (_initialized) return;
     _initialized = true;
     final prefs = await SharedPreferences.getInstance();
-    final until = prefs.getInt(_kAdFreeUntil);
-    _adFreeUntil = until == null ? null : DateTime.fromMillisecondsSinceEpoch(until);
+    await prefs.remove(_kLegacyAdFreeUntil);
     _launches = (prefs.getInt(_kLaunches) ?? 0) + 1;
     await prefs.setInt(_kLaunches, _launches);
     WidgetsBinding.instance.addObserver(this);
+    // No app open ad on the very first launch after install: open the app at once.
+    if (_launches <= 1) _finishStartup();
     await _gatherConsent();
   }
 
@@ -91,14 +85,21 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
     );
     await done.future.timeout(Duration(seconds: 12), onTimeout: () {});
     _canRequest = await ConsentInformation.instance.canRequestAds();
+    final coldStartAd = RemoteSettings.getBool('ads_app_open_cold_start');
     if (_canRequest) {
       await MobileAds.instance.initialize();
       _loadInterstitial();
-      _loadRewarded();
       _loadRewardedTools();
-      _loadAppOpen(showWhenLoaded: _launches > 1);
+      if (_launches > 1) _loadAppOpen(coldStart: coldStartAd);
     }
+    // Nothing to wait for: ads are off, first launch, or no cold-start ad wanted.
+    if (!_canRequest || _launches <= 1 || !coldStartAd) _finishStartup();
     notifyListeners();
+  }
+
+  void _finishStartup() {
+    _coldStartPending = false;
+    if (!startupReady.value) startupReady.value = true;
   }
 
   Future<bool> privacyOptionsRequired() async =>
@@ -122,108 +123,164 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
     }
   }
 
-  void _show(AdWithoutView ad, VoidCallback reload, {VoidCallback? onClosed}) {
+  void _show(AdWithoutView ad, VoidCallback reload, {VoidCallback? onClosed, VoidCallback? onFinished}) {
     _fullscreenShowing = true;
-    final cb = FullScreenContentCallback<AdWithoutView>(
-      onAdDismissedFullScreenContent: (ad) {
-        ad.dispose();
-        _fullscreenShowing = false;
-        onClosed?.call();
-        reload();
-      },
-      onAdFailedToShowFullScreenContent: (ad, _) {
-        ad.dispose();
-        _fullscreenShowing = false;
-        reload();
-      },
-    );
     if (ad is InterstitialAd) {
-      ad.fullScreenContentCallback = cb as FullScreenContentCallback<InterstitialAd>?;
+      ad.fullScreenContentCallback = _fullScreenCallback<InterstitialAd>(reload, onClosed, onFinished);
       ad.show();
     } else if (ad is AppOpenAd) {
-      ad.fullScreenContentCallback = cb as FullScreenContentCallback<AppOpenAd>?;
+      ad.fullScreenContentCallback = _fullScreenCallback<AppOpenAd>(reload, onClosed, onFinished);
       ad.show();
     }
   }
 
+  /// The callback's type parameter must match the ad's own type exactly; a
+  /// `FullScreenContentCallback<AdWithoutView>` cast to it throws at runtime.
+  FullScreenContentCallback<T> _fullScreenCallback<T extends AdWithoutView>(
+          VoidCallback reload, VoidCallback? onClosed, VoidCallback? onFinished) =>
+      FullScreenContentCallback<T>(
+        onAdDismissedFullScreenContent: (ad) {
+          ad.dispose();
+          _fullscreenShowing = false;
+          onClosed?.call();
+          reload();
+          onFinished?.call();
+        },
+        onAdFailedToShowFullScreenContent: (ad, _) {
+          ad.dispose();
+          _fullscreenShowing = false;
+          reload();
+          onFinished?.call();
+        },
+      );
+
   // ---------------- interstitial ----------------
   void _loadInterstitial() {
+    if (_interstitialLoading || _interstitial != null) return;
+    _interstitialLoading = true;
     InterstitialAd.load(
       adUnitId: AdIds.interstitial,
       request: AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
-        onAdLoaded: (ad) => _interstitial = ad,
+        onAdLoaded: (ad) {
+          _interstitialLoading = false;
+          _interstitialFailures = 0;
+          _interstitial = ad;
+        },
         onAdFailedToLoad: (_) {
+          _interstitialLoading = false;
           _interstitial = null;
-          Future.delayed(Duration(seconds: 30), () => _canRequest ? _loadInterstitial() : null);
+          // 30 s, 1 m, 2 m, 4 m, then every 5 m: a no-fill market must not
+          // turn into a request every 30 s for the whole session.
+          final wait = min(30 * (1 << min(_interstitialFailures++, 4)), 300);
+          Future.delayed(Duration(seconds: wait), () => _canRequest ? _loadInterstitial() : null);
         },
       ),
     );
   }
 
+  void _dbg(String message) {
+    if (kDebugMode) debugPrint('[ads] $message');
+  }
+
+  /// Most recent full-screen ad of any kind (interstitial or app open).
+  DateTime? get _lastFullscreen {
+    final a = _lastInterstitial, b = _lastAppOpen;
+    if (a == null || b == null) return a ?? b;
+    return a.isAfter(b) ? a : b;
+  }
+
   bool get _interstitialAllowed {
-    if (!showAds || _fullscreenShowing || _interstitial == null || _externalDepth > 0) return false;
-    final now = DateTime.now();
-    if (now.difference(_sessionStart) < _sessionGrace) return false;
-    final last = _lastInterstitial ?? _lastAppOpen;
-    if (last != null && now.difference(last) < _interstitialGap) return false;
+    if (!showAds || _fullscreenShowing || _externalDepth > 0) return false;
+    if (_interstitial == null) {
+      _dbg('interstitial skipped: not loaded');
+      return false;
+    }
     return true;
+  }
+
+  /// Flows that leave the app (pickers, share sheet) are only considered over
+  /// 2 s after returning, so wait for that before trying to show an ad.
+  Future<void> _afterExternal() async {
+    for (var i = 0; i < 8 && _externalDepth > 0; i++) {
+      await Future.delayed(Duration(milliseconds: 500));
+    }
   }
 
   /// After a save was exported or written back.
   Future<void> onSaveExported(String method) async {
     Analytics.log('save_exported', {'method': method});
-    if (RemoteSettings.getBool('ads_interstitial_after_export')) await _showInterstitial();
+    if (!RemoteSettings.getBool('ads_interstitial_after_export')) return;
+    await _afterExternal();
+    await _showInterstitial();
   }
 
   /// After progress was imported into the tracker.
   Future<void> onProgressImported() async {
     Analytics.log('progress_imported');
+    await _afterExternal();
+    await _showInterstitial();
+  }
+
+  /// A user task just finished (save opened or restored from a backup, tracker
+  /// backup shared or restored, farm created or switched): a natural pause.
+  Future<void> onTaskDone(String task) async {
+    Analytics.log('task_done', {'task': task});
+    await _afterExternal();
     await _showInterstitial();
   }
 
   /// Leaving an editor section back to the hub.
-  void onEditorSectionClosed() {
-    _sectionExits++;
-    if (_sectionExits % RemoteSettings.getInt('ads_section_every', min: 1) == 0) _showInterstitial();
-  }
+  void onEditorSectionClosed() => _tick('section', RemoteSettings.getInt('ads_section_every', min: 1));
 
-  /// Counts detail pages; shows an interstitial on every Nth (default 4th).
-  void onDetailViewed() {
-    _detailViews++;
-    if (_detailViews % RemoteSettings.getInt('ads_detail_every', min: 2) == 0) _showInterstitial();
-  }
+  /// Leaving a collection list (Fish, Museum, Cooking…) back to the hub.
+  void onCollectionClosed() => _tick('collection', RemoteSettings.getInt('ads_collection_every', min: 1));
 
-  /// Counts bottom-tab switches; shows an interstitial on every Nth (default 5th).
-  void onTabChanged() {
-    _tabSwitches++;
-    if (_tabSwitches % RemoteSettings.getInt('ads_tab_every', min: 2) == 0) _showInterstitial();
+  /// Counts detail pages; an interstitial is due on every Nth (default 3rd).
+  void onDetailViewed() => _tick('detail', RemoteSettings.getInt('ads_detail_every', min: 2));
+
+  /// Counts bottom-tab switches; an interstitial is due on every Nth (default 4th).
+  void onTabChanged() => _tick('tab', RemoteSettings.getInt('ads_tab_every', min: 2));
+
+  /// Counts one navigation action. Once [every] actions have piled up the
+  /// interstitial is *due*; if it can't show (not loaded yet, another ad on
+  /// screen), the next action retries instead of waiting for another full
+  /// cycle, so a blocked slot is not lost. Any interstitial that shows resets all counters.
+  void _tick(String key, int every) {
+    final n = _since[key] = (_since[key] ?? 0) + 1;
+    if (n >= every) _showInterstitial();
   }
 
   Future<void> _showInterstitial() async {
     if (!_interstitialAllowed) return;
     final ad = _interstitial!;
     _interstitial = null;
+    _since.clear();
     _show(ad, _loadInterstitial, onClosed: () => _lastInterstitial = DateTime.now());
   }
 
   // ---------------- app open ----------------
-  void _loadAppOpen({bool showWhenLoaded = false}) {
-    final requestedAt = DateTime.now();
+  /// [coldStart]: the app was just launched, so show the ad as soon as it
+  /// arrives (the home page waits for it, up to 5 s) and open the app either way.
+  void _loadAppOpen({bool coldStart = false}) {
+    if (coldStart) Future.delayed(Duration(seconds: 5), _finishStartup);
+    if (_appOpenLoading) return;
+    _appOpenLoading = true;
     AppOpenAd.load(
       adUnitId: AdIds.appOpen,
       request: AdRequest(),
       adLoadCallback: AppOpenAdLoadCallback(
         onAdLoaded: (ad) {
+          _appOpenLoading = false;
           _appOpen = ad;
           _appOpenLoadedAt = DateTime.now();
-          // Cold start: only if it arrived quickly, so it never interrupts use.
-          if (showWhenLoaded && _coldStartPending && RemoteSettings.getBool('ads_app_open_cold_start') && DateTime.now().difference(requestedAt) < Duration(seconds: 5)) {
-            _coldStartPending = false;
-            _maybeShowAppOpen();
-          }
+          if (coldStart && _coldStartPending) _maybeShowAppOpen(coldStart: true);
         },
-        onAdFailedToLoad: (_) => _appOpen = null,
+        onAdFailedToLoad: (_) {
+          _appOpenLoading = false;
+          _appOpen = null;
+          if (coldStart) _finishStartup();
+        },
       ),
     );
   }
@@ -232,51 +289,60 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.paused) {
       _pausedAt = DateTime.now();
+      // Have one ready for the moment the user comes back.
+      if (showAds && _launches > 1 && !_fullscreenShowing && _appOpen == null) _loadAppOpen();
     } else if (state == AppLifecycleState.resumed) {
-      final away = _pausedAt == null ? Duration.zero : DateTime.now().difference(_pausedAt!);
+      // Only a real return from the background (a pause came first).
+      final wasPaused = _pausedAt != null;
       _pausedAt = null;
-      if (away >= RemoteSettings.seconds('ads_app_open_away_sec')) _maybeShowAppOpen();
+      _dbg('resumed (was in background: $wasPaused)');
+      if (wasPaused && startupReady.value) _maybeShowAppOpen();
     }
   }
 
-  void _maybeShowAppOpen() {
+  void _maybeShowAppOpen({bool coldStart = false}) {
+    if (!_tryShowAppOpen(coldStart)) {
+      if (coldStart) _finishStartup();
+    }
+  }
+
+  /// Returns true when an ad went on screen.
+  bool _tryShowAppOpen(bool coldStart) {
     _coldStartPending = false;
-    if (!showAds || _externalDepth > 0 || _fullscreenShowing || _launches <= 1) return;
+    if (!showAds || _externalDepth > 0 || _fullscreenShowing) {
+      _dbg('app open skipped: ads off / external flow / fullscreen ad showing');
+      return false;
+    }
+    if (_launches <= 1) {
+      _dbg('app open skipped: first launch');
+      return false;
+    }
     final now = DateTime.now();
-    if (_lastAppOpen != null && now.difference(_lastAppOpen!) < _appOpenGap) return;
+    // Returning from an interstitial/rewarded video also fires a resume right
+    // as it closes; a later return from the background is a real one.
+    final last = _lastFullscreen;
+    if (last != null && now.difference(last) < Duration(seconds: 5)) {
+      _dbg('app open skipped: a full-screen ad just closed');
+      return false;
+    }
     final ad = _appOpen;
     if (ad == null) {
+      _dbg('app open skipped: not loaded yet, loading');
       _loadAppOpen();
-      return;
+      return false;
     }
     if (_appOpenLoadedAt != null && now.difference(_appOpenLoadedAt!) > Duration(hours: 4)) {
       ad.dispose();
       _appOpen = null;
       _loadAppOpen();
-      return;
+      return false;
     }
     _appOpen = null;
-    _show(ad, _loadAppOpen, onClosed: () => _lastAppOpen = DateTime.now());
+    _show(ad, _loadAppOpen, onClosed: () => _lastAppOpen = DateTime.now(), onFinished: coldStart ? _finishStartup : null);
+    return true;
   }
 
   // ---------------- rewarded ----------------
-  void _loadRewarded() {
-    RewardedAd.load(
-      adUnitId: AdIds.rewarded,
-      request: AdRequest(),
-      rewardedAdLoadCallback: RewardedAdLoadCallback(
-        onAdLoaded: (ad) {
-          _rewarded = ad;
-          notifyListeners();
-        },
-        onAdFailedToLoad: (_) {
-          _rewarded = null;
-          notifyListeners();
-        },
-      ),
-    );
-  }
-
   void _loadRewardedTools() {
     RewardedAd.load(
       adUnitId: AdIds.rewardedTools,
@@ -314,26 +380,6 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
     return earned.future;
   }
 
-  /// +4 h without ads per video, capped at 24 h from now.
-  Future<bool> watchForAdFree() async {
-    final ad = _rewarded;
-    if (ad == null) {
-      if (_canRequest) _loadRewarded();
-      return false;
-    }
-    _rewarded = null;
-    return _showRewarded(ad, _loadRewarded, () async {
-      final now = DateTime.now();
-      final base = adFree ? _adFreeUntil! : now;
-      final next = base.add(adFreePerVideo);
-      final cap = now.add(adFreeMax);
-      _adFreeUntil = next.isAfter(cap) ? cap : next;
-      Analytics.log('ad_free_earned');
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setInt(_kAdFreeUntil, _adFreeUntil!.millisecondsSinceEpoch);
-    });
-  }
-
   /// Bulk editor tools: asks the user to watch a video once per hour. Returns
   /// true when the action may proceed (also when no ad is available, so the
   /// feature is never blocked by fill rate).
@@ -352,18 +398,14 @@ class AdsService extends ChangeNotifier with WidgetsBindingObserver {
     );
     Analytics.log('tools_unlock_prompt', {'accepted': ok == true ? 1 : 0});
     if (ok != true) return false;
-    final ad = _rewardedTools ?? _rewarded;
+    final ad = _rewardedTools;
     if (ad == null) {
       _loadRewardedTools();
       _toolsUntil = DateTime.now().add(toolsUnlock);
       return true;
     }
-    if (identical(ad, _rewardedTools)) {
-      _rewardedTools = null;
-    } else {
-      _rewarded = null;
-    }
-    final earned = await _showRewarded(ad, identical(ad, _rewarded) ? _loadRewarded : _loadRewardedTools, () async {
+    _rewardedTools = null;
+    final earned = await _showRewarded(ad, _loadRewardedTools, () async {
       _toolsUntil = DateTime.now().add(toolsUnlock);
       Analytics.log('tools_unlocked');
     });

@@ -1,0 +1,39 @@
+<en-US>
+Optimized performance.
+</en-US>
+<de-DE>
+Leistung optimiert.
+</de-DE>
+<es-ES>
+Rendimiento optimizado.
+</es-ES>
+<fr-FR>
+Performances optimisées.
+</fr-FR>
+<hu-HU>
+Teljesítmény optimalizálva.
+</hu-HU>
+<it-IT>
+Prestazioni ottimizzate.
+</it-IT>
+<ja-JP>
+パフォーマンスを最適化しました。
+</ja-JP>
+<ko-KR>
+성능을 최적화했습니다.
+</ko-KR>
+<pt-BR>
+Desempenho otimizado.
+</pt-BR>
+<ru-RU>
+Оптимизирована производительность.
+</ru-RU>
+<tr-TR>
+Performans optimize edildi.
+</tr-TR>
+<vi>
+Tối ưu hiệu năng.
+</vi>
+<zh-CN>
+优化性能。
+</zh-CN>

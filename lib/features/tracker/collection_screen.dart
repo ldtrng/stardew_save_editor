@@ -4,7 +4,6 @@ import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 import '../../ads/ads_service.dart';
-import '../../ads/banner_ad.dart';
 import '../../ads/native_ad.dart';
 import '../../data/game_data.dart';
 import '../../state/settings_state.dart';
@@ -129,7 +128,6 @@ class _CollectionScreenState extends State<CollectionScreen> {
             ),
         ],
       ),
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       body: Column(children: [
         if (cat != null)
           Padding(padding: EdgeInsets.fromLTRB(16, 12, 16, 0), child: ProgressHeader(done: done, total: widget.items.length)),
@@ -236,14 +234,30 @@ class DetailHeader extends StatelessWidget {
 }
 
 class DetailScaffold extends StatelessWidget {
-  const DetailScaffold({super.key, required this.title, required this.children});
+  const DetailScaffold({super.key, required this.title, required this.children, this.nativeAd = true});
   final String title;
   final List<Widget> children;
 
+  /// Adds one native ad before the second [PlankHeader] (i.e. after the first
+  /// section), or at the end when there is no second section. Screens that place
+  /// their own ad pass false.
+  final bool nativeAd;
+
   @override
-  Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: Text(title)),
-        bottomNavigationBar: SafeArea(child: AdBanner(collapsible: AdsService.collapsibleBanner)),
-        body: ListView(padding: EdgeInsets.fromLTRB(16, 16, 16, 32), children: children),
-      );
+  Widget build(BuildContext context) {
+    final items = [...children];
+    if (nativeAd) {
+      final at = items.indexWhere((w) => w is PlankHeader, items.indexWhere((w) => w is PlankHeader) + 1);
+      final ad = NativeMediaAd(margin: EdgeInsets.symmetric(vertical: 8));
+      if (items.indexWhere((w) => w is PlankHeader) < 0 || at < 0) {
+        items.add(ad);
+      } else {
+        items.insert(at, ad);
+      }
+    }
+    return Scaffold(
+      appBar: AppBar(title: Text(title)),
+      body: ListView(padding: EdgeInsets.fromLTRB(16, 16, 16, 32), children: items),
+    );
+  }
 }

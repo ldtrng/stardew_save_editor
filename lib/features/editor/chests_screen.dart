@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
 
 import '../../save/chests.dart';
 import '../../state/editor_state.dart';
@@ -38,7 +37,6 @@ class _ChestsScreenState extends State<ChestsScreen> {
     final q = _query.toLowerCase();
     final filtered = chests.where((c) => q.isEmpty || c.label.toLowerCase().contains(q)).toList();
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(tr('Chests ({n})', {'n': chests.length}))),
       body: Column(children: [
         Padding(
@@ -83,7 +81,6 @@ class _ChestDetail extends StatelessWidget {
     final state = context.watch<EditorState>();
     final slots = chest.slots;
     return Scaffold(
-      bottomNavigationBar: SafeArea(child: AdBanner()),
       appBar: AppBar(title: Text(chest.label, overflow: TextOverflow.ellipsis)),
       body: ListView(
         padding: EdgeInsets.all(16),

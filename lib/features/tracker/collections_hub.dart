@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../ads/banner_ad.dart';
+import '../../ads/ads_service.dart';
 import '../../data/game_data.dart';
 import '../../l10n/l10n.dart';
 import '../../state/tracker_state.dart';
@@ -58,7 +58,6 @@ class CollectionsHub extends StatelessWidget {
     final p = context.farm;
     return Scaffold(
       appBar: AppBar(title: Text('${tr('Collections')} · ${t.farm.name}')),
-      bottomNavigationBar: AdBanner(),
       body: LayoutBuilder(builder: (context, c) {
         final cols = c.maxWidth > 600 ? 3 : 2;
         return GridView.count(
@@ -73,7 +72,8 @@ class CollectionsHub extends StatelessWidget {
                 final prog = e.progress?.call(t);
                 return PixelPanel(
                   padding: EdgeInsets.all(10),
-                  onTap: () => Navigator.push(context, MaterialPageRoute(builder: e.builder)),
+                  onTap: () => Navigator.push(context, MaterialPageRoute(builder: e.builder))
+                      .then((_) => AdsService.instance.onCollectionClosed()),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Row(children: [
                       TImage(e.image, size: 40),
